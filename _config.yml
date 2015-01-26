@@ -1,7 +1,7 @@
 # Site settings
 title: Ressources du BIM
 description: Les liens du BIM (Building Information Modeling)
-baseurl: "/bimlinks"
+baseurl: "/ressources-du-bim"
 
 # Build settings
 markdown: kramdown
