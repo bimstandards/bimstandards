@@ -1,0 +1,23 @@
+# Site settings
+title: Ressources du BIM
+description: Les liens du BIM (Building Information Modeling)
+baseurl: "/bimlinks"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  liens-les-bases:
+    output: true
+  liens-implementation:
+    output: true
+  liens-collaboration:
+    output: true
+  liens-guides:
+    output: true
+  liens-normalisation:
+    output: true
+  liens-gestion-patrimoine:
+    output: true
+  liens-logiciels:
+    output: true

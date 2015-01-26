@@ -1,0 +1,18 @@
+---
+layout: page
+title: Gestion de patrimoine
+---
+
+<div class="sixteen wide column">
+  <h1 class="ui header">
+    Gestion de patrimoine
+    <div class="sub header">Les applications du BIM en facility management.</div>
+  </h1>
+</div>
+<div class="sixteen wide column">
+  <div class="ui four doubling cards">
+    {% for lien in site.liens-gestion-patrimoine %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</div>

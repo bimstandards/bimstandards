@@ -1,0 +1,18 @@
+---
+layout: page
+title: Implémentation
+---
+
+<div class="sixteen wide column">
+  <h1 class="ui header">
+    Implémentation
+    <div class="sub header">Retours d'expériences et bonnes pratiques sur le développement du BIM.</div>
+  </h1>
+</div>
+<div class="sixteen wide column">
+  <div class="ui four doubling cards">
+    {% for lien in site.liens-implementation %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</div>

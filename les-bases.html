@@ -1,0 +1,18 @@
+---
+layout: page
+title: Les bases
+---
+
+<div class="sixteen wide column">
+  <h1 class="ui header">
+    Les bases
+    <div class="sub header">Découvrir le BIM.</div>
+  </h1>
+</div>
+<div class="sixteen wide column">
+  <div class="ui four doubling cards">
+    {% for lien in site.liens-les-bases %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</div>

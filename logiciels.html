@@ -1,0 +1,18 @@
+---
+layout: page
+title: Logiciels
+---
+
+<div class="sixteen wide column">
+  <h1 class="ui header">
+    Logiciels
+    <div class="sub header">Applications-métiers, viewers IFC ou plateformes en ligne.</div>
+  </h1>
+</div>
+<div class="sixteen wide column">
+  <div class="ui four doubling cards">
+    {% for lien in site.liens-logiciels %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</div>
