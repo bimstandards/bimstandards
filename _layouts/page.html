@@ -6,15 +6,18 @@ layout: page
 <html lang="fr">
   {% include head.html %}
 
-  <body>
+  <body id="home">
     
-    <div class="ui page grid">
+    {% include header.html %}
+    
+    <div class="ui padded grid" style="margin-left: 15rem !important;">
       
-      {% include header.html %}
-
-      {{ content }}
-      
-      {% include footer.html %}
+      <div class="sixteen wide column">
+        <div class="ui padded grid">
+          {{ content }}
+          {% include footer.html %}
+        </div>
+      </div>
       
     </div>
     
