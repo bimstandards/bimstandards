@@ -1,4 +1,9 @@
 <a class="ui card" href="{{ lien.lien }}" target="_blank">
+  {% if lien.image %}
+  <div class="image">
+    <img src="/images/{{ lien.image }}" alt="{{ lien.titre }}"/>
+  </div>
+  {% endif %}
   <div class="content">
     <div class="header">{{ lien.titre }}</div>
     <div class="meta">
