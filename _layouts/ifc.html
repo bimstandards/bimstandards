@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+  </head>
+  <body class="" data-spy="scroll" data-target=".bd-sidenav-active">
+
+    {% include nav-home.html %}
+
+    <div class="bs-pageheader">
+      <div class="container">
+        {% include page-header.html %}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-push-9 bd-sidebar">
+          {% include nav-ifc.html %}
+        </div>
+        <div class="col-md-9 col-md-pull-3 bd-content">
+          <h1 class="bd-title" id="content">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

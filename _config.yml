@@ -1,0 +1,17 @@
+# Site settings
+title:            BIMstandards
+description:      BIMstandards, ressources pour l'interopérabilité.
+baseurl:          ""
+
+# Build settings
+markdown:         kramdown
+highlighter:      rouge
+
+# Custom variables
+latest_update:    07/11/2015
+repo:             https://github.com/bimstandards/bimstandards
+
+cdn:
+  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
+  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
