@@ -19,7 +19,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 }
 
 .bs-pageheader {
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.5rem;
   margin-bottom: 3rem;
   background-color: $bs-primary-color;
@@ -32,11 +32,8 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 }
 
 .bs-content {
-  h1:first-of-type {
-    margin-top: 0rem;
-  }
   .table {
-    font-size: 80%;
+    font-size: 90%;
   }
 }
 
