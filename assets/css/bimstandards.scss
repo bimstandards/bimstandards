@@ -21,6 +21,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 .bs-pageheader {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  margin-bottom: 3rem;
   background-color: $bs-primary-color;
   h1 {
     color: white;
@@ -30,9 +31,13 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+.bs-content {
+  h1:first-of-type {
+    margin-top: 0rem;
+  }
+}
+
 .bs-navifc {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   .bs-navifc-group {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
