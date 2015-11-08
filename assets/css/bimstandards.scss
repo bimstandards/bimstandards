@@ -35,6 +35,9 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   h1:first-of-type {
     margin-top: 0rem;
   }
+  .table {
+    font-size: 80%;
+  }
 }
 
 .bs-navifc {
