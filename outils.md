@@ -3,7 +3,7 @@ layout: default
 title: Outils
 ---
 
-L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de fichier propriétaire, mais de pouvoir choisir librement son outil de travail, en fonction de ses besoins. L'ensemble des outils listés ci-dessous exploitent un ou plusieurs standards buildingSMART, garantissant l'intéropérabilité et la continuité dans les échanges d'information.
+L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de fichier propriétaire, mais de pouvoir choisir librement son outil de travail, **en fonction de ses besoins**. L'ensemble des outils listés ci-dessous exploitent un ou plusieurs standards buildingSMART, garantissant l'intéropérabilité et la continuité dans les échanges d'information.
 
 <div class="table-responsive">
   <table class="table table-sm table-hover">
