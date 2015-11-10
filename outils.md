@@ -3,6 +3,8 @@ layout: default
 title: Outils
 ---
 
+L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de fichier propriétaire, mais de pouvoir choisir librement son outil de travail, en fonction de ses besoins. L'ensemble des outils listés ci-dessous exploitent un ou plusieurs standards buildingSMART, garantissant l'intéropérabilité et la continuité dans les échanges d'information.
+
 <div class="table-responsive">
   <table class="table table-sm table-hover">
     <thead>
@@ -34,6 +36,5 @@ title: Outils
   </table>
 </div>
 
-Une liste complète des logiciels compatibles en import et/ou export IFC est publiée par l'[Implementation Support Group de buildingSMART](http://www.buildingsmart-tech.org/implementation/implementations/allplominoform.application).
+Les logiciels **officiellement certifiés IFC** sont listés par [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/). Une liste plus complète des logiciels **compatibles** mais non certifiés en import et/ou export IFC est publiée par l'[Implementation Support Group de buildingSMART](http://www.buildingsmart-tech.org/implementation/implementations/allplominoform.application).
 
-Les logiciels officiellement certifiés IFC sont listés par [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/)
