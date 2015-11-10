@@ -8,7 +8,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Custom variables
-latest_update:    07/11/2015
+latest_update:    10/11/2015
 repo:             https://github.com/bimstandards/bimstandards
 
 cdn:

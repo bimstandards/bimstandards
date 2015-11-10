@@ -18,6 +18,16 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+.bs-featurette {
+  margin-top: 3rem;
+  h4 {
+    
+  }
+  p {
+    color: #555;
+  }
+}
+
 .bs-pageheader {
   padding-top: 2.5rem;
   padding-bottom: 1.5rem;
