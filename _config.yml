@@ -5,7 +5,7 @@ baseurl:          ""
 
 # Build settings
 markdown:         kramdown
-highlighter:      rouge
+highlighter:      pygments
 
 # Custom variables
 latest_update:    10/11/2015
