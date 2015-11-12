@@ -1,0 +1,179 @@
+- name: A360
+  editor: Autodesk
+  url: http://autodesk360.com/
+  logo: a360.jpg
+  standards:
+    - IFC2x3
+
+- name: Aconex
+  editor: Aconex
+  url: http://www.aconex.com/fr/
+  logo: aconex.png
+  standards:
+    - IFC2x3
+    - BCF1.0
+    - BCF2.0
+
+- name: BCFier
+  editor: Matteo Cominetti
+  url: http://bcfier.com/
+  logo: bcfier.png
+  standards:
+    - BCF1.0
+    - BCF2.0
+    
+- name: bimsync
+  editor: Catenda
+  url: https://bimsync.com/
+  logo: bimsync.png
+  standards:
+    - IFC2x3
+    - BCF1.0
+    - BCF2.0
+
+- name: BIM Vision
+  editor: BIM Vision
+  url: http://www.bimvision.eu/home/
+  logo: bim-vision.png
+  standards:
+    - IFC2x3
+
+- name: bim+
+  editor: Allplan
+  url: https://www.bimplus.net/
+  logo: bimplus.png
+  standards:
+    - IFC2x3
+    - BCF
+
+- name: BIM--it
+  editor: iabi
+  url: https://bim--it.net/
+  standards:
+    - IFC2x3
+
+- name: BIMReview
+  editor: AceCad Software
+  url: http://www.bim-review.com/index.php
+  logo: bimreview.jpg
+  standards:
+    - IFC2x3
+
+- name: BIMaaS
+  editor: BIMaaS
+  url: http://www.bimaas.uk/
+  standards:
+
+- name: BIMbicycle
+  editor: BIMbicycle
+  url: https://bimbicycle.com/
+  logo: bimbicycle.png
+  standards:
+
+- name: BIMcollab
+  editor: Kubus
+  url: http://www.bimcollab.com/
+  logo: bimcollab.png
+  standards:
+    - BCF1.0
+    - BCF2.0
+
+- name: BIMcontact
+  editor: BIMcontact
+  url: http://bimcontact.com/
+  logo: bimcontact.jpg
+  standards:
+
+- name: BIMer
+  editor: Dynamic Solutions
+  url: http://bimer.eu/
+  logo: bimer.png
+  standards:
+    - IFC2x3
+
+- name: BIMserver
+  editor: BIMserver
+  url: http://bimserver.org/
+  logo: bimserver.gif
+  standards:
+    - IFC2x3
+    - IFC4
+
+- name: BuilderStorm
+  editor: BuilderStorm
+  url: http://www.builderstorm.com/
+  logo: builderstorm.png
+  standards:
+
+- name: Business Collaborator
+  editor: Business Collaborator
+  url: http://www.groupbc.com/
+  standards:
+    - IFC2x3
+
+- name: DDS-CAD Viewer
+  editor: DDS-CAD
+  url: http://www.dds-cad.net/downloads/dds-cad-viewer/
+  standards:
+    - IFC2x3
+    - gbXML
+    - BCF
+
+- name: IFC File Analyser
+  editor: Robert Lipman
+  url: http://www.nist.gov/el/msid/infotest/ifc-file-analyzer.cfm
+  standards:
+    - IFC2x3
+
+- name: IFC TOOLS Project
+  editor: IFC TOOLS Project
+  url: http://www.ifctoolsproject.com/
+  logo: ifc-tools-project.png
+  standards:
+    - IFC2x3
+
+- name: IFChub
+  editor: IFChub
+  url: http://ifchub.com/
+  logo: ifc-hub.png
+  standards:
+    - IFC2x3
+    - IFC4
+    
+- name: simplebim
+  editor: Datacubist
+  url: http://www.datacubist.com/
+  logo: simplebim.png
+  standards:
+    - IFC2x3
+
+- name: Solibri Model Viewer
+  editor: SOLIBRI
+  url: http://www.solibri.com/products/solibri-model-viewer/
+  logo: solibri-model-viewer.png
+  standards:
+    - IFC2x3
+
+- name: Tekla BIMsight
+  editor: TEKLA
+  url: http://www.teklabimsight.com/
+  logo: tekla-bimsight.jpg
+  standards:
+    - IFC2x3
+    - BCF
+
+- name: Trimble Connect
+  editor: Trimble Connect
+  url: http://connect.trimble.com/
+  logo: trimble-connect.png
+  standards:
+    - IFC2x3
+    - BCF
+
+- name: xBIM Xplorer
+  editor: CodePlex
+  url: https://xbim.codeplex.com/releases/view/104242
+  logo: xbim-xplorer.png
+  standards:
+    - IFC2x3
+    - COBie

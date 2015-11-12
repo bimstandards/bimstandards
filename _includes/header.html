@@ -1,26 +1,33 @@
-<div class="ui vertical menu fixed">
-  <a class="item" href="#home">
-    <i class="home icon"></i> <b>{{ site.title }}</b>
-  </a>
-  <a class="item" href="#les-bases">
-    Les bases
-  </a>
-  <a class="item" href="#implementation">
-    Implémentation
-  </a>
-  <a class="item" href="#collaboration">
-    Collaboration
-  </a>
-  <a class="item" href="#guides">
-    Guides
-  </a>
-  <a class="item" href="#normalisation">
-    Normalisation
-  </a>
-  <a class="item" href="#gestion-patrimoine">
-    Gestion de patrimoine
-  </a>
-  <a class="item" href="#logiciels">
-    Logiciels
-  </a>
-</div>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BIMstandards, ressources pour l'interopérabilité">
+<meta name="keywords" content="BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF">
+<meta name="author" content="Alexandre Grignon">
+
+<title>
+  {% if page.layout == "home" %}
+    {{ page.title }}
+  {% else %}
+    {{ page.title }} &middot; BIMstandards
+  {% endif %}
+</title>
+
+<!-- Bootstrap core CSS -->
+<link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- BIMstandards custom CSS -->
+<link href="{{ site.baseurl }}/assets/css/bimstandards.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59080519-1', 'auto');
+  ga('send', 'pageview');
+</script>

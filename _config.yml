@@ -1,23 +1,17 @@
 # Site settings
-title: BIMstandards
-description: Sélection des meilleures ressources web sur le BIM et la maquette numérique.
-baseurl: ""
+title:            BIMstandards
+description:      BIMstandards, ressources pour l'interopérabilité.
+baseurl:          ""
 
 # Build settings
-markdown: kramdown
+markdown:         kramdown
+highlighter:      rouge
 
-collections:
-  liens-les-bases:
-    output: true
-  liens-implementation:
-    output: true
-  liens-collaboration:
-    output: true
-  liens-guides:
-    output: true
-  liens-normalisation:
-    output: true
-  liens-gestion-patrimoine:
-    output: true
-  liens-logiciels:
-    output: true
+# Custom variables
+latest_update:    10/11/2015
+repo:             https://github.com/bimstandards/bimstandards
+
+cdn:
+  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
+  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js

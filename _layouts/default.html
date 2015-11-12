@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include nav-home.html %}
+
+    <div class="bs-pageheader">
+      <div class="container">
+        {% include page-header.html %}
+      </div>
+    </div>
+
+    <div class="bs-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
