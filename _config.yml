@@ -6,6 +6,8 @@ baseurl:          ""
 # Build settings
 markdown:         kramdown
 highlighter:      pygments
+gems:
+  - jekyll-sitemap
 
 # Custom variables
 latest_update:    10/11/2015
