@@ -2,19 +2,24 @@
 title:            BIMstandards
 description:      BIMstandards, ressources pour l'interopérabilité.
 baseurl:          ""
-exclude:          [vendor]
 
 # Build settings
 markdown:         kramdown
 highlighter:      rouge
-gems:
-  - jekyll-sitemap
+exclude:          [vendor]
+  
+# Assets
+sass:
+  style: compressed
+cdn:
+  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
+  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
 # Custom variables
 latest_update:    10/11/2015
 repo:             https://github.com/bimstandards/bimstandards
 
-cdn:
-  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
-  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
-  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+# Gems
+gems:
+  - jekyll-sitemap
