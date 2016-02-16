@@ -2,6 +2,8 @@
 title:            BIMstandards
 description:      BIMstandards, ressources pour l'interopérabilité.
 baseurl:          ""
+exclude:
+  -vendor
 
 # Build settings
 markdown:         kramdown
