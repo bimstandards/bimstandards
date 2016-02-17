@@ -9,11 +9,13 @@ Ce site est développé et mis à jour par [Alexandre Grignon](https://fr.linked
 
 # Pourquoi ?
 
-En conclusion à la thèse professionnelle.
+La thèse professionnelle que j'ai rédigée à l'occasion du Mastère Spécialisé BIM avait pour sujet "*BIM pour la conception architecturale. Standards, gestion de l’information et usages-métiers*". Ce travail a mis en lumière les difficultés actuellement rencontrées par les acteurs de la construction dans l'utilisation des standards openBIM. Ces lacunes prennent diverses formes :  
+* inconsistance des interfaces dans les logiciels-métiers
+* documentation sur les IFC uniquement disponible en anglais
+* mauvaise compréhension des classes et logiques géométriques de l'IFC
+* problèmes d'import/export entre logiciels.
 
-Si les standards BIM atteignent une certaine maturité, notamment avec la sortie récente de l'IFC4, ils peuvent présenter une complexité de mise en oeuvre pour de multiples raisons : inconsistance des interfaces dans les logiciels-métiers, documentation uniquement en anglais, mauvaise compréhension des classes et logiques géométriques, problèmes d'import/export, etc...
-
-L'objectif de bimstandards.fr est donc de donner les clés des standards, et notamment IFC, pour une meilleure implémentation dans le contexte français, à travers l'expérience des acteurs en place (maîtres d'ouvrages, architectes, ingénieurs, fabricants, entreprises de construction, gestionnaires de patrimoine). La montée en compétence du secteur de la construction ne peut se faire qu'avec le concours de chacun.
+En conclusion, j'ai donc élaboré un prototype de documentation en ligne qui donna naissance à [bimstandards.fr](http://bimstandards.fr), avec pour objectif de donner les informations nécessaires à une meilleure implémentation des standards openBIM, notamment par retour d'expérience des acteurs en place, afin que l'on ne reproduise pas sans cesse les mêmes erreurs. La montée en compétence du secteur de la construction ne peut se faire qu'avec le concours de chacun, dans un esprit collaboratif.
 
 # Comment ?
 
