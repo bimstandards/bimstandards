@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "variables";
+
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
@@ -92,3 +94,43 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+//
+// Callouts
+//
+
+.bs-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: .25rem;
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bs-callout code {
+  border-radius: .25rem;
+}
+
+.bs-callout + .bs-callout {
+  margin-top: -.25rem;
+}
+
+// Variations
+@mixin bs-callout-variant($color) {
+  border-left-color: $color;
+
+  h4 { color: $color; }
+}
+
+.bs-callout-info { @include bs-callout-variant($brand-info); }
+.bs-callout-warning { @include bs-callout-variant($brand-warning); }
+.bs-callout-danger { @include bs-callout-variant($brand-danger); }
