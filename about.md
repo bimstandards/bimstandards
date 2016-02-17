@@ -9,7 +9,8 @@ Ce site est développé et mis à jour par [Alexandre Grignon](https://fr.linked
 
 # Pourquoi ?
 
-La thèse professionnelle que j'ai rédigée à l'occasion du Mastère Spécialisé BIM avait pour sujet "*BIM pour la conception architecturale. Standards, gestion de l’information et usages-métiers*". Ce travail a mis en lumière les difficultés actuellement rencontrées par les acteurs de la construction dans l'utilisation des standards openBIM. Ces lacunes prennent diverses formes :  
+La thèse professionnelle que j'ai rédigée à l'occasion du Mastère Spécialisé BIM avait pour sujet "*BIM pour la conception architecturale. Standards, gestion de l’information et usages-métiers*". Ce travail a mis en lumière les difficultés actuellement rencontrées par les acteurs de la construction dans l'utilisation des standards openBIM. Ces lacunes prennent diverses formes :
+
 * inconsistance des interfaces dans les logiciels-métiers
 * documentation sur les IFC uniquement disponible en anglais
 * mauvaise compréhension des classes et logiques géométriques de l'IFC
