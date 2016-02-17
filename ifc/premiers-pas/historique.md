@@ -4,6 +4,10 @@ title: Historique
 group: premiers-pas
 ---
 
+<div class="alert alert-warning" role="alert">
+  <strong>Attention !</strong> Cette page est en cours de rédaction...
+</div>
+
 ## Origine
 
 International Alliance for Interoperability (IAI)
