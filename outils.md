@@ -20,7 +20,7 @@ L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de
       <tr>
         <td>
           {% if outil.logo != nil %}
-          <img src="assets/img/outils/{{ outil.logo }}" class="img-responsive" style="height:25px;">
+          <img src="assets/img/outils/{{ outil.logo }}" class="img-responsive" style="height:25px;" alt="logo {{ outil.name }}">
           {% endif %}
         </td>
         <td><a href="{{ outil.url }}" target="_blank">{{ outil.name }}</a></td>
