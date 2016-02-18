@@ -47,6 +47,12 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   .table {
     font-size: 90%;
   }
+  h1 {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+    margin-bottom: ($spacer * 2);
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
 
 .bs-navifc {
