@@ -70,6 +70,29 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+#toc {
+  ul {
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: #555555;
+      }
+      ul {
+        padding-left: 1.1rem;
+        li {
+          list-style-type: none;
+          a {
+            font-size: 90%;
+            text-decoration: none;
+            color: #888888;
+          }
+        }
+      }
+    }
+  }
+}
+
 .bs-footer {
   background-color: #f7f7f7;
   margin-top: 3rem;

@@ -30,7 +30,7 @@ Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet.
         <th>Type</th>
         <th>Unité</th>
         <th>Décimales</th>
-      <tr>
+      </tr>
     </thead>
     <tbody>
       <tr>
@@ -193,11 +193,12 @@ Question de la classification Uniformat II ???
 
 # 8. Echanges IFC
 
-## Paramètres d'export IFC à vérifier :
+Paramètres d'export IFC à vérifier :
+
 * activer l'export des **quantités de base** (longueurs, surfaces, volumes des éléments)
 * activer l'export des **limites d'espaces** (utile pour la thermique)
 
-# Sources :
+# Sources
 * http://bimconseilformation.blogspot.fr/p/revit-architecture.html
 * VA BIM Guide
 * Statsbygg BIM Manual
