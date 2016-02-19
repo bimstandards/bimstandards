@@ -50,11 +50,20 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   h1 {
     padding-top: $spacer;
     padding-bottom: $spacer;
-    margin-bottom: ($spacer * 2);
+    margin-bottom: $spacer;
     border-bottom: 1px solid $gray-lighter;
+  }
+  h2 {
+    padding-top: $spacer;
+  }
+  h3 {
+    padding-top: $spacer;
   }
   .anchor-link {
     text-decoration: none;
+  }
+  .collapse-group {
+    margin-bottom: ($spacer / 2);
   }
 }
 
