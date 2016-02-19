@@ -99,10 +99,9 @@ Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bât
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
 
-{% callout danger %}
-**Archicad 16/17/18/19 :**
-Pour activer la relation spatiale entre espaces et objets, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
-{% endcallout %}
+{% collapse Archicad 16/17/18/19 %}
+Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
+{% endcollapse %}
 
 ## Géoréférencement
 
@@ -181,15 +180,19 @@ Voir page spécifique pour plus de détails sur les `IfcTypeProduct` et `Predefi
 
 Question de la classification Uniformat II ???
 
-# 3. Spécificités structure
+# 3. Usages-métiers
 
-# 4. Spécificités thermique
+## Economie
 
-# 5. Spécificités clos-couvert
+## Structure
 
-# 6. Spécificités second-oeuvre
+## Thermique
 
-# 7. Spécificités fluides
+## Clos-couvert
+
+## Second-oeuvre
+
+## Fluides
 
 # 8. Echanges IFC
 
