@@ -45,6 +45,9 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   .table {
     font-size: 90%;
   }
+  .anchor-link {
+    text-decoration: none;
+  }
 }
 
 .bs-navifc {
