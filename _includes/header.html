@@ -1,10 +1,3 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="BIMstandards, ressources pour l'interopérabilité">
-<meta name="keywords" content="BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF">
-<meta name="author" content="Alexandre Grignon">
-
 <title>
   {% if page.layout == "home" %}
     {{ page.title }}
@@ -12,6 +5,34 @@
     {{ page.title }} &middot; BIMstandards
   {% endif %}
 </title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="keywords" content="BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF">
+<meta name="author" content="Alexandre Grignon">
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@BIMstandards">
+<meta name="twitter:creator" content="@a_grignon">
+<meta name="twitter:title" content="{% if page.layout == "home" %}{{ page.title }}{% else %}BIMstandards - {{ page.title }}{% endif %}">
+<meta name="twitter:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="twitter:image" content="http://bimstandards.fr/apple-touch-icon.png">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://bimstandards.fr">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.layout == "home" %}{{ page.title }}{% else %}BIMstandards - {{ page.title }}{% endif %}">
+<meta property="og:image" content="http://bimstandards.fr/apple-touch-icon.png"/>
+<meta property="og:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta property="og:site_name" content="BIMstandards">
+
+<!-- Social: Google+ / Schema.org  -->
+<meta itemprop="name" content="{% if page.layout == "home" %}{{ page.title }}{% else %}BIMstandards - {{ page.title }}{% endif %}">
+<meta itemprop="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta itemprop="image" content="http://bimstandards.fr/apple-touch-icon.png">
 
 <!-- Bootstrap core CSS -->
 <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">

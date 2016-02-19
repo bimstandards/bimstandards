@@ -5,8 +5,8 @@
       <li><a href="https://twitter.com/bimstandards" target="_blank">Twitter</a></li>
       <li><a href="{{ site.baseurl }}/about.html">A propos</a></li>
     </ul>
-    <p>Créé par <a href="https://twitter.com/a_grignon" target="_blank">@a_grignon</a>.</p>
-    <p>Dernière mise à jour le {{ site.latest_update }}.</p>
+    <p>Créé par <a href="https://fr.linkedin.com/in/alexandregrignon" target="_blank">Alexandre Grignon</a>.</p>
+    <p>Dernière mise à jour le {{ site.latest_update }}. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
     <p><a href="https://github.com/bimstandards/bimstandards/edit/gh-pages/{{ page.path }}">Améliorer cette page</a> (<a href="https://github.com/bimstandards/bimstandards/commits/gh-pages/{{ page.path }}">historique des modifications</a>)</p>
   </div>
 </footer>
@@ -15,9 +15,18 @@
 <script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/toc.js"></script>
+<script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
     $('#toc').toc();
 });
+</script>
+
+<script>
+  anchors.options = {
+    placement: 'left',
+    class: 'anchor-link'
+  };
+  anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
 </script>

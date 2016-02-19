@@ -53,6 +53,9 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
     margin-bottom: ($spacer * 2);
     border-bottom: 1px solid $gray-lighter;
   }
+  .anchor-link {
+    text-decoration: none;
+  }
 }
 
 .bs-navifc {
