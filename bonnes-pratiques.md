@@ -19,50 +19,16 @@ De manière générale, les éléments du bâti seront modélisés avec les outi
 
 Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
+**Importance des GUID.**
+
 ## Propriétés du projet
 
 ## Unités de travail
 
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Unité</th>
-        <th>Décimales</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Longueurs</td>
-        <td>mètre (m)</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Surfaces</td>
-        <td>mètre-carré (m²)</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Volumes</td>
-        <td>mètre-cube (m3)</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Masse</td>
-        <td>kilograme (kg)</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Angle</td>
-        <td>degré (°)</td>
-        <td>2</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+L'équipe projet doit adopter des unités de travail communes (longueurs, surfaces, volumes, angles, etc...).
+Ces unités doivent être réglées au moment de l'export IFC.
 
-## Modélisation
+## Interfaces métiers
 
 Chaque discipline possède des exigences concernant la méthode de modélisation des objets : volumique, analytique, etc...
 
@@ -76,7 +42,7 @@ Il existe une classification LOD (Level of Development), développé par l'insti
 
 **Tableau des correspondances LOD <-> ND ...**
 
-# 2. Structure spatiale
+# 2. Organisation spatiale
 
 ## Arborescence IFC
 
@@ -175,7 +141,7 @@ Il est important de définir au plus tôt les axes du projet (`IfcGrid`), corres
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
-## Assemblages
+## Méthode de modélisation
 
 Assemblage des murs, dalles, cloisons.
 En cas de doute, modéliser comme on construit.
@@ -193,15 +159,73 @@ Question de la classification Uniformat II ???
 
 Les types d'objets (`IfcTypeObject`) permettent de regrouper sous un même nom les objets possédants des caractéristiques communes.
 
+## Systèmes
+
+Pour les réseaux (`IfcSystem`).
+
 # 3. Usages-métiers
+
+Voir cas d'usage définis par Mediaconstruct.
+
+http://bimetric.list.lu/wp-content/uploads/2015/09/LISTE_CAS_-DUSAGE.pdf
+
+## Maîtrise d'ouvrage
+
+* validation du projet en regard du programme.
 
 ## Economie
 
+L'utilisation de la maquette numérique pour l'économie du projet nécessite plusieurs points de vigilance dans l'élaboration et l'export IFC :
+
+* pour la **quantification**, veiller à utiliser les commandes logicielles correspondants aux bonnes [catégories d'objets](#catgories-dobjets) pour conserver la logique géométrique permettant l'extraction de quantités.
+* pour le découpage du projet en **ouvrages**, il est conseillé d'utiliser une classification adaptée, soit dans le nom de l'objet, soit dans le champ `IfcClassificationReference`. On pourra par exemple utiliser la classification *Uniformat II* qui répond également aux besoins de gestion de patrimoine, ou une classification propre à l'équipe de maîtrise d'oeuvre.
+* pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les *"Property Sets"* adaptés. On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
+
 ## Structure
+
+La conception structurelle en processus BIM fait intervenir deux types de modélisation :
+
+* **modélisation filaire** (analytique) pour les calculs de stabilité / descentes de charges.
+* **modélisation par objets** pour la définition géométrique des sections structurelles.
+
+Dans un processus de conception classique, l'architecte est le premier intervenant à dessiner un principe structurel, qu'il transmettra ensuite à l'ingénieur structure. Il faut donc veiller à respecter au maximum la conception filaire de la structure.
+
+{% collapse Archicad : définition des axes structurels %} à venir... {% endcollapse %}
+
+Pour chaque objet du domaine structure, renseigner à minima les attributs suivants :
+
+* LoadBearing = true (pour les objets IfcSlab, IfcWall, IfcColumn)
+* IfcMaterial.Name
+
+{% collapse Archicad : Vérifier les attributs %}
+à venir...
+{% endcollapse %}
 
 ## Thermique
 
-## Fluides
+La modélisation pour l''analyse énergétique est la problématique d'échanges BIM la plus complexe. Elle nécessite le découpage du bâtiment en zones thermiques, qui ne correspondent pas forcément à la limite spatiale des locaux, et qui ne répondent pas à la même logique de décomposition du bâti en objets.
+
+`IfcSpaceBoundary`
+
+## Gestion de patrimoine
+
+La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour l'organisation des données non-graphiques. Parmi ces classifications, on peut citer :
+
+* Uniformat (US)
+* Omniclass
+* Uniclass (UK)
+
+La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpace`). En effet, cet objet peut contenir un certain nombre de propriétés utiles :
+
+* identification des espaces
+* calculs de surfaces
+* finitions de sols, murs, plafonds
+* risques incendie
+* etc ...
+
+Voir les Property Sets de la classe IfcSpace.
+
+Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
 # 4. Echanges IFC
 
@@ -210,9 +234,14 @@ Paramètres d'export IFC à vérifier :
 * activer l'export des **quantités de base** (longueurs, surfaces, volumes des éléments)
 * activer l'export des **limites d'espaces** (utile pour la thermique)
 
+En fonction du cas d'usage correspondant à l'échange de fichier IFC, il est conseillé d'utiliser un MVD.
+
 # 5. Sources
+
+* documentation IFC 2x3 et IFC 4
 * http://bimconseilformation.blogspot.fr/p/revit-architecture.html
 * VA BIM Guide
 * Statsbygg BIM Manual
 * COBIM 2012
 * AEC (UK) BIM Protocol 2.0
+* guide IFC Archicad
