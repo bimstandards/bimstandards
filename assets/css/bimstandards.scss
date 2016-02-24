@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "mixins/_image";
 @import "variables";
 
 $bs-primary-color: #de0323;
@@ -59,11 +60,19 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   h3 {
     padding-top: $spacer;
   }
+  img {
+    @include img-fluid();
+  }
   .anchor-link {
     text-decoration: none;
   }
   .collapse-group {
     margin-bottom: ($spacer / 2);
+  }
+  .collapse {
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 
