@@ -15,29 +15,45 @@ Le modèle de données doit pouvoir être échangé au travers du format **IFC 2
 
 {% collapse Vérifier la version d'un fichier IFC %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
-![capture]({{ site.baseurl }}/assets/img/bp_ifc_version.png)
+![capture](/assets/img/bp_ifc_version.png)
 {% endcollapse %}
 
 ## Classifications d'objets
 
-De manière générale, les éléments du bâti seront modélisés avec les outils adéquats dans les logiciels-métiers. Même s'il est possible de "forcer" les classifications IFC des objets, cela leur fait perdre une logique de construction géométrique nécessaire aux quantitatifs ou simulations.
+De manière générale, les éléments du bâti seront modélisés avec les outils adéquats dans les logiciels-métiers. Par exemple, bien utiliser l'outil "poteau" pour un objet `IfcColumn`.
+
+Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations.
 
 Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
-**Importance des GUID.**
+{% collapse Allplan : attribution des classifications IFC %}
+A venir.
+{% endcollapse %}
 
-## Propriétés du projet
+{% collapse Archicad : attribution des classifications IFC %}
+Pour chaque objet, la classification IFC est définie dans le champ "Classification d'élément".
+
+![capture](/assets/img/bp_ifc_classification_archicad.png)
+{% endcollapse %}
+
+{% collapse Revit : attribution des classifications IFC %}
+A venir.
+{% endcollapse %}
+
+Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](#echanges-ifc) de maquettes.
 
 ## Unités de travail
 
-L'équipe projet doit adopter des unités de travail communes (longueurs, surfaces, volumes, angles, etc...).
-Ces unités doivent être réglées au moment de l'export IFC.
+L'équipe projet doit adopter des unités de travail communes (longueurs, surfaces, volumes, angles, etc...), qui sont indiquées dans la convention de projet BIM.
+Ces unités doivent être configurées dans les réglages [d'import / export IFC](#echanges-ifc).
 
 ## Interfaces métiers
 
 Chaque discipline possède des exigences concernant la méthode de modélisation des objets : volumique, analytique, etc...
 
 En fonction des objectifs BIM visés sur le projet, il convient de faire la synthèse entre les différentes intervenants afin d'identifier les éventuels incompatibilités et la méthode de modélisation à adopter.
+
+Voir le chapitre concernant les différents [usages métiers](#usages-mtiers).
 
 ## Niveaux de détail
 
@@ -51,7 +67,7 @@ Il existe une classification LOD (Level of Development), développé par l'insti
 
 ## Arborescence IFC
 
-Tout projet doit être organisé avec l'arborescence spatiale `Projet > Site > Bâtiment > Niveau > Espace > Ouvrage` dont la représentation IFC est `IfcProject > IfcSite > IfcBuilding > IfcBuildingStorey > IfcSpace > IfcProduct`.
+Tout projet doit être organisé avec l'arborescence spatiale `Projet > Site > Bâtiment > Niveau > Local > Ouvrage` dont la représentation IFC est la suivante :
 
 ~~~
 IfcProject                  (Projet)
@@ -64,9 +80,11 @@ IfcProject                  (Projet)
           > IfcProduct      (Equipement)
 ~~~
 
-Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bâtiments appartenant au même site, il suffit de leur attribuer un nom de projet (`IfcProject`) et de site (`IfcSite`) identique.
+Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bâtiments appartenant au même site, il faut créer autant de fichiers natifs que de bâtiments en leur attribuant un même nom de projet (`IfcProject`) et de site (`IfcSite`).
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
+
+Les objets de la maquette seront attachés aux locaux et niveaux.
 
 {% collapse Archicad 16/17/18/19 %}
 Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
@@ -87,6 +105,8 @@ Cette classe est principalement destinée à établir le [géoréférencement](#
 La classe `IfcBuilding` inclut l'ensemble des éléments formant le bâtiment.
 
 ### Niveaux
+
+Les niveaux doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
 
 La codification des niveaux est établie par des codes à 2 caractères (`IfcBuildingStorey.Name`) :
 
@@ -119,8 +139,6 @@ La codification des niveaux est établie par des codes à 2 caractères (`IfcBui
 
 Une description plus complète du niveau peut être définie dans le champ `IfcBuildingStorey.Description`.
 
-Les niveaux doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
-
 ### Locaux
 
 Chaque local est représenté par un objet `IfcSpace` correspondant aux limites spatiales de cette pièce, dans les trois dimensions.
@@ -140,6 +158,8 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
+Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
+
 ## Axes du projet
 
 Il est important de définir au plus tôt les axes du projet (`IfcGrid`), correspondant aux files porteuses.
@@ -149,14 +169,20 @@ Les axes et le point zéro commun seront communiqués en début de projet par fi
 ## Méthode de modélisation
 
 Assemblage des murs, dalles, cloisons.
+
 En cas de doute, modéliser comme on construit.
-Gestion des éléments groupés (murs) ?
+
+Gestion des éléments groupés (murs) ? Murs en un bloc.
 
 ## Catégories d'objets
+
+voir classifications détaillées.
 
 Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif.
 
 Voir page spécifique pour plus de détails sur les `IfcTypeProduct` et `PredefinedType`.
+
+Archicad : régler les classifications
 
 Question de la classification Uniformat II ???
 
@@ -199,8 +225,8 @@ Dans un processus de conception classique, l'architecte est le premier intervena
 
 Pour chaque objet du domaine structure, renseigner à minima les attributs suivants :
 
-* LoadBearing = true (pour les objets IfcSlab, IfcWall, IfcColumn)
-* IfcMaterial.Name
+* `LoadBearing = true` (pour les objets `IfcSlab`, `IfcWall`, `IfcColumn`)
+* `IfcMaterial.Name`
 
 {% collapse Archicad : Vérifier les attributs %}
 à venir...
@@ -208,9 +234,11 @@ Pour chaque objet du domaine structure, renseigner à minima les attributs suiva
 
 ## Thermique
 
-La modélisation pour l''analyse énergétique est la problématique d'échanges BIM la plus complexe. Elle nécessite le découpage du bâtiment en zones thermiques, qui ne correspondent pas forcément à la limite spatiale des locaux, et qui ne répondent pas à la même logique de décomposition du bâti en objets.
+La modélisation pour l'analyse énergétique est la problématique d'échanges BIM la plus complexe. Elle nécessite le découpage du bâtiment en zones thermiques, qui ne correspondent pas forcément à la limite spatiale des locaux, et qui ne répondent pas à la même logique de décomposition du bâti en objets.
 
 `IfcSpaceBoundary`
+
+**Attention** : Gestion des joints de dilatation.
 
 ## Gestion de patrimoine
 
@@ -228,7 +256,7 @@ La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpa
 * risques incendie
 * etc ...
 
-Voir les Property Sets de la classe IfcSpace.
+Voir les Property Sets de la classe `IfcSpace`.
 
 Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
@@ -241,12 +269,39 @@ Paramètres d'export IFC à vérifier :
 
 En fonction du cas d'usage correspondant à l'échange de fichier IFC, il est conseillé d'utiliser un MVD.
 
+{% callout danger %}
+**Note :**
+Après l'export, il est conseillé d'ouvrir le fichier IFC dans une visionneuse (Solibri, Tekla BIMsight) afin de vérifier que la géométrie et les données sont correctes.
+{% endcallout %}
+
+## Anonymat
+
+En cas de remise d'une maquette IFC à un concours placé sous anonymat, il est impératif de vérifier qu'aucune information nominative ne soit présente dans le contenu du fichier.
+
+Généralement, les informations personnelles peuvent être contenues aux lignes `FILE_NAME`, `IFCPERSON`, `IFCACTORROLE`, `IFCPOSTALADDRESS`, `IFCTELECOMADDRESS`, `IFCORGANIZATION`, `IFCPERSONANDORGANIZATION`, `IFCOWNERHISTORY`.
+
+{% collapse Vérifier l'anonymat avec un éditeur de texte %}
+
+Après l'export du fichier IFC, l'ouvrir avec un éditeur de texte basique type "Bloc-notes" sur Windows ou "TextEdit" sur Mac.
+
+Identifier, éventuellement en effectuant une recherche de texte, les lignes pouvant contenir des informations sur l'émetteur du fichier. **Attention** à ne pas supprimer ces lignes (sous peine de corrompre le fichier) mais plutôt à remplacer les informations non désirées par des caractères anonymes.
+
+![anonymat](/assets/img/bp_ifc_anonymat.png)
+
+{% endcollapse %}
+
+http://la-boutique-du-bim.blogspot.fr/2015/05/comment-masquer-lorigine-dune-maquette.html
+
 # 5. Sources
 
 * documentation IFC 2x3 et IFC 4
-* http://bimconseilformation.blogspot.fr/p/revit-architecture.html
 * VA BIM Guide
 * Statsbygg BIM Manual
 * COBIM 2012
 * AEC (UK) BIM Protocol 2.0
-* guide IFC Archicad
+* [Allplan BIM Compendium Theory and Practice](https://www.allplan.com/fileadmin/user_upload/_corp/Home/Aktionsseiten/BIM_Leitfaden/EN/Allplan_BIM_Compendium.pdf)
+* [IFC Reference Guide for ARCHICAD](http://www.graphisoft.com/downloads/addons/ifc/index.html)
+* [Echange de maquette IFC entre CYPECAD MEP et Allplan](https://cypecommunity.zendesk.com/hc/fr/articles/204525969-Echange-de-maquette-IFC-entre-CYPECAD-MEP-et-Allplan)
+* [Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/204281509-Protocole-de-modélisation-et-d-exportation-d-une-maquette-IFC-depuis-ArchiCAD-vers-CYPECAD-MEP)
+* [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
+

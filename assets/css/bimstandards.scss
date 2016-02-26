@@ -69,11 +69,6 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   .collapse-group {
     margin-bottom: ($spacer / 2);
   }
-  .collapse {
-    p {
-      margin-bottom: 0;
-    }
-  }
 }
 
 .bs-navifc {
