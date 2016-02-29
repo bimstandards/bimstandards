@@ -57,11 +57,59 @@ Voir le chapitre concernant les différents [usages métiers](#usages-mtiers).
 
 ## Niveaux de détail
 
-Le niveau de détail (informations et géométrie ) doit être adapté à chaque phase de projet.
+Le niveau de développement (informations et géométrie) doit être adapté à chaque phase de projet.
 
-Il existe une classification LOD (Level of Development), développé par l'institut américain BIMFORUM. Cette classification a été adaptée au marché français par Syntec Ingénierie et publiée dans un Cahier Technique du Moniteur.
+**Attention** : différence entre niveaux de développement et niveaux de détail !
 
-**Tableau des correspondances LOD <-> ND ...**
+Une spécification des niveaux de dévelopement a été réalisée pour le contexte français par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/).
+
+Elle est inspirée de la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/).
+
+Tableau des correspondances LOD-ND :
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+      <th>LOD (Level of Development)</th>
+      <th>ND (Niveau de Développement)</th>
+      <th>Phase loi MOP</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LOD 100</td>
+        <td>ND 1</td>
+        <td>Esquisse</td>
+      </tr>
+      <tr>
+        <td>LOD 200</td>
+        <td>ND 2</td>
+        <td>Avant-Projet Sommaire, Permis de Construire</td>
+      </tr>
+      <tr>
+        <td>LOD 300</td>
+        <td>ND 3</td>
+        <td>Avant-Projet Détaillé, Pré-Synthèse, PRO/DCE</td>
+      </tr>
+      <tr>
+        <td>LOD 350</td>
+        <td>ND 4</td>
+        <td>Synthèse, Etudes d'exécution, construction</td>
+      </tr>
+      <tr>
+        <td>LOD 400</td>
+        <td>ND 5</td>
+        <td>Dossier des Ouvrages Exécutés</td>
+      </tr>
+      <tr>
+        <td>LOD 500</td>
+        <td>ND 6</td>
+        <td>Exploitation</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 # 2. Organisation spatiale
 
@@ -86,8 +134,9 @@ Pour une bonne structure de fichier IFC, il est conseillé de renseigner à mini
 
 Les objets de la maquette seront attachés aux locaux et niveaux.
 
-{% collapse Archicad 16/17/18/19 %}
+{% collapse Archicad : activer les relations spatiales %}
 Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
+![capture](/assets/img/bp_archicad_contenu_spatial.png)
 {% endcollapse %}
 
 ### Projet
@@ -305,3 +354,6 @@ http://la-boutique-du-bim.blogspot.fr/2015/05/comment-masquer-lorigine-dune-maqu
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/204281509-Protocole-de-modélisation-et-d-exportation-d-une-maquette-IFC-depuis-ArchiCAD-vers-CYPECAD-MEP)
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
 
+http://bimforum.org/lod/
+
+http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/
