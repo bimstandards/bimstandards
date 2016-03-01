@@ -135,8 +135,13 @@ Pour une bonne structure de fichier IFC, il est conseillé de renseigner à mini
 Les objets de la maquette seront attachés aux locaux et niveaux.
 
 {% collapse Archicad : activer les relations spatiales %}
+
 Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
+
 ![capture](/assets/img/bp_archicad_contenu_spatial.png)
+
+Il est possible de visualiser l'arborescence IFC en allant dans le "Gestionnaire IFC" (Fichier > Fichier spécial > IFC 2x3 > Gestionnaire IFC).
+
 {% endcollapse %}
 
 ### Projet
@@ -157,48 +162,115 @@ La classe `IfcBuilding` inclut l'ensemble des éléments formant le bâtiment.
 
 Les niveaux doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
 
-La codification des niveaux est établie par des codes à 2 caractères (`IfcBuildingStorey.Name`) :
+La codification des niveaux est établie par des codes à 2 caractères dans le champ `IfcBuildingStorey.Name` + une description plus complète du niveau dans le champ `IfcBuildingStorey.LongName`.
 
 <div class="table-responsive">
   <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>`IfcBuildingStorey.Name`</th>
+        <th>`IfcBuildingStorey.LongName`</th>
+        <th></th>
+      </tr>
+    </thead>
     <tbody>
       <tr>
-        <td>Rez-de-chaussée</td>
         <th>00</th>
+        <th>Rez-de-chaussée</th>
         <td>Correspond au niveau d'accès au bâtiment depuis l'espace public</td>
       </tr>
       <tr>
-        <td>Etages</td>
         <th>01, 02, 03, ...</th>
+        <th>Etages</th>
         <td>Niveaux en élévation au-dessus du sol</td>
       </tr>
       <tr>
-        <td>Sous-sol</td>
         <th>S1, S2, S3, ...</th>
+        <th>Sous-sol</th>
         <td>Niveaux enterrés</td>
       </tr>
       <tr>
-        <td>Toiture</td>
         <th>TT</th>
+        <th>Toiture</th>
         <td>Au-dessus du dernier niveau d'étage</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-Une description plus complète du niveau peut être définie dans le champ `IfcBuildingStorey.Description`.
+{% collapse Archicad : configurer des niveaux %}
+
+Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". A cet endroit, le nom
+
+![capture](/assets/img/bp_archicad_niveaux.png)
+
+On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs des objets `IfcBuildingStorey`.
+
+{% endcollapse %}
 
 ### Locaux
 
 Chaque local est représenté par un objet `IfcSpace` correspondant aux limites spatiales de cette pièce, dans les trois dimensions.
 
-Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis que son nom (ex: chambre, bureau) est renseigné dans le champ `IfcSpace.LongName`. Le code est généralement basé sur une nomenclature propre au maître d'ouvrage.
+Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis que son nom (ex: chambre, bureau) est renseigné dans le champ `IfcSpace.LongName`. Le code est généralement basé sur une nomenclature propre au maître d'ouvrage, par exemple sous la forme "SITE_BATIMENT_ETAGE_NUMERO-PIECE".
+
+**Exemple de nomenclature de locaux**
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>`IfcSpace.Name`</th>
+        <th>`IfcSpace.LongName`</th>
+        <td>Commentaire</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>IN_A_00_001</th>
+        <th>Hall d'entrée</th>
+        <td>Local "Hall d'entrée" n°001 situé au RDC du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+      </tr>
+      <tr>
+        <th>IN_A_00_012</th>
+        <th>Bureau</th>
+        <td>Local "Bureau" n°012 situé au RDC du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+      </tr>
+      <tr>
+        <th>IN_A_01_027</th>
+        <th>Ménage</th>
+        <td>Local "ménage" n°027 situé au niveau 1 du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+      </tr>
+      <tr>
+        <th>SN_D_03_005</th>
+        <th>Salle de réunion</th>
+        <td>Local "Salle de réunion" n°005 situé au niveau 3 du bâtiment D, sur le site "Saint Nazaire" (IN)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% collapse Archicad : configurer les zones %}
+
+En utilisant la marque de zone Archicad par défaut, les informations basiques (code et nom de local) sont automatiquement transférées dans les bons attributs IFC, comme on peut le voir dans le *Gestionnaire IFC*.
+
+![capture](/assets/img/bp_archicad_zone.png)
+
+{% endcollapse %}
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu).
 
+{% collapse Archicad : créer des liaisons entre zones %}
+
+A venir...
+
+{% endcollapse %}
+
 ## Géoréférencement
 
-Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques. Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le resituer facilement.
+Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques. Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement.
+
+![capture](/assets/img/bp_archicad_point_zero.png)
 
 {% callout danger %}
 **Attention !:**
@@ -207,13 +279,33 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
+{% collapse Archicad : configurer les coordonnées géographiques %}
+
+Les coordonnées doivent être renseignées dans la fenêtre "Emplacement Projet..." (menu : Options > Préférences Projet > Emplacement Projet...).
+
+Les informations qui seront intégrées à l'IFC sont "Latitude", "Longitude" et "Altitude (Niveau de la mer)".
+
+![capture](/assets/img/bp_archicad_emplacement_projet.png)
+
+On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs de l'objet `IfcSite`.
+
+{% endcollapse %}
+
 Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
 
 ## Axes du projet
 
-Il est important de définir au plus tôt les axes du projet (`IfcGrid`), correspondant aux files porteuses.
+Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), correspondant aux files porteuses.
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
+
+{% collapse Archicad : outil grille %}
+
+Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiquement convertis dans la classe `IfcGridAxis`. En revanche, il est normal qu'ils n'apparaissent pas dans le *Gestionnaire IFC*.
+
+![capture](/assets/img/bp_archicad_grille.png)
+
+{% endcollapse %}
 
 ## Méthode de modélisation
 
