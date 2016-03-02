@@ -15,7 +15,7 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 # 1. Principes généraux
 
 ## Formats d'échanges
-Le modèle de données doit pouvoir être échangé au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
+Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
 {% collapse Vérifier la version d'un fichier IFC %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
@@ -35,9 +35,13 @@ A venir.
 {% endcollapse %}
 
 {% collapse Archicad : attribution des classifications IFC %}
-Pour chaque objet, la classification IFC est définie dans le champ "Classification d'élément".
+
+Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" définit automatiquement le "type IFC".
+
+Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automatiquement le Type IFC "IfcWallStandardCase".
 
 ![capture](/assets/img/bp_ifc_classification_archicad.png)
+
 {% endcollapse %}
 
 {% collapse Revit : attribution des classifications IFC %}
