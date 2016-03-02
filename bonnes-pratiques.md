@@ -3,6 +3,10 @@ layout: bonnes-pratiques
 title: Bonnes pratiques
 ---
 
+<div class="alert alert-danger" role="alert">
+  <strong>Attention !</strong> Cette page est en cours d'élaboration. Certaines sections peuvent être incomplètes. N'hésitez à apporter votre contribution, notamment pour l'implémentation dans les logiciels-métiers, en cliquant sur le lien en bas de page.
+</div>
+
 {% callout warning %}
 **Préambule :**
 Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adopter pour l'élaboration d'un projet BIM, en terme de modélisation et de renseigner de la maquette numérique ; il peut constituer une base de "**cahier des charges BIM**" orienté "convention de modélisation". Ce guide ne constitue en aucun cas une réalité absolue, mais plutôt une base commune à enrichir ; chaque projet impliquant des spécificités.
@@ -150,17 +154,17 @@ La classe `IfcProject` est le plus haut niveau de l'arborescence d'un fichier IF
 
 ### Site
 
-La classe `IfcSite` définit le terrain sur lequel est situé le bâtiment. Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`.
+La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`). Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`.
 
-Cette classe est principalement destinée à établir le [géoréférencement](#gorfrencement) du projet.
+Cette classe défini notamment le [géoréférencement](#gorfrencement) du projet.
 
 ### Bâtiment
 
-La classe `IfcBuilding` inclut l'ensemble des éléments formant le bâtiment.
+La classe `IfcBuilding` regroupe l'ensemble des objets formant le bâtiment.
 
 ### Niveaux
 
-Les niveaux doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
+Les niveaux, définis par la classe `IfcBuildingStorey`, doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
 
 La codification des niveaux est établie par des codes à 2 caractères dans le champ `IfcBuildingStorey.Name` + une description plus complète du niveau dans le champ `IfcBuildingStorey.LongName`.
 
@@ -250,7 +254,7 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
   </table>
 </div>
 
-{% collapse Archicad : configurer les zones %}
+{% collapse Archicad : configurer les locaux (zones) %}
 
 En utilisant la marque de zone Archicad par défaut, les informations basiques (code et nom de local) sont automatiquement transférées dans les bons attributs IFC, comme on peut le voir dans le *Gestionnaire IFC*.
 
@@ -260,7 +264,7 @@ En utilisant la marque de zone Archicad par défaut, les informations basiques (
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu).
 
-{% collapse Archicad : créer des liaisons entre zones %}
+{% collapse Archicad : créer des relations entre locaux (zones) %}
 
 A venir...
 
@@ -315,6 +319,8 @@ En cas de doute, modéliser comme on construit.
 
 Gestion des éléments groupés (murs) ? Murs en un bloc.
 
+![capture](/assets/img/bp_assemblages.png)
+
 ## Catégories d'objets
 
 voir classifications détaillées.
@@ -344,6 +350,8 @@ http://bimetric.list.lu/wp-content/uploads/2015/09/LISTE_CAS_-DUSAGE.pdf
 ## Maîtrise d'ouvrage
 
 * validation du projet en regard du programme.
+
+Les besoins concernant la gestion de patrimoine sont listés [ci-dessous](#gestion-de-patrimoine).
 
 ## Economie
 
@@ -435,17 +443,16 @@ http://la-boutique-du-bim.blogspot.fr/2015/05/comment-masquer-lorigine-dune-maqu
 
 # 5. Sources
 
-* documentation IFC 2x3 et IFC 4
-* VA BIM Guide
-* Statsbygg BIM Manual
-* COBIM 2012
-* AEC (UK) BIM Protocol 2.0
+* [documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
+* [documentation IFC4-Add1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
+* [VA BIM Guide](http://www.cfm.va.gov/til/bim/BIMGuide/downloads/VA-BIM-Guide.pdf)
+* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf)
+* [COBIM 2012](http://www.en.buildingsmart.kotisivukone.com/3)
+* [AEC (UK) BIM Protocol v2.0](https://aecuk.wordpress.com/documents/)
 * [Allplan BIM Compendium Theory and Practice](https://www.allplan.com/fileadmin/user_upload/_corp/Home/Aktionsseiten/BIM_Leitfaden/EN/Allplan_BIM_Compendium.pdf)
 * [IFC Reference Guide for ARCHICAD](http://www.graphisoft.com/downloads/addons/ifc/index.html)
 * [Echange de maquette IFC entre CYPECAD MEP et Allplan](https://cypecommunity.zendesk.com/hc/fr/articles/204525969-Echange-de-maquette-IFC-entre-CYPECAD-MEP-et-Allplan)
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/204281509-Protocole-de-modélisation-et-d-exportation-d-une-maquette-IFC-depuis-ArchiCAD-vers-CYPECAD-MEP)
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
-
-http://bimforum.org/lod/
-
-http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/
+* [BIMFORUM LOD](http://bimforum.org/lod/)
+* [Cahier Pratique - BIM / Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/)
