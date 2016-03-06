@@ -15,7 +15,7 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 # 1. Principes généraux
 
 ## Formats d'échanges
-Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
+Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
 {% collapse Vérifier la version d'un fichier IFC %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
@@ -26,7 +26,7 @@ En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifi
 
 De manière générale, les éléments du bâti seront modélisés avec les outils adéquats dans les logiciels-métiers. Par exemple, bien utiliser l'outil "poteau" pour un objet `IfcColumn`.
 
-Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations.
+Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations. L'utilisation des objets "proxy" (`IfcBuildingElementProxy`) devra être évitée au maximum ; en cas d'utilisation, le nom de l'objet (`IfcBuildingElementProxy.Name`) explicitera la qualité de l'objet en question.
 
 Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
@@ -36,7 +36,7 @@ A venir.
 
 {% collapse Archicad : attribution des classifications IFC %}
 
-Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" définit automatiquement le "type IFC".
+Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" permet de définir le "type IFC".
 
 Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automatiquement le Type IFC "IfcWallStandardCase".
 
@@ -76,7 +76,7 @@ Elle est inspirée de la [spécification LOD](http://bimforum.org/lod/) (Level o
 Tableau des correspondances LOD-ND :
 
 <div class="table-responsive">
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered table-hover">
     <thead>
     <tr>
       <th>LOD (Level of Development)</th>
@@ -136,11 +136,11 @@ IfcProject                  (Projet)
           > IfcProduct      (Equipement)
 ~~~
 
+Le système relationnel est un des fondements de l'IFC ; les objets sont reliés entre eux par la classe `IfcRelContainedInSpatialStructure`. Par exemple, une fenêtre est attachée à un mur, et ce même mur dépend d'un étage. Ces relations sont généralement gérées automatiquement par les logiciels-métier.
+
 Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bâtiments appartenant au même site, il faut créer autant de fichiers natifs que de bâtiments en leur attribuant un même nom de projet (`IfcProject`) et de site (`IfcSite`).
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
-
-Les objets de la maquette seront attachés aux locaux et niveaux.
 
 {% collapse Archicad : activer les relations spatiales %}
 
@@ -158,22 +158,28 @@ La classe `IfcProject` est le plus haut niveau de l'arborescence d'un fichier IF
 
 ### Site
 
-La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`). Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`.
+La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`).
+
+Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de parcelle cadastre dans le champ `IfcSite.LandTitleNumber`.
 
 Cette classe défini notamment le [géoréférencement](#gorfrencement) du projet.
 
 ### Bâtiment
 
-La classe `IfcBuilding` regroupe l'ensemble des objets formant le bâtiment.
+La classe `IfcBuilding` regroupe l'ensemble des objets formant le bâtiment. 
+
+Un numéro de bâtiment peut être indiqué dans le champ `Pset_BuildingCommon.BuildingID`.
 
 ### Niveaux
 
-Les niveaux, définis par la classe `IfcBuildingStorey`, doivent respecter la logique spatiale de l'édifice. Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. De même, tout niveau fictif (ex: plan masse) devra être exclu de l'export IFC.
+Les niveaux, définis par la classe `IfcBuildingStorey`, doivent respecter la logique spatiale de l'édifice, en incluant les mezzanines ou demi-niveaux.
+
+Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simultanée les hauteurs de certains éléments. Tout niveau fictif d'aide au dessin (ex: plan masse) devra être exclu de l'export IFC.
 
 La codification des niveaux est établie par des codes à 2 caractères dans le champ `IfcBuildingStorey.Name` + une description plus complète du niveau dans le champ `IfcBuildingStorey.LongName`.
 
 <div class="table-responsive">
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered table-hover">
     <thead>
       <tr>
         <th>`IfcBuildingStorey.Name`</th>
@@ -206,6 +212,8 @@ La codification des niveaux est établie par des codes à 2 caractères dans le 
   </table>
 </div>
 
+Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
+
 {% collapse Archicad : configurer des niveaux %}
 
 Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". A cet endroit, le nom
@@ -225,7 +233,7 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
 **Exemple de nomenclature de locaux**
 
 <div class="table-responsive">
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered table-hover">
     <thead>
       <tr>
         <th>`IfcSpace.Name`</th>
@@ -266,7 +274,7 @@ En utilisant la marque de zone Archicad par défaut, les informations basiques (
 
 {% endcollapse %}
 
-Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu).
+Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu). Un même local peut appartenir à plusieurs zones.
 
 {% collapse Archicad : créer des relations entre locaux (zones) %}
 
@@ -276,7 +284,13 @@ A venir...
 
 ## Géoréférencement
 
-Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques. Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement.
+Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques.
+
+Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement. Ou bien à une coordonné géographique "ronde". Un volume 3D identifiable pourra être placé sur le point zéro afin de permettre un recollage facile des modèles numériques.
+
+voir : http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf
+
+Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculairement au Nord, avec flèche vers le nord géographique.
 
 ![capture](/assets/img/bp_archicad_point_zero.png)
 
@@ -449,7 +463,6 @@ http://la-boutique-du-bim.blogspot.fr/2015/05/comment-masquer-lorigine-dune-maqu
 
 * [documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
 * [documentation IFC4-Add1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
-* [VA BIM Guide](http://www.cfm.va.gov/til/bim/BIMGuide/downloads/VA-BIM-Guide.pdf)
 * [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf)
 * [COBIM 2012](http://www.en.buildingsmart.kotisivukone.com/3)
 * [AEC (UK) BIM Protocol v2.0](https://aecuk.wordpress.com/documents/)
