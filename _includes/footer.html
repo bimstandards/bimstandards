@@ -15,10 +15,21 @@
 <script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/list.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/list.fuzzysearch.js"></script>
+
 <script>
   anchors.options = {
     placement: 'left',
     class: 'anchor-link'
   };
   anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
+</script>
+
+<script>
+  var options = {
+    valueNames: [ 'name_fr', 'ifcproduct', 'ifctypeproduct' ],
+    plugins: [ ListFuzzySearch() ]
+  };
+  var ifcList = new List('table-searchable', options);
 </script>
