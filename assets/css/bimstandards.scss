@@ -1,6 +1,9 @@
 ---
 ---
 
+@import "mixins/_image";
+@import "variables";
+
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
@@ -45,8 +48,26 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   .table {
     font-size: 90%;
   }
+  h1 {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+    margin-bottom: $spacer;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  h2 {
+    padding-top: $spacer;
+  }
+  h3 {
+    padding-top: $spacer;
+  }
+  img {
+    @include img-fluid();
+  }
   .anchor-link {
     text-decoration: none;
+  }
+  .collapse-group {
+    margin-bottom: ($spacer / 2);
   }
 }
 
@@ -68,6 +89,29 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
         color: $bs-primary-color;
       }
     } 
+  }
+}
+
+#toc {
+  ul {
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: #555555;
+      }
+      ul {
+        padding-left: 1.1rem;
+        li {
+          list-style-type: none;
+          a {
+            font-size: 90%;
+            text-decoration: none;
+            color: #888888;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -95,3 +139,43 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+//
+// Callouts
+//
+
+.bs-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: .25rem;
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bs-callout code {
+  border-radius: .25rem;
+}
+
+.bs-callout + .bs-callout {
+  margin-top: -.25rem;
+}
+
+// Variations
+@mixin bs-callout-variant($color) {
+  border-left-color: $color;
+
+  h4 { color: $color; }
+}
+
+.bs-callout-info { @include bs-callout-variant($brand-info); }
+.bs-callout-warning { @include bs-callout-variant($brand-warning); }
+.bs-callout-danger { @include bs-callout-variant($brand-danger); }

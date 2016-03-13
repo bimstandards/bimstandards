@@ -14,17 +14,42 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/toc.js"></script>
+<!-- <script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script> -->
 <script src="{{ site.baseurl }}/assets/js/list.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/list.fuzzysearch.js"></script>
 
-<script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc({ headers: 'h1, h2' });
+  });
+</script>
+
+<!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+<script type="text/javascript">
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+<!-- <script>
   anchors.options = {
     placement: 'left',
     class: 'anchor-link'
   };
   anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
-</script>
+</script> -->
 
 <script>
   var options = {
