@@ -1,6 +1,6 @@
 ---
 layout: ifc
-title: Fluides
+title: Toutes
 group: classifications
 ---
 
@@ -22,14 +22,12 @@ group: classifications
     </thead>
     <tbody class="list">
       {% for object in site.data.ifc-objets %}
-        {% if object.domaine_fluides == 'YES' %}
-          <tr>
-            <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
-            <td class="en_gb"><b>{{ object.en_gb }}</b></td>
-            <td class="ifcproduct">{{ object.ifcproduct }}</td>
-            <td class="ifctypeproduct">{{ object.ifctypeproduct }}</td>
-          </tr>
-        {% endif %}
+      <tr>
+        <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
+        <td class="en_gb"><b>{{ object.en_gb }}</b></td>
+        <td class="ifcproduct">{{ object.ifcproduct }}</td>
+        <td class="ifctypeproduct">{{ object.ifctypeproduct }}</td>
+      </tr>
       {% endfor %}
     </tbody>
   </table>

@@ -14,18 +14,22 @@ group: classifications
     <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
     <thead class="thead-default">
       <tr>
-        <th>Elément architectural</th>
+        <th>Terme français</th>
+        <th>Terme anglais</th>
         <th>IfcProduct + PredefinedType</th>
         <th>IfcTypeProduct + PredefinedType</th>
       </tr>
     </thead>
     <tbody class="list">
-      {% for object in site.data.ifc-objets-architecture %}
-      <tr>
-        <td class="name_fr"><b>{{ object.name_fr }}</b></td>
-        <td class="ifcproduct">{{ object.ifcproduct }}</td>
-        <td class="ifctypeproduct">{{ object.ifctypeproduct }}</td>
-      </tr>
+      {% for object in site.data.ifc-objets %}
+        {% if object.domaine_architecture == 'YES' %}
+          <tr>
+            <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
+            <td class="en_gb"><b>{{ object.en_gb }}</b></td>
+            <td class="ifcproduct">{{ object.ifcproduct }}</td>
+            <td class="ifctypeproduct">{{ object.ifctypeproduct }}</td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </tbody>
   </table>
