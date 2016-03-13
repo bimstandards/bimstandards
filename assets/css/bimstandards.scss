@@ -47,6 +47,9 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 .bs-content {
   .table {
     font-size: 90%;
+    a {
+      color: $gray-light;
+    }
   }
   h1 {
     padding-top: $spacer;

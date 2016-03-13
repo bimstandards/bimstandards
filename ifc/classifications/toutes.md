@@ -24,14 +24,27 @@ group: classifications
       {% for object in site.data.ifc-objets %}
       <tr>
         <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
-        <td class="en_gb"><a href="https://www.google.fr/search?q={{ object.en_gb }}" target="_blank">&#64;</a> <a href="https://translate.google.com/#en/fr/{{ object.en_gb }}" target="_blank">&#9872;</a> <b>{{ object.en_gb }}</b></td>
-        <td class="ifcproduct">{{ object.ifcproduct }}</td>
-        <td class="ifctypeproduct">{{ object.ifctypeproduct }}</td>
+        <td class="en_gb">
+          <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
+          <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank"><i class="fa fa-globe"></i></a>
+          <b>{{ object.en_gb }}</b>
+        </td>
+        <td class="ifcproduct">
+          <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
+          {{ object.ifcproduct }}
+        </td>
+        <td class="ifctypeproduct">
+          <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
+          {{ object.ifctypeproduct }}
+        </td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
 </div>
+
+
+
 
 **Sources**
 * Documentation IFC2x3
