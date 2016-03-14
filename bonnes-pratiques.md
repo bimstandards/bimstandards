@@ -314,11 +314,9 @@ Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), co
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
 {% collapse Archicad : outil grille %}
-
 Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiquement convertis dans la classe `IfcGridAxis`. En revanche, il est normal qu'ils n'apparaissent pas dans le *Gestionnaire IFC*.
 
 ![capture](/assets/img/bp_archicad_grille.png)
-
 {% endcollapse %}
 
 ## Méthode de modélisation
