@@ -31,7 +31,7 @@ Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car
 Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
 {% collapse Allplan : attribution des classifications IFC %}
-A venir.
+à venir...
 {% endcollapse %}
 
 {% collapse Archicad : attribution des classifications IFC %}
@@ -45,7 +45,7 @@ Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automati
 {% endcollapse %}
 
 {% collapse Revit : attribution des classifications IFC %}
-A venir.
+à venir...
 {% endcollapse %}
 
 Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](#echanges-ifc) de maquettes.
@@ -65,53 +65,42 @@ Voir le chapitre concernant les différents [usages métiers](#usages-mtiers).
 
 ## Niveaux de détail
 
-Le niveau de développement (informations et géométrie) doit être adapté à chaque phase de projet.
+Une spécification des niveaux de développement à chaque phase de projet a été réalisée pour le contexte français par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots.
 
-**Attention** : différence entre niveaux de développement et niveaux de détail !
+La [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/), s'attache plutôt à une niveau de détail par objet, indépendamment des phases de projet.
 
-Une spécification des niveaux de dévelopement a été réalisée pour le contexte français par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/).
-
-Elle est inspirée de la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/).
-
-Tableau des correspondances LOD-ND :
+Tableau des Niveaux de Développement :
 
 <div class="table-responsive">
   <table class="table table-bordered table-hover">
     <thead>
     <tr>
-      <th>LOD (Level of Development)</th>
       <th>ND (Niveau de Développement)</th>
-      <th>Phase loi MOP</th>
+      <th>Correspondance loi MOP</th>
     </tr>
     </thead>
     <tbody>
       <tr>
-        <td>LOD 100</td>
         <td>ND 1</td>
         <td>Esquisse</td>
       </tr>
       <tr>
-        <td>LOD 200</td>
         <td>ND 2</td>
         <td>Avant-Projet Sommaire, Permis de Construire</td>
       </tr>
       <tr>
-        <td>LOD 300</td>
         <td>ND 3</td>
         <td>Avant-Projet Détaillé, Pré-Synthèse, PRO/DCE</td>
       </tr>
       <tr>
-        <td>LOD 350</td>
         <td>ND 4</td>
         <td>Synthèse, Etudes d'exécution, construction</td>
       </tr>
       <tr>
-        <td>LOD 400</td>
         <td>ND 5</td>
         <td>Dossier des Ouvrages Exécutés</td>
       </tr>
       <tr>
-        <td>LOD 500</td>
         <td>ND 6</td>
         <td>Exploitation</td>
       </tr>
@@ -130,15 +119,16 @@ IfcProject                  (Projet)
   > IfcSite                 (Site)
     > IfcBuilding           (Bâtiment)
       > IfcBuildingStorey   (Niveau)
-        >                   (Ouvrage)
-        > IfcProduct        (Equipement)
+        > IfcProduct        (Produit, Equipement)
         > IfcSpace          (Local)
-          > IfcProduct      (Equipement)
+          > IfcProduct      (Produit, Equipement)
 ~~~
 
 Le système relationnel est un des fondements de l'IFC ; les objets sont reliés entre eux par la classe `IfcRelContainedInSpatialStructure`. Par exemple, une fenêtre est attachée à un mur, et ce même mur dépend d'un étage. Ces relations sont généralement gérées automatiquement par les logiciels-métier.
 
 Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bâtiments appartenant au même site, il faut créer autant de fichiers natifs que de bâtiments en leur attribuant un même nom de projet (`IfcProject`) et de site (`IfcSite`).
+
+Les éléments `IfcProduct` peuvent être contenues dans un niveau (`IfcBuildingStorey`) ou dans un local (`IfcSpace`), lui-même contenu dans un niveau.
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
 
@@ -216,7 +206,9 @@ Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec
 
 {% collapse Archicad : configurer des niveaux %}
 
-Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". A cet endroit, le nom
+Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". Le nom renseigné à cet endroit correspond au "code" de niveau à 2 caractères.
+
+Le nom complet (`IfcBuildingStorey.LongName`) doit être renseigné dans le Gestionnaire IFC.
 
 ![capture](/assets/img/bp_archicad_niveaux.png)
 
@@ -243,24 +235,24 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
     </thead>
     <tbody>
       <tr>
-        <th>IN_A_00_001</th>
+        <th>CE_A_00_001</th>
         <th>Hall d'entrée</th>
-        <td>Local "Hall d'entrée" n°001 situé au RDC du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+        <td>Local "Hall d'entrée" n°001 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
       </tr>
       <tr>
-        <th>IN_A_00_012</th>
+        <th>CE_A_00_012</th>
         <th>Bureau</th>
-        <td>Local "Bureau" n°012 situé au RDC du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+        <td>Local "Bureau" n°012 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
       </tr>
       <tr>
-        <th>IN_A_01_027</th>
+        <th>CE_A_01_027</th>
         <th>Ménage</th>
-        <td>Local "ménage" n°027 situé au niveau 1 du bâtiment A, sur le site "Ile de Nantes" (IN)</td>
+        <td>Local "ménage" n°027 situé au niveau 1 du bâtiment A, sur le site "Campus Erdre" (CE)</td>
       </tr>
       <tr>
-        <th>SN_D_03_005</th>
+        <th>CL_D_03_005</th>
         <th>Salle de réunion</th>
-        <td>Local "Salle de réunion" n°005 situé au niveau 3 du bâtiment D, sur le site "Saint Nazaire" (IN)</td>
+        <td>Local "Salle de réunion" n°005 situé au niveau 3 du bâtiment D, sur le site "Campus Loire" (CL)</td>
       </tr>
     </tbody>
   </table>
@@ -278,7 +270,7 @@ Il est possible de définir des relations entre plusieurs locaux à l'aide de la
 
 {% collapse Archicad : créer des relations entre locaux (zones) %}
 
-A venir...
+à venir...
 
 {% endcollapse %}
 
@@ -286,9 +278,9 @@ A venir...
 
 Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques.
 
-Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement. Ou bien à une coordonné géographique "ronde". Un volume 3D identifiable pourra être placé sur le point zéro afin de permettre un recollage facile des modèles numériques.
+Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement. Ou bien à une coordonnée géographique "ronde". Un volume 3D identifiable pourra être placé sur le point zéro afin de permettre un recollage facile des modèles numériques.
 
-voir : http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf
+Voir aussi : [http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf](http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf)
 
 Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculairement au Nord, avec flèche vers le nord géographique.
 
@@ -331,25 +323,18 @@ Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiq
 
 ## Méthode de modélisation
 
-Assemblage des murs, dalles, cloisons.
-
-En cas de doute, modéliser comme on construit.
-
-Gestion des éléments groupés (murs) ? Murs en un bloc.
+* En cas de doute, modéliser comme on construit.
+* Murs en un bloc.
 
 ![capture](/assets/img/bp_assemblages.png)
 
 ## Catégories d'objets
 
-voir classifications détaillées.
+Voir [classifications `IfcProduct`](http://bimstandards.fr/ifc/classifications/toutes.html).
 
 Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif.
 
 Voir page spécifique pour plus de détails sur les `IfcTypeProduct` et `PredefinedType`.
-
-Archicad : régler les classifications
-
-Question de la classification Uniformat II ???
 
 ## Types d'objets
 
@@ -456,8 +441,6 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 ![anonymat](/assets/img/bp_ifc_anonymat.png)
 
 {% endcollapse %}
-
-http://la-boutique-du-bim.blogspot.fr/2015/05/comment-masquer-lorigine-dune-maquette.html
 
 # 5. Sources
 
