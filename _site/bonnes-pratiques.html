@@ -112,7 +112,7 @@ Ce guide a été réalisé afin de renseigner sur les “bonnes pratiques” à 
 <h2 id="formats-dchanges">Formats d’échanges</h2>
 <p>Les modèles de données doivent pouvoir être échangés au travers du format <strong>IFC 2x3 TC1</strong>, conforme à la norme ISO 10303-21:2002, avec l’extension de fichier <code class="highlighter-rouge">.ifc</code>. La version IFC 4, bien que publiée officiellement, n’est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site <a href="http://www.buildingsmart.org/compliance/certified-software/">buildingSMART</a>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse690dfec30870" aria-expanded="false" aria-controls="collapse690dfec30870"><i class="fa fa-info-circle"></i> Vérifier la version d'un fichier IFC</div><div class="card-block collapse" id="collapse690dfec30870"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse1e6d0e0c5c23" aria-expanded="false" aria-controls="collapse1e6d0e0c5c23"><i class="fa fa-info-circle"></i> Vérifier la version d'un fichier IFC</div><div class="card-block collapse" id="collapse1e6d0e0c5c23"><p class="card-text">
 <p>En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d’identifier la version du fichier dans les premières lignes, par exemple : <code class="highlighter-rouge">FILE_SCHEMA(('IFC2X3'));</code>.
 <img src="/assets/img/bp_ifc_version.png" alt="capture" /></p>
 </p></div></div>
@@ -125,11 +125,11 @@ Ce guide a été réalisé afin de renseigner sur les “bonnes pratiques” à 
 
 <p>Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur <a href="http://bimstandards.fr/ifc/classifications/architecture.html">cette page</a>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse9e6084a491e0" aria-expanded="false" aria-controls="collapse9e6084a491e0"><i class="fa fa-info-circle"></i> Allplan : attribution des classifications IFC</div><div class="card-block collapse" id="collapse9e6084a491e0"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse3df90cc5ca28" aria-expanded="false" aria-controls="collapse3df90cc5ca28"><i class="fa fa-info-circle"></i> Allplan : attribution des classifications IFC</div><div class="card-block collapse" id="collapse3df90cc5ca28"><p class="card-text">
 <p>à venir…</p>
 </p></div></div>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapsefedbcd88d1d8" aria-expanded="false" aria-controls="collapsefedbcd88d1d8"><i class="fa fa-info-circle"></i> Archicad : attribution des classifications IFC</div><div class="card-block collapse" id="collapsefedbcd88d1d8"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse82afbc449bcf" aria-expanded="false" aria-controls="collapse82afbc449bcf"><i class="fa fa-info-circle"></i> Archicad : attribution des classifications IFC</div><div class="card-block collapse" id="collapse82afbc449bcf"><p class="card-text">
 <p>Pour chaque objet, la valeur sélectionnée dans le champ “Classification d’élément” permet de définir le “type IFC”.</p>
 
 <p>Dans l’exemple ci-dessous, la classification d’élément “Mur” attribue automatiquement le Type IFC “IfcWallStandardCase”.</p>
@@ -137,7 +137,7 @@ Ce guide a été réalisé afin de renseigner sur les “bonnes pratiques” à 
 <p><img src="/assets/img/bp_ifc_classification_archicad.png" alt="capture" /></p>
 </p></div></div>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapsee9ca1396fc56" aria-expanded="false" aria-controls="collapsee9ca1396fc56"><i class="fa fa-info-circle"></i> Revit : attribution des classifications IFC</div><div class="card-block collapse" id="collapsee9ca1396fc56"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapseed20d1bb0154" aria-expanded="false" aria-controls="collapseed20d1bb0154"><i class="fa fa-info-circle"></i> Revit : attribution des classifications IFC</div><div class="card-block collapse" id="collapseed20d1bb0154"><p class="card-text">
 <p>à venir…</p>
 </p></div></div>
 
@@ -225,7 +225,7 @@ Ces unités doivent être configurées dans les réglages <a href="#echanges-ifc
 
 <p>Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs <code class="highlighter-rouge">IfcProject.Name</code>, <code class="highlighter-rouge">IfcSite.Name</code> et <code class="highlighter-rouge">IfcBuilding.Name</code>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse446e0140d0c6" aria-expanded="false" aria-controls="collapse446e0140d0c6"><i class="fa fa-info-circle"></i> Archicad : activer les relations spatiales</div><div class="card-block collapse" id="collapse446e0140d0c6"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapsec489cfe2d0dd" aria-expanded="false" aria-controls="collapsec489cfe2d0dd"><i class="fa fa-info-circle"></i> Archicad : activer les relations spatiales</div><div class="card-block collapse" id="collapsec489cfe2d0dd"><p class="card-text">
 <p>Pour activer la relation spatiale entre pièces et équipements, vérifier que l’option “Contenu spatial” est bien sélectionnée dans “Fichier &gt; Fichier spécial &gt; IFC 2x3 &gt; Options IFC…”.</p>
 
 <p><img src="/assets/img/bp_archicad_contenu_spatial.png" alt="capture" /></p>
@@ -295,7 +295,7 @@ Ces unités doivent être configurées dans les réglages <a href="#echanges-ifc
 
 <p>Il est également possible d’indiquer le niveau d’entrée dans le bâtiment avec l’attribut <code class="highlighter-rouge">Pset_BuildingStoreyCommon.EntranceLevel=TRUE</code> sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l’attribut <code class="highlighter-rouge">Pset_BuildingStoreyCommon.AboveGround=TRUE</code>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse02d2235222a4" aria-expanded="false" aria-controls="collapse02d2235222a4"><i class="fa fa-info-circle"></i> Archicad : configurer des niveaux</div><div class="card-block collapse" id="collapse02d2235222a4"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse101944966192" aria-expanded="false" aria-controls="collapse101944966192"><i class="fa fa-info-circle"></i> Archicad : configurer des niveaux</div><div class="card-block collapse" id="collapse101944966192"><p class="card-text">
 <p>Les niveaux doivent d’abord être renseignées dans la fenêtre “Dessin &gt; Définir étage…”. Le nom renseigné à cet endroit correspond au “code” de niveau à 2 caractères.</p>
 
 <p>Le nom complet (<code class="highlighter-rouge">IfcBuildingStorey.LongName</code>) doit être renseigné dans le Gestionnaire IFC.</p>
@@ -347,7 +347,7 @@ Ces unités doivent être configurées dans les réglages <a href="#echanges-ifc
   </table>
 </div>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapsed32262323038" aria-expanded="false" aria-controls="collapsed32262323038"><i class="fa fa-info-circle"></i> Archicad : configurer les locaux (zones)</div><div class="card-block collapse" id="collapsed32262323038"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse4d0f90951e82" aria-expanded="false" aria-controls="collapse4d0f90951e82"><i class="fa fa-info-circle"></i> Archicad : configurer les locaux (zones)</div><div class="card-block collapse" id="collapse4d0f90951e82"><p class="card-text">
 <p>En utilisant la marque de zone Archicad par défaut, les informations basiques (code et nom de local) sont automatiquement transférées dans les bons attributs IFC, comme on peut le voir dans le <em>Gestionnaire IFC</em>.</p>
 
 <p><img src="/assets/img/bp_archicad_zone.png" alt="capture" /></p>
@@ -355,7 +355,7 @@ Ces unités doivent être configurées dans les réglages <a href="#echanges-ifc
 
 <p>Il est possible de définir des relations entre plusieurs locaux à l’aide de la classe <code class="highlighter-rouge">IfcZone</code> (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu). Un même local peut appartenir à plusieurs zones.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse8f837228a800" aria-expanded="false" aria-controls="collapse8f837228a800"><i class="fa fa-info-circle"></i> Archicad : créer des relations entre locaux (zones)</div><div class="card-block collapse" id="collapse8f837228a800"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse3c5152b95706" aria-expanded="false" aria-controls="collapse3c5152b95706"><i class="fa fa-info-circle"></i> Archicad : créer des relations entre locaux (zones)</div><div class="card-block collapse" id="collapse3c5152b95706"><p class="card-text">
 <p>à venir…</p>
 </p></div></div>
 
@@ -381,7 +381,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 <p>La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs <code class="highlighter-rouge">IfcSite.RefLatitude</code> et <code class="highlighter-rouge">IfcSite.RefLongitude</code> exprimés en degrés, minutes, secondes ; ainsi que la valeur d’altitude via l’attribut <code class="highlighter-rouge">IfcSite.RefElevation</code>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapseea9b0238b650" aria-expanded="false" aria-controls="collapseea9b0238b650"><i class="fa fa-info-circle"></i> Archicad : configurer les coordonnées géographiques</div><div class="card-block collapse" id="collapseea9b0238b650"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse83a8992120b8" aria-expanded="false" aria-controls="collapse83a8992120b8"><i class="fa fa-info-circle"></i> Archicad : configurer les coordonnées géographiques</div><div class="card-block collapse" id="collapse83a8992120b8"><p class="card-text">
 <p>Les coordonnées doivent être renseignées dans la fenêtre “Emplacement Projet…” (menu : Options &gt; Préférences Projet &gt; Emplacement Projet…).</p>
 
 <p>Les informations qui seront intégrées à l’IFC sont “Latitude”, “Longitude” et “Altitude (Niveau de la mer)”.</p>
@@ -399,7 +399,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 <p>Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse134374f57045" aria-expanded="false" aria-controls="collapse134374f57045"><i class="fa fa-info-circle"></i> Archicad : outil grille</div><div class="card-block collapse" id="collapse134374f57045"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse0e7a74fc7551" aria-expanded="false" aria-controls="collapse0e7a74fc7551"><i class="fa fa-info-circle"></i> Archicad : outil grille</div><div class="card-block collapse" id="collapse0e7a74fc7551"><p class="card-text">
 <p>Dans Archicad, les axes créés avec l’outil <em>Elément de grille</em> sont automatiquement convertis dans la classe <code class="highlighter-rouge">IfcGridAxis</code>. En revanche, il est normal qu’ils n’apparaissent pas dans le <em>Gestionnaire IFC</em>.</p>
 
 <p><img src="/assets/img/bp_archicad_grille.png" alt="capture" /></p>
@@ -474,7 +474,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 <p>Dans un processus de conception classique, l’architecte est le premier intervenant à dessiner un principe structurel, qu’il transmettra ensuite à l’ingénieur structure. Il faut donc veiller à respecter au maximum la conception filaire de la structure.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse0a98dfc9c916" aria-expanded="false" aria-controls="collapse0a98dfc9c916"><i class="fa fa-info-circle"></i> Archicad : définition des axes structurels</div><div class="card-block collapse" id="collapse0a98dfc9c916"><p class="card-text"><p>à venir…</p>
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse55a834e29bc0" aria-expanded="false" aria-controls="collapse55a834e29bc0"><i class="fa fa-info-circle"></i> Archicad : définition des axes structurels</div><div class="card-block collapse" id="collapse55a834e29bc0"><p class="card-text"><p>à venir…</p>
 </p></div></div>
 
 <p>Pour chaque objet du domaine structure, renseigner à minima les attributs suivants :</p>
@@ -484,7 +484,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
   <li><code class="highlighter-rouge">IfcMaterial.Name</code></li>
 </ul>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse41c19796a0e2" aria-expanded="false" aria-controls="collapse41c19796a0e2"><i class="fa fa-info-circle"></i> Archicad : Vérifier les attributs</div><div class="card-block collapse" id="collapse41c19796a0e2"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse8de0d3fda674" aria-expanded="false" aria-controls="collapse8de0d3fda674"><i class="fa fa-info-circle"></i> Archicad : Vérifier les attributs</div><div class="card-block collapse" id="collapse8de0d3fda674"><p class="card-text">
 <p>à venir…</p>
 </p></div></div>
 
@@ -542,7 +542,7 @@ Après l’export, il est conseillé d’ouvrir le fichier IFC dans une visionne
 
 <p>Généralement, les informations personnelles peuvent être contenues aux lignes <code class="highlighter-rouge">FILE_NAME</code>, <code class="highlighter-rouge">IFCPERSON</code>, <code class="highlighter-rouge">IFCACTORROLE</code>, <code class="highlighter-rouge">IFCPOSTALADDRESS</code>, <code class="highlighter-rouge">IFCTELECOMADDRESS</code>, <code class="highlighter-rouge">IFCORGANIZATION</code>, <code class="highlighter-rouge">IFCPERSONANDORGANIZATION</code>, <code class="highlighter-rouge">IFCOWNERHISTORY</code>.</p>
 
-<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapsed0104dff80e1" aria-expanded="false" aria-controls="collapsed0104dff80e1"><i class="fa fa-info-circle"></i> Vérifier l'anonymat avec un éditeur de texte</div><div class="card-block collapse" id="collapsed0104dff80e1"><p class="card-text">
+<div class="card"><div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#collapse1c4fbe7db1bb" aria-expanded="false" aria-controls="collapse1c4fbe7db1bb"><i class="fa fa-info-circle"></i> Vérifier l'anonymat avec un éditeur de texte</div><div class="card-block collapse" id="collapse1c4fbe7db1bb"><p class="card-text">
 <p>Après l’export du fichier IFC, l’ouvrir avec un éditeur de texte basique type “Bloc-notes” sur Windows ou “TextEdit” sur Mac.</p>
 
 <p>Identifier, éventuellement en effectuant une recherche de texte, les lignes pouvant contenir des informations sur l’émetteur du fichier. <strong>Attention</strong> à ne pas supprimer ces lignes (sous peine de corrompre le fichier) mais plutôt à remplacer les informations non désirées par des caractères anonymes.</p>
