@@ -27,20 +27,20 @@ group: classifications
           <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
           <td class="en_gb">
             {% if object.en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank"><i class="fa fa-globe"></i></a>
+              <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
             {% endif %}
             {{ object.en_gb }}
           </td>
           <td class="ifcproduct">
             {% if object.ifcproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
+              <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
             {% endif %}
             {{ object.ifcproduct }}
           </td>
           <td class="ifctypeproduct">
             {% if object.ifctypeproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank"><i class="fa fa-search"></i></a>
+              <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
             {% endif %}
             {{ object.ifctypeproduct }}
           </td>
