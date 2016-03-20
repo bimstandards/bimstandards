@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>
+  
+    Architecture &middot; BIMstandards
+  
+</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="keywords" content="BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF">
+<meta name="author" content="Alexandre Grignon">
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@BIMstandards">
+<meta name="twitter:creator" content="@a_grignon">
+<meta name="twitter:title" content="BIMstandards - Architecture">
+<meta name="twitter:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="twitter:image" content="http://bimstandards.fr/apple-touch-icon.png">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://bimstandards.fr">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BIMstandards - Architecture">
+<meta property="og:image" content="http://bimstandards.fr/apple-touch-icon.png"/>
+<meta property="og:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta property="og:site_name" content="BIMstandards">
+
+<!-- Social: Google+ / Schema.org  -->
+<meta itemprop="name" content="BIMstandards - Architecture">
+<meta itemprop="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta itemprop="image" content="http://bimstandards.fr/apple-touch-icon.png">
+
+<!-- Bootstrap core CSS -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- BIMstandards custom CSS -->
+<link href="/assets/css/bimstandards.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59080519-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+  <body>
+    <header class="navbar navbar-light navbar-static-top" role="banner">
+  
+
+  <div class="clearfix">
+    <button class="navbar-toggler pull-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav">
+      &#9776;
+    </button>
+    <a class="navbar-brand hidden-sm-up" href="/">
+      BIMstandards
+    </a>
+  </div>
+  <div class="collapse navbar-toggleable-xs" id="main-nav">
+    <nav class="nav navbar-nav">
+      <a class="nav-item nav-link " href="/">BIMstandards</a>
+      <a class="nav-item nav-link " href="/openbim.html">openBIM</a>
+      <a class="nav-item nav-link active" href="/ifc/premiers-pas/introduction.html">IFC</a>
+      <a class="nav-item nav-link " href="/outils.html">Outils</a>
+    </nav>
+  </div>
+</header>
+
+    <div class="bs-pageheader">
+      <div class="container">
+        
+  <h1>Classifications</h1>
+  <p class="lead">
+    Connaître, organiser et renseigner les objets de la maquette numérique.
+  </p>
+
+      </div>
+    </div>
+
+    <div class="bs-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-md-push-9">
+            <div class="">
+
+  <nav class="bs-navifc">
+    
+      
+      
+      
+
+      
+
+      <div class="bs-navifc-group ">
+          <a class="bs-navifc-group-title" href="/ifc/premiers-pas/introduction.html">
+          Premiers pas
+        </a>
+
+        <ul class="nav bs-navifc-group-links">
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/premiers-pas/introduction.html">
+                Introduction
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/premiers-pas/historique.html">
+                Historique
+              </a>
+
+              
+            </li>
+          
+        </ul>
+      </div>
+    
+      
+      
+      
+
+      
+
+      <div class="bs-navifc-group active">
+          <a class="bs-navifc-group-title" href="/ifc/classifications/architecture.html">
+          Classifications
+        </a>
+
+        <ul class="nav bs-navifc-group-links">
+          
+            
+            
+
+            
+
+            <li class="nav-item active bd-sidenav-active">
+              <a class="nav-link" href="/ifc/classifications/architecture.html">
+                Architecture
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/classifications/structure.html">
+                Structure
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/classifications/fluides.html">
+                Fluides
+              </a>
+
+              
+            </li>
+          
+        </ul>
+      </div>
+    
+  </nav>
+</div>
+          </div>
+          <div class="col-md-9 col-md-pull-3">
+            <h1 class="" id="content">Architecture</h1>
+            <div class="alert alert-warning" role="alert">
+  <strong>Attention !</strong> Cette page est en cours d'élaboration...
+</div>
+
+<div id="table-searchable" class="table-responsive">
+  
+  <table class="table table-sm table-hover">
+    <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
+    <thead class="thead-default">
+      <tr>
+        <th>Elément architectural</th>
+        <th>IfcProduct + PredefinedType</th>
+        <th>IfcTypeProduct + PredefinedType</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      
+      <tr>
+        <td class="name_fr"><b>Poutre</b></td>
+        <td class="ifcproduct">IfcBeam</td>
+        <td class="ifctypeproduct">IfcBeamType BEAM</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Solive</b></td>
+        <td class="ifcproduct">IfcBeam</td>
+        <td class="ifctypeproduct">IfcBeamType JOIST</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Linteau</b></td>
+        <td class="ifcproduct">IfcBeam</td>
+        <td class="ifctypeproduct">IfcBeamType LINTEL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Poutre en T</b></td>
+        <td class="ifcproduct">IfcBeam</td>
+        <td class="ifctypeproduct">IfcBeamType T-BEAM</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcBuildingElementProxy</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Poteau</b></td>
+        <td class="ifcproduct">IfcColumn</td>
+        <td class="ifctypeproduct">IfcColumnType COLUMN</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Plinthe</b></td>
+        <td class="ifcproduct">IfcCovering</td>
+        <td class="ifctypeproduct">IfcCoveringType</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Moulure</b></td>
+        <td class="ifcproduct">IfcCovering</td>
+        <td class="ifctypeproduct">IfcCoveringType</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Plafond</b></td>
+        <td class="ifcproduct">IfcCovering CEILING</td>
+        <td class="ifctypeproduct">IfcCoveringType CEILING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Revêtement de sol</b></td>
+        <td class="ifcproduct">IfcCovering FLOORING</td>
+        <td class="ifctypeproduct">IfcCoveringType FLOORING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Bardage</b></td>
+        <td class="ifcproduct">IfcCovering CLADDING</td>
+        <td class="ifctypeproduct">IfcCoveringType CLADDING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Couverture (toiture)</b></td>
+        <td class="ifcproduct">IfcCovering ROOFING</td>
+        <td class="ifctypeproduct">IfcCoveringType ROOFING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Isolation</b></td>
+        <td class="ifcproduct">IfcCovering INSULATION</td>
+        <td class="ifctypeproduct">IfcCoveringType INSULATION</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Membrane d'étanchéité / pare-pluie / écran de sous-toiture</b></td>
+        <td class="ifcproduct">IfcCovering MEMBRANE</td>
+        <td class="ifctypeproduct">IfcCoveringType MEMBRANE</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Encoffrement / gaine</b></td>
+        <td class="ifcproduct">IfcCovering SLEEVING</td>
+        <td class="ifctypeproduct">IfcCoveringType SLEEVING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Manchon</b></td>
+        <td class="ifcproduct">IfcCovering WRAPPING</td>
+        <td class="ifctypeproduct">IfcCoveringType WRAPPING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur-rideau</b></td>
+        <td class="ifcproduct">IfcCurtainWall</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Porte</b></td>
+        <td class="ifcproduct">IfcDoor</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Fondation</b></td>
+        <td class="ifcproduct">IfcFooting</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Longrine</b></td>
+        <td class="ifcproduct">IfcFooting FOOTING_BEAM</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Semelle isolée</b></td>
+        <td class="ifcproduct">IfcFooting PAD_FOOTING</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcFooting PILE_CAP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Semelle filante</b></td>
+        <td class="ifcproduct">IfcFooting STRIP_FOOTING</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Trame</b></td>
+        <td class="ifcproduct">IfcGrid *</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Ossature</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Entretoise / contrefiche</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType BRACE</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Corde (poutre treillis)</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType CHORD</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Entrait</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType COLLAR</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Montant ?</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType MEMBER</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Meneau</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType MULLION</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Plat</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType PLATE</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Poinçon</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType POST</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Panne</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType PURLIN</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Arbalétrier</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType RAFTER</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Limon</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType STRINGER</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Contrefiche ?</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType STRUT</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Montant</b></td>
+        <td class="ifcproduct">IfcMember</td>
+        <td class="ifctypeproduct">IfcMemberType STUD</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Pieu</b></td>
+        <td class="ifcproduct">IfcPile</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcPlate</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Panneau de mur-rideau</b></td>
+        <td class="ifcproduct">IfcPlate</td>
+        <td class="ifctypeproduct">IfcPlateType CURTAIN_PANEL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcPlate</td>
+        <td class="ifctypeproduct">IfcPlateType SHEET</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Main-courante</b></td>
+        <td class="ifcproduct">IfcRailing HANDRAIL</td>
+        <td class="ifctypeproduct">IfcRailingType HANDRAIL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Garde-corps</b></td>
+        <td class="ifcproduct">IfcRailing GUARDRAIL</td>
+        <td class="ifctypeproduct">IfcRailingType GUARDRAIL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Balustrade</b></td>
+        <td class="ifcproduct">IfcRailing BALUSTRADE</td>
+        <td class="ifctypeproduct">IfcRailingType BALUSTRADE</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe</b></td>
+        <td class="ifcproduct">IfcRamp</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe droite</b></td>
+        <td class="ifcproduct">IfcRamp STRAIGHT_RUN_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe avec palier intermédiaire</b></td>
+        <td class="ifcproduct">IfcRamp TWO_STRAIGHT_RUN_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe quart tournant (1 palier intermédiaire)</b></td>
+        <td class="ifcproduct">IfcRamp QUARTER_TURN_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe double quart tournant (2 paliers intermédiaires)</b></td>
+        <td class="ifcproduct">IfcRamp TWO_QUARTER_TURN_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe double quart tournant (1 palier intermédiaire)</b></td>
+        <td class="ifcproduct">IfcRamp HALF_TURN_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Rampe à spirale</b></td>
+        <td class="ifcproduct">IfcRamp SPIRAL_RAMP</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Volée de rampe</b></td>
+        <td class="ifcproduct">IfcRampFlight</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Volée de rampe droite</b></td>
+        <td class="ifcproduct">IfcRampFlight</td>
+        <td class="ifctypeproduct">IfcRampFlightType STRAIGHT</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Volée de rampe à spirale</b></td>
+        <td class="ifcproduct">IfcRampFlight</td>
+        <td class="ifctypeproduct">IfcRampFlightType SPIRAL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture terrasse</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType FLAT_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à un versant (appentis)</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType SHED_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à deux versants</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType GABLE_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à quatre versants égaux</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType HIP_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à deux pans en croupe</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType HIPPED_GABLE_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à deux pans avec ligne de bris</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType GAMBREL_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toit à la mansard</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType MANSARD_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Voûte plein-cintre</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType BARREL_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Voûte brisée</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType RAINBOW_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture papilon</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType BUTTERFLY_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à 4 pans égaux</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType PAVILION_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Dôme</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType DOME_ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture à forme libre</b></td>
+        <td class="ifcproduct">IfcRoof</td>
+        <td class="ifctypeproduct">IfcRoofType FREEFORM</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Dalle</b></td>
+        <td class="ifcproduct">IfcSlab</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Plancher</b></td>
+        <td class="ifcproduct">IfcSlab FLOOR</td>
+        <td class="ifctypeproduct">IfcSlabType FLOOR</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Toiture</b></td>
+        <td class="ifcproduct">IfcSlab ROOF</td>
+        <td class="ifctypeproduct">IfcSlabType ROOF</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Palier</b></td>
+        <td class="ifcproduct">IfcSlab LANDING</td>
+        <td class="ifctypeproduct">IfcSlabType LANDING</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Radier</b></td>
+        <td class="ifcproduct">IfcSlab BASESLAB</td>
+        <td class="ifctypeproduct">IfcSlabType BASESLAB</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Pièce</b></td>
+        <td class="ifcproduct">IfcSpace *</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier</b></td>
+        <td class="ifcproduct">IfcStair</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier droit</b></td>
+        <td class="ifcproduct">IfcStair STRAIGHT_RUN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier droit avec palier intermédiaire</b></td>
+        <td class="ifcproduct">IfcStair TWO_STRAIGHT_RUN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair QUARTER_WINDING_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier quart tournant</b></td>
+        <td class="ifcproduct">IfcStair QUARTER_TURN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier balancé</b></td>
+        <td class="ifcproduct">IfcStair HALF_WINDING_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair HALF_TURN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair TWO_QUARTER_WINDING_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair TWO_QUARTER_TURN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair THREE_QUARTER_WINDING_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair THREE_QUARTER_TURN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Escalier hélicoïdal</b></td>
+        <td class="ifcproduct">IfcStair SPIRAL_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair DOUBLE_RETURN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair CURVED_RUN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStair TWO_CURVED_RUN_STAIR</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Volée d'escalier droite</b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct">IfcStairFlightType STRAIGHT</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct">IfcStairFlightType WINDER</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct">IfcStairFlightType SPIRAL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct">IfcStairFlightType CURVED</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b></b></td>
+        <td class="ifcproduct">IfcStairFlight</td>
+        <td class="ifctypeproduct">IfcStairFlightType FREEFORM</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Cloison</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur à épaisseur constante dans la longueur</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct">IfcWallType STANDARD</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur à épaisseur variable dans la longueur</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct">IfcWallType POLYGONAL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur avec fruit</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct">IfcWallType SHEAR</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Mur composé de différents éléments (ex: ossature bois)</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct">IfcWallType ELEMENTEDWALL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Coffrage de sanitaires</b></td>
+        <td class="ifcproduct">IfcWall</td>
+        <td class="ifctypeproduct">IfcWallType PLUMBINGWALL</td>
+      </tr>
+      
+      <tr>
+        <td class="name_fr"><b>Fenêtre</b></td>
+        <td class="ifcproduct">IfcWindow</td>
+        <td class="ifctypeproduct"></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Sources</strong>
+* Documentation IFC2x3</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bs-footer text-muted" role="contentinfo">
+  <div class="container">
+    <ul class="bs-footer-links">
+      <li><a href="https://github.com/bimstandards/bimstandards" target="_blank">GitHub</a></li>
+      <li><a href="https://twitter.com/bimstandards" target="_blank">Twitter</a></li>
+      <li><a href="/about.html">A propos</a></li>
+    </ul>
+    <p>Créé par <a href="https://fr.linkedin.com/in/alexandregrignon" target="_blank">Alexandre Grignon</a>.</p>
+    <p>Dernière mise à jour le 10/11/2015. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
+    <p><a href="https://github.com/bimstandards/bimstandards/edit/gh-pages/ifc/classifications/architecture.md">Améliorer cette page</a> (<a href="https://github.com/bimstandards/bimstandards/commits/gh-pages/ifc/classifications/architecture.md">historique des modifications</a>)</p>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/assets/js/tether.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/anchor.min.js"></script>
+<script src="/assets/js/list.min.js"></script>
+<script src="/assets/js/list.fuzzysearch.js"></script>
+
+<script>
+  anchors.options = {
+    placement: 'left',
+    class: 'anchor-link'
+  };
+  anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
+</script>
+
+<script>
+  var options = {
+    valueNames: [ 'name_fr', 'ifcproduct', 'ifctypeproduct' ],
+    plugins: [ ListFuzzySearch() ]
+  };
+  var ifcList = new List('table-searchable', options);
+</script>
+  </body>
+</html>
