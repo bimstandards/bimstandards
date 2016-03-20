@@ -1,0 +1,3781 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>
+  
+    Architecture &middot; BIMstandards
+  
+</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="keywords" content="BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF">
+<meta name="author" content="Alexandre Grignon">
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@BIMstandards">
+<meta name="twitter:creator" content="@a_grignon">
+<meta name="twitter:title" content="BIMstandards - Architecture">
+<meta name="twitter:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta name="twitter:image" content="http://bimstandards.fr/apple-touch-icon.png">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://bimstandards.fr">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BIMstandards - Architecture">
+<meta property="og:image" content="http://bimstandards.fr/apple-touch-icon.png"/>
+<meta property="og:description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta property="og:site_name" content="BIMstandards">
+
+<!-- Social: Google+ / Schema.org  -->
+<meta itemprop="name" content="BIMstandards - Architecture">
+<meta itemprop="description" content="BIMstandards, ressources pour l'interopérabilité et l'openBIM">
+<meta itemprop="image" content="http://bimstandards.fr/apple-touch-icon.png">
+
+<!-- Bootstrap core CSS -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- BIMstandards custom CSS -->
+<link href="/assets/css/bimstandards.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59080519-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+  <body>
+    <header class="navbar navbar-light navbar-static-top" role="banner">
+  
+
+  <div class="clearfix">
+    <button class="navbar-toggler pull-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav">
+      &#9776;
+    </button>
+    <a class="navbar-brand hidden-sm-up" href="/">
+      BIMstandards
+    </a>
+  </div>
+  <div class="collapse navbar-toggleable-xs" id="main-nav">
+    <nav class="nav navbar-nav">
+      <a class="nav-item nav-link " href="/">BIMstandards</a>
+      <a class="nav-item nav-link " href="/openbim.html">openBIM</a>
+      <a class="nav-item nav-link active" href="/ifc/premiers-pas/introduction.html">IFC</a>
+      <a class="nav-item nav-link disabled " href="">Bonnes pratiques (à venir)</a>
+      <a class="nav-item nav-link " href="/outils.html">Outils</a>
+    </nav>
+  </div>
+</header>
+
+    <div class="bs-pageheader">
+      <div class="container">
+        
+  <h1>Classifications</h1>
+  <p class="lead">
+    Connaître, organiser et renseigner les objets de la maquette numérique.
+  </p>
+
+      </div>
+    </div>
+
+    <div class="bs-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-md-push-9">
+            <div class="">
+
+  <nav class="bs-navifc">
+    
+      
+      
+      
+
+      
+
+      <div class="bs-navifc-group ">
+          <a class="bs-navifc-group-title" href="/ifc/premiers-pas/introduction.html">
+          Premiers pas
+        </a>
+
+        <ul class="nav bs-navifc-group-links">
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/premiers-pas/introduction.html">
+                Introduction
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/premiers-pas/concepts.html">
+                Concepts
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/premiers-pas/historique.html">
+                Historique
+              </a>
+
+              
+            </li>
+          
+        </ul>
+      </div>
+    
+      
+      
+      
+
+      
+
+      <div class="bs-navifc-group active">
+          <a class="bs-navifc-group-title" href="/ifc/classifications/toutes.html">
+          Classifications
+        </a>
+
+        <ul class="nav bs-navifc-group-links">
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/classifications/toutes.html">
+                Toutes
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item active bd-sidenav-active">
+              <a class="nav-link" href="/ifc/classifications/architecture.html">
+                Architecture
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/classifications/structure.html">
+                Structure
+              </a>
+
+              
+            </li>
+          
+            
+            
+
+            
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/ifc/classifications/fluides.html">
+                Fluides
+              </a>
+
+              
+            </li>
+          
+        </ul>
+      </div>
+    
+  </nav>
+</div>
+          </div>
+          <div class="col-md-9 col-md-pull-3 bs-content">
+            <h1 class="" id="content">Architecture</h1>
+            <div id="table-searchable" class="table-responsive">
+  <table class="table table-sm table-hover">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon"><i class="fa fa-search"></i></div>
+        <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+      </div>
+    </div>
+    <thead>
+      <tr>
+        <th>Terme français</th>
+        <th>Terme anglais</th>
+        <th>IfcProduct + PredefinedType</th>
+        <th>IfcTypeProduct + PredefinedType</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Poutre</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=beam" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/beam" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Beam
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeam" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBeam
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeamtype beam" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBeamType BEAM
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Solive</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=joist" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/joist" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Joist
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeam" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBeam
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeamtype joist" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBeamType JOIST
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Linteau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=lintel" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/lintel" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Lintel
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeam" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBeam
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeamtype lintel" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBeamType LINTEL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Poutre en T</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=t-beam" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/t-beam" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            T-Beam
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeam" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBeam
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbeamtype t_beam" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBeamType T_BEAM
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=mass" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/mass" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Mass
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Non défini</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=other" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/other" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Other
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Topographique / Terrain</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=topography" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/topography" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Topography
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Arbre</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=tree" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/tree" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Tree
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Cheminée</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=chimney" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/chimney" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Chimney
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plantation</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=planting" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/planting" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Planting
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Route</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=road" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/road" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Road
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Géométrie de site</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=site geometry" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/site geometry" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Site Geometry
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxy" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcBuildingElementProxy
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcbuildingelementproxytype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcBuildingElementProxyType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Poteau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=column" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/column" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Column
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccolumn" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcColumn
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccolumntype column" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcColumnType COLUMN
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=roofing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/roofing" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Roofing
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plinthe</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=baseboard" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/baseboard" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Baseboard
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Revêtement</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=covering" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/covering" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Covering
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Moulure</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=moulding" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/moulding" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Moulding
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plinthe</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=skirting board" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/skirting board" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Skirting Board
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plafond</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=ceiling" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/ceiling" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Ceiling
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering ceiling" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering CEILING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype ceiling" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType CEILING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Bardage</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=cladding" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/cladding" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Cladding
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering cladding" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering CLADDING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype cladding" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType CLADDING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Revêtement de sol</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=flooring" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/flooring" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Flooring
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering flooring" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering FLOORING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype flooring" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType FLOORING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Isolation</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Insulation
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering insulation" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering INSULATION
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType INSULATION
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Manchon (isolation de tuyau)</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=pipe insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/pipe insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Pipe Insulation
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering insulation" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering INSULATION
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype insulation" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType INSULATION
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Membrane d'étanchéité / pare-pluie / écran de sous-toiture</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=membrane" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/membrane" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Membrane
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering membrane" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering MEMBRANE
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype membrane" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType MEMBRANE
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Encoffrement / gaine</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=sleeving" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/sleeving" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Sleeving
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering sleeving" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering SLEEVING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype sleeving" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType SLEEVING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Manchon</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=wrapping" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/wrapping" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Wrapping
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccovering wrappping" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCovering WRAPPPING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccoveringtype wrapping" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCoveringType WRAPPING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur-rideau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=curtain wall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/curtain wall" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Curtain Wall
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccurtainwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCurtainWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccurtainwalltype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCurtainWallType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Système de mur-rideau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=curtain wall system" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/curtain wall system" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Curtain Wall System
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccurtainwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcCurtainWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifccurtainwalltype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcCurtainWallType
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Porte</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=door" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/door" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Door
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcdoor" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcDoor
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcdoorstyle *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcDoorStyle *
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Fondation</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=footing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/footing" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Footing
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Fondation</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=foundation" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/foundation" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Foundation
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Longrine</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=footing beam" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/footing beam" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Footing Beam
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting footing_beam" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting FOOTING_BEAM
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Semelle isolée</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting pad_footing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting PAD_FOOTING
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=pile cap" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/pile cap" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Pile Cap
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting pile_cap" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting PILE_CAP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Semelle filante</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=strip footing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/strip footing" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Strip Footing
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfooting strip_footing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFooting STRIP_FOOTING
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=furniture system" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/furniture system" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Furniture System
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnishingelement" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFurnishingElement
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcsystemfurnitureelementtype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSystemFurnitureElementType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=system furniture element" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/system furniture element" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            System Furniture Element
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnishingelement" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFurnishingElement
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcsystemfurnitureelementtype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSystemFurnitureElementType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mobilier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=furniture" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/furniture" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Furniture
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnishingelement" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFurnishingElement
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnituretype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcFurnitureType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=furniture element" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/furniture element" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Furniture Element
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnishingelement" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcFurnishingElement
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcfurnishingelementtype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcFurnishingElementType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Trame</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=grid" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/grid" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Grid
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcgrid" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcGrid
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Entretoise / contrefiche</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=brace" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/brace" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Brace
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype brace" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType BRACE
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Corde (poutre treillis)</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=chord" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/chord" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Chord
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype chord" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType CHORD
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Entrait</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=collar" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/collar" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Collar
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype collar" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType COLLAR
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Ossature / montant</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=member" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/member" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Member
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype member" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType MEMBER
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Meneau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=mullion" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/mullion" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Mullion
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype mullion" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType MULLION
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plat</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=plate" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/plate" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Plate
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype plate" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType PLATE
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Poinçon</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=post" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/post" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Post
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype post" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType POST
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Panne</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=purlin" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/purlin" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Purlin
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype purlin" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType PURLIN
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Arbalétrier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=rafter" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/rafter" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Rafter
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype rafter" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType RAFTER
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Limon</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=stringer" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/stringer" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Stringer
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype stringer" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType STRINGER
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Contrefiche ?</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=strut" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/strut" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Strut
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype strut" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType STRUT
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Montant</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=stud" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/stud" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Stud
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmember" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcMember
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcmembertype stud" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcMemberType STUD
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Pieu</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=pile" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/pile" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Pile
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcpile" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcPile
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Panneau de mur-rideau</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=curtain wall panel" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/curtain wall panel" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Curtain Wall Panel
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplate" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcPlate
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplatetype curtain_panel" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcPlateType CURTAIN_PANEL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=plate" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/plate" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Plate
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplate" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcPlate
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplatetype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcPlateType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=sheet" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/sheet" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Sheet
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplate" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcPlate
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcplatetype sheet" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcPlateType SHEET
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Balustrade</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=balustrade" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/balustrade" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Balustrade
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRailing
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailingtype balustrade" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRailingType BALUSTRADE
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Garde-corps</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=guardrail" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/guardrail" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Guardrail
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRailing
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailingtype guardrail" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRailingType GUARDRAIL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Main-courante</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=handrail" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/handrail" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Handrail
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRailing
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailingtype handrail" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRailingType HANDRAIL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=railing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/railing" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Railing
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRailing
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrailingtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRailingType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=ramp" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/ramp" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Ramp
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe droite</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp straight_run_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp STRAIGHT_RUN_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe avec palier intermédiaire</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp two_straight_run_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp TWO_STRAIGHT_RUN_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe quart tournant (1 palier intermédiaire)</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp quarter_turn_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp QUARTER_TURN_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe double quart tournant (2 paliers intermédiaires)</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp two_quarter_turn_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp TWO_QUARTER_TURN_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe double quart tournant (1 palier intermédiaire)</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp half_turn_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp HALF_TURN_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Rampe en spirale</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcramp spiral_ramp" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRamp SPIRAL_RAMP
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Volée de rampe</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=ramp flight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/ramp flight" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Ramp Flight
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRampFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflighttype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRampFlightType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Volée de rampe droite</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRampFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflighttype straight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRampFlightType STRAIGHT
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Volée de rampe à spirale</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRampFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrampflighttype spiral" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRampFlightType SPIRAL
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture terrasse</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype flat_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType FLAT_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à un versant (appentis)</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype shed_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType SHED_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à deux versants</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype gable_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType GABLE_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à quatre versants égaux</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype hip_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType HIP_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à deux pans en croupe</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype hipped_gable_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType HIPPED_GABLE_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à deux pans avec ligne de bris</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype gambrel_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType GAMBREL_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toit à la mansard</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype mansard_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType MANSARD_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Voûte plein-cintre</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype barrel_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType BARREL_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Voûte brisée</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype rainbow_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType RAINBOW_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture papillon</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype butterfly_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType BUTTERFLY_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à 4 pans égaux</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype pavilion_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType PAVILION_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Dôme</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype dome_roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType DOME_ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture à forme libre</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcroof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcRoof
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcrooftype freeform" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcRoofType FREEFORM
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Dalle</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=slab" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/slab" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Slab
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslab" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSlab
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslabtype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSlabType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Radier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=base slab" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/base slab" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Base Slab
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslab baseslab" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSlab BASESLAB
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslabtype baseslab" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSlabType BASESLAB
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Plancher</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=floor" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/floor" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Floor
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslab floor" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSlab FLOOR
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslabtype floor" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSlabType FLOOR
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Palier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=landing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/landing" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Landing
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslab landing" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSlab LANDING
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslabtype landing" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSlabType LANDING
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Toiture</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/roof" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Roof
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslab roof" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSlab ROOF
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcslabtype roof" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSlabType ROOF
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Zone</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=area" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/area" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Area
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspace" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSpace
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspacetype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSpaceType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Espace</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=space" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/space" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Space
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspace" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSpace
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspacetype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSpaceType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Pièce</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=room" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/room" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Room
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspace" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcSpace
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcspacetype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcSpaceType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=stair" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/stair" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Stair
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=n/a" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            n/a
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier droit</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair straight_run_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair STRAIGHT_RUN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier droit avec palier intermédiaire</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair two_straight_run_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair TWO_STRAIGHT_RUN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair quarter_winding_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair QUARTER_WINDING_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier quart tournant</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair quarter_turn_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair QUARTER_TURN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier balancé</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair half_winding_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair HALF_WINDING_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair half_turn_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair HALF_TURN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair two_quarter_winding_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair TWO_QUARTER_WINDING_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair two_quarter_turn_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair TWO_QUARTER_TURN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair three_quarter_winding_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair THREE_QUARTER_WINDING_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair three_quarter_turn_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair THREE_QUARTER_TURN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier hélicoïdal</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair spiral_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair SPIRAL_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair double_return_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair DOUBLE_RETURN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair curved_run_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair CURVED_RUN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstair two_curved_run_stair" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStair TWO_CURVED_RUN_STAIR
+          </td>
+          <td class="ifctypeproduct">
+            
+            
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Volée d'escalier</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=stair flight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/stair flight" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Stair Flight
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Volée d'escalier droite</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype straight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType STRAIGHT
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype winder" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType WINDER
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype spiral" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType SPIRAL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype curved" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType CURVED
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b></b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflight" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcStairFlight
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcstairflighttype freeform" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcStairFlightType FREEFORM
+          </td>
+        </tr>
+        
+      
+        
+      
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Tapis roulant</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=moving walkway" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/moving walkway" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Moving Walkway
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctranportelement movingwalkway" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcTranportElement MOVINGWALKWAY
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelementtype movingwalkway" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcTransportElementType MOVINGWALKWAY
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Elément de transport</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=transport element" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/transport element" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Transport Element
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelement *" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcTransportElement *
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelementtype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcTransportElementType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Ascenseur</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=elevator" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/elevator" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Elevator
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelement elevator" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcTransportElement ELEVATOR
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelementtype elevator" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcTransportElementType ELEVATOR
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Escalier mécanique</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=escalator" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/escalator" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Escalator
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelement escalator" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcTransportElement ESCALATOR
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifctransportelementtype escalator" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcTransportElementType ESCALATOR
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Cloison</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=bulkhead" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/bulkhead" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Bulkhead
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Coffrage de sanitaires</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=plumbing wall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/plumbing wall" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Plumbing Wall
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype plumbingwall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType PLUMBINGWALL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur avec fruit</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=shear wall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/shear wall" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Shear Wall
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype shear" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType SHEAR
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur à épaisseur constante dans la longueur</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype standard" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType STANDARD
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur à épaisseur variable dans la longueur</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype polygonal" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType POLYGONAL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur composé de différents éléments (ex: ossature bois)</b></td>
+          <td class="en_gb">
+            
+            
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype elementedwall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType ELEMENTEDWALL
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Mur</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=wall" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/wall" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Wall
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwall" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWall
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwalltype *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWallType *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Fenêtre</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=window" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/window" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Window
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindow" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWindow
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindowstyle *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWindowStyle *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Chassis vitré</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=glazed screen" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/glazed screen" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Glazed Screen
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindow" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWindow
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindowstyle *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWindowStyle *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Fenêtre de toit</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=rooflight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/rooflight" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Rooflight
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindow" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWindow
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindowstyle *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWindowStyle *
+          </td>
+        </tr>
+        
+      
+        
+        <tr>
+          <td class="fr_fr"><b>Verrière</b></td>
+          <td class="en_gb">
+            
+              <a href="https://www.google.fr/search?q=skylight" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/skylight" target="_blank" data-proofer-ignore=""><i class="fa fa-globe"></i></a>
+            
+            Skylight
+          </td>
+          <td class="ifcproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindow" target="_blank"><i class="fa fa-search" data-proofer-ignore=""></i></a>
+            
+            IfcWindow
+          </td>
+          <td class="ifctypeproduct">
+            
+              <a href="https://www.google.fr/search?q=ifcwindowstyle *" target="_blank" data-proofer-ignore=""><i class="fa fa-search"></i></a>
+            
+            IfcWindowStyle *
+          </td>
+        </tr>
+        
+      
+        
+      
+    </tbody>
+  </table>
+</div>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li><a href="http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm">Documentation IFC2x3-TC1</a></li>
+  <li><a href="http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/">IFC 2×3 element and type classification – The plain language A-Z list</a></li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bs-footer text-muted" role="contentinfo">
+  <div class="container">
+    <ul class="bs-footer-links">
+      <li><a href="https://github.com/bimstandards/bimstandards" target="_blank">GitHub</a></li>
+      <li><a href="https://twitter.com/bimstandards" target="_blank">Twitter</a></li>
+      <li><a href="/about.html">A propos</a></li>
+    </ul>
+    <p>Créé par <a href="https://fr.linkedin.com/in/alexandregrignon" target="_blank">Alexandre Grignon</a>.</p>
+    <p>v0.1.0-beta.1. Dernière mise à jour le 20/03/2016. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
+    <p><a href="https://github.com/bimstandards/bimstandards/edit/gh-pages/ifc/classifications/architecture.md">Améliorer cette page</a> (<a href="https://github.com/bimstandards/bimstandards/commits/gh-pages/ifc/classifications/architecture.md">historique des modifications</a>)</p>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/assets/js/tether.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/toc.js"></script>
+<!-- <script src="/assets/js/anchor.min.js"></script> -->
+<script src="/assets/js/list.min.js"></script>
+<script src="/assets/js/list.fuzzysearch.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc({ headers: 'h1, h2' });
+  });
+</script>
+
+<!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+<script type="text/javascript">
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+<!-- <script>
+  anchors.options = {
+    placement: 'left',
+    class: 'anchor-link'
+  };
+  anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
+</script> -->
+
+<script>
+  var options = {
+    valueNames: [ 'fr_fr', 'ifcproduct', 'ifctypeproduct' ],
+    plugins: [ ListFuzzySearch() ]
+  };
+  var ifcList = new List('table-searchable', options);
+</script>
+
+  </body>
+</html>
