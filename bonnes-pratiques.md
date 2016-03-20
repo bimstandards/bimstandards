@@ -266,11 +266,14 @@ Il est possible de définir des relations entre plusieurs locaux à l'aide de la
 
 ## Géoréférencement
 
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
+  Section à corriger en fonction de l'IDM <a href="http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf">"Géographical Referencing"</a>.
+</div>
+
 Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques.
 
 Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes, ce qui permettra de le situer facilement. Ou bien à une coordonnée géographique "ronde". Un volume 3D identifiable pourra être placé sur le point zéro afin de permettre un recollage facile des modèles numériques.
-
-Voir aussi : [http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf](http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf)
 
 Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculairement au Nord, avec flèche vers le nord géographique.
 
@@ -312,13 +315,21 @@ Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiq
 * En cas de doute, modéliser comme on construit.
 * Murs en un bloc.
 
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
+  Indiquer les dépendances d'étages.
+</div>
+
 ![capture](/assets/img/bp_assemblages.png)
 
 ## Catégories d'objets
 
 Voir [classifications `IfcProduct`](http://bimstandards.fr/ifc/classifications/toutes.html).
 
-Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif.
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
+  Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif.
+</div>
 
 Voir page spécifique pour plus de détails sur les `IfcTypeProduct` et `PredefinedType`.
 
@@ -332,9 +343,10 @@ Pour les réseaux (`IfcSystem`).
 
 # 3. Usages-métiers
 
-Voir cas d'usage définis par Mediaconstruct.
-
-http://bimetric.list.lu/wp-content/uploads/2015/09/LISTE_CAS_-DUSAGE.pdf
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
+  Recouper avec les <a href="http://bimetric.list.lu/wp-content/uploads/2015/09/LISTE_CAS_-DUSAGE.pdf">cas d'usage Mediaconstruct</a>.
+</div>
 
 ## Maîtrise d'ouvrage
 
