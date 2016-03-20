@@ -7,6 +7,12 @@
 <loc>/ifc/classifications/architecture.html</loc>
 </url>
 <url>
+<loc>/bonnes-pratiques.html</loc>
+</url>
+<url>
+<loc>/ifc/premiers-pas/concepts.html</loc>
+</url>
+<url>
 <loc>/ifc/classifications/fluides.html</loc>
 </url>
 <url>
@@ -26,5 +32,8 @@
 </url>
 <url>
 <loc>/ifc/classifications/structure.html</loc>
+</url>
+<url>
+<loc>/ifc/classifications/toutes.html</loc>
 </url>
 </urlset>
