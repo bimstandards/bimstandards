@@ -6,7 +6,7 @@
       <li><a href="{{ site.baseurl }}/about.html">A propos</a></li>
     </ul>
     <p>Créé par <a href="https://fr.linkedin.com/in/alexandregrignon" target="_blank">Alexandre Grignon</a>.</p>
-    <p>Dernière mise à jour le {{ site.latest_update }}. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
+    <p>{{ site.version }}. Dernière mise à jour le {{ site.latest_update }}. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
     <p><a href="https://github.com/bimstandards/bimstandards/edit/gh-pages/{{ page.path }}">Améliorer cette page</a> (<a href="https://github.com/bimstandards/bimstandards/commits/gh-pages/{{ page.path }}">historique des modifications</a>)</p>
   </div>
 </footer>
@@ -14,21 +14,46 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/toc.js"></script>
+<!-- <script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script> -->
 <script src="{{ site.baseurl }}/assets/js/list.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/list.fuzzysearch.js"></script>
 
-<script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc({ headers: 'h1, h2' });
+  });
+</script>
+
+<!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+<script type="text/javascript">
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+<!-- <script>
   anchors.options = {
     placement: 'left',
     class: 'anchor-link'
   };
   anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
-</script>
+</script> -->
 
 <script>
   var options = {
-    valueNames: [ 'name_fr', 'ifcproduct', 'ifctypeproduct' ],
+    valueNames: [ 'fr_fr', 'ifcproduct', 'ifctypeproduct' ],
     plugins: [ ListFuzzySearch() ]
   };
   var ifcList = new List('table-searchable', options);

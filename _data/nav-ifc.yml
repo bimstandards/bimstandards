@@ -1,10 +1,12 @@
 - title: Premiers pas
   pages:
     - title: Introduction
+    - title: Concepts
     - title: Historique
 
 - title: Classifications
   pages:
+    - title: Toutes
     - title: Architecture
     - title: Structure
     - title: Fluides
