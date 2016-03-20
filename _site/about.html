@@ -41,6 +41,9 @@
 <!-- BIMstandards custom CSS -->
 <link href="/assets/css/bimstandards.css" rel="stylesheet">
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" href="/favicon.ico">
@@ -71,6 +74,7 @@
       <a class="nav-item nav-link " href="/">BIMstandards</a>
       <a class="nav-item nav-link " href="/openbim.html">openBIM</a>
       <a class="nav-item nav-link " href="/ifc/premiers-pas/introduction.html">IFC</a>
+      <a class="nav-item nav-link disabled " href="">Bonnes pratiques (à venir)</a>
       <a class="nav-item nav-link " href="/outils.html">Outils</a>
     </nav>
   </div>
@@ -87,10 +91,10 @@
       </div>
     </div>
 
-    <div class="bs-content">
+    <div class="bs-main">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 bs-content">
             <h1 id="qui-">Qui ?</h1>
 
 <p>Ce site est développé et mis à jour par <a href="https://fr.linkedin.com/in/alexandregrignon">Alexandre Grignon</a>, architecte et BIM manager à <a href="http://www.forma6.net">forma6</a>, diplômé de la première promotion du <a href="http://www.enpc.fr/node/12839">Mastère Spécialisé BIM</a> codirigé par l’Ecole des Ponts et l’ESTP.</p>
@@ -137,7 +141,7 @@
       <li><a href="/about.html">A propos</a></li>
     </ul>
     <p>Créé par <a href="https://fr.linkedin.com/in/alexandregrignon" target="_blank">Alexandre Grignon</a>.</p>
-    <p>Dernière mise à jour le 10/11/2015. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
+    <p>v0.1.0-beta.1. Dernière mise à jour le 20/03/2016. Licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0</a>.</p>
     <p><a href="https://github.com/bimstandards/bimstandards/edit/gh-pages/about.md">Améliorer cette page</a> (<a href="https://github.com/bimstandards/bimstandards/commits/gh-pages/about.md">historique des modifications</a>)</p>
   </div>
 </footer>
@@ -145,24 +149,50 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="/assets/js/tether.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/anchor.min.js"></script>
+<script src="/assets/js/toc.js"></script>
+<!-- <script src="/assets/js/anchor.min.js"></script> -->
 <script src="/assets/js/list.min.js"></script>
 <script src="/assets/js/list.fuzzysearch.js"></script>
 
-<script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc({ headers: 'h1, h2' });
+  });
+</script>
+
+<!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+<script type="text/javascript">
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+<!-- <script>
   anchors.options = {
     placement: 'left',
     class: 'anchor-link'
   };
   anchors.add('.bs-content h1, .bs-content h2, .bs-content h3');
-</script>
+</script> -->
 
 <script>
   var options = {
-    valueNames: [ 'name_fr', 'ifcproduct', 'ifctypeproduct' ],
+    valueNames: [ 'fr_fr', 'ifcproduct', 'ifctypeproduct' ],
     plugins: [ ListFuzzySearch() ]
   };
   var ifcList = new List('table-searchable', options);
 </script>
+
   </body>
 </html>
