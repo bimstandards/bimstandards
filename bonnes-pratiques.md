@@ -17,10 +17,10 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 ## Formats d'échanges
 Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
-{% collapse Vérifier la version d'un fichier IFC %}
+{% include collapse-open.html titre="Vérifier la version d'un fichier IFC" %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
 ![capture](/assets/img/bp_ifc_version.png)
-{% endcollapse %}
+{% include collapse-close.html %}
 
 ## Classifications d'objets
 
@@ -30,21 +30,21 @@ Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car
 
 Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
-{% collapse Allplan : attribution des classifications IFC %}
+<!-- {% collapse Allplan : attribution des classifications IFC %} -->
 à venir...
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
-{% collapse Archicad : attribution des classifications IFC %}
+<!-- {% collapse Archicad : attribution des classifications IFC %} -->
 Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" permet de définir le "type IFC".
 
 Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automatiquement le Type IFC "IfcWallStandardCase".
 
 ![capture](/assets/img/bp_ifc_classification_archicad.png)
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
-{% collapse Revit : attribution des classifications IFC %}
+<!-- {% collapse Revit : attribution des classifications IFC %} -->
 à venir...
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](#echanges-ifc) de maquettes.
 
@@ -130,13 +130,13 @@ Les éléments `IfcProduct` peuvent être contenues dans un niveau (`IfcBuilding
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
 
-{% collapse Archicad : activer les relations spatiales %}
+<!-- {% collapse Archicad : activer les relations spatiales %} -->
 Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
 
 ![capture](/assets/img/bp_archicad_contenu_spatial.png)
 
 Il est possible de visualiser l'arborescence IFC en allant dans le "Gestionnaire IFC" (Fichier > Fichier spécial > IFC 2x3 > Gestionnaire IFC).
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 ### Projet
 
@@ -200,7 +200,7 @@ La codification des niveaux est établie par des codes à 2 caractères dans le 
 
 Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
 
-{% collapse Archicad : configurer des niveaux %}
+<!-- {% collapse Archicad : configurer des niveaux %} -->
 Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". Le nom renseigné à cet endroit correspond au "code" de niveau à 2 caractères.
 
 Le nom complet (`IfcBuildingStorey.LongName`) doit être renseigné dans le Gestionnaire IFC.
@@ -208,7 +208,7 @@ Le nom complet (`IfcBuildingStorey.LongName`) doit être renseigné dans le Gest
 ![capture](/assets/img/bp_archicad_niveaux.png)
 
 On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs des objets `IfcBuildingStorey`.
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 ### Locaux
 
@@ -252,17 +252,17 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
   </table>
 </div>
 
-{% collapse Archicad : configurer les locaux (zones) %}
+<!-- {% collapse Archicad : configurer les locaux (zones) %} -->
 En utilisant la marque de zone Archicad par défaut, les informations basiques (code et nom de local) sont automatiquement transférées dans les bons attributs IFC, comme on peut le voir dans le *Gestionnaire IFC*.
 
 ![capture](/assets/img/bp_archicad_zone.png)
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu). Un même local peut appartenir à plusieurs zones.
 
-{% collapse Archicad : créer des relations entre locaux (zones) %}
+<!-- {% collapse Archicad : créer des relations entre locaux (zones) %} -->
 à venir...
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 ## Géoréférencement
 
@@ -286,7 +286,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
-{% collapse Archicad : configurer les coordonnées géographiques %}
+<!-- {% collapse Archicad : configurer les coordonnées géographiques %} -->
 Les coordonnées doivent être renseignées dans la fenêtre "Emplacement Projet..." (menu : Options > Préférences Projet > Emplacement Projet...).
 
 Les informations qui seront intégrées à l'IFC sont "Latitude", "Longitude" et "Altitude (Niveau de la mer)".
@@ -294,7 +294,7 @@ Les informations qui seront intégrées à l'IFC sont "Latitude", "Longitude" et
 ![capture](/assets/img/bp_archicad_emplacement_projet.png)
 
 On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs de l'objet `IfcSite`.
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
 
@@ -304,11 +304,11 @@ Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), co
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
-{% collapse Archicad : outil grille %}
+<!-- {% collapse Archicad : outil grille %} -->
 Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiquement convertis dans la classe `IfcGridAxis`. En revanche, il est normal qu'ils n'apparaissent pas dans le *Gestionnaire IFC*.
 
 ![capture](/assets/img/bp_archicad_grille.png)
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 ## Méthode de modélisation
 
@@ -371,16 +371,16 @@ La conception structurelle en processus BIM fait intervenir deux types de modél
 
 Dans un processus de conception classique, l'architecte est le premier intervenant à dessiner un principe structurel, qu'il transmettra ensuite à l'ingénieur structure. Il faut donc veiller à respecter au maximum la conception filaire de la structure.
 
-{% collapse Archicad : définition des axes structurels %} à venir... {% endcollapse %}
+<!-- {% collapse Archicad : définition des axes structurels %} à venir... {% endcollapse %} -->
 
 Pour chaque objet du domaine structure, renseigner à minima les attributs suivants :
 
 * `LoadBearing = true` (pour les objets `IfcSlab`, `IfcWall`, `IfcColumn`)
 * `IfcMaterial.Name`
 
-{% collapse Archicad : Vérifier les attributs %}
+<!-- {% collapse Archicad : Vérifier les attributs %} -->
 à venir...
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 ## Thermique
 
@@ -430,13 +430,13 @@ En cas de remise d'une maquette IFC à un concours placé sous anonymat, il est 
 
 Généralement, les informations personnelles peuvent être contenues aux lignes `FILE_NAME`, `IFCPERSON`, `IFCACTORROLE`, `IFCPOSTALADDRESS`, `IFCTELECOMADDRESS`, `IFCORGANIZATION`, `IFCPERSONANDORGANIZATION`, `IFCOWNERHISTORY`.
 
-{% collapse Vérifier l'anonymat avec un éditeur de texte %}
+<!-- {% collapse Vérifier l'anonymat avec un éditeur de texte %} -->
 Après l'export du fichier IFC, l'ouvrir avec un éditeur de texte basique type "Bloc-notes" sur Windows ou "TextEdit" sur Mac.
 
 Identifier, éventuellement en effectuant une recherche de texte, les lignes pouvant contenir des informations sur l'émetteur du fichier. **Attention** à ne pas supprimer ces lignes (sous peine de corrompre le fichier) mais plutôt à remplacer les informations non désirées par des caractères anonymes.
 
 ![anonymat](/assets/img/bp_ifc_anonymat.png)
-{% endcollapse %}
+<!-- {% endcollapse %} -->
 
 # 5. Sources
 
