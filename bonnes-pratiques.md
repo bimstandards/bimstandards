@@ -142,11 +142,15 @@ Il est possible de visualiser l'arborescence IFC en allant dans le "Gestionnaire
 
 La classe `IfcProject` est le plus haut niveau de l'arborescence d'un fichier IFC.
 
+Tous les fichiers d'un projet doivent adopter le même `GUID` et le même attribut `Name` sous la classe `IfcProject`. Il est conseillé d'utiliser le `GUID` du fichier de l'architecte. Si le logiciel-métier ne permet pas de préserver le `GUID`, on peut se contenter de l'attribut `Name`.
+
 ### Site
 
-La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`).
+La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`). Un seul objet `IfcSite` peut être contenu dans le projet (`IfcProject`).
 
-Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de parcelle cadastre dans le champ `IfcSite.LandTitleNumber`.
+Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de parcelle cadastrale dans le champ `IfcSite.LandTitleNumber`.
+
+Tout comme pour l'`IfcProject`, l'objet `IfcSite` doit posséder un `GUID` et `Name` identiques dans tous les fichiers IFC.
 
 Cette classe défini notamment le [géoréférencement](#gorfrencement) du projet.
 
@@ -154,7 +158,7 @@ Cette classe défini notamment le [géoréférencement](#gorfrencement) du proje
 
 La classe `IfcBuilding` regroupe l'ensemble des objets formant le bâtiment.
 
-Un numéro de bâtiment peut être indiqué dans le champ `Pset_BuildingCommon.BuildingID`.
+Un numéro de bâtiment peut être indiqué dans le champ `Pset_BuildingCommon.BuildingID`, tandis que le nom du bâtiment est inclus dans le champ `IfcBuilding.Name`.
 
 ### Niveaux
 
@@ -444,7 +448,7 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 
 * [documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
 * [documentation IFC4-Add1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
-* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf)
+* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf) (page 23)
 * [COBIM 2012](http://www.en.buildingsmart.kotisivukone.com/3)
 * [AEC (UK) BIM Protocol v2.0](https://aecuk.wordpress.com/documents/)
 * [Allplan BIM Compendium Theory and Practice](https://www.allplan.com/fileadmin/user_upload/_corp/Home/Aktionsseiten/BIM_Leitfaden/EN/Allplan_BIM_Compendium.pdf)
