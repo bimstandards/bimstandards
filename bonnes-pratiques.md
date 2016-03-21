@@ -19,7 +19,7 @@ Les modèles de données doivent pouvoir être échangés au travers du format *
 
 {% include collapse-open.html titre="Vérifier la version d'un fichier IFC" %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
-![capture](/assets/img/bp_ifc_version.png)
+![capture]({{ site.url }}/assets/img/bp_ifc_version.png)
 {% include collapse-close.html %}
 
 ## Classifications d'objets
@@ -291,7 +291,7 @@ Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes
 
 Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculairement au Nord, avec flèche vers le nord géographique.
 
-![capture](/assets/img/bp_archicad_point_zero.png)
+![capture]({{ site.url }}/assets/img/bp_archicad_point_zero.png)
 
 {% include callout-open.html param="danger" %}
 **Attention !:**
