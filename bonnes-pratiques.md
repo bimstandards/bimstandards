@@ -7,10 +7,10 @@ title: Bonnes pratiques
   <strong>Attention !</strong> Cette page est en cours d'élaboration. Certaines sections peuvent être incomplètes. N'hésitez à apporter votre contribution, notamment pour l'implémentation dans les logiciels-métiers, en cliquant sur le lien en bas de page.
 </div>
 
-{% include callout-open.html param="warning" %}
+{% include callout-open.md param="warning" %}
 **Préambule :**
 Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adopter pour l'élaboration d'un projet BIM, en terme de modélisation et de renseigner de la maquette numérique ; il peut constituer une base de "**cahier des charges BIM**" orienté "convention de modélisation". Ce guide ne constitue en aucun cas une réalité absolue, mais plutôt une base commune à enrichir ; chaque projet impliquant des spécificités.
-{% include callout-close.html %}
+{% include callout-close.md %}
 
 # 1. Principes généraux
 
@@ -293,10 +293,10 @@ Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculair
 
 ![capture]({{ site.url }}/assets/img/bp_archicad_point_zero.png)
 
-{% include callout-open.html param="danger" %}
+{% include callout-open.md param="danger" %}
 **Attention !:**
 La modélisation doit projet doit se situer à proximité du point zéro pour éviter des abberations géométriques.
-{% include callout-close.html %}
+{% include callout-close.md %}
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
@@ -441,10 +441,10 @@ Paramètres d'export IFC à vérifier :
 
 En fonction du cas d'usage correspondant à l'échange de fichier IFC, il est conseillé d'utiliser un MVD.
 
-{% include callout-open.html param="danger" %}
+{% include callout-open.md param="danger" %}
 **Note :**
 Après l'export, il est conseillé d'ouvrir le fichier IFC dans une visionneuse (Solibri, Tekla BIMsight) afin de vérifier que la géométrie et les données sont correctes.
-{% include callout-close.html %}
+{% include callout-close.md %}
 
 ## Anonymat
 
