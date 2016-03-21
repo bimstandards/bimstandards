@@ -1,6 +1,6 @@
 <div class="card">
-  <div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#{{ include.titre | xml_escape }}" aria-expanded="false" aria-controls="{{ include.titre | xml_escape }}">
+  <div class="card-header dropdown-toggle" data-toggle="collapse" data-target="#{{ include.titre | slugify }}" aria-expanded="false" aria-controls="{{ include.titre | slugify }}">
     <i class="fa fa-info-circle"></i> {{ include.titre }}
   </div>
-  <div class="card-block collapse" id="{{ include.titre | xml_escape }}">
+  <div class="card-block collapse" id="{{ include.titre | slugify }}">
     <p class="card-text" markdown="1">
