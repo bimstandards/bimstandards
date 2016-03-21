@@ -7,7 +7,7 @@ title: Bonnes pratiques
   <strong>Attention !</strong> Cette page est en cours d'élaboration. Certaines sections peuvent être incomplètes. N'hésitez à apporter votre contribution, notamment pour l'implémentation dans les logiciels-métiers, en cliquant sur le lien en bas de page.
 </div>
 
-{% include callout-open.md param="warning" %}
+{% include callout-open.md param="warning" | markdownify %}
 **Préambule :**
 Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adopter pour l'élaboration d'un projet BIM, en terme de modélisation et de renseigner de la maquette numérique ; il peut constituer une base de "**cahier des charges BIM**" orienté "convention de modélisation". Ce guide ne constitue en aucun cas une réalité absolue, mais plutôt une base commune à enrichir ; chaque projet impliquant des spécificités.
 {% include callout-close.md %}
