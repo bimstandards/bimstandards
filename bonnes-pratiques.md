@@ -96,6 +96,38 @@ Les systèmes (`IfcSystem`) combinent plusieurs parties d'un ensemble destiné �
 
 ## Propriétés d'objets
 
+Les propriétés d'objets se présentent de 3 manières :
+* des attributs généraux normalisés : Nom, Description, GUID
+* des jeux de propriétés ("Property Sets") également normalisés par l'IFC, spécifiques aux types d'objets
+* des jeux de propriétés personnalisés par l'utilisateur, pour couvrir des besoins d'échange non prévus par la norme.
+
+Par exemple pour un mur :
+
+~~~
+IfcWallStandardCase
+  Attributes (attributs généraux normalisés)
+    > GlobalId
+    > Name
+    > Description
+    > ObjectType
+  Pset_WallCommon (propriétés normalisés)
+    > AcousticRating
+    > Combustible
+    > Compartmentation
+    > ExtendToStructure
+    > FireRating
+    > IsExternal
+    > LoadBearing
+    > Reference
+    > SurfaceSpreadOfFlame
+    > ThermalTransmittance
+  F6_Pset_Economiste (propriétés personnalisées)
+    > CodeCctp
+    > Nomenclature
+~~~
+
+Il est conseillé d'utiliser au maximum les jeux de propriétés normalisés afin de faciliter les échanges.
+
 Bien qu'il existe une multitude de propriétés possibles sur chaque objet, il est conseillé de renseigner à minima les propriétés suivantes :
 * `Name` : nom de l'occurrence
 * `IsExternal` : permet de définir si l'objet fait partie de l'enveloppe du bâtiment (toitures, mur, portes, fenêtres) ; valeur `TRUE` ou `FALSE`
@@ -398,7 +430,7 @@ L'utilisation de la maquette numérique pour l'économie du projet nécessite pl
 
 * pour la **quantification**, veiller à utiliser les commandes logicielles correspondants aux bonnes [catégories d'objets](#catgories-dobjets) pour conserver la logique géométrique permettant l'extraction de quantités.
 * pour le découpage du projet en **ouvrages**, il est conseillé d'utiliser une classification adaptée, soit dans le nom de l'objet, soit dans le champ `IfcClassificationReference`. On pourra par exemple utiliser la classification *Uniformat II* qui répond également aux besoins de gestion de patrimoine, ou une classification propre à l'équipe de maîtrise d'oeuvre.
-* pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les *"Property Sets"* adaptés. On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
+* pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les ["Property Sets" adaptés](#proprits-dobjets). On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
 
 ## Structure
 
@@ -432,11 +464,13 @@ La modélisation pour l'analyse énergétique est la problématique d'échanges 
 
 ## Gestion de patrimoine
 
-La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour l'organisation des données non-graphiques. Parmi ces classifications, on peut citer :
+La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques. Parmi ces classifications, on peut citer :
 
 * Uniformat (US)
 * Omniclass
 * Uniclass (UK)
+
+Le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
 
 La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpace`). En effet, cet objet peut contenir un certain nombre de propriétés utiles :
 
