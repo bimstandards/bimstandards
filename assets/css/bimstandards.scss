@@ -19,23 +19,23 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   padding: 6rem 0;
   background-color: $bs-primary-color;
   text-align: center;
-  .lead1 {
+  .display-1 {
     font-size: 3rem;
     color: $bs-primary-color-soft;
   }
-  .lead2 {
-    font-size: 1.8rem;
+  .display-2 {
+    font-size: 2rem;
     color: white;
   }
 }
 
 .bs-featurette {
   margin-top: 3rem;
-  h4 {
-    
-  }
   p {
     color: #555;
+  }
+  .col-sm-4 {
+    margin-bottom: $spacer*2;
   }
 }
 
