@@ -7,16 +7,24 @@
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
+@media (max-width: 33.9em) {
+  #main-nav {
+    .nav-link {
+      float: none;
+    }
+  }
+}
+
 .bs-masthead {
   padding: 6rem 0;
   background-color: $bs-primary-color;
   text-align: center;
   .lead1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: $bs-primary-color-soft;
   }
   .lead2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
   }
 }
