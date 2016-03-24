@@ -87,6 +87,7 @@ Chaque objet de la maquette possède également un identifiant unique (GUID) du 
 Les types (`IfcTypeObject`) permettent de regrouper les objets possédants des caractéristiques communes. Pour éviter des saisies multiples au niveau des occurrences, on inscrira de préférence les propriétés au niveau du type (par exemple : nom du fabricant, matériau, etc.)
 
 Chaque catégorie IFC possède un type associé, par exemple pour une poutre :
+
 * `IfcBeam` (occurrence)
 * `IfcBeamType` (type).
 
@@ -97,6 +98,7 @@ Les systèmes (`IfcSystem`) combinent plusieurs parties d'un ensemble destiné �
 ## Propriétés d'objets
 
 Les propriétés d'objets se présentent de 3 manières :
+
 * des attributs généraux normalisés : Nom, Description, GUID
 * des jeux de propriétés ("Property Sets") également normalisés par l'IFC, spécifiques aux types d'objets
 * des jeux de propriétés personnalisés par l'utilisateur, pour couvrir des besoins d'échange non prévus par la norme.
@@ -129,6 +131,7 @@ IfcWallStandardCase
 Il est conseillé d'utiliser au maximum les jeux de propriétés normalisés afin de faciliter les échanges.
 
 Bien qu'il existe une multitude de propriétés possibles sur chaque objet, il est conseillé de renseigner à minima les propriétés suivantes :
+
 * `Name` : nom de l'occurrence
 * `IsExternal` : permet de définir si l'objet fait partie de l'enveloppe du bâtiment (toitures, mur, portes, fenêtres) ; valeur `TRUE` ou `FALSE`
 * `LoadBearing` : permet de définir si l'objet est structurel ; valeur `TRUE` ou `FALSE`.
