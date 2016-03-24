@@ -22,13 +22,13 @@ En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifi
 ![capture](/assets/img/bp_ifc_version.png)
 {% include collapse-close.html %}
 
-## Classifications d'objets
+## Catégories d'objets
 
 De manière générale, les éléments du bâti seront modélisés avec les outils adéquats dans les logiciels-métiers. Par exemple, bien utiliser l'outil "poteau" pour un objet `IfcColumn`.
 
 Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations. L'utilisation des objets "proxy" (`IfcBuildingElementProxy`) devra être évitée au maximum ; en cas d'utilisation, le nom de l'objet (`IfcBuildingElementProxy.Name`) explicitera la qualité de l'objet en question.
 
-Chaque intervenant veillera donc à bien renseigner le type IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
+Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](http://bimstandards.fr/ifc/classifications/architecture.html).
 
 {% include collapse-open.html titre="Allplan : attribution des classifications IFC" %}
 à venir...
@@ -46,7 +46,92 @@ Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automati
 à venir...
 {% include collapse-close.html %}
 
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
+  Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif. A insérer à partir d'un fichier .csv du dossier data, pour ne pas alourdir la page.
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+      <th>Catégorie d'objet / Ouvrage</th>
+      <th>Classe IFC</th>
+      <th>ESQ</th>
+      <th>APS</th>
+      <th>APD</th>
+      <th>PRO</th>
+      <th>EXE</th>
+      <th>DOE</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Site</td>
+        <td>`IfcSite`</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](#echanges-ifc) de maquettes.
+
+## Types d'objets
+
+Les types (`IfcTypeObject`) permettent de regrouper les objets possédants des caractéristiques communes. Pour éviter des saisies multiples au niveau des occurrences, on inscrira de préférence les propriétés au niveau du type (par exemple : nom du fabricant, matériau, etc.)
+
+Chaque catégorie IFC possède un type associé, par exemple pour une poutre :
+* `IfcBeam` (occurrence)
+* `IfcBeamType` (type).
+
+## Systèmes
+
+Les systèmes (`IfcSystem`) combinent plusieurs parties d'un ensemble destiné à une fonction unique. Ils sont généralement utilisés pour regrouper des réseaux techniques (chauffage, ventilation, électricité).
+
+## Propriétés d'objets
+
+Les propriétés d'objets se présentent de 3 manières :
+* des attributs généraux normalisés : Nom, Description, GUID
+* des jeux de propriétés ("Property Sets") également normalisés par l'IFC, spécifiques aux types d'objets
+* des jeux de propriétés personnalisés par l'utilisateur, pour couvrir des besoins d'échange non prévus par la norme.
+
+Par exemple pour un mur :
+
+~~~
+IfcWallStandardCase
+  Attributes (attributs généraux normalisés)
+    > GlobalId
+    > Name
+    > Description
+    > ObjectType
+  Pset_WallCommon (propriétés normalisés)
+    > AcousticRating
+    > Combustible
+    > Compartmentation
+    > ExtendToStructure
+    > FireRating
+    > IsExternal
+    > LoadBearing
+    > Reference
+    > SurfaceSpreadOfFlame
+    > ThermalTransmittance
+  F6_Pset_Economiste (propriétés personnalisées)
+    > CodeCctp
+    > Nomenclature
+~~~
+
+Il est conseillé d'utiliser au maximum les jeux de propriétés normalisés afin de faciliter les échanges.
+
+Bien qu'il existe une multitude de propriétés possibles sur chaque objet, il est conseillé de renseigner à minima les propriétés suivantes :
+* `Name` : nom de l'occurrence
+* `IsExternal` : permet de définir si l'objet fait partie de l'enveloppe du bâtiment (toitures, mur, portes, fenêtres) ; valeur `TRUE` ou `FALSE`
+* `LoadBearing` : permet de définir si l'objet est structurel ; valeur `TRUE` ou `FALSE`.
 
 ## Unités de travail
 
@@ -142,11 +227,15 @@ Il est possible de visualiser l'arborescence IFC en allant dans le "Gestionnaire
 
 La classe `IfcProject` est le plus haut niveau de l'arborescence d'un fichier IFC.
 
+Tous les fichiers d'un projet doivent adopter le même `GUID` et le même attribut `Name` sous la classe `IfcProject`. Il est conseillé d'utiliser le `GUID` du fichier de l'architecte. Si le logiciel-métier ne permet pas de préserver le `GUID`, on peut se contenter de l'attribut `Name`.
+
 ### Site
 
-La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`).
+La classe `IfcSite` définit le terrain sur lequel peuvent être placés un ou plusieurs bâtiments (`IfcBuilding`). Un seul objet `IfcSite` peut être contenu dans le projet (`IfcProject`).
 
-Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de parcelle cadastre dans le champ `IfcSite.LandTitleNumber`.
+Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de parcelle cadastrale dans le champ `IfcSite.LandTitleNumber`.
+
+Tout comme pour l'`IfcProject`, l'objet `IfcSite` doit posséder un `GUID` et `Name` identiques dans tous les fichiers IFC.
 
 Cette classe défini notamment le [géoréférencement](#gorfrencement) du projet.
 
@@ -154,7 +243,7 @@ Cette classe défini notamment le [géoréférencement](#gorfrencement) du proje
 
 La classe `IfcBuilding` regroupe l'ensemble des objets formant le bâtiment.
 
-Un numéro de bâtiment peut être indiqué dans le champ `Pset_BuildingCommon.BuildingID`.
+Un numéro de bâtiment peut être indiqué dans le champ `Pset_BuildingCommon.BuildingID`, tandis que le nom du bâtiment est inclus dans le champ `IfcBuilding.Name`.
 
 ### Niveaux
 
@@ -258,7 +347,7 @@ En utilisant la marque de zone Archicad par défaut, les informations basiques (
 ![capture](/assets/img/bp_archicad_zone.png)
 {% include collapse-close.html %}
 
-Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: plusieurs locaux appartenant à un même logement ou à un même compartiment protégé contre le feu). Un même local peut appartenir à plusieurs zones.
+Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: zones thermiques, de recoupement au feu, zones fonctionnelles, acoustiques, ou plusieurs locaux appartenant à un même logement). Un même local peut appartenir à plusieurs zones.
 
 {% include collapse-open.html titre="Archicad : créer des relations entre locaux (zones)" %}
 à venir...
@@ -322,25 +411,6 @@ Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiq
 
 ![capture](/assets/img/bp_assemblages.png)
 
-## Catégories d'objets
-
-Voir [classifications `IfcProduct`](http://bimstandards.fr/ifc/classifications/toutes.html).
-
-<div class="alert alert-danger" role="alert">
-  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
-  Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif.
-</div>
-
-Voir page spécifique pour plus de détails sur les `IfcTypeProduct` et `PredefinedType`.
-
-## Types d'objets
-
-Les types d'objets (`IfcTypeObject`) permettent de regrouper sous un même nom les objets possédants des caractéristiques communes.
-
-## Systèmes
-
-Pour les réseaux (`IfcSystem`).
-
 # 3. Usages-métiers
 
 <div class="alert alert-danger" role="alert">
@@ -360,7 +430,7 @@ L'utilisation de la maquette numérique pour l'économie du projet nécessite pl
 
 * pour la **quantification**, veiller à utiliser les commandes logicielles correspondants aux bonnes [catégories d'objets](#catgories-dobjets) pour conserver la logique géométrique permettant l'extraction de quantités.
 * pour le découpage du projet en **ouvrages**, il est conseillé d'utiliser une classification adaptée, soit dans le nom de l'objet, soit dans le champ `IfcClassificationReference`. On pourra par exemple utiliser la classification *Uniformat II* qui répond également aux besoins de gestion de patrimoine, ou une classification propre à l'équipe de maîtrise d'oeuvre.
-* pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les *"Property Sets"* adaptés. On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
+* pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les ["Property Sets" adaptés](#proprits-dobjets). On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
 
 ## Structure
 
@@ -394,11 +464,13 @@ La modélisation pour l'analyse énergétique est la problématique d'échanges 
 
 ## Gestion de patrimoine
 
-La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour l'organisation des données non-graphiques. Parmi ces classifications, on peut citer :
+La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques. Parmi ces classifications, on peut citer :
 
 * Uniformat (US)
 * Omniclass
 * Uniclass (UK)
+
+Le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
 
 La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpace`). En effet, cet objet peut contenir un certain nombre de propriétés utiles :
 
@@ -416,8 +488,14 @@ Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une mai
 
 Paramètres d'export IFC à vérifier :
 
-* activer l'export des **quantités de base** (longueurs, surfaces, volumes des éléments)
+* activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
 * activer l'export des **limites d'espaces** (utile pour la thermique)
+
+{% include collapse-open.html titre="Archicad : activer l'export des quantités de base" %}
+Dans le menu Fichier > Fichier Spécial > IFC 2x3 > Configuration de traduction IFC > Options exportation > Données modèle dérivé à exporter > Options Données... cocher la case "Quantités de base IFC".
+
+![capture](/assets/img/bp_archicad_base_quantities.png)
+{% include collapse-close.html %}
 
 En fonction du cas d'usage correspondant à l'échange de fichier IFC, il est conseillé d'utiliser un MVD.
 
@@ -444,7 +522,7 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 
 * [documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
 * [documentation IFC4-Add1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
-* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf)
+* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf) (page 30/98)
 * [COBIM 2012](http://www.en.buildingsmart.kotisivukone.com/3)
 * [AEC (UK) BIM Protocol v2.0](https://aecuk.wordpress.com/documents/)
 * [Allplan BIM Compendium Theory and Practice](https://www.allplan.com/fileadmin/user_upload/_corp/Home/Aktionsseiten/BIM_Leitfaden/EN/Allplan_BIM_Compendium.pdf)

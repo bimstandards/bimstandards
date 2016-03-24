@@ -1,24 +1,18 @@
-<header class="navbar navbar-light navbar-static-top" role="banner">
-  {% comment %}
-  <nav class="nav navbar-nav pull-right">
-    
-  </nav>
-  {% endcomment %}
-
+<header class="navbar navbar-light navbar-static-top">
   <div class="clearfix">
     <button class="navbar-toggler pull-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav">
       &#9776;
     </button>
     <a class="navbar-brand hidden-sm-up" href="{{ site.baseurl }}/">
-      BIMstandards
+      {{ site.title }}
     </a>
   </div>
   <div class="collapse navbar-toggleable-xs" id="main-nav">
     <nav class="nav navbar-nav">
-      <a class="nav-item nav-link {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/">BIMstandards</a>
+      <a class="nav-item nav-link hidden-xs-down {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/">{{ site.title }}</a>
       <a class="nav-item nav-link {% if page.title == "openBIM" %}active{% endif %}" href="{{ site.baseurl }}/openbim.html">openBIM</a>
       <a class="nav-item nav-link {% if page.layout == "ifc" %}active{% endif %}" href="{{ site.baseurl }}/ifc/premiers-pas/introduction.html">IFC</a>
-      <a class="nav-item nav-link disabled {% if page.title == "Bonnes pratiques" %}active{% endif %}" href="">Bonnes pratiques (à venir)</a>
+      <a class="nav-item nav-link disabled {% if page.title == "Bonnes pratiques" %}active{% endif %}" href="#">Bonnes pratiques (à venir)</a>
       <a class="nav-item nav-link {% if page.title == "Outils" %}active{% endif %}" href="{{ site.baseurl }}/outils.html">Outils</a>
     </nav>
   </div>

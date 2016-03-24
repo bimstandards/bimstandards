@@ -7,15 +7,23 @@
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
+@media (max-width: 33.9em) {
+  #main-nav {
+    .nav-link {
+      float: none;
+    }
+  }
+}
+
 .bs-masthead {
   padding: 6rem 0;
   background-color: $bs-primary-color;
   text-align: center;
-  .lead1 {
-    font-size: 4rem;
+  .display-1 {
+    font-size: 3rem;
     color: $bs-primary-color-soft;
   }
-  .lead2 {
+  .display-2 {
     font-size: 2rem;
     color: white;
   }
@@ -23,11 +31,11 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-featurette {
   margin-top: 3rem;
-  h4 {
-    
-  }
   p {
     color: #555;
+  }
+  .col-sm-4 {
+    margin-bottom: $spacer*2;
   }
 }
 
