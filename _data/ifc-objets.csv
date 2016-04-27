@@ -1,349 +1,349 @@
-fr_fr,en_gb,ifcproduct,ifctypeproduct,domaine_architecture,domaine_structure,domaine_fluides
-Poutre,Beam,IfcBeam,IfcBeamType BEAM,YES,YES,
-Solive,Joist,IfcBeam,IfcBeamType JOIST,YES,YES,
-Linteau,Lintel,IfcBeam,IfcBeamType LINTEL,YES,YES,
-Poutre en T,T-Beam,IfcBeam,IfcBeamType T_BEAM,YES,YES,
-,Mass,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Non défini,Other,IfcBuildingElementProxy,IfcBuildingElementProxyType *,YES,,
-Topographique / Terrain,Topography,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Arbre,Tree,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Cheminée,Chimney,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Plantation,Planting,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Route,Road,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Géométrie de site,Site Geometry,IfcBuildingElementProxy,IfcBuildingElementProxyType,YES,,
-Poteau,Column,IfcColumn,IfcColumnType COLUMN,YES,YES,
-,Duct Insulation,IfcCovering,IfcCoveringType INSULATION,,,YES
-,Duct Lining,IfcCovering,IfcCoveringType INSULATION,,,YES
-Toiture,Roofing,IfcCovering,IfcCoveringType,YES,,
-Plinthe,Baseboard,IfcCovering *,IfcCoveringType *,YES,,
-Revêtement,Covering,IfcCovering *,IfcCoveringType *,YES,,
-Moulure,Moulding,IfcCovering *,IfcCoveringType *,YES,,
-Plinthe,Skirting Board,IfcCovering *,IfcCoveringType *,YES,,
-Plafond,Ceiling,IfcCovering CEILING,IfcCoveringType CEILING,YES,,
-Bardage,Cladding,IfcCovering CLADDING,IfcCoveringType CLADDING,YES,,
-Revêtement de sol,Flooring,IfcCovering FLOORING,IfcCoveringType FLOORING,YES,,
-Isolation,Insulation,IfcCovering INSULATION,IfcCoveringType INSULATION,YES,,
-Manchon (isolation de tuyau),Pipe Insulation,IfcCovering INSULATION,IfcCoveringType INSULATION,YES,,
-Membrane d'étanchéité / pare-pluie / écran de sous-toiture,Membrane,IfcCovering MEMBRANE,IfcCoveringType MEMBRANE,YES,,
-Encoffrement / gaine,Sleeving,IfcCovering SLEEVING,IfcCoveringType SLEEVING,YES,,
-Manchon,Wrapping,IfcCovering WRAPPPING,IfcCoveringType WRAPPING,YES,,
-Mur-rideau,Curtain Wall,IfcCurtainWall,IfcCurtainWallType *,YES,,
-Système de mur-rideau,Curtain Wall System,IfcCurtainWall,IfcCurtainWallType,YES,,
-,Corbels (as separate elements),IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Discrete Accessory,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Electrical Accessories (for precast concrete elements),IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Shading Device,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Vibration Isolator,IfcDiscreteAccessory,IfcVibrationIsolatorType *,,,
-,Anchor Bolt,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Building Services Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Fixing Parts,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Joint Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Lifting Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,
-,Distribution Chamber Element,IfcDistributionChamberElement,IfcDistributionChamberElementType *,,,YES
-,Formed Duct,IfcDistributionChamberElement,IfcDistributionChamberElementType FORMEDDUCT,,,YES
-,Inspection Pit,IfcDistributionChamberElement,IfcDistributionChamberElementType INSPECTIONPIT,,,YES
-,Manhole,IfcDistributionChamberElement,IfcDistributionChamberElementType MANHOLE,,,YES
-,Meter Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType METERCHAMBER,,,YES
-,Sump,IfcDistributionChamberElement,IfcDistributionChamberElementType SUMP,,,YES
-,Trench,IfcDistributionChamberElement,IfcDistributionChamberElementType TRENCH,,,YES
-,Valve Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType VALVECHAMBER,,,YES
-,Inspection Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType INSPECTIONCHAMBER,,,YES
-,Earth Failure Device,IfcDistributionControl,IfcProtectiveDeviceType EARTHFAILUREDEVICE,,,YES
-,Actuator,IfcDistributionControlElement,IfcActuatorType *,,,YES
-,Ammeter,IfcDistributionControlElement,IfcFlowInstrumentType AMMETER,,,YES
-,Bell,IfcDistributionControlElement,IfcAlarmType BELL,,,YES
-,Controller,IfcDistributionControlElement,IfcControllerType *,,,YES
-,Distribution Control Element,IfcDistributionControlElement,IfcDistributionControlElementType,,,YES
-,Electric Time Control,IfcDistributionControlElement,IfcElectricTimeControlType *,,,YES
-,Fire Alarm Device,IfcDistributionControlElement,IfcSensorType FIRESENSOR,,,YES
-,Fire Sensor,IfcDistributionControlElement,IfcSensorType FIRESENSOR,,,YES
-,Flow Instrument,IfcDistributionControlElement,IfcFlowInstrumentType *,,,YES
-,Flow Sensor,IfcDistributionControlElement,IfcSensorType FLOWSENSOR,,,YES
-,Frequency Meter,IfcDistributionControlElement,IfcFlowInstrumentType FREQUENCYMETER,,,YES
-,Heat Sensor,IfcDistributionControlElement,IfcSensorType HEATSENSOR,,,YES
-,Humidity Sensor,IfcDistributionControlElement,IfcSensorType HUMIDITYSENSOR,,,YES
-,Phase Angle Meter,IfcDistributionControlElement,IfcFlowInstrumentType PHASEANGLEMETER,,,YES
-,Pressure Gauge,IfcDistributionControlElement,IfcFlowInstrumentType PRESSURGAUGE,,,YES
-,Pressure Sensor,IfcDistributionControlElement,IfcSensorType PRESSURESENSOR,,,YES
-,Siren,IfcDistributionControlElement,IfcAlarmType SIREN,,,YES
-,Temperature Sensor,IfcDistributionControlElement,IfcSensorType TEMPERATURESENSOR,,,YES
-,Thermometer,IfcDistributionControlElement,IfcFlowInstrumentType THERMOMETER,,,YES
-,Voltmeter (Peak),IfcDistributionControlElement,IfcFlowInstrumentType VOLTMETER_PEAK,,,YES
-,Voltmeter (RMS),IfcDistributionControlElement,IfcFlowInstrumentType VOLTMETER_RMS,,,YES
-,Whistle,IfcDistributionControlElement,IfcAlarmType WHISTLE,,,YES
-,Alarm,IfcDistributionControlElement,IfcAlarmType *,,,YES
-,Break Glass Button,IfcDistributionControlElement,IfcAlarmType BREAKGLASSBUTTON,,,YES
-,CO2 Sensor,IfcDistributionControlElement,IfcSensorType C02SENSOR,,,YES
-,Gas Sensor,IfcDistributionControlElement,IfcSensorType GASSENSOR,,,YES
-,Light Sensor,IfcDistributionControlElement,IfcSensorType LIGHTSENSOR,,,YES
-,Moisture Sensor,IfcDistributionControlElement,IfcSensorType MOISTURESENSOR,,,YES
-,Movement Sensor,IfcDistributionControlElement,IfcSensorType MOVEMENTSENSOR,,,YES
-,Power Factor Meter,IfcDistributionControlElement,IfcFlowInstrumentType POWERFACTORMETER,,,YES
-,Sensor,IfcDistributionControlElement,IfcSensorType *,,,YES
-,Smoke Sensor,IfcDistributionControlElement,IfcSensorType SMOKESENSOR,,,YES
-,Sound Sensor,IfcDistributionControlElement,IfcSensorType SOUNDSENSOR,,,YES
-,Distribution Element,IfcDistributionElement,IfcDistributionElementType,,,YES
-,Distribution Flow Element,IfcDistributionElement,IfcDistributionFlowElementType,,,YES
-,Electric Meter,IfcDistributionFlowElement,IfcFlowMeterType ELECTRICMETER,,,YES
-,Flow Meter,IfcDistributionFlowElement,IfcFlowMeterType FLOWMETER,,,YES
-,Protective Device,IfcDistributionFlowElement,IfcProtectiveDeviceType *,,,YES
-,Relay,IfcDistributionFlowElement,IfcElectricTimeControlType RELAY,,,YES
-,Residual Current Switch,IfcDistributionFlowElement,IfcProtectiveDeviceType RESIDUALCURRENTSWITCH,,,YES
-,Smoke Damper,IfcDistributionFlowElement,IfcDamperType SMOKEDAMPER,,,YES
-,Time Clock,IfcDistributionFlowElement,IfcElectricTimeControlType TIMECLOCK,,,YES
-,Time Delay,IfcDistributionFlowElement,IfcElectricTimeControlType TIMEDELAY,,,YES
-,Air Terminal Box,IfcDistributionFlowElement,IfcAirTerminalBoxType *,,,YES
-,Residual Current Circuit Breaker,IfcDistributionFlowElement,IfcProtectiveDeviceType RESIDUALCURRENTCIRCUITBREAKER,,,YES
-Porte,Door,IfcDoor,IfcDoorStyle *,YES,,
-,Air Handler,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRHANDLER,,,YES
-,Air To Air Heat Recovery,IfcEnergyConversionDevice,IfcAirToAirHeatRecoveryType *,,,YES
-,Battery,IfcEnergyConversionDevice,IfcElectricFlowStorageDeviceType BATTERY,,,YES
-,Boiler,IfcEnergyConversionDevice,IfcBoilerType *,,,YES
-,Condenser,IfcEnergyConversionDevice,IfcCondenserType *,,,YES
-,Convector,IfcEnergyConversionDevice,IfcSpaceHeaterType CONVECTOR,,,YES
-,Cooled Beam,IfcEnergyConversionDevice,IfcCooledBeamType *,,,YES
-,Cooling Tower,IfcEnergyConversionDevice,IfcCoolingTowerType *,,,YES
-,Electric Generator,IfcEnergyConversionDevice,IfcElectricGeneratorType *,,,YES
-,Electric Motor,IfcEnergyConversionDevice,IfcElectricMotorType *,,,YES
-,Evaporative Cooler,IfcEnergyConversionDevice,IfcEvaporativeCoolerType *,,,YES
-,Evaporator,IfcEnergyConversionDevice,IfcEvaporatorType *,,,YES
-,Heat Exchanger,IfcEnergyConversionDevice,IfcHeatExchangerType *,,,YES
-,Humidifier,IfcEnergyConversionDevice,IfcHumidifierType *,,,YES
-,Motor Connection,IfcEnergyConversionDevice,IfcMotorConnectionType *,,,YES
-,Radiator,IfcEnergyConversionDevice,IfcSpaceHeaterType *,,,YES
-,Roof Top Unit,IfcEnergyConversionDevice,IfcUnitaryEquipmentType ROOFTOPUNIT,,,YES
-,Space Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType *,,,YES
-,Transformer,IfcEnergyConversionDevice,IfcTransformerType *,,,YES
-,Tube Bundle,IfcEnergyConversionDevice,IfcTubeBundleType *,,,YES
-,Unitary Equipment,IfcEnergyConversionDevice,IfcUnitaryEquipmentType *,,,YES
-,Air Conditioning Unit,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRCONDITIONINGUNIT,,,YES
-,Baseboard Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType BASEBOARDHEATER,,,YES
-,Chiller,IfcEnergyConversionDevice,IfcChillerType *,,,YES
-,Coil,IfcEnergyConversionDevice,IfcCoilType *,,,YES
-,Skirting Board Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType BASEBOARDHEATER,,,YES
-,Split System,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRHANDLER,,,YES
-Attache / fixation,Fastener,IfcFastener,IfcFastenerType,,YES,
-Joint de mortier,Jointing Mortar,IfcFastener,IfcFastenerType,,YES,
-Soudure,Weld,IfcFastener,IfcFastenerType,,YES,
-Colle,Glue,IfcFastener,IfcFastenerType,,YES,
-,Circuit Breaker,IfcFlowController,IfcProtectiveDeviceType CIRCUITBREAKER,,,YES
-,Damper,IfcFlowController,IfcDamperType *,,,YES
-,Energy Meter,IfcFlowController,IfcFlowMeterType ENERGYMETER,,,YES
-,Fire Damper,IfcFlowController,IfcDamperType FIREDAMPER,,,YES
-,Fire and Smoke Damper,IfcFlowController,IfcDamperType FIRESMOKEDAMPER,,,YES
-,Flow Controller,IfcFlowController,IfcFlowControllerType,,,YES
-,Flow Meter,IfcFlowController,IfcFlowMeterType *,,,YES
-,Fume Hood Exhaust,IfcFlowController,IfcDamperType FUMEHOODEXHAUST,,,YES
-,Oil Meter,IfcFlowController,IfcFlowMeterType OILMETER,,,YES
-,Switching Device,IfcFlowController,IfcSwitchingDeviceType *,,,YES
-,Valve,IfcFlowController,IfcValveType *,,,YES
-,Varistor,IfcFlowController,IfcProtectiveDeviceType VARISTOR,,,YES
-,Water Meter,IfcFlowController,IfcFlowMeterType WATERMETER,,,YES
-,Nurse Call Device,IfcFlowController,IfcSwitchingDeviceType *,,,YES
-,Cable Carrier Fitting,IfcFlowFitting,IfcCableCarrierFittingType *,,,YES
-,Duct Fitting,IfcFlowFitting,IfcDuctFittingType *,,,YES
-,Flow Fitting,IfcFlowFitting,IfcFlowFittingType,,,YES
-,Junction Box,IfcFlowFitting,IfcJunctionBoxType *,,,YES
-,Pipe Fitting,IfcFlowFitting,IfcPipeFittingType *,,,YES
-,Fan,IfcFlowMovingDevice,IfcFanType *,,,YES
-,Flow Moving Device,IfcFlowMovingDevice,IfcFlowMovingDeviceType,,,YES
-,Pump,IfcFlowMovingDevice,IfcPumpType *,,,YES
-,Compressor,IfcFlowMovingDevice,IfcCompressorType *,,,YES
-,Cable Carrier Segment,IfcFlowSegment,IfcCableCarrierSegmentType,,,YES
-,Conduit Segment,IfcFlowSegment,IfcCableSegmentType CONDUITSEGMENT,,,YES
-,Duct Segment,IfcFlowSegment,IfcDuctSegmentType *,,,YES
-,Flow Segment,IfcFlowSegment,IfcFlowSegmentType,,,YES
-,Gutter,IfcFlowSegment,IfcPipeSegmentType GUTTER,,,YES
-,Pipe Segment,IfcFlowSegment,IfcPipeSegmentType *,,,YES
-,Spool,IfcFlowSegment,IfcPipeSegmentType SPOOL,,,YES
-,Cable Ladder Segment Type,IfcFlowSegment,IfcCableSegmentType CABLELADDERSEGMENTYPE,,,YES
-,Cable Segment,IfcFlowSegment,IfcCableSegmentType *,,,YES
-,Cable Tray Segment,IfcFlowSegment,IfcCableSegmentType CABLETRAYSEGMENT,,,YES
-,Cable Trunking Segment,IfcFlowSegment,IfcCableSegmentType CABLETRUNKINGSEGMENT,,,YES
-,Pipe Segment (Flexible),IfcFlowSegment,IfcPipeSegmentType FLEXIBLESEGMENT,,,YES
-,Pipe Segment (Rigid),IfcFlowSegment,IfcPipeSegmentType RIGIDSEGMENT,,,YES
-,Electric Flow Storage Device,IfcFlowStorageDevice,IfcElectricFlowStorageDeviceType *,,,YES
-,Flow Storage Device,IfcFlowStorageDevice,IfcFlowStorageDeviceType,,,YES
-,Tank,IfcFlowStorageDevice,IfcTankType *,,,YES
-,Air Terminal,IfcFlowTerminal,IfcAirTerminalType *,,,YES
-,Audio Visual Outlet,IfcFlowTerminal,IfcOutletType AUDIOVISUALOUTLET,,,YES
-,Breeching Inlet,IfcFlowTerminal,IfcFireSuppressionTerminalType BREECHINGINLET,,,YES
-,Communications Outlet,IfcFlowTerminal,IfcOutletType COMMUNICATIONSOUTLET,,,YES
-,Cowl,IfcFlowTerminal,IfcStackTerminalType COWL,,,YES
-,Direct Water Heater,IfcFlowTerminal,IfcElectricApplianceType DIRECTWATERHEATER,,,YES
-,Dishwasher,IfcFlowTerminal,IfcElectricApplianceType DISHWASHER,,,YES
-,Electric Appliance,IfcFlowTerminal,IfcElectricApplianceType *,,,YES
-,Electric Cooker,IfcFlowTerminal,IfcElectricApplianceType ELECTRICCOOKER,,,YES
-,Electric Heater,IfcFlowTerminal,IfcElectricHeaterType *,,,YES
-,Electric Heater (Appliance),IfcFlowTerminal,IfcElectricApplianceType ELECTRICHEATER,,,YES
-,Facsimile,IfcFlowTerminal,IfcElectricApplianceType FACSIMILIE,,,YES
-,Fire Hydrant,IfcFlowTerminal,IfcFireSuppressionTerminalType FIREHYDRANT,,,YES
-,Fire Suppression Terminal,IfcFlowTerminal,IfcFireSuppressionTerminalType *,,,YES
-,Flow Terminal,IfcFlowTerminal,IfcFlowTerminalType,,,YES
-,Floor Trap,IfcFlowTerminal,IfcWasteTerminalType FLOORTRAP,,,YES
-,Floor Waste,IfcFlowTerminal,IfcWasteTerminalType FLOORWASTE,,,YES
-,Freezer,IfcFlowTerminal,IfcElectricApplianceType FREEZER,,,YES
-,Hose Reel,IfcFlowTerminal,IfcFireSuppressionTerminalType HOSEREEL,,,YES
-,Lamp,IfcFlowTerminal,IfcLampType *,,,YES
-,Light Fixture,IfcFlowTerminal,IfcLightFixtureType *,,,YES
-,Outlet,IfcFlowTerminal,IfcOutletType *,,,YES
-,Power Outlet,IfcFlowTerminal,IfcOutletType POWEROUTLET,,,YES
-,Rainwater Downpipe,IfcFlowTerminal,IfcStackTerminalType RAINWATERHOPPER,,,YES
-,Rainwater Hopper,IfcFlowTerminal,IfcStackTerminalType,,,YES
-,Sanitary Terminal,IfcFlowTerminal,IfcSanitaryTerminalType *,,,YES
-,Sink,IfcFlowTerminal,IfcSanitaryTerminalType SINK,,,YES
-,Sprinkler,IfcFlowTerminal,IfcFireSuppressionTerminalType SPRINKLER,,,YES
-,Stack Terminal,IfcFlowTerminal,IfcStackTerminalType *,,,YES
-,Telephone,IfcFlowTerminal,IfcElectricApplianceType TELEPHONE,,,YES
-,Toilet Pan,IfcFlowTerminal,IfcSanitaryTerminalType TOILETPAN,,,YES
-,Tumble Dryer,IfcFlowTerminal,IfcElectricApplianceType TUMBLEDRYER,,,YES
-,TV,IfcFlowTerminal,IfcElectricApplianceType TV,,,YES
-,Urinal,IfcFlowTerminal,IfcSanitaryTerminalType URINAL,,,YES
-,Vending Machine,IfcFlowTerminal,IfcElectricApplianceType VENDINGMACHINE,,,YES
-,Wash Hand Basin,IfcFlowTerminal,IfcSanitaryTerminalType WASHHANDBASIN,,,YES
-,Washing Machine,IfcFlowTerminal,IfcElectricApplianceType WASHINGMACHINE,,,YES
-,Waste Disposal Unit,IfcFlowTerminal,IfcWasteTerminalType WASTEDISPOSALUNIT,,,YES
-,IfcFlowTerminal,IfcFlowTerminal,IfcWasteTerminalType *,,,YES
-,Waste Trap,IfcFlowTerminal,IfcWasteTerminalType WASTETRAP,,,YES
-,Water Cooler,IfcFlowTerminal,IfcElectricApplianceType WATERCOOLER,,,YES
-,Water Heater,IfcFlowTerminal,IfcElectricApplianceType WATERHEATER,,,YES
-,WC Seat,IfcFlowTerminal,IfcSanitaryTerminalType WCSEAT,,,YES
-,Bath,IfcFlowTerminal,IfcSanitaryTerminalType BATH,,,YES
-,Cistern,IfcFlowTerminal,IfcSanitaryTerminalType CISTERN,,,YES
-,Computer,IfcFlowTerminal,IfcElectricApplianceType COMPUTER,,,YES
-,Freestanding Fan,IfcFlowTerminal,IfcElectricApplianceType FREESTANDINGFAN,,,YES
-,Fridge Freezer,IfcFlowTerminal,IfcElectricApplianceType FRIDGE_FREEZER,,,YES
-,Gas Appliance,IfcFlowTerminal,IfcGasTerminalType GASAPPLIANCE,,,YES
-,Gas Booster,IfcFlowTerminal,IfcGasTerminalType GASBOOSTER,,,YES
-,Gas Burner,IfcFlowTerminal,IfcGasTerminalType GASBURNER,,,YES
-,Gas Terminal,IfcFlowTerminal,IfcGasTerminalType *,,,YES
-,Grease Interceptor,IfcFlowTerminal,IfcWasteTerminalType GREASEINTERCEPTOR,,,YES
-,Gully Sump,IfcFlowTerminal,IfcWasteTerminalType GULLYSUMP,,,YES
-,Gully Trap,IfcFlowTerminal,IfcWasteTerminalType GULLYTRAP,,,YES
-,Hand Dryer,IfcFlowTerminal,IfcElectricApplianceType HANDDRYER,,,YES
-,Indirect Water Heater,IfcFlowTerminal,IfcElectricApplianceType INDIRECTWATERHEATER,,,YES
-,Microwave,IfcFlowTerminal,IfcElectricApplianceType MICROWAVE,,,YES
-,Oil Interceptor,IfcFlowTerminal,IfcWasteTerminalType OILINTERCEPTOR,,,YES
-,Petrol Interceptor,IfcFlowTerminal,IfcWasteTerminalType PETROLINTERCEPTOR,,,YES
-,Photocopier,IfcFlowTerminal,IfcElectricApplianceType PHOTOCOPIER,,,YES
-,Printer,IfcFlowTerminal,IfcElectricApplianceType PRINTER,,,YES
-,Radiant Heater,IfcFlowTerminal,IfcElectricApplianceType RADIANTHEATER,,,YES
-,Refrigerator,IfcFlowTerminal,IfcElectricApplianceType REFRIGERATOR,,,YES
-,Roof Drain,IfcFlowTerminal,IfcWasteTerminalType ROOFDRAIN,,,YES
-,Sanitary Fountain,IfcFlowTerminal,IfcSanitaryTerminalType SANITARYFOUNTAIN,,,YES
-,Scanner,IfcFlowTerminal,IfcElectricApplianceType SCANNER,,,YES
-,Shower,IfcFlowTerminal,IfcSanitaryTerminalType SHOWER,,,YES
-,Duct Silencer,IfcFlowTreatmentDevice,IfcDuctSilencer *,,,YES
-,Filter,IfcFlowTreatmentDevice,IfcFilterType *,,,YES
-,Flow Treatment Device,IfcFlowTreatmentDevice,IfcFlowTreatmentDeviceType,,,YES
-Fondation,Footing,IfcFooting,n/a,YES,YES,
-Fondation,Foundation,IfcFooting,n/a,YES,YES,
-Longrine,Footing Beam,IfcFooting FOOTING_BEAM,n/a,YES,YES,
-Semelle isolée,,IfcFooting PAD_FOOTING,,YES,YES,
-,Pile Cap,IfcFooting PILE_CAP,,YES,YES,
-Semelle filante,Strip Footing,IfcFooting STRIP_FOOTING,,YES,YES,
-,Furniture System,IfcFurnishingElement,IfcSystemFurnitureElementType,YES,,
-,System Furniture Element,IfcFurnishingElement,IfcSystemFurnitureElementType,YES,,
-Mobilier,Furniture,IfcFurnishingElement,IfcFurnitureType *,YES,,
-,Furniture Element,IfcFurnishingElement,IfcFurnishingElementType,YES,,
-Trame,Grid,IfcGrid,,YES,YES,
-Boulon,Bolt,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Rondelle,Washer,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Fixation mécanique,Mechanical Fastener,IfcMechanicalFastener,IfcMechanicalFastener,,YES,
-Clou,Nail,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Ecrou,Nut,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Rivet,Rivet,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Vis,Screw,IfcMechanicalFastener,IfcMechanicalFastenerType,,YES,
-Entretoise / contrefiche,Brace,IfcMember,IfcMemberType BRACE,YES,YES,
-Corde (poutre treillis),Chord,IfcMember,IfcMemberType CHORD,YES,YES,
-Entrait,Collar,IfcMember,IfcMemberType COLLAR,YES,YES,
-Ossature / montant,Member,IfcMember,IfcMemberType MEMBER,YES,YES,
-Meneau,Mullion,IfcMember,IfcMemberType MULLION,YES,YES,
-Plat,Plate,IfcMember,IfcMemberType PLATE,YES,YES,
-Poinçon,Post,IfcMember,IfcMemberType POST,YES,YES,
-Panne,Purlin,IfcMember,IfcMemberType PURLIN,YES,YES,
-Arbalétrier,Rafter,IfcMember,IfcMemberType RAFTER,YES,YES,
-Limon,Stringer,IfcMember,IfcMemberType STRINGER,YES,YES,
-Contrefiche ?,Strut,IfcMember,IfcMemberType STRUT,YES,YES,
-Montant,Stud,IfcMember,IfcMemberType STUD,YES,YES,
-Pieu,Pile,IfcPile,n/a,YES,YES,
-Panneau de mur-rideau,Curtain Wall Panel,IfcPlate,IfcPlateType CURTAIN_PANEL,YES,,
-,Plate,IfcPlate,IfcPlateType *,YES,,
-,Sheet,IfcPlate,IfcPlateType SHEET,YES,,
-Balustrade,Balustrade,IfcRailing,IfcRailingType BALUSTRADE,YES,,
-Garde-corps,Guardrail,IfcRailing,IfcRailingType GUARDRAIL,YES,,
-Main-courante,Handrail,IfcRailing,IfcRailingType HANDRAIL,YES,,
-Rampe,Railing,IfcRailing,IfcRailingType *,YES,,
-Rampe,Ramp,IfcRamp *,n/a,YES,,
-Rampe droite,,IfcRamp STRAIGHT_RUN_RAMP,,YES,,
-Rampe avec palier intermédiaire,,IfcRamp TWO_STRAIGHT_RUN_RAMP,,YES,,
-Rampe quart tournant (1 palier intermédiaire),,IfcRamp QUARTER_TURN_RAMP,,YES,,
-Rampe double quart tournant (2 paliers intermédiaires),,IfcRamp TWO_QUARTER_TURN_RAMP,,YES,,
-Rampe double quart tournant (1 palier intermédiaire),,IfcRamp HALF_TURN_RAMP,,YES,,
-Rampe en spirale,,IfcRamp SPIRAL_RAMP,,YES,,
-Volée de rampe,Ramp Flight,IfcRampFlight,IfcRampFlightType *,YES,,
-Volée de rampe droite,,IfcRampFlight,IfcRampFlightType STRAIGHT,YES,,
-Volée de rampe à spirale,,IfcRampFlight,IfcRampFlightType SPIRAL,YES,,
-Fer à béton,Reinforcing Bar,IfcReinforcingBar,n/a,,YES,
-Treillis soudé,Reinforcing Mesh,IfcReinforcingMesh,n/a,,YES,
-Toiture,,IfcRoof,,YES,,
-Toiture terrasse,,IfcRoof,IfcRoofType FLAT_ROOF,YES,,
-Toiture à un versant (appentis),,IfcRoof,IfcRoofType SHED_ROOF,YES,,
-Toiture à deux versants,,IfcRoof,IfcRoofType GABLE_ROOF,YES,,
-Toiture à quatre versants égaux,,IfcRoof,IfcRoofType HIP_ROOF,YES,,
-Toiture à deux pans en croupe,,IfcRoof,IfcRoofType HIPPED_GABLE_ROOF,YES,,
-Toiture à deux pans avec ligne de bris,,IfcRoof,IfcRoofType GAMBREL_ROOF,YES,,
-Toit à la mansard,,IfcRoof,IfcRoofType MANSARD_ROOF,YES,,
-Voûte plein-cintre,,IfcRoof,IfcRoofType BARREL_ROOF,YES,,
-Voûte brisée,,IfcRoof,IfcRoofType RAINBOW_ROOF,YES,,
-Toiture papillon,,IfcRoof,IfcRoofType BUTTERFLY_ROOF,YES,,
-Toiture à 4 pans égaux,,IfcRoof,IfcRoofType PAVILION_ROOF,YES,,
-Dôme,,IfcRoof,IfcRoofType DOME_ROOF,YES,,
-Toiture à forme libre,,IfcRoof,IfcRoofType FREEFORM,YES,,
-Dalle,Slab,IfcSlab,IfcSlabType,YES,,
-Radier,Base Slab,IfcSlab BASESLAB,IfcSlabType BASESLAB,YES,YES,
-Plancher,Floor,IfcSlab FLOOR,IfcSlabType FLOOR,YES,YES,
-Palier,Landing,IfcSlab LANDING,IfcSlabType LANDING,YES,YES,
-Toiture,Roof,IfcSlab ROOF,IfcSlabType ROOF,YES,YES,
-Zone,Area,IfcSpace,IfcSpaceType *,YES,,
-Espace,Space,IfcSpace,IfcSpaceType *,YES,,
-Pièce,Room,IfcSpace,IfcSpaceType,YES,,
-Escalier,Stair,IfcStair *,n/a,YES,,
-Escalier droit,,IfcStair STRAIGHT_RUN_STAIR,,YES,,
-Escalier droit avec palier intermédiaire,,IfcStair TWO_STRAIGHT_RUN_STAIR,,YES,,
-,,IfcStair QUARTER_WINDING_STAIR,,YES,,
-Escalier quart tournant,,IfcStair QUARTER_TURN_STAIR,,YES,,
-Escalier balancé,,IfcStair HALF_WINDING_STAIR,,YES,,
-,,IfcStair HALF_TURN_STAIR,,YES,,
-,,IfcStair TWO_QUARTER_WINDING_STAIR,,YES,,
-,,IfcStair TWO_QUARTER_TURN_STAIR,,YES,,
-,,IfcStair THREE_QUARTER_WINDING_STAIR,,YES,,
-,,IfcStair THREE_QUARTER_TURN_STAIR,,YES,,
-Escalier hélicoïdal,,IfcStair SPIRAL_STAIR,,YES,,
-,,IfcStair DOUBLE_RETURN_STAIR,,YES,,
-,,IfcStair CURVED_RUN_STAIR,,YES,,
-,,IfcStair TWO_CURVED_RUN_STAIR,,YES,,
-Volée d'escalier,Stair Flight,IfcStairFlight,IfcStairFlightType,YES,,
-Volée d'escalier droite,,IfcStairFlight,IfcStairFlightType STRAIGHT,YES,,
-,,IfcStairFlight,IfcStairFlightType WINDER,YES,,
-,,IfcStairFlight,IfcStairFlightType SPIRAL,YES,,
-,,IfcStairFlight,IfcStairFlightType CURVED,YES,,
-,,IfcStairFlight,IfcStairFlightType FREEFORM,YES,,
-Tendon,Tendon,IfcTendon,n/a,,YES,
-Ancrage de tendon,Tendon Anchor,IfcTendonAnchor,n/a,,YES,
-Tapis roulant,Moving Walkway,IfcTranportElement MOVINGWALKWAY,IfcTransportElementType MOVINGWALKWAY,YES,,
-Elément de transport,Transport Element,IfcTransportElement *,IfcTransportElementType *,YES,,
-Ascenseur,Elevator,IfcTransportElement ELEVATOR,IfcTransportElementType ELEVATOR,YES,,
-Escalier mécanique,Escalator,IfcTransportElement ESCALATOR,IfcTransportElementType ESCALATOR,YES,,
-Cloison,Bulkhead,IfcWall,IfcWallType,YES,,
-Coffrage de sanitaires,Plumbing Wall,IfcWall,IfcWallType PLUMBINGWALL,YES,,
-Mur avec fruit,Shear Wall,IfcWall,IfcWallType SHEAR,YES,YES,
-Mur à épaisseur constante dans la longueur,,IfcWall,IfcWallType STANDARD,YES,YES,
-Mur à épaisseur variable dans la longueur,,IfcWall,IfcWallType POLYGONAL,YES,YES,
-Mur composé de différents éléments (ex: ossature bois),,IfcWall,IfcWallType ELEMENTEDWALL,YES,YES,
-Mur,Wall,IfcWall,IfcWallType *,YES,YES,
-Fenêtre,Window,IfcWindow,IfcWindowStyle *,YES,,
-Chassis vitré,Glazed Screen,IfcWindow,IfcWindowStyle *,YES,,
-Fenêtre de toit,Rooflight,IfcWindow,IfcWindowStyle *,YES,,
-Verrière,Skylight,IfcWindow,IfcWindowStyle *,YES,,
-,Energy Conversion Device,,IfcEnergyConversionDeviceType *,,,YES
+fr_fr,en_gb,ifcproduct,ifctypeproduct,allplan,archicad,revit,domaine_architecture,domaine_structure,domaine_fluides
+Poutre,Beam,IfcBeam,IfcBeamType BEAM,,Poutre,,YES,YES,
+Solive,Joist,IfcBeam,IfcBeamType JOIST,,Poutre,,YES,YES,
+Linteau,Lintel,IfcBeam,IfcBeamType LINTEL,,Poutre,,YES,YES,
+Poutre en T,T-Beam,IfcBeam,IfcBeamType T_BEAM,,Poutre,,YES,YES,
+,Mass,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Non défini,Other,IfcBuildingElementProxy,IfcBuildingElementProxyType *,,,,YES,,
+Topographique / Terrain,Topography,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Arbre,Tree,IfcBuildingElementProxy,IfcBuildingElementProxyType,,Objet,,YES,,
+Cheminée,Chimney,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Plantation,Planting,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Route,Road,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Géométrie de site,Site Geometry,IfcBuildingElementProxy,IfcBuildingElementProxyType,,,,YES,,
+Poteau,Column,IfcColumn,IfcColumnType COLUMN,,,,YES,YES,
+,Duct Insulation,IfcCovering,IfcCoveringType INSULATION,,,,,,YES
+,Duct Lining,IfcCovering,IfcCoveringType INSULATION,,,,,,YES
+Toiture,Roofing,IfcCovering,IfcCoveringType,,,,YES,,
+Plinthe,Baseboard,IfcCovering *,IfcCoveringType *,,,,YES,,
+Revêtement,Covering,IfcCovering *,IfcCoveringType *,,,,YES,,
+Moulure,Moulding,IfcCovering *,IfcCoveringType *,,,,YES,,
+Plinthe,Skirting Board,IfcCovering *,IfcCoveringType *,,,,YES,,
+Plafond,Ceiling,IfcCovering CEILING,IfcCoveringType CEILING,,,,YES,,
+Bardage,Cladding,IfcCovering CLADDING,IfcCoveringType CLADDING,,,,YES,,
+Revêtement de sol,Flooring,IfcCovering FLOORING,IfcCoveringType FLOORING,,,,YES,,
+Isolation,Insulation,IfcCovering INSULATION,IfcCoveringType INSULATION,,,,YES,,
+Manchon (isolation de tuyau),Pipe Insulation,IfcCovering INSULATION,IfcCoveringType INSULATION,,,,YES,,
+Membrane d'étanchéité / pare-pluie / écran de sous-toiture,Membrane,IfcCovering MEMBRANE,IfcCoveringType MEMBRANE,,,,YES,,
+Encoffrement / gaine,Sleeving,IfcCovering SLEEVING,IfcCoveringType SLEEVING,,,,YES,,
+Manchon,Wrapping,IfcCovering WRAPPPING,IfcCoveringType WRAPPING,,,,YES,,
+Mur-rideau,Curtain Wall,IfcCurtainWall,IfcCurtainWallType *,,,,YES,,
+Système de mur-rideau,Curtain Wall System,IfcCurtainWall,IfcCurtainWallType,,,,YES,,
+,Corbels (as separate elements),IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Discrete Accessory,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Electrical Accessories (for precast concrete elements),IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Shading Device,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Vibration Isolator,IfcDiscreteAccessory,IfcVibrationIsolatorType *,,,,,,
+,Anchor Bolt,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Building Services Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Fixing Parts,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Joint Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Lifting Accessories,IfcDiscreteAccessory,IfcDiscreteAccessoryType,,,,,,
+,Distribution Chamber Element,IfcDistributionChamberElement,IfcDistributionChamberElementType *,,,,,,YES
+,Formed Duct,IfcDistributionChamberElement,IfcDistributionChamberElementType FORMEDDUCT,,,,,,YES
+,Inspection Pit,IfcDistributionChamberElement,IfcDistributionChamberElementType INSPECTIONPIT,,,,,,YES
+,Manhole,IfcDistributionChamberElement,IfcDistributionChamberElementType MANHOLE,,,,,,YES
+,Meter Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType METERCHAMBER,,,,,,YES
+,Sump,IfcDistributionChamberElement,IfcDistributionChamberElementType SUMP,,,,,,YES
+,Trench,IfcDistributionChamberElement,IfcDistributionChamberElementType TRENCH,,,,,,YES
+,Valve Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType VALVECHAMBER,,,,,,YES
+,Inspection Chamber,IfcDistributionChamberElement,IfcDistributionChamberElementType INSPECTIONCHAMBER,,,,,,YES
+,Earth Failure Device,IfcDistributionControl,IfcProtectiveDeviceType EARTHFAILUREDEVICE,,,,,,YES
+,Actuator,IfcDistributionControlElement,IfcActuatorType *,,,,,,YES
+,Ammeter,IfcDistributionControlElement,IfcFlowInstrumentType AMMETER,,,,,,YES
+,Bell,IfcDistributionControlElement,IfcAlarmType BELL,,,,,,YES
+,Controller,IfcDistributionControlElement,IfcControllerType *,,,,,,YES
+,Distribution Control Element,IfcDistributionControlElement,IfcDistributionControlElementType,,,,,,YES
+,Electric Time Control,IfcDistributionControlElement,IfcElectricTimeControlType *,,,,,,YES
+,Fire Alarm Device,IfcDistributionControlElement,IfcSensorType FIRESENSOR,,,,,,YES
+,Fire Sensor,IfcDistributionControlElement,IfcSensorType FIRESENSOR,,,,,,YES
+,Flow Instrument,IfcDistributionControlElement,IfcFlowInstrumentType *,,,,,,YES
+,Flow Sensor,IfcDistributionControlElement,IfcSensorType FLOWSENSOR,,,,,,YES
+,Frequency Meter,IfcDistributionControlElement,IfcFlowInstrumentType FREQUENCYMETER,,,,,,YES
+,Heat Sensor,IfcDistributionControlElement,IfcSensorType HEATSENSOR,,,,,,YES
+,Humidity Sensor,IfcDistributionControlElement,IfcSensorType HUMIDITYSENSOR,,,,,,YES
+,Phase Angle Meter,IfcDistributionControlElement,IfcFlowInstrumentType PHASEANGLEMETER,,,,,,YES
+,Pressure Gauge,IfcDistributionControlElement,IfcFlowInstrumentType PRESSURGAUGE,,,,,,YES
+,Pressure Sensor,IfcDistributionControlElement,IfcSensorType PRESSURESENSOR,,,,,,YES
+,Siren,IfcDistributionControlElement,IfcAlarmType SIREN,,,,,,YES
+,Temperature Sensor,IfcDistributionControlElement,IfcSensorType TEMPERATURESENSOR,,,,,,YES
+,Thermometer,IfcDistributionControlElement,IfcFlowInstrumentType THERMOMETER,,,,,,YES
+,Voltmeter (Peak),IfcDistributionControlElement,IfcFlowInstrumentType VOLTMETER_PEAK,,,,,,YES
+,Voltmeter (RMS),IfcDistributionControlElement,IfcFlowInstrumentType VOLTMETER_RMS,,,,,,YES
+,Whistle,IfcDistributionControlElement,IfcAlarmType WHISTLE,,,,,,YES
+,Alarm,IfcDistributionControlElement,IfcAlarmType *,,,,,,YES
+,Break Glass Button,IfcDistributionControlElement,IfcAlarmType BREAKGLASSBUTTON,,,,,,YES
+,CO2 Sensor,IfcDistributionControlElement,IfcSensorType C02SENSOR,,,,,,YES
+,Gas Sensor,IfcDistributionControlElement,IfcSensorType GASSENSOR,,,,,,YES
+,Light Sensor,IfcDistributionControlElement,IfcSensorType LIGHTSENSOR,,,,,,YES
+,Moisture Sensor,IfcDistributionControlElement,IfcSensorType MOISTURESENSOR,,,,,,YES
+,Movement Sensor,IfcDistributionControlElement,IfcSensorType MOVEMENTSENSOR,,,,,,YES
+,Power Factor Meter,IfcDistributionControlElement,IfcFlowInstrumentType POWERFACTORMETER,,,,,,YES
+,Sensor,IfcDistributionControlElement,IfcSensorType *,,,,,,YES
+,Smoke Sensor,IfcDistributionControlElement,IfcSensorType SMOKESENSOR,,,,,,YES
+,Sound Sensor,IfcDistributionControlElement,IfcSensorType SOUNDSENSOR,,,,,,YES
+,Distribution Element,IfcDistributionElement,IfcDistributionElementType,,,,,,YES
+,Distribution Flow Element,IfcDistributionElement,IfcDistributionFlowElementType,,,,,,YES
+,Electric Meter,IfcDistributionFlowElement,IfcFlowMeterType ELECTRICMETER,,,,,,YES
+,Flow Meter,IfcDistributionFlowElement,IfcFlowMeterType FLOWMETER,,,,,,YES
+,Protective Device,IfcDistributionFlowElement,IfcProtectiveDeviceType *,,,,,,YES
+,Relay,IfcDistributionFlowElement,IfcElectricTimeControlType RELAY,,,,,,YES
+,Residual Current Switch,IfcDistributionFlowElement,IfcProtectiveDeviceType RESIDUALCURRENTSWITCH,,,,,,YES
+,Smoke Damper,IfcDistributionFlowElement,IfcDamperType SMOKEDAMPER,,,,,,YES
+,Time Clock,IfcDistributionFlowElement,IfcElectricTimeControlType TIMECLOCK,,,,,,YES
+,Time Delay,IfcDistributionFlowElement,IfcElectricTimeControlType TIMEDELAY,,,,,,YES
+,Air Terminal Box,IfcDistributionFlowElement,IfcAirTerminalBoxType *,,,,,,YES
+,Residual Current Circuit Breaker,IfcDistributionFlowElement,IfcProtectiveDeviceType RESIDUALCURRENTCIRCUITBREAKER,,,,,,YES
+Porte,Door,IfcDoor,IfcDoorStyle *,,,,YES,,
+,Air Handler,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRHANDLER,,,,,,YES
+,Air To Air Heat Recovery,IfcEnergyConversionDevice,IfcAirToAirHeatRecoveryType *,,,,,,YES
+,Battery,IfcEnergyConversionDevice,IfcElectricFlowStorageDeviceType BATTERY,,,,,,YES
+,Boiler,IfcEnergyConversionDevice,IfcBoilerType *,,,,,,YES
+,Condenser,IfcEnergyConversionDevice,IfcCondenserType *,,,,,,YES
+,Convector,IfcEnergyConversionDevice,IfcSpaceHeaterType CONVECTOR,,,,,,YES
+,Cooled Beam,IfcEnergyConversionDevice,IfcCooledBeamType *,,,,,,YES
+,Cooling Tower,IfcEnergyConversionDevice,IfcCoolingTowerType *,,,,,,YES
+,Electric Generator,IfcEnergyConversionDevice,IfcElectricGeneratorType *,,,,,,YES
+,Electric Motor,IfcEnergyConversionDevice,IfcElectricMotorType *,,,,,,YES
+,Evaporative Cooler,IfcEnergyConversionDevice,IfcEvaporativeCoolerType *,,,,,,YES
+,Evaporator,IfcEnergyConversionDevice,IfcEvaporatorType *,,,,,,YES
+,Heat Exchanger,IfcEnergyConversionDevice,IfcHeatExchangerType *,,,,,,YES
+,Humidifier,IfcEnergyConversionDevice,IfcHumidifierType *,,,,,,YES
+,Motor Connection,IfcEnergyConversionDevice,IfcMotorConnectionType *,,,,,,YES
+,Radiator,IfcEnergyConversionDevice,IfcSpaceHeaterType *,,,,,,YES
+,Roof Top Unit,IfcEnergyConversionDevice,IfcUnitaryEquipmentType ROOFTOPUNIT,,,,,,YES
+,Space Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType *,,,,,,YES
+,Transformer,IfcEnergyConversionDevice,IfcTransformerType *,,,,,,YES
+,Tube Bundle,IfcEnergyConversionDevice,IfcTubeBundleType *,,,,,,YES
+,Unitary Equipment,IfcEnergyConversionDevice,IfcUnitaryEquipmentType *,,,,,,YES
+,Air Conditioning Unit,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRCONDITIONINGUNIT,,,,,,YES
+,Baseboard Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType BASEBOARDHEATER,,,,,,YES
+,Chiller,IfcEnergyConversionDevice,IfcChillerType *,,,,,,YES
+,Coil,IfcEnergyConversionDevice,IfcCoilType *,,,,,,YES
+,Skirting Board Heater,IfcEnergyConversionDevice,IfcSpaceHeaterType BASEBOARDHEATER,,,,,,YES
+,Split System,IfcEnergyConversionDevice,IfcUnitaryEquipmentType AIRHANDLER,,,,,,YES
+Attache / fixation,Fastener,IfcFastener,IfcFastenerType,,,,,YES,
+Joint de mortier,Jointing Mortar,IfcFastener,IfcFastenerType,,,,,YES,
+Soudure,Weld,IfcFastener,IfcFastenerType,,,,,YES,
+Colle,Glue,IfcFastener,IfcFastenerType,,,,,YES,
+,Circuit Breaker,IfcFlowController,IfcProtectiveDeviceType CIRCUITBREAKER,,,,,,YES
+,Damper,IfcFlowController,IfcDamperType *,,,,,,YES
+,Energy Meter,IfcFlowController,IfcFlowMeterType ENERGYMETER,,,,,,YES
+,Fire Damper,IfcFlowController,IfcDamperType FIREDAMPER,,,,,,YES
+,Fire and Smoke Damper,IfcFlowController,IfcDamperType FIRESMOKEDAMPER,,,,,,YES
+,Flow Controller,IfcFlowController,IfcFlowControllerType,,,,,,YES
+,Flow Meter,IfcFlowController,IfcFlowMeterType *,,,,,,YES
+,Fume Hood Exhaust,IfcFlowController,IfcDamperType FUMEHOODEXHAUST,,,,,,YES
+,Oil Meter,IfcFlowController,IfcFlowMeterType OILMETER,,,,,,YES
+,Switching Device,IfcFlowController,IfcSwitchingDeviceType *,,,,,,YES
+,Valve,IfcFlowController,IfcValveType *,,,,,,YES
+,Varistor,IfcFlowController,IfcProtectiveDeviceType VARISTOR,,,,,,YES
+,Water Meter,IfcFlowController,IfcFlowMeterType WATERMETER,,,,,,YES
+,Nurse Call Device,IfcFlowController,IfcSwitchingDeviceType *,,,,,,YES
+,Cable Carrier Fitting,IfcFlowFitting,IfcCableCarrierFittingType *,,,,,,YES
+,Duct Fitting,IfcFlowFitting,IfcDuctFittingType *,,,,,,YES
+,Flow Fitting,IfcFlowFitting,IfcFlowFittingType,,,,,,YES
+,Junction Box,IfcFlowFitting,IfcJunctionBoxType *,,,,,,YES
+,Pipe Fitting,IfcFlowFitting,IfcPipeFittingType *,,,,,,YES
+,Fan,IfcFlowMovingDevice,IfcFanType *,,,,,,YES
+,Flow Moving Device,IfcFlowMovingDevice,IfcFlowMovingDeviceType,,,,,,YES
+,Pump,IfcFlowMovingDevice,IfcPumpType *,,,,,,YES
+,Compressor,IfcFlowMovingDevice,IfcCompressorType *,,,,,,YES
+,Cable Carrier Segment,IfcFlowSegment,IfcCableCarrierSegmentType,,,,,,YES
+,Conduit Segment,IfcFlowSegment,IfcCableSegmentType CONDUITSEGMENT,,,,,,YES
+,Duct Segment,IfcFlowSegment,IfcDuctSegmentType *,,,,,,YES
+,Flow Segment,IfcFlowSegment,IfcFlowSegmentType,,,,,,YES
+,Gutter,IfcFlowSegment,IfcPipeSegmentType GUTTER,,,,,,YES
+,Pipe Segment,IfcFlowSegment,IfcPipeSegmentType *,,,,,,YES
+,Spool,IfcFlowSegment,IfcPipeSegmentType SPOOL,,,,,,YES
+,Cable Ladder Segment Type,IfcFlowSegment,IfcCableSegmentType CABLELADDERSEGMENTYPE,,,,,,YES
+,Cable Segment,IfcFlowSegment,IfcCableSegmentType *,,,,,,YES
+,Cable Tray Segment,IfcFlowSegment,IfcCableSegmentType CABLETRAYSEGMENT,,,,,,YES
+,Cable Trunking Segment,IfcFlowSegment,IfcCableSegmentType CABLETRUNKINGSEGMENT,,,,,,YES
+,Pipe Segment (Flexible),IfcFlowSegment,IfcPipeSegmentType FLEXIBLESEGMENT,,,,,,YES
+,Pipe Segment (Rigid),IfcFlowSegment,IfcPipeSegmentType RIGIDSEGMENT,,,,,,YES
+,Electric Flow Storage Device,IfcFlowStorageDevice,IfcElectricFlowStorageDeviceType *,,,,,,YES
+,Flow Storage Device,IfcFlowStorageDevice,IfcFlowStorageDeviceType,,,,,,YES
+,Tank,IfcFlowStorageDevice,IfcTankType *,,,,,,YES
+,Air Terminal,IfcFlowTerminal,IfcAirTerminalType *,,,,,,YES
+,Audio Visual Outlet,IfcFlowTerminal,IfcOutletType AUDIOVISUALOUTLET,,,,,,YES
+,Breeching Inlet,IfcFlowTerminal,IfcFireSuppressionTerminalType BREECHINGINLET,,,,,,YES
+,Communications Outlet,IfcFlowTerminal,IfcOutletType COMMUNICATIONSOUTLET,,,,,,YES
+,Cowl,IfcFlowTerminal,IfcStackTerminalType COWL,,,,,,YES
+,Direct Water Heater,IfcFlowTerminal,IfcElectricApplianceType DIRECTWATERHEATER,,,,,,YES
+,Dishwasher,IfcFlowTerminal,IfcElectricApplianceType DISHWASHER,,,,,,YES
+,Electric Appliance,IfcFlowTerminal,IfcElectricApplianceType *,,,,,,YES
+,Electric Cooker,IfcFlowTerminal,IfcElectricApplianceType ELECTRICCOOKER,,,,,,YES
+,Electric Heater,IfcFlowTerminal,IfcElectricHeaterType *,,,,,,YES
+,Electric Heater (Appliance),IfcFlowTerminal,IfcElectricApplianceType ELECTRICHEATER,,,,,,YES
+,Facsimile,IfcFlowTerminal,IfcElectricApplianceType FACSIMILIE,,,,,,YES
+,Fire Hydrant,IfcFlowTerminal,IfcFireSuppressionTerminalType FIREHYDRANT,,,,,,YES
+,Fire Suppression Terminal,IfcFlowTerminal,IfcFireSuppressionTerminalType *,,,,,,YES
+,Flow Terminal,IfcFlowTerminal,IfcFlowTerminalType,,,,,,YES
+,Floor Trap,IfcFlowTerminal,IfcWasteTerminalType FLOORTRAP,,,,,,YES
+,Floor Waste,IfcFlowTerminal,IfcWasteTerminalType FLOORWASTE,,,,,,YES
+,Freezer,IfcFlowTerminal,IfcElectricApplianceType FREEZER,,,,,,YES
+,Hose Reel,IfcFlowTerminal,IfcFireSuppressionTerminalType HOSEREEL,,,,,,YES
+,Lamp,IfcFlowTerminal,IfcLampType *,,,,,,YES
+,Light Fixture,IfcFlowTerminal,IfcLightFixtureType *,,,,,,YES
+,Outlet,IfcFlowTerminal,IfcOutletType *,,,,,,YES
+,Power Outlet,IfcFlowTerminal,IfcOutletType POWEROUTLET,,,,,,YES
+,Rainwater Downpipe,IfcFlowTerminal,IfcStackTerminalType RAINWATERHOPPER,,,,,,YES
+,Rainwater Hopper,IfcFlowTerminal,IfcStackTerminalType,,,,,,YES
+,Sanitary Terminal,IfcFlowTerminal,IfcSanitaryTerminalType *,,,,,,YES
+,Sink,IfcFlowTerminal,IfcSanitaryTerminalType SINK,,,,,,YES
+,Sprinkler,IfcFlowTerminal,IfcFireSuppressionTerminalType SPRINKLER,,,,,,YES
+,Stack Terminal,IfcFlowTerminal,IfcStackTerminalType *,,,,,,YES
+,Telephone,IfcFlowTerminal,IfcElectricApplianceType TELEPHONE,,,,,,YES
+,Toilet Pan,IfcFlowTerminal,IfcSanitaryTerminalType TOILETPAN,,,,,,YES
+,Tumble Dryer,IfcFlowTerminal,IfcElectricApplianceType TUMBLEDRYER,,,,,,YES
+,TV,IfcFlowTerminal,IfcElectricApplianceType TV,,,,,,YES
+,Urinal,IfcFlowTerminal,IfcSanitaryTerminalType URINAL,,,,,,YES
+,Vending Machine,IfcFlowTerminal,IfcElectricApplianceType VENDINGMACHINE,,,,,,YES
+,Wash Hand Basin,IfcFlowTerminal,IfcSanitaryTerminalType WASHHANDBASIN,,,,,,YES
+,Washing Machine,IfcFlowTerminal,IfcElectricApplianceType WASHINGMACHINE,,,,,,YES
+,Waste Disposal Unit,IfcFlowTerminal,IfcWasteTerminalType WASTEDISPOSALUNIT,,,,,,YES
+,IfcFlowTerminal,IfcFlowTerminal,IfcWasteTerminalType *,,,,,,YES
+,Waste Trap,IfcFlowTerminal,IfcWasteTerminalType WASTETRAP,,,,,,YES
+,Water Cooler,IfcFlowTerminal,IfcElectricApplianceType WATERCOOLER,,,,,,YES
+,Water Heater,IfcFlowTerminal,IfcElectricApplianceType WATERHEATER,,,,,,YES
+,WC Seat,IfcFlowTerminal,IfcSanitaryTerminalType WCSEAT,,,,,,YES
+,Bath,IfcFlowTerminal,IfcSanitaryTerminalType BATH,,,,,,YES
+,Cistern,IfcFlowTerminal,IfcSanitaryTerminalType CISTERN,,,,,,YES
+,Computer,IfcFlowTerminal,IfcElectricApplianceType COMPUTER,,,,,,YES
+,Freestanding Fan,IfcFlowTerminal,IfcElectricApplianceType FREESTANDINGFAN,,,,,,YES
+,Fridge Freezer,IfcFlowTerminal,IfcElectricApplianceType FRIDGE_FREEZER,,,,,,YES
+,Gas Appliance,IfcFlowTerminal,IfcGasTerminalType GASAPPLIANCE,,,,,,YES
+,Gas Booster,IfcFlowTerminal,IfcGasTerminalType GASBOOSTER,,,,,,YES
+,Gas Burner,IfcFlowTerminal,IfcGasTerminalType GASBURNER,,,,,,YES
+,Gas Terminal,IfcFlowTerminal,IfcGasTerminalType *,,,,,,YES
+,Grease Interceptor,IfcFlowTerminal,IfcWasteTerminalType GREASEINTERCEPTOR,,,,,,YES
+,Gully Sump,IfcFlowTerminal,IfcWasteTerminalType GULLYSUMP,,,,,,YES
+,Gully Trap,IfcFlowTerminal,IfcWasteTerminalType GULLYTRAP,,,,,,YES
+,Hand Dryer,IfcFlowTerminal,IfcElectricApplianceType HANDDRYER,,,,,,YES
+,Indirect Water Heater,IfcFlowTerminal,IfcElectricApplianceType INDIRECTWATERHEATER,,,,,,YES
+,Microwave,IfcFlowTerminal,IfcElectricApplianceType MICROWAVE,,,,,,YES
+,Oil Interceptor,IfcFlowTerminal,IfcWasteTerminalType OILINTERCEPTOR,,,,,,YES
+,Petrol Interceptor,IfcFlowTerminal,IfcWasteTerminalType PETROLINTERCEPTOR,,,,,,YES
+,Photocopier,IfcFlowTerminal,IfcElectricApplianceType PHOTOCOPIER,,,,,,YES
+,Printer,IfcFlowTerminal,IfcElectricApplianceType PRINTER,,,,,,YES
+,Radiant Heater,IfcFlowTerminal,IfcElectricApplianceType RADIANTHEATER,,,,,,YES
+,Refrigerator,IfcFlowTerminal,IfcElectricApplianceType REFRIGERATOR,,,,,,YES
+,Roof Drain,IfcFlowTerminal,IfcWasteTerminalType ROOFDRAIN,,,,,,YES
+,Sanitary Fountain,IfcFlowTerminal,IfcSanitaryTerminalType SANITARYFOUNTAIN,,,,,,YES
+,Scanner,IfcFlowTerminal,IfcElectricApplianceType SCANNER,,,,,,YES
+,Shower,IfcFlowTerminal,IfcSanitaryTerminalType SHOWER,,,,,,YES
+,Duct Silencer,IfcFlowTreatmentDevice,IfcDuctSilencer *,,,,,,YES
+,Filter,IfcFlowTreatmentDevice,IfcFilterType *,,,,,,YES
+,Flow Treatment Device,IfcFlowTreatmentDevice,IfcFlowTreatmentDeviceType,,,,,,YES
+Fondation,Footing,IfcFooting,n/a,,,,YES,YES,
+Fondation,Foundation,IfcFooting,n/a,,,,YES,YES,
+Longrine,Footing Beam,IfcFooting FOOTING_BEAM,n/a,,,,YES,YES,
+Semelle isolée,,IfcFooting PAD_FOOTING,,,,,YES,YES,
+,Pile Cap,IfcFooting PILE_CAP,,,,,YES,YES,
+Semelle filante,Strip Footing,IfcFooting STRIP_FOOTING,,,,,YES,YES,
+,Furniture System,IfcFurnishingElement,IfcSystemFurnitureElementType,,,,YES,,
+,System Furniture Element,IfcFurnishingElement,IfcSystemFurnitureElementType,,,,YES,,
+Mobilier,Furniture,IfcFurnishingElement,IfcFurnitureType *,,,,YES,,
+,Furniture Element,IfcFurnishingElement,IfcFurnishingElementType,,,,YES,,
+Trame,Grid,IfcGrid,,,,,YES,YES,
+Boulon,Bolt,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Rondelle,Washer,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Fixation mécanique,Mechanical Fastener,IfcMechanicalFastener,IfcMechanicalFastener,,,,,YES,
+Clou,Nail,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Ecrou,Nut,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Rivet,Rivet,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Vis,Screw,IfcMechanicalFastener,IfcMechanicalFastenerType,,,,,YES,
+Entretoise / contrefiche,Brace,IfcMember,IfcMemberType BRACE,,,,YES,YES,
+Corde (poutre treillis),Chord,IfcMember,IfcMemberType CHORD,,,,YES,YES,
+Entrait,Collar,IfcMember,IfcMemberType COLLAR,,,,YES,YES,
+Ossature / montant,Member,IfcMember,IfcMemberType MEMBER,,,,YES,YES,
+Meneau,Mullion,IfcMember,IfcMemberType MULLION,,,,YES,YES,
+Plat,Plate,IfcMember,IfcMemberType PLATE,,,,YES,YES,
+Poinçon,Post,IfcMember,IfcMemberType POST,,,,YES,YES,
+Panne,Purlin,IfcMember,IfcMemberType PURLIN,,,,YES,YES,
+Arbalétrier,Rafter,IfcMember,IfcMemberType RAFTER,,,,YES,YES,
+Limon,Stringer,IfcMember,IfcMemberType STRINGER,,,,YES,YES,
+Contrefiche ?,Strut,IfcMember,IfcMemberType STRUT,,,,YES,YES,
+Montant,Stud,IfcMember,IfcMemberType STUD,,,,YES,YES,
+Pieu,Pile,IfcPile,n/a,,,,YES,YES,
+Panneau de mur-rideau,Curtain Wall Panel,IfcPlate,IfcPlateType CURTAIN_PANEL,,,,YES,,
+,Plate,IfcPlate,IfcPlateType *,,,,YES,,
+,Sheet,IfcPlate,IfcPlateType SHEET,,,,YES,,
+Balustrade,Balustrade,IfcRailing,IfcRailingType BALUSTRADE,,,,YES,,
+Garde-corps,Guardrail,IfcRailing,IfcRailingType GUARDRAIL,,,,YES,,
+Main-courante,Handrail,IfcRailing,IfcRailingType HANDRAIL,,,,YES,,
+Rampe,Railing,IfcRailing,IfcRailingType *,,,,YES,,
+Rampe,Ramp,IfcRamp *,n/a,,,,YES,,
+Rampe droite,,IfcRamp STRAIGHT_RUN_RAMP,,,,,YES,,
+Rampe avec palier intermédiaire,,IfcRamp TWO_STRAIGHT_RUN_RAMP,,,,,YES,,
+Rampe quart tournant (1 palier intermédiaire),,IfcRamp QUARTER_TURN_RAMP,,,,,YES,,
+Rampe double quart tournant (2 paliers intermédiaires),,IfcRamp TWO_QUARTER_TURN_RAMP,,,,,YES,,
+Rampe double quart tournant (1 palier intermédiaire),,IfcRamp HALF_TURN_RAMP,,,,,YES,,
+Rampe en spirale,,IfcRamp SPIRAL_RAMP,,,,,YES,,
+Volée de rampe,Ramp Flight,IfcRampFlight,IfcRampFlightType *,,,,YES,,
+Volée de rampe droite,,IfcRampFlight,IfcRampFlightType STRAIGHT,,,,YES,,
+Volée de rampe à spirale,,IfcRampFlight,IfcRampFlightType SPIRAL,,,,YES,,
+Fer à béton,Reinforcing Bar,IfcReinforcingBar,n/a,,,,,YES,
+Treillis soudé,Reinforcing Mesh,IfcReinforcingMesh,n/a,,,,,YES,
+Toiture,,IfcRoof,,,,,YES,,
+Toiture terrasse,,IfcRoof,IfcRoofType FLAT_ROOF,,,,YES,,
+Toiture à un versant (appentis),,IfcRoof,IfcRoofType SHED_ROOF,,,,YES,,
+Toiture à deux versants,,IfcRoof,IfcRoofType GABLE_ROOF,,,,YES,,
+Toiture à quatre versants égaux,,IfcRoof,IfcRoofType HIP_ROOF,,,,YES,,
+Toiture à deux pans en croupe,,IfcRoof,IfcRoofType HIPPED_GABLE_ROOF,,,,YES,,
+Toiture à deux pans avec ligne de bris,,IfcRoof,IfcRoofType GAMBREL_ROOF,,,,YES,,
+Toit à la mansard,,IfcRoof,IfcRoofType MANSARD_ROOF,,,,YES,,
+Voûte plein-cintre,,IfcRoof,IfcRoofType BARREL_ROOF,,,,YES,,
+Voûte brisée,,IfcRoof,IfcRoofType RAINBOW_ROOF,,,,YES,,
+Toiture papillon,,IfcRoof,IfcRoofType BUTTERFLY_ROOF,,,,YES,,
+Toiture à 4 pans égaux,,IfcRoof,IfcRoofType PAVILION_ROOF,,,,YES,,
+Dôme,,IfcRoof,IfcRoofType DOME_ROOF,,,,YES,,
+Toiture à forme libre,,IfcRoof,IfcRoofType FREEFORM,,,,YES,,
+Dalle,Slab,IfcSlab,IfcSlabType,,,,YES,,
+Radier,Base Slab,IfcSlab BASESLAB,IfcSlabType BASESLAB,,,,YES,YES,
+Plancher,Floor,IfcSlab FLOOR,IfcSlabType FLOOR,,,,YES,YES,
+Palier,Landing,IfcSlab LANDING,IfcSlabType LANDING,,,,YES,YES,
+Toiture,Roof,IfcSlab ROOF,IfcSlabType ROOF,,,,YES,YES,
+Zone,Area,IfcSpace,IfcSpaceType *,,,,YES,,
+Espace,Space,IfcSpace,IfcSpaceType *,,,,YES,,
+Pièce,Room,IfcSpace,IfcSpaceType,,,,YES,,
+Escalier,Stair,IfcStair *,n/a,,,,YES,,
+Escalier droit,,IfcStair STRAIGHT_RUN_STAIR,,,,,YES,,
+Escalier droit avec palier intermédiaire,,IfcStair TWO_STRAIGHT_RUN_STAIR,,,,,YES,,
+,,IfcStair QUARTER_WINDING_STAIR,,,,,YES,,
+Escalier quart tournant,,IfcStair QUARTER_TURN_STAIR,,,,,YES,,
+Escalier balancé,,IfcStair HALF_WINDING_STAIR,,,,,YES,,
+,,IfcStair HALF_TURN_STAIR,,,,,YES,,
+,,IfcStair TWO_QUARTER_WINDING_STAIR,,,,,YES,,
+,,IfcStair TWO_QUARTER_TURN_STAIR,,,,,YES,,
+,,IfcStair THREE_QUARTER_WINDING_STAIR,,,,,YES,,
+,,IfcStair THREE_QUARTER_TURN_STAIR,,,,,YES,,
+Escalier hélicoïdal,,IfcStair SPIRAL_STAIR,,,,,YES,,
+,,IfcStair DOUBLE_RETURN_STAIR,,,,,YES,,
+,,IfcStair CURVED_RUN_STAIR,,,,,YES,,
+,,IfcStair TWO_CURVED_RUN_STAIR,,,,,YES,,
+Volée d'escalier,Stair Flight,IfcStairFlight,IfcStairFlightType,,,,YES,,
+Volée d'escalier droite,,IfcStairFlight,IfcStairFlightType STRAIGHT,,,,YES,,
+,,IfcStairFlight,IfcStairFlightType WINDER,,,,YES,,
+,,IfcStairFlight,IfcStairFlightType SPIRAL,,,,YES,,
+,,IfcStairFlight,IfcStairFlightType CURVED,,,,YES,,
+,,IfcStairFlight,IfcStairFlightType FREEFORM,,,,YES,,
+Tendon,Tendon,IfcTendon,n/a,,,,,YES,
+Ancrage de tendon,Tendon Anchor,IfcTendonAnchor,n/a,,,,,YES,
+Tapis roulant,Moving Walkway,IfcTranportElement MOVINGWALKWAY,IfcTransportElementType MOVINGWALKWAY,,,,YES,,
+Elément de transport,Transport Element,IfcTransportElement *,IfcTransportElementType *,,,,YES,,
+Ascenseur,Elevator,IfcTransportElement ELEVATOR,IfcTransportElementType ELEVATOR,,,,YES,,
+Escalier mécanique,Escalator,IfcTransportElement ESCALATOR,IfcTransportElementType ESCALATOR,,,,YES,,
+Cloison,Bulkhead,IfcWall,IfcWallType,,,,YES,,
+Coffrage de sanitaires,Plumbing Wall,IfcWall,IfcWallType PLUMBINGWALL,,,,YES,,
+Mur avec fruit,Shear Wall,IfcWall,IfcWallType SHEAR,,,,YES,YES,
+Mur à épaisseur constante dans la longueur,,IfcWall,IfcWallType STANDARD,,,,YES,YES,
+Mur à épaisseur variable dans la longueur,,IfcWall,IfcWallType POLYGONAL,,,,YES,YES,
+Mur composé de différents éléments (ex: ossature bois),,IfcWall,IfcWallType ELEMENTEDWALL,,,,YES,YES,
+Mur,Wall,IfcWall,IfcWallType *,,,,YES,YES,
+Fenêtre,Window,IfcWindow,IfcWindowStyle *,,,,YES,,
+Chassis vitré,Glazed Screen,IfcWindow,IfcWindowStyle *,,,,YES,,
+Fenêtre de toit,Rooflight,IfcWindow,IfcWindowStyle *,,,,YES,,
+Verrière,Skylight,IfcWindow,IfcWindowStyle *,,,,YES,,
+,Energy Conversion Device,,IfcEnergyConversionDeviceType *,,,,,,YES
