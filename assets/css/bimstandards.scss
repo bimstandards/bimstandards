@@ -60,7 +60,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
     }
   }
   h1 {
-    padding-top: $spacer;
+    padding-top: $spacer * 2;
     padding-bottom: $spacer;
     margin-bottom: $spacer;
     border-bottom: 1px solid $gray-lighter;
@@ -147,6 +147,15 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   p {
     margin-top: 0rem;
     margin-bottom: 0rem;
+  }
+}
+
+.card {
+  background-color: #f7f7f7;
+  h4 {
+    a {
+      color: inherit;
+    }
   }
 }
 
