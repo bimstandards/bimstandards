@@ -8,4 +8,4 @@ group: bonnes-pratiques
 
 * validation du projet en regard du programme.
 
-Les besoins concernant la gestion de patrimoine sont listés [ci-dessous](#gestion-de-patrimoine).
+Les besoins concernant la gestion de patrimoine sont listés [sur une page spécifique](gestion-de-patrimoine.html).

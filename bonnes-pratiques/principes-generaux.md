@@ -72,7 +72,7 @@ Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automati
   </table>
 </div>
 
-Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](#echanges-ifc) de maquettes.
+Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](imports-exports-ifc.html) de maquettes.
 
 ## Types d'objets
 
@@ -131,7 +131,7 @@ Bien qu'il existe une multitude de propriétés possibles sur chaque objet, il e
 ## Unités de travail
 
 L'équipe projet doit adopter des unités de travail communes (longueurs, surfaces, volumes, angles, etc...), qui sont indiquées dans la convention de projet BIM.
-Ces unités doivent être configurées dans les réglages [d'import / export IFC](#echanges-ifc).
+Ces unités doivent être configurées dans les réglages [d'import / export IFC](imports-exports-ifc.html).
 
 ## Interfaces métiers
 
@@ -139,7 +139,7 @@ Chaque discipline possède des exigences concernant la méthode de modélisation
 
 En fonction des objectifs BIM visés sur le projet, il convient de faire la synthèse entre les différentes intervenants afin d'identifier les éventuels incompatibilités et la méthode de modélisation à adopter.
 
-Voir le chapitre concernant les différents [usages métiers](#usages-mtiers).
+Voir les différentes pages concernant les  [usages métiers](introduction.html/#scnarios-dusage).
 
 ## Niveaux de détail
 
