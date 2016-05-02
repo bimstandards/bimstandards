@@ -1,6 +1,8 @@
 # Site settings
 title:            BIMstandards
-description:      BIMstandards, ressources pour l'interopérabilité.
+description:      Bonnes pratiques de l'openBIM, standards du BIM et de l'interopérabilité.
+keywords:         BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF
+author:           Alexandre Grignon
 baseurl:          ""
 
 # Build settings
