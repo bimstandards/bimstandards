@@ -1,7 +1,7 @@
 ---
 layout: bonnes-pratiques
-title: Planification 4D (temps)
+title: Planification (4D)
 group: bonnes-pratiques
 ---
 
-# Planification 4D (temps)
+# Planification (4D)

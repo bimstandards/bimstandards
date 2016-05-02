@@ -3,10 +3,15 @@
   url: maitrise-douvrage
   icon: building
   
+- title: Conception architecturale
+  description: Description.
+  url: conception-architecturale
+  icon: lightbulb-o
+  
 - title: Communication du projet
   description: Comment exporter un fichier IFC pour la visualisation.
   url: communication-projet
-  icon: circle
+  icon: bullhorn
   
 - title: Economie (5D)
   description: Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.
@@ -23,17 +28,32 @@
   url: thermique
   icon: bolt
   
-- title: Planification 4D (temps)
+- title: Sécurité incendie
+  description: Description.
+  url: securite-incendie
+  icon: fire-extinguisher
+  
+- title: Analyse du cycle de vie (ACV)
+  description: Description
+  url: analyse-cycle-vie
+  icon: recycle
+  
+- title: Demande de Permis de Construire
+  description: Description.
+  url: demande-permis-construire
+  icon: certificate
+  
+- title: Planification (4D)
   description: Intégration de données temporelles pour la simulation de planning.
-  url: planification-4d
-  icon: circle
+  url: planification
+  icon: calendar
   
 - title: Synthèse technique
-  description: Coordination spatiale, réglementaire et technique.
+  description: Revue de projet. Coordination spatiale, réglementaire et technique.
   url: synthese-technique
-  icon: circle
+  icon: cogs
   
-- title: Gestion de patrimoine
+- title: Gestion de patrimoine (6D)
   description: Structuration des données pour l'exploitation-maintenance du bâtiment.
   url: gestion-de-patrimoine
   icon: database

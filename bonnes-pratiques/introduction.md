@@ -18,9 +18,12 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 <div class="card-columns">
   {% for card in site.data.bp-regles-base %}
   <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-{{ card.icon }}"></i> {{ card.title }}</h4>
-      <p class="card-text">{{ card.description }}</p>
-      <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
+    <h4 class="card-title">
+      <small class="text-muted"><i class="fa fa-{{ card.icon }}"></i></small>
+      {{ card.title }}
+    </h4>
+    <p class="card-text">{{ card.description }}</p>
+    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
   </div>
   {% endfor %}
 </div>
@@ -30,9 +33,12 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 <div class="card-columns">
   {% for card in site.data.bp-scenarios-usage %}
   <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-{{ card.icon }}"></i> {{ card.title }}</h4>
-      <p class="card-text">{{ card.description }}</p>
-      <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
+    <h4 class="card-title">
+      <small class="text-muted"><i class="fa fa-{{ card.icon }}"></i></small>
+      {{ card.title }}
+    </h4>
+    <p class="card-text">{{ card.description }}</p>
+    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
   </div>
   {% endfor %}
 </div>

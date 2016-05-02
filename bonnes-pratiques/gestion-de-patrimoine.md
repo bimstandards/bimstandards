@@ -1,10 +1,10 @@
 ---
 layout: bonnes-pratiques
-title: Gestion de patrimoine
+title: Gestion de patrimoine (6D)
 group: bonnes-pratiques
 ---
 
-# Gestion de patrimoine
+# Gestion de patrimoine (6D)
 
 La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques. Parmi ces classifications, on peut citer :
 
@@ -26,3 +26,7 @@ Voir les Property Sets de la classe `IfcSpace`.
 
 Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
+
+## format COBie
+
+Modèle de test : http://www.prairieskyconsulting.com/testing.htm
