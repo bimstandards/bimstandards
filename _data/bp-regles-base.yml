@@ -1,0 +1,14 @@
+- title: Principes généraux
+  description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, etc.
+  url: principes-generaux
+  icon: info-circle
+
+- title: Organisation spatiale
+  description: Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.
+  url: organisation-spatiale
+  icon: cubes
+
+- title: Imports / Exports IFC
+  description: Règles de base pour garantir la qualité des imports / export IFC.
+  url: imports-exports-ifc
+  icon: exchange

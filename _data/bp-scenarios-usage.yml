@@ -1,0 +1,39 @@
+- title: Maîtrise d'ouvrage
+  description: Comment valider l'évolution d'un projet à partir d'un fichier IFC.
+  url: maitrise-douvrage
+  icon: building
+  
+- title: Communication du projet
+  description: Comment exporter un fichier IFC pour la visualisation.
+  url: communication-projet
+  icon: circle
+  
+- title: Economie (5D)
+  description: Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.
+  url: economie
+  icon: money
+  
+- title: Structure
+  description: Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.
+  url: structure
+  icon: institution
+  
+- title: Thermique
+  description: Logiques de modélisation pour l'analyse énergétique, échanges entre architecte et ingénieur.
+  url: thermique
+  icon: bolt
+  
+- title: Planification 4D (temps)
+  description: Intégration de données temporelles pour la simulation de planning.
+  url: planification-4d
+  icon: circle
+  
+- title: Synthèse technique
+  description: Coordination spatiale, réglementaire et technique.
+  url: synthese-technique
+  icon: circle
+  
+- title: Gestion de patrimoine
+  description: Structuration des données pour l'exploitation-maintenance du bâtiment.
+  url: gestion-de-patrimoine
+  icon: database

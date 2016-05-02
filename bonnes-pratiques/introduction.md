@@ -10,73 +10,31 @@ group: bonnes-pratiques
 
 {% include callout-open.html param="warning" %}
 **Préambule :**
-Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adopter pour l'élaboration d'un projet BIM, en terme de modélisation et de renseigner de la maquette numérique ; il peut constituer une base de "**cahier des charges BIM**" orienté "convention de modélisation". Ce guide ne constitue en aucun cas une réalité absolue, mais plutôt un recueil de bonnes pratiques.
+Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adopter pour l'élaboration d'un projet BIM, en terme de modélisation et de renseigner de la maquette numérique ; il peut constituer une base de "**cahier des charges BIM**" orienté "convention de modélisation". Ce guide ne constitue en aucun cas une méthode unique, mais plutôt un recueil de bonnes pratiques.
 {% include callout-close.html %}
 
 # Règles de base
 
-<div class="row">
-  <div class="col-md-4">
-    <div class="card card-block">
-        <h4 class="card-title"><i class="fa fa-info-circle"></i> Principes généraux</h4>
-        <p class="card-text">Informations de base sur la structuration d'un fichier IFC, la classification des objets, etc.</p>
-        <a href="principes-generaux.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
+<div class="card-columns">
+  {% for card in site.data.bp-regles-base %}
+  <div class="card card-block">
+      <h4 class="card-title"><i class="fa fa-{{ card.icon }}"></i> {{ card.title }}</h4>
+      <p class="card-text">{{ card.description }}</p>
+      <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
   </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-cubes"></i> Organisation spatiale</h4>
-      <p class="card-text">Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.</p>
-      <a href="organisation-spatiale.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-exchange"></i> Imports / Exports IFC</h4>
-      <p class="card-text">Règles de base pour garantir la qualité des imports / export IFC.</p>
-      <a href="imports-exports-ifc.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
+  {% endfor %}
 </div>
 
 # Scénarios d'usage
 
-<div class="row">
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-building"></i> Maîtrise d'ouvrage</h4>
-      <p class="card-text">Comment valider l'évolution d'un projet à partir d'un fichier IFC.</p>
-      <a href="maitrise-douvrage.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
+<div class="card-columns">
+  {% for card in site.data.bp-scenarios-usage %}
+  <div class="card card-block">
+      <h4 class="card-title"><i class="fa fa-{{ card.icon }}"></i> {{ card.title }}</h4>
+      <p class="card-text">{{ card.description }}</p>
+      <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
   </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-money"></i> Economie</h4>
-      <p class="card-text">Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.</p>
-      <a href="economie.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-institution"></i> Structure</h4>
-      <p class="card-text">Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.</p>
-      <a href="structure.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-bolt"></i> Thermique</h4>
-      <p class="card-text">Logiques de modélisation pour l'analyse énergétique, échanges entre architecte et ingénieur.</p>
-      <a href="thermique.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card card-block">
-      <h4 class="card-title"><i class="fa fa-database"></i> Gestion de patrimoine</h4>
-      <p class="card-text">Structuration des données pour l'exploitation-maintenance du bâtiment.</p>
-      <a href="gestion-de-patrimoine.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
-    </div>
-  </div>
+  {% endfor %}
 </div>
 
 # Sources

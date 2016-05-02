@@ -1,10 +1,10 @@
 ---
 layout: bonnes-pratiques
-title: Economie
+title: Economie (5D)
 group: bonnes-pratiques
 ---
 
-# Economie
+# Economie (5D)
 
 L'utilisation de la maquette numérique pour l'économie du projet nécessite plusieurs points de vigilance dans l'élaboration et l'export IFC :
 
