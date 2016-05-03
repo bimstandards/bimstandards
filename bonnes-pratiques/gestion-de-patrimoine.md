@@ -26,6 +26,9 @@ Voir les Property Sets de la classe `IfcSpace`.
 
 Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
+## DOE-BIM
+
+
 
 ## format COBie
 

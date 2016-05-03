@@ -54,6 +54,6 @@
   icon: cogs
   
 - title: Gestion de patrimoine (6D)
-  description: Structuration des données pour l'exploitation-maintenance du bâtiment.
+  description: Structuration des données pour l'exploitation-maintenance du bâtiment, à partir d'un DOE.
   url: gestion-de-patrimoine
   icon: database

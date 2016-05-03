@@ -17,7 +17,7 @@ Il est donc important d'intégrer les informations utiles aux niveaux des objets
 
 ## Qualification des espaces
 
-* Classement feu
+* Classement
 * Compartimentage
 * Nombre d'occupants
 
@@ -28,7 +28,7 @@ Il est donc important d'intégrer les informations utiles aux niveaux des objets
 
 ## Classement des matériaux
 
-* Classement feu
+* Degré coupe-feu
 
 ## Equipements spécifiques
 
