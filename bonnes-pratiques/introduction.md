@@ -23,7 +23,7 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
       {{ card.title }}
     </h4>
     <p class="card-text">{{ card.description }}</p>
-    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
+    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">En savoir plus</a>
   </div>
   {% endfor %}
 </div>
@@ -38,7 +38,7 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
       {{ card.title }}
     </h4>
     <p class="card-text">{{ card.description }}</p>
-    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">Ouvrir</a>
+    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">En savoir plus</a>
   </div>
   {% endfor %}
 </div>

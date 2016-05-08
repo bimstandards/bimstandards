@@ -28,6 +28,10 @@ Ce site est développé sur [Github](https://github.com), plateforme de collabor
 
 Technologies web utilisées :
 
-* [Github Pages](https://pages.github.com)
-* [Jekyll](http://jekyllrb.com)
-* [Bootstrap](http://getbootstrap.com)
+* Hébergement : [GitHub Pages](https://pages.github.com) (v48)
+* Plateforme collaborative : [GitHub](https://github.com)
+* Générateur de site : [Jekyll](http://jekyllrb.com) (v3.0.3)
+* Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-alpha.2)
+* Polices : [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) & [Source Code Pro](https://www.google.com/fonts/specimen/Source+Code+Pro)
+* Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.5.0)
+* Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
