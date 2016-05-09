@@ -52,15 +52,23 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+.bs-content-header {
+  height: auto;
+  color: $gray-light;
+  a {
+    color: $gray-light;
+  }
+}
+
 .bs-content {
   .table {
-    font-size: 90%;
+    font-size: 80%;
     a {
       color: $gray-light;
     }
   }
   h1 {
-    padding-top: $spacer * 2;
+    padding-top: $spacer;
     padding-bottom: $spacer;
     margin-bottom: $spacer;
     border-bottom: 1px solid $gray-lighter;
@@ -79,6 +87,18 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
   .collapse-group {
     margin-bottom: ($spacer / 2);
+  }
+}
+
+.bs-content-footer {
+  height: auto;
+  color: $gray-light;
+  font-size: 95%;
+  a {
+    color: $gray-light;
+  }
+  hr {
+    margin-top: $spacer * 3;
   }
 }
 

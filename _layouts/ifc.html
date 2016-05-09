@@ -19,8 +19,18 @@
             {% include nav-ifc.html %}
           </div>
           <div class="col-md-9 col-md-pull-3 bs-content">
+            <div class="row">
+              <div class="col-xs-12 bs-content-header">
+                {% include content-header.html %}
+              </div>
+            </div>
             <h1 class="" id="content">{{ page.title }}</h1>
             {{ content }}
+            <div class="row">
+              <div class="col-xs-12 bs-content-footer">
+                {% include content-footer.html %}
+              </div>
+            </div>
           </div>
         </div>
       </div>

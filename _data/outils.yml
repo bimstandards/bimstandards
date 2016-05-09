@@ -21,15 +21,18 @@
   standards:
     - BCF1.0
     - BCF2.0
-    
+
 - name: bimsync
   editor: Catenda
   url: https://bimsync.com/
   logo: bimsync.png
   standards:
     - IFC2x3
+    - bSDD
     - BCF1.0
     - BCF2.0
+    - BCF2.1
+    - COBie
 
 - name: BIM Vision
   editor: BIM Vision
@@ -63,12 +66,14 @@
   editor: BIMaaS
   url: http://www.bimaas.uk/
   standards:
+    - IFC2x3
 
-- name: BIMbicycle
-  editor: BIMbicycle
-  url: https://bimbicycle.com/
-  logo: bimbicycle.png
+- name: BIM Track
+  editor: BIM Track
+  url: https://bimtrack.co/fr
   standards:
+    - IFC
+    - BCF
 
 - name: BIMcollab
   editor: Kubus
@@ -77,12 +82,14 @@
   standards:
     - BCF1.0
     - BCF2.0
+    - BCF2.1
 
 - name: BIMcontact
   editor: BIMcontact
   url: http://bimcontact.com/
   logo: bimcontact.jpg
   standards:
+    - IFC2x3
 
 - name: BIMer
   editor: Dynamic Solutions
@@ -99,12 +106,6 @@
     - IFC2x3
     - IFC4
 
-- name: BuilderStorm
-  editor: BuilderStorm
-  url: http://www.builderstorm.com/
-  logo: builderstorm.png
-  standards:
-
 - name: Business Collaborator
   editor: Business Collaborator
   url: http://www.groupbc.com/
@@ -119,6 +120,12 @@
     - gbXML
     - BCF
 
+- name: eveBIM
+  editor: CSTB
+  url: http://editions.cstb.fr/Products/eveBIM-Viewer
+  standards:
+    - IFC2x3
+
 - name: IFC File Analyser
   editor: Robert Lipman
   url: http://www.nist.gov/el/msid/infotest/ifc-file-analyzer.cfm
@@ -131,6 +138,7 @@
   logo: ifc-tools-project.png
   standards:
     - IFC2x3
+    - BCF
 
 - name: IFChub
   editor: IFChub
@@ -139,13 +147,15 @@
   standards:
     - IFC2x3
     - IFC4
-    
+
 - name: simplebim
   editor: Datacubist
   url: http://www.datacubist.com/
   logo: simplebim.png
   standards:
     - IFC2x3
+    - IFC4
+    - BCF
 
 - name: Solibri Model Viewer
   editor: SOLIBRI
@@ -168,7 +178,7 @@
   logo: trimble-connect.png
   standards:
     - IFC2x3
-    - BCF
+    - BCF1.0
 
 - name: xBIM Xplorer
   editor: CodePlex

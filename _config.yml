@@ -1,7 +1,14 @@
 # Site settings
 title:            BIMstandards
-description:      BIMstandards, ressources pour l'interopérabilité.
-baseurl:          ""
+description:      Bonnes pratiques de l'openBIM, standards et interopérabilité.
+keywords:         standards, BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
+author:           Alexandre Grignon
+url:              "http://bimstandards.fr"
+repository:       bimstandards/bimstandards
+
+# Versions
+version:          v0.1.0-beta.3
+latest_update:    28/04/2016
 
 # Build settings
 markdown:         kramdown
@@ -16,11 +23,10 @@ cdn:
   js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
   jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
-# Custom variables
-version:          v0.1.0-beta.3
-latest_update:    28/04/2016
-repo:             https://github.com/bimstandards/bimstandards
-
-# Gems
+# Gems (Jekyll plugins)
 gems:
   - jekyll-sitemap
+  - jekyll-github-metadata
+
+# Pour activer github-metadata : https://github.com/jekyll/github-metadata
+# $ JEKYLL_GITHUB_TOKEN=123abc [bundle exec] jekyll serve

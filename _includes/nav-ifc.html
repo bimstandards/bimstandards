@@ -11,7 +11,7 @@
       {% endif %}
 
       <div class="bs-navifc-group {{ active }}">
-          <a class="bs-navifc-group-title" href="{{ site.baseurl }}/ifc/{{ group.title | downcase | replace: ' ', '-' }}/{{ link.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-'  }}.html">
+          <a class="bs-navifc-group-title" href="/ifc/{{ group.title | downcase | replace: ' ', '-' }}/{{ link.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-'  }}.html">
           {{ group.title }}
         </a>
 
@@ -25,7 +25,7 @@
             {% endif %}
 
             <li class="nav-item {{ active }}">
-              <a class="nav-link" href="{{ site.baseurl }}/ifc/{{ group.title | downcase | replace: ' ', '-' }}/{{ doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' }}.html">
+              <a class="nav-link" href="/ifc/{{ group.title | downcase | replace: ' ', '-' }}/{{ doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' }}.html">
                 {{ doc.title }}
               </a>
 

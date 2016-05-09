@@ -6,10 +6,49 @@ group: bonnes-pratiques
 
 # Imports / Exports IFC
 
-Paramètres d'export IFC à vérifier :
+Tout d'abord, il faut garder en tête qu'un export de maquette numérique au format IFC est réalisé en fonction de son destinataire, car le paramétrage d'export peut être radicalement différent entre deux acteurs. C'est ce qu'on appelle un MVD (Model View Definition), c'est-à-dire une certaine vision d'une même modèle.
+
+**La norme IFC2x3 comprend un MVD principal :**
+
+* **Coordination View V2.0** : cette vue a été conçue pour coordonnéer les trois modèles principaux de la conception d'un projet : le modèle architectural, le modèle structurel et le modèle fluides.
+
+**La norme IFC4 prévoit deux MVD principaux :**
+
+* **Reference View 1.0** : cette vue est plutôt destinée à des flux d'échange unidirectionnels, l'émetteur du fichier restant propriétaire du modèle. Elle garantit la cohérence géométrique du modèle et les quantités de base, et en contrepartie, il n'est pas forcément possible de récupérer ou modifier les objets de la maquette.
+* **Design Transfer View 1.0** : cette vue conserve au maximum le caractère éditable des objets IFC, elle permet donc d'intervenir à postériori sur le modèle et donne la possibilité d'ajouter, supprimer, modifier ou extraire des éléments. La propriété du modèle peut être transférée.
+
+{% include collapse-open.html titre="Allplan : choisir le MVD à l'export" %}
+A venir
+{% include collapse-close.html %}
+
+{% include collapse-open.html titre="Archicad : choisir le MVD à l'export" %}
+A venir
+{% include collapse-close.html %}
+
+{% include collapse-open.html titre="Revit : choisir le MVD à l'export" %}
+A venir
+{% include collapse-close.html %}
+
+## Mappage des classes IFC
+
+Parfois, on remarque que certains paramètres présents dans le fichier BIM natif ne sont pas présents dans l'export IFC. Cela est du à la particularité de la plupart des logiciels-métiers de ne pas exporter l'IFC de façon native, mai en réalisant un **mappage des différentes classes et propriétés IFC**.
+Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessaire de bien comprendre comment vérifier et ajouter des correspondances de classes IFC.
+
+{% include collapse-open.html titre="Allplan : mappage des classes IFC" %}
+A venir
+{% include collapse-close.html %}
+
+{% include collapse-open.html titre="Archicad : mappage des classes IFC" %}
+A venir
+{% include collapse-close.html %}
+
+{% include collapse-open.html titre="Revit : mappage des classes IFC" %}
+A venir
+{% include collapse-close.html %}
+
+## Paramètres généraux
 
 * activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
-* activer l'export des **limites d'espaces** (utile pour la thermique)
 
 {% include collapse-open.html titre="Archicad : activer l'export des quantités de base" %}
 Dans le menu Fichier > Fichier Spécial > IFC 2x3 > Configuration de traduction IFC > Options exportation > Données modèle dérivé à exporter > Options Données... cocher la case "Quantités de base IFC".
@@ -17,7 +56,7 @@ Dans le menu Fichier > Fichier Spécial > IFC 2x3 > Configuration de traduction 
 ![capture](/assets/img/bp_archicad_base_quantities.png)
 {% include collapse-close.html %}
 
-En fonction du cas d'usage correspondant à l'échange de fichier IFC, il est conseillé d'utiliser un MVD.
+* activer l'export des **limites d'espaces** (utile pour la thermique)
 
 {% include callout-open.html param="danger" %}
 **Note :**
