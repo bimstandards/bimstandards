@@ -120,6 +120,12 @@
     - gbXML
     - BCF
 
+- name: eveBIM
+  editor: CSTB
+  url: http://editions.cstb.fr/Products/eveBIM-Viewer
+  standards:
+    - IFC2x3
+
 - name: IFC File Analyser
   editor: Robert Lipman
   url: http://www.nist.gov/el/msid/infotest/ifc-file-analyzer.cfm
