@@ -3,18 +3,18 @@
     <button class="navbar-toggler pull-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav">
       &#9776;
     </button>
-    <a class="navbar-brand hidden-sm-up" href="{{ site.baseurl }}/">
+    <a class="navbar-brand hidden-sm-up" href="/">
       {{ site.title }}
     </a>
   </div>
   <div class="collapse navbar-toggleable-xs" id="main-nav">
     <nav class="nav navbar-nav">
-      <a class="nav-item nav-link hidden-xs-down {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <a class="nav-item nav-link {% if page.title == "openBIM" %}active{% endif %}" href="{{ site.baseurl }}/openbim.html">openBIM</a>
-      <a class="nav-item nav-link {% if page.layout == "ifc" %}active{% endif %}" href="{{ site.baseurl }}/ifc/premiers-pas/introduction.html">IFC</a>
-      <a class="nav-item nav-link {% if page.title == "Objets IFC" %}active{% endif %}" href="{{ site.baseurl }}/objets-ifc.html">Objets IFC</a>
-      <a class="nav-item nav-link {% if page.group == "bonnes-pratiques" %}active{% endif %}" href="{{ site.baseurl }}/bonnes-pratiques/introduction.html">Bonnes pratiques</a>
-      <a class="nav-item nav-link {% if page.title == "Outils" %}active{% endif %}" href="{{ site.baseurl }}/outils.html">Outils</a>
+      <a class="nav-item nav-link hidden-xs-down {% if page.layout == "home" %}active{% endif %}" href="/">{{ site.title }}</a>
+      <a class="nav-item nav-link {% if page.title == "openBIM" %}active{% endif %}" href="/openbim.html">openBIM</a>
+      <a class="nav-item nav-link {% if page.layout == "ifc" %}active{% endif %}" href="/ifc/premiers-pas/introduction.html">IFC</a>
+      <a class="nav-item nav-link {% if page.title == "Objets IFC" %}active{% endif %}" href="/objets-ifc.html">Objets IFC</a>
+      <a class="nav-item nav-link {% if page.group == "bonnes-pratiques" %}active{% endif %}" href="/bonnes-pratiques/introduction.html">Bonnes pratiques</a>
+      <a class="nav-item nav-link {% if page.title == "Outils" %}active{% endif %}" href="/outils.html">Outils</a>
     </nav>
   </div>
 </header>

@@ -16,7 +16,7 @@ La thèse professionnelle que j'ai rédigée à l'occasion du Mastère Spéciali
 * mauvaise compréhension des classes et logiques géométriques de l'IFC
 * problèmes d'import/export entre logiciels.
 
-En conclusion, j'ai donc élaboré un prototype de documentation en ligne qui donna naissance à [bimstandards.fr](http://bimstandards.fr), avec pour objectif de donner les informations nécessaires à une meilleure implémentation des standards openBIM, notamment par retour d'expérience des acteurs en place, afin que l'on ne reproduise pas sans cesse les mêmes erreurs. La montée en compétence du secteur de la construction ne peut se faire qu'avec le concours de chacun, dans un esprit collaboratif.
+En conclusion, j'ai donc élaboré un prototype de documentation en ligne qui donna naissance à [bimstandards.fr]({{ site.url }}), avec pour objectif de donner les informations nécessaires à une meilleure implémentation des standards openBIM, notamment par retour d'expérience des acteurs en place, afin que l'on ne reproduise pas sans cesse les mêmes erreurs. La montée en compétence du secteur de la construction ne peut se faire qu'avec le concours de chacun, dans un esprit collaboratif.
 
 # Comment ?
 
