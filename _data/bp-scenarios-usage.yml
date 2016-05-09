@@ -4,6 +4,7 @@
   icon: building
 
 - title: Conception architecturale
+  description: Exploiter le modèle numérique pour élaborer le projet architectural.
   url: conception-architecturale
   icon: lightbulb-o
 
