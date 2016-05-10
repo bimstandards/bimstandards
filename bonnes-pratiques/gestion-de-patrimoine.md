@@ -6,13 +6,85 @@ group: bonnes-pratiques
 
 # Gestion de patrimoine (6D)
 
-La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques. Parmi ces classifications, on peut citer :
+Basée sur 4 standards :
+* **IFC2x3 / IFC4** pour la [géométrie](#gomtrie-et-niveaux-de-dtail)
+* **LOD 2015** pour la gestion des [niveaux de détail](#gomtrie-et-niveaux-de-dtail)
+* **Uniformat II 2015 / Omniclass Table 13** pour les [classifications](#classifications)
+* **COBie (BS 1192-4)** pour la structuration du [DOE-BIM](#doe-bim).
 
-* Uniformat (US)
-* Omniclass
-* Uniclass (UK)
+## Géométrie et niveaux de détail
 
-Le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
+## Classifications
+
+La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques dans le système de Gestion Technique Patrimoniale. Idéalement, on utilisera les classifications suivantes :
+
+* **Uniformat II 2015** pour la qualification des éléments du bâti
+* **Omniclass Table 13** pour la qualification des fonctions d'espaces
+
+Ces classifications sont conformes à la norme ISO 12006:2.
+
+Téléchargements :
+
+* http://www.astm.org/Standards/E1557.htm
+* http://www.omniclass.org/tables.asp
+
+Dans le fichier IFC, le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
+
+{% include collapse-open.html titre="Archicad : renseigner le champ classification d'un objet" %}
+A venir...
+{% include collapse-close.html %}
+
+### Eléments
+
+La gestion de patrimoine s'intéresse particulièrement aux éléments qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
+
+La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de la maquette numérique dans un grand ensemble fonctionnel :
+
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+      <th>Niveau 1</th>
+      <th>Niveau 2</th>
+      <th>Niveau 3</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>`A` SUBSTRUCTURE</td>
+        <td>`A10` FOUNDATIONS</td>
+        <td>`A1010` STANDARD FOUNDATIONS</td>
+      </tr>
+      <tr>
+        <td>`B` SHELL</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>`C` INTERIORS</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>`D` SERVICES</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>`E` EQUIPMENT & FURNISHINGS</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>`F` SPECIAL CONSTRUCTION & DEMOLITION</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Espaces
 
 La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpace`). En effet, cet objet peut contenir un certain nombre de propriétés utiles :
 
@@ -24,12 +96,16 @@ La première entité IFC utile à la gestion de patrimoine est le local (`IfcSpa
 
 Voir les Property Sets de la classe `IfcSpace`.
 
-Les autres objets les plus utiles sont ceux qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
 ## DOE-BIM
 
+**format COBie**
 
+* Historique rapide
+* Norme BS 1192-4
+* Modèle de test : http://www.prairieskyconsulting.com/testing.htm
 
-## format COBie
-
-Modèle de test : http://www.prairieskyconsulting.com/testing.htm
+## Sources
+https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
+http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
+http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf

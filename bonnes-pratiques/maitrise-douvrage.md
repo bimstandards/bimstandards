@@ -6,7 +6,8 @@ group: bonnes-pratiques
 
 # Maîtrise d'ouvrage
 
-* validation du projet en regard du programme.
+* validation du projet en regard du programme
+* data-drops
 * extraction de données (lister les locaux ou équipements)
 * plateformes type dRofus
 * validation semi-automatique (Solibri Model Checker, simplebim)
