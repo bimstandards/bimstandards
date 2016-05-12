@@ -33,6 +33,11 @@
   url: securite-incendie
   icon: fire-extinguisher
 
+- title: Intégration des données produits
+  description: Description.
+  url: donnees-produits
+  icon: circle
+
 - title: Analyse du cycle de vie (ACV)
   description: Evaluation des impacts environnementaux en fonction des matériaux et usages.
   url: analyse-cycle-vie
