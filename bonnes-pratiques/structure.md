@@ -25,3 +25,5 @@ Pour chaque objet du domaine structure, renseigner à minima les attributs suiva
 {% include collapse-open.html titre="Archicad : Vérifier les attributs" %}
 à venir...
 {% include collapse-close.html %}
+
+## Sources

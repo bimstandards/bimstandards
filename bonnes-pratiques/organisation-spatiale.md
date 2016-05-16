@@ -223,3 +223,5 @@ Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiq
 </div>
 
 ![capture](/assets/img/bp_assemblages.png)
+
+## Sources

@@ -6,8 +6,10 @@ group: bonnes-pratiques
 
 # Intégration des données produits
 
-COBie
-SPie : Specifier’s Properties Information Exchange
+## Sommaire
+
+* COBie
+* SPie : Specifier’s Properties Information Exchange
 
 ## Sources
 

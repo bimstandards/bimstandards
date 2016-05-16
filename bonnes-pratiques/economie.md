@@ -13,3 +13,5 @@ L'utilisation de la maquette numérique pour l'économie du projet nécessite pl
 * pour l'attribution de **propriétés spécifiques** aux ouvrages, on veillera à utiliser les ["Property Sets" adaptés](principes-generaux.html#proprits-dobjets). On pourra ainsi spécifier un certains nombre d'attributs utiles aux nomenclatures de locaux, parois, finitions, menuiseries, etc...
 
 ## Le format BIMétré
+
+## Sources

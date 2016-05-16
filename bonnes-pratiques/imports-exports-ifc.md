@@ -77,3 +77,4 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 ![anonymat](/assets/img/bp_ifc_anonymat.png)
 {% include collapse-close.html %}
 
+## Sources
