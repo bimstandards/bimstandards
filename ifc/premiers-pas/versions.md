@@ -1,18 +1,10 @@
 ---
 layout: ifc
-title: Historique
+title: Versions
 group: premiers-pas
 ---
 
-<div class="alert alert-danger" role="alert">
-  <strong>Attention !</strong> Page en cours de rédaction...
-</div>
-
-## Origine
-
-International Alliance for Interoperability (IAI)
-
-buildingSMART (2008)
+Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. L'IFC4-Add1, dernière version officielle, n'est pas encore pleinement prise en charge par les différents logiciels-métiers ; c'est donc l'IFC2x3-TC1 qui demeure le standard de fait actuellement. On peut espérer que les échanges IFC4 deviendront pleinement opérationnels durant l'année 2016.
 
 ## Versions IFC
 

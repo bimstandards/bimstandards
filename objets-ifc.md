@@ -3,7 +3,19 @@ layout: default
 title: Objets IFC
 ---
 
-# Domaine Architectural
+# Introduction
+
+Le format IFC est un langage dont le vocabulaire principal est formé par les classes `IfcProduct `, destinées à qualifier les objets physiques d'une maquette. Si les logiciels-métiers classent généralement de manière automatique les objets de base, il existe des variations d'une même classe, à travers le `PredefinedType`, permettant d'affiner la qualification.
+
+Par exemple, la classe `IfcSlab` utilisée pour une dalle, peut aussi qualifier un radier avec le type `IfcSlab BASESLAB`, un palier d'escalier avec le type `IfcSlab LANDING`, ou une dalle de toiture-terrasse avec le type `IfcSlab ROOF`.
+
+Cette même déclinaison est aussi présente dans les `IfcTypeProduct` qui regroupent les propriétés de plusieurs objets d'un même type. Par exemple, 5 poteaux identiques possédant la classe `IfcColumn` seront regroupés dans un type `IfcColumnType`.
+
+Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcTypeProduct` comme on peut le voir dans les tableaux ci-dessous, mais ils ne sont pas forcément cohérents entre les deux niveaux. l'IFC4 devrait corriger en grande partie ces incohérences.
+
+Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, Archicad et Revit).
+
+# Domaine Architectural (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
@@ -58,7 +70,7 @@ title: Objets IFC
   </table>
 </div>
 
-# Domaine Structurel
+# Domaine Structurel (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
@@ -113,7 +125,7 @@ title: Objets IFC
   </table>
 </div>
 
-# Domaine Fluides
+# Domaine Fluides (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
