@@ -57,3 +57,4 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
 * [BIMFORUM LOD](http://bimforum.org/lod/)
 * [Cahier Pratique - BIM / Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/)
+* [Blog Areo](http://blog.areo.io/)

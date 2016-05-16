@@ -1,0 +1,204 @@
+- code: A
+  level: 1
+  title_EN: 
+  title_FR: INFRASTRUCTURE
+  
+- code: A10
+  level: 2
+  title_EN: 
+  title_FR: Fondations
+
+- code: A1010
+  level: 3
+  title_EN: 
+  title_FR: Fondations standard
+  
+- code: A1020
+  level: 3
+  title_EN: 
+  title_FR: Fondations spéciales
+
+- code: A1030
+  level: 3
+  title_EN: 
+  title_FR: Dalle inférieure
+
+- code: A20
+  level: 2
+  title_EN: 
+  title_FR: Construction du sous-sol
+  
+- code: A2010
+  level: 3
+  title_EN: 
+  title_FR: Excavation du sous-sol
+
+- code: A2020
+  level: 3
+  title_EN: 
+  title_FR: Murs du sous-sol
+
+- code: B
+  level: 1
+  title_EN: 
+  title_FR: ENVELOPPE
+  
+- code: B10
+  level: 2
+  title_EN: 
+  title_FR: Superstructure
+  
+- code: B1010
+  level: 3
+  title_EN: 
+  title_FR: Construction de plancher
+  
+- code: B1020
+  level: 3
+  title_EN: 
+  title_FR: Construction de toiture
+  
+- code: B20
+  level: 2
+  title_EN: 
+  title_FR: Enveloppe extérieure
+  
+- code: B2010
+  level: 3
+  title_EN: 
+  title_FR: Murs extérieurs
+  
+- code: B2020
+  level: 3
+  title_EN: 
+  title_FR: Fenêtres extérieures
+  
+- code: B2030
+  level: 3
+  title_EN: 
+  title_FR: Portes extérieures
+  
+- code: B30
+  level: 2
+  title_EN: 
+  title_FR: Toit
+  
+- code: B3010
+  level: 3
+  title_EN: 
+  title_FR: Couverture
+  
+- code: B3020
+  level: 3
+  title_EN: 
+  title_FR: Ouvertures de toit
+  
+- code: C
+  level: 1
+  title_EN: 
+  title_FR: AMENAGEMENT INTERIEUR
+  
+- code: C10
+  level: 2
+  title_EN: 
+  title_FR: Construction intérieure
+  
+- code: C20
+  level: 2
+  title_EN: 
+  title_FR: Escaliers
+
+- code: C30
+  level: 2
+  title_EN: 
+  title_FR: Finitions intérieures
+
+- code: D
+  level: 1
+  title_EN: 
+  title_FR: SERVICES
+  
+- code: D10
+  level: 2
+  title_EN: 
+  title_FR: Moyens de transport
+  
+- code: D20
+  level: 2
+  title_EN: 
+  title_FR: Plomberie
+  
+- code: D30
+  level: 2
+  title_EN: 
+  title_FR: Chauffage, ventilation et conditionnement d'air (HVAC)
+  
+- code: D40
+  level: 2
+  title_EN: 
+  title_FR: Protection incendie
+  
+- code: D50
+  level: 2
+  title_EN: 
+  title_FR: Electricité
+
+- code: E
+  level: 1
+  title_EN: 
+  title_FR: EQUIPEMENTS ET AMEUBLEMENT
+  
+- code: E10
+  level: 2
+  title_EN: 
+  title_FR: Equipement
+  
+- code: E20
+  level: 2
+  title_EN: 
+  title_FR: Ameublement et décoration
+
+- code: F
+  level: 1
+  title_EN: 
+  title_FR: CONSTRUCTIONS SPECIALES & DEMOLITION
+  
+- code: F10
+  level: 2
+  title_EN: 
+  title_FR: Construction spéciale
+  
+- code: F20
+  level: 2
+  title_EN: 
+  title_FR: Démolition sélective de bâtiment
+
+- code: G
+  level: 1
+  title_EN: 
+  title_FR: AMENAGEMENT EXTERIEUR
+  
+- code: G10
+  level: 2
+  title_EN: 
+  title_FR: Préparation de l'emplacement
+  
+- code: G20
+  level: 2
+  title_EN: 
+  title_FR: Amélioration d'emplacement
+  
+- code: G30
+  level: 2
+  title_EN: 
+  title_FR: Services mécaniques de l'emplacement
+
+- code: G40
+  level: 2
+  title_EN: 
+  title_FR: Services d'électricité de l'emplacement
+  
+- code: G90
+  level: 2
+  title_EN: 
+  title_FR: Autres constructions sur l'emplacement 

@@ -6,7 +6,8 @@ group: bonnes-pratiques
 
 # Gestion de patrimoine (6D)
 
-Basée sur 4 standards :
+La gestion de données liée à l'exploitation-maintenance est basée sur 4 standards principaux :
+
 * **IFC2x3 / IFC4** pour la [géométrie](#gomtrie-et-niveaux-de-dtail)
 * **LOD 2015** pour la gestion des [niveaux de détail](#gomtrie-et-niveaux-de-dtail)
 * **Uniformat II 2015 / Omniclass Table 13** pour les [classifications](#classifications)
@@ -14,14 +15,14 @@ Basée sur 4 standards :
 
 ## Géométrie et niveaux de détail
 
+
+
 ## Classifications
 
-La gestion de patrimoine nécessite une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques dans le système de Gestion Technique Patrimoniale. Idéalement, on utilisera les classifications suivantes :
+La gestion de patrimoine nécessite généralement une classification complémentaire à l'IFC pour la mise en cohérence des données graphiques et non-graphiques dans le système de Gestion Technique Patrimoniale. Idéalement, on utilisera les classifications suivantes (conformes à la norme ISO 12006:2) :
 
 * **Uniformat II 2015** pour la qualification des éléments du bâti
-* **Omniclass Table 13** pour la qualification des fonctions d'espaces
-
-Ces classifications sont conformes à la norme ISO 12006:2.
+* **Omniclass Table 13** pour la qualification des fonctions d'espaces.
 
 Téléchargements :
 
@@ -38,10 +39,12 @@ A venir...
 
 La gestion de patrimoine s'intéresse particulièrement aux éléments qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
-La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de la maquette numérique dans un grand ensemble fonctionnel :
+La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de la maquette numérique dans un grand ensemble fonctionnel.
+
+La liste ci-dessous est une traduction de la norme depuis l'anglais :
 
 <div class="table-responsive">
-  <table class="table table-bordered table-hover">
+  <table class="table table-bordered table-hover table-sm">
     <thead>
     <tr>
       <th>Niveau 1</th>
@@ -50,36 +53,25 @@ La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de 
     </tr>
     </thead>
     <tbody>
+      {% for classification in site.data.uniformat-ii %}
       <tr>
-        <td>`A` SUBSTRUCTURE</td>
-        <td>`A10` FOUNDATIONS</td>
-        <td>`A1010` STANDARD FOUNDATIONS</td>
+        <td>
+          {% if classification.level == 1 %}
+          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
+          {% endif %}
+        </td>
+        <td>
+          {% if classification.level == 2 %}
+          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
+          {% endif %}
+        </td>
+        <td>
+          {% if classification.level == 3 %}
+          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
+          {% endif %}
+        </td>
       </tr>
-      <tr>
-        <td>`B` SHELL</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>`C` INTERIORS</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>`D` SERVICES</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>`E` EQUIPMENT & FURNISHINGS</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>`F` SPECIAL CONSTRUCTION & DEMOLITION</td>
-        <td></td>
-        <td></td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
@@ -106,7 +98,13 @@ Voir les Property Sets de la classe `IfcSpace`.
 * Modèle de test : http://www.prairieskyconsulting.com/testing.htm
 
 ## Sources
+<<<<<<< HEAD
 
 https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
 http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
 http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf
+=======
+* https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
+* http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
+* http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf
+>>>>>>> origin/v0.1.0-dev
