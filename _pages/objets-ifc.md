@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Objets IFC
+permalink: /objets-ifc/
 ---
 
 # Introduction
