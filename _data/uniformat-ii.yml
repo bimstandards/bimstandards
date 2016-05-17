@@ -432,18 +432,108 @@
   level: 2
   title_EN:
   title_FR: Amélioration d'emplacement
+  
+- code: G2010
+  level: 3
+  title_EN:
+  title_FR: Chaussée
+  
+- code: G2020
+  level: 3
+  title_EN:
+  title_FR: Aire de stationnement
+  
+- code: G2030
+  level: 3
+  title_EN:
+  title_FR: Surface piétonne
+  
+- code: G2040
+  level: 3
+  title_EN:
+  title_FR: Aménagement d'emplacement
+  
+- code: G2050
+  level: 3
+  title_EN:
+  title_FR: Aménagement paysager
 
 - code: G30
   level: 2
   title_EN:
   title_FR: Services mécaniques de l'emplacement
+  
+- code: G3010
+  level: 3
+  title_EN:
+  title_FR: Alimentation en eau
+  
+- code: G3020
+  level: 3
+  title_EN:
+  title_FR: Egout sanitaire
+  
+- code: G3030
+  level: 3
+  title_EN:
+  title_FR: Egout pluvial
+  
+- code: G3040
+  level: 3
+  title_EN:
+  title_FR: Réseau distribution de chaleur
+  
+- code: G3050
+  level: 3
+  title_EN:
+  title_FR: Réseau de distribution de refroidissement
+  
+- code: G3060
+  level: 3
+  title_EN:
+  title_FR: Réseau de combustible
+  
+- code: G3090
+  level: 3
+  title_EN:
+  title_FR: Autres services de mécanique sur l'emplacement
 
 - code: G40
   level: 2
   title_EN:
   title_FR: Services d'électricité de l'emplacement
+  
+- code: G4010
+  level: 3
+  title_EN:
+  title_FR: Distribution d'électricité
+  
+- code: G4020
+  level: 3
+  title_EN:
+  title_FR: Eclairage extérieur
+  
+- code: G4030
+  level: 3
+  title_EN:
+  title_FR: Communication et sécurité sur l'emplacement
+  
+- code: G4090
+  level: 3
+  title_EN:
+  title_FR: Autres services d'électricité sur l'emplacement
 
 - code: G90
   level: 2
   title_EN:
   title_FR: Autres constructions sur l'emplacement
+  
+- code: G9010
+  level: 3
+  title_EN:
+  title_FR: Tunnel de services et piétonnier
+  
+- code: G9090
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes sur l'emplacement
