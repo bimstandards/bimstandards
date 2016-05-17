@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Intégration des données produits
 group: bonnes-pratiques
+title: Intégration des données produits
+description: Normalisation des propriétés produits.
+icon: industry
+category: scenarios-usage
+status: draft
 ---
 
 # Intégration des données produits

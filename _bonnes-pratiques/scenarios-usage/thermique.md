@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Thermique
 group: bonnes-pratiques
+title: Thermique
+description: Logiques de modélisation pour l'analyse énergétique, échanges entre architecte et ingénieur.
+icon: bolt
+category: scenarios-usage
+status: draft
 ---
 
 # Thermique

@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Principes généraux
 group: bonnes-pratiques
+title: Principes généraux
+description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, les niveaux de détail.
+icon: info-circle
+category: regles-base
+status: publish
 ---
 
 # Principes généraux
@@ -20,7 +24,7 @@ De manière générale, les éléments du bâti seront modélisés avec les outi
 
 Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations. L'utilisation des objets "proxy" (`IfcBuildingElementProxy`) devra être évitée au maximum ; en cas d'utilisation, le nom de l'objet (`IfcBuildingElementProxy.Name`) explicitera la qualité de l'objet en question.
 
-Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur [cette page](../objets-ifc/).
+Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur [cette page]({{ site.url }}/objets-ifc/).
 
 {% include collapse-open.html titre="Allplan : attribution des classifications IFC" %}
 à venir...
@@ -72,7 +76,7 @@ Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automati
   </table>
 </div>
 
-Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports](imports-exports-ifc.html) de maquettes.
+Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports]({{ site.url }}/bonnes-pratiques/regles-base/imports-exports-ifc) de maquettes.
 
 ## Types d'objets
 
@@ -131,7 +135,7 @@ Bien qu'il existe une multitude de propriétés possibles sur chaque objet, il e
 ## Unités de travail
 
 L'équipe projet doit adopter des unités de travail communes (longueurs, surfaces, volumes, angles, etc...), qui sont indiquées dans la convention de projet BIM.
-Ces unités doivent être configurées dans les réglages [d'import / export IFC](imports-exports-ifc.html).
+Ces unités doivent être configurées dans les réglages [d'import / export IFC]({{ site.url }}/bonnes-pratiques/regles-base/imports-exports-ifc).
 
 ## Interfaces métiers
 
@@ -139,7 +143,7 @@ Chaque discipline possède des exigences concernant la méthode de modélisation
 
 En fonction des objectifs BIM visés sur le projet, il convient de faire la synthèse entre les différentes intervenants afin d'identifier les éventuels incompatibilités et la méthode de modélisation à adopter.
 
-Voir les différentes pages concernant les  [usages métiers](introduction.html#scnarios-dusage).
+Voir les différentes pages concernant les  [usages métiers]({{ site.url }}/bonnes-pratiques#scnarios-dusage).
 
 ## Niveaux de détail
 

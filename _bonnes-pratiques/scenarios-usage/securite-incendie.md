@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Securité incendie
 group: bonnes-pratiques
+title: Securité incendie
+description: Prévention, respect de la réglementation, conception et maintenance des système de sécurité.
+icon: fire-extinguisher
+category: scenarios-usage
+status: draft
 ---
 
 # Securité incendie

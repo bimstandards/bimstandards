@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Planification (4D)
 group: bonnes-pratiques
+title: Planification (4D)
+description: Intégration de données temporelles pour la simulation de planning.
+icon: calendar
+category: scenarios-usage
+status: draft
 ---
 
 # Planification (4D)

@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Maîtrise d'ouvrage
 group: bonnes-pratiques
+title: Maîtrise d'ouvrage
+description: Comment valider l'évolution d'un projet à partir d'un fichier IFC.
+icon: building
+category: scenarios-usage
+status: draft
 ---
 
 # Maîtrise d'ouvrage
@@ -15,7 +19,7 @@ group: bonnes-pratiques
 * plateformes type dRofus
 * validation semi-automatique (Solibri Model Checker, simplebim)
 
-Les besoins concernant la gestion de patrimoine sont listés [sur une page spécifique](gestion-de-patrimoine.html).
+Les besoins concernant la gestion de patrimoine sont listés [sur une page spécifique]({{ site.url }}/bonnes-pratiques/scenarios-usage/gestion-de-patrimoine).
 
 ## Sources
 

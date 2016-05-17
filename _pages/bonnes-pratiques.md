@@ -2,6 +2,7 @@
 layout: default
 title: Bonnes pratiques
 group: bonnes-pratiques
+permalink: /bonnes-pratiques/
 ---
 
 <div class="alert alert-danger" role="alert">
@@ -16,30 +17,44 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
 # Règles de base
 
 <div class="card-columns">
-  {% for card in site.data.bp-regles-base %}
-  <div class="card card-block">
-    <h4 class="card-title">
-      <small class="text-muted"><i class="fa fa-{{ card.icon }}"></i></small>
-      {{ card.title }}
-    </h4>
-    <p class="card-text">{{ card.description }}</p>
-    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">En savoir plus</a>
-  </div>
+  {% for page in site.bonnes-pratiques %}
+    {% if page.category == 'regles-base' %}
+      <div class="card card-block">
+        <h4 class="card-title">
+          <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
+          {{ page.title }}
+        </h4>
+        <p class="card-text">{{ page.description }}</p>
+        {% if page.status == 'draft' %}
+          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm disabled">(bientôt disponible)</a> 
+          <a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}" class="btn btn-link btn-sm"><i class="fa fa-pencil"></i> Contribuer</a>
+        {% else %}
+          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm">En savoir plus</a>
+        {% endif %}
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
 # Scénarios d'usage
 
 <div class="card-columns">
-  {% for card in site.data.bp-scenarios-usage %}
-  <div class="card card-block">
-    <h4 class="card-title">
-      <small class="text-muted"><i class="fa fa-{{ card.icon }}"></i></small>
-      {{ card.title }}
-    </h4>
-    <p class="card-text">{{ card.description }}</p>
-    <a href="{{ card.url }}.html" class="btn btn-primary-outline btn-sm">En savoir plus</a>
-  </div>
+  {% for page in site.bonnes-pratiques %}
+    {% if page.category == 'scenarios-usage' %}
+      <div class="card card-block">
+        <h4 class="card-title">
+          <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
+          {{ page.title }}
+        </h4>
+        <p class="card-text">{{ page.description }}</p>
+        {% if page.status == 'draft' %}
+          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm disabled">(bientôt disponible)</a> 
+          <a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}" class="btn btn-link btn-sm"><i class="fa fa-pencil"></i> Contribuer</a>
+        {% else %}
+          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm">En savoir plus</a>
+        {% endif %}
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 

@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Demande de Permis de Construire
 group: bonnes-pratiques
+title: Demande de Permis de Construire
+description: Utilisation du modèle numérique pour faciliter le processus d'instruction du PC.
+icon: certificate
+category: scenarios-usage
+status: draft
 ---
 
 # Demande de Permis de Construire

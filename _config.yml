@@ -18,6 +18,7 @@ exclude:          [vendor]
 # Collections
 collections:
   pages: {output: true, permalink: '/:path/'}
+  bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
   
 # Assets
 sass:

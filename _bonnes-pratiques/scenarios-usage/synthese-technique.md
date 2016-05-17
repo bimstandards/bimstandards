@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Synthèse technique
 group: bonnes-pratiques
+title: Synthèse technique
+description: Revue de projet. Coordination spatiale, réglementaire et technique.
+icon: cogs
+category: scenarios-usage
+status: draft
 ---
 
 # Synthèse technique
