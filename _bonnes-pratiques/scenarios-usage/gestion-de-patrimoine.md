@@ -102,13 +102,7 @@ Voir les Property Sets de la classe `IfcSpace`.
 * Modèle de test : http://www.prairieskyconsulting.com/testing.htm
 
 ## Sources
-<<<<<<< HEAD
 
-https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
-http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
-http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf
-=======
 * https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
 * http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
 * http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf
->>>>>>> origin/v0.1.0-dev
