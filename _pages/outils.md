@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Outils
+permalink: /outils/
 ---
 
 L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de fichier propriétaire, mais de pouvoir choisir librement son outil de travail, **en fonction de ses besoins**. L'ensemble des outils listés ci-dessous exploitent un ou plusieurs standards buildingSMART, garantissant l'intéropérabilité et la continuité dans les échanges d'information.
@@ -20,7 +21,7 @@ L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de
       <tr>
         <td>
           {% if outil.logo != nil %}
-          <img src="assets/img/outils/{{ outil.logo }}" class="img-responsive" style="height:25px;" alt="logo {{ outil.name }}">
+          <img src="../assets/img/outils/{{ outil.logo }}" class="img-responsive" style="height:25px;" alt="logo {{ outil.name }}">
           {% endif %}
         </td>
         <td><a href="{{ outil.url }}" target="_blank">{{ outil.name }}</a></td>

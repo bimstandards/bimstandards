@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Imports / Exports IFC
 group: bonnes-pratiques
+title: Imports / Exports IFC
+description: Règles de base pour garantir la qualité des imports / export IFC.
+icon: exchange
+category: regles-base
+status: publish
 ---
 
 # Imports / Exports IFC
@@ -77,3 +81,4 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 ![anonymat](/assets/img/bp_ifc_anonymat.png)
 {% include collapse-close.html %}
 
+## Sources

@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Organisation spatiale
 group: bonnes-pratiques
+title: Organisation spatiale
+description: Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.
+icon: cubes
+category: regles-base
+status: publish
 ---
 
 # Organisation spatiale
@@ -223,3 +227,5 @@ Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiq
 </div>
 
 ![capture](/assets/img/bp_assemblages.png)
+
+## Sources

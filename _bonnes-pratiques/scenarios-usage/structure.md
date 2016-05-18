@@ -1,7 +1,11 @@
 ---
 layout: bonnes-pratiques
-title: Structure
 group: bonnes-pratiques
+title: Structure
+description: Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.
+icon: institution
+category: scenarios-usage
+status: publish
 ---
 
 # Structure
@@ -25,3 +29,5 @@ Pour chaque objet du domaine structure, renseigner à minima les attributs suiva
 {% include collapse-open.html titre="Archicad : Vérifier les attributs" %}
 à venir...
 {% include collapse-close.html %}
+
+## Sources

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A propos
+permalink: /about/
 ---
 
 # Qui ?
