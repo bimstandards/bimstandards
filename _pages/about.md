@@ -35,5 +35,5 @@ Technologies web utilisées :
 * Validation de code : [html-proofer](https://github.com/gjtorikian/html-proofer) (v3.0.6)
 * Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-alpha.2)
 * Polices : [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) & [Source Code Pro](https://www.google.com/fonts/specimen/Source+Code+Pro)
-* Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.5.0)
+* Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.6.3)
 * Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
