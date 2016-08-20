@@ -28,7 +28,7 @@ L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de
         <td>{{ outil.editor }}</td>
         <td>
           {% for standard in outil.standards %}
-          <span class="label label-default">{{ standard }}</span>
+          <span class="tag tag-default">{{ standard }}</span>
           {% endfor %}
         </td>
       </tr>

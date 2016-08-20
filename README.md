@@ -24,6 +24,8 @@ Pour les plus aguerris à la technologie utilisée par le site ([GitHub Pages](h
 4. Lorsque les modifications sont terminées, [créer un commit](https://help.github.com/desktop/guides/contributing/committing-and-reviewing-changes-to-your-project/) avec le logiciel GitHub Desktop puis [synchroniser la branche](https://help.github.com/desktop/guides/contributing/syncing-your-branch/).
 5. Toujours avec GitHub Desktop, effectuer une [demande de prise en compte](https://help.github.com/desktop/guides/contributing/sending-a-pull-request/) des modifications ([Pull Request](https://github.com/bimstandards/bimstandards/pulls)).
 
+## Développeur
+
 ### Exécuter bimstandards en local sur un Mac
 
 1. Cloner le dépôt dans le dossier "Sites" du Mac avec l'application GitHub Desktop.
@@ -31,6 +33,10 @@ Pour les plus aguerris à la technologie utilisée par le site ([GitHub Pages](h
 3. Lancer Jekyll avec la commande `bundle exec jekyll serve`
 4. Le site est accessible à l'adresse http://localhost:4000
 5. Pour arrêter Jekyll, appuyer sur `ctrl+c`
+
+### Mise à jour environnement github-pages
+
+`sudo gem update github-pages`
 
 ## Licence
 

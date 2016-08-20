@@ -26,10 +26,10 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
         </h4>
         <p class="card-text">{{ page.description }}</p>
         {% if page.status == 'draft' %}
-          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm disabled">(bientôt disponible)</a> 
+          <a href="{{ page.url }}" class="btn btn-outline-primary btn-sm disabled">(bientôt disponible)</a> 
           <a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}" class="btn btn-link btn-sm"><i class="fa fa-pencil"></i> Contribuer</a>
         {% else %}
-          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm">En savoir plus</a>
+          <a href="{{ page.url }}" class="btn btn-outline-primary btn-sm">En savoir plus</a>
         {% endif %}
       </div>
     {% endif %}
@@ -48,10 +48,10 @@ Ce guide a été réalisé afin de renseigner sur les "bonnes pratiques" à adop
         </h4>
         <p class="card-text">{{ page.description }}</p>
         {% if page.status == 'draft' %}
-          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm disabled">(bientôt disponible)</a> 
+          <a href="{{ page.url }}" class="btn btn-outline-primary btn-sm disabled">(bientôt disponible)</a> 
           <a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}" class="btn btn-link btn-sm"><i class="fa fa-pencil"></i> Contribuer</a>
         {% else %}
-          <a href="{{ page.url }}" class="btn btn-primary-outline btn-sm">En savoir plus</a>
+          <a href="{{ page.url }}" class="btn btn-outline-primary btn-sm">En savoir plus</a>
         {% endif %}
       </div>
     {% endif %}
