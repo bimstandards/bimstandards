@@ -35,10 +35,6 @@ Téléchargements :
 
 Dans le fichier IFC, le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
 
-{% include collapse-open.html titre="Archicad : renseigner le champ classification d'un objet" %}
-A venir...
-{% include collapse-close.html %}
-
 ### Eléments
 
 La gestion de patrimoine s'intéresse particulièrement aux éléments qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.

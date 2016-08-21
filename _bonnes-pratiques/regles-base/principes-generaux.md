@@ -14,10 +14,8 @@ status: publish
 ## Formats d'échanges
 Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
-{% include collapse-open.html titre="Vérifier la version d'un fichier IFC" %}
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
 ![capture](/assets/img/bp_ifc_version.png)
-{% include collapse-close.html %}
 
 ## Catégories d'objets
 
@@ -27,21 +25,7 @@ Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car
 
 Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur [cette page]({{ site.url }}/objets-ifc/).
 
-{% include collapse-open.html titre="Allplan : attribution des classifications IFC" %}
-à venir...
-{% include collapse-close.html %}
-
-{% include collapse-open.html titre="Archicad : attribution des classifications IFC" %}
-Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" permet de définir le "type IFC".
-
-Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automatiquement le Type IFC "IfcWallStandardCase".
-
-![capture](/assets/img/bp_ifc_classification_archicad.png)
-{% include collapse-close.html %}
-
-{% include collapse-open.html titre="Revit : attribution des classifications IFC" %}
-à venir...
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : attribution des classifications IFC" lien="attribution-classifications-ifc" %}
 
 <div class="alert alert-danger" role="alert">
   <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>

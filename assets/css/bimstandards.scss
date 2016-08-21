@@ -190,6 +190,15 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+.btn-block {
+  text-align: left;
+}
+
+pre {
+  color: $code-color;
+  background-color: $code-bg;
+}
+
 //
 // Callouts
 //

@@ -33,13 +33,7 @@ Les éléments `IfcProduct` peuvent être contenues dans un niveau (`IfcBuilding
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
 
-{% include collapse-open.html titre="Archicad : activer les relations spatiales" %}
-Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".
-
-![capture](/assets/img/bp_archicad_contenu_spatial.png)
-
-Il est possible de visualiser l'arborescence IFC en allant dans le "Gestionnaire IFC" (Fichier > Fichier spécial > IFC 2x3 > Gestionnaire IFC).
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : activer les relations spatiales" lien="activer-relations-spatiales" %}
 
 ### Projet
 
@@ -107,15 +101,7 @@ La codification des niveaux est établie par des codes à 2 caractères dans le 
 
 Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
 
-{% include collapse-open.html titre="Archicad : configurer des niveaux" %}
-Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". Le nom renseigné à cet endroit correspond au "code" de niveau à 2 caractères.
-
-Le nom complet (`IfcBuildingStorey.LongName`) doit être renseigné dans le Gestionnaire IFC.
-
-![capture](/assets/img/bp_archicad_niveaux.png)
-
-On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs des objets `IfcBuildingStorey`.
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : configurer les niveaux" lien="configurer-niveaux" %}
 
 ### Locaux
 
@@ -159,17 +145,11 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
   </table>
 </div>
 
-{% include collapse-open.html titre="Archicad : configurer les locaux (zones)" %}
-En utilisant la marque de zone Archicad par défaut, les informations basiques (code et nom de local) sont automatiquement transférées dans les bons attributs IFC, comme on peut le voir dans le *Gestionnaire IFC*.
-
-![capture](/assets/img/bp_archicad_zone.png)
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : configurer les locaux (zones)" lien="configurer-locaux" %}
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: zones thermiques, de recoupement au feu, zones fonctionnelles, acoustiques, ou plusieurs locaux appartenant à un même logement). Un même local peut appartenir à plusieurs zones.
 
-{% include collapse-open.html titre="Archicad : créer des relations entre locaux (zones)" %}
-à venir...
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : créer des regroupements entre locaux (à venir)" lien="" %}
 
 ## Géoréférencement
 
@@ -193,15 +173,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
-{% include collapse-open.html titre="Archicad : configurer les coordonnées géographiques" %}
-Les coordonnées doivent être renseignées dans la fenêtre "Emplacement Projet..." (menu : Options > Préférences Projet > Emplacement Projet...).
-
-Les informations qui seront intégrées à l'IFC sont "Latitude", "Longitude" et "Altitude (Niveau de la mer)".
-
-![capture](/assets/img/bp_archicad_emplacement_projet.png)
-
-On peut voir que les informations sont bien présentes dans le *Gestionnaire IFC*, dans les attributs de l'objet `IfcSite`.
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : configurer les coordonnées géographiques" lien="configurer-coordonnees-geographiques" %}
 
 Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
 
@@ -211,11 +183,7 @@ Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), co
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
-{% include collapse-open.html titre="Archicad : outil grille" %}
-Dans Archicad, les axes créés avec l'outil *Elément de grille* sont automatiquement convertis dans la classe `IfcGridAxis`. En revanche, il est normal qu'ils n'apparaissent pas dans le *Gestionnaire IFC*.
-
-![capture](/assets/img/bp_archicad_grille.png)
-{% include collapse-close.html %}
+{% include fiche-archicad.html titre="Archicad : outil grille" lien="outil-grille" %}
 
 ## Méthode de modélisation
 
