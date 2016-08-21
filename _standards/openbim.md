@@ -1,7 +1,12 @@
 ---
-layout: default
+layout: default-toc
+group: standards
 title: openBIM
+description: Philosophie de collaboration
+ordre: 1
 ---
+
+# openBIM
 
 L'openBIM est avant tout une philosophie.
 

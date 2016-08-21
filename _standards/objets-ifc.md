@@ -1,10 +1,14 @@
 ---
 layout: default
+group: standards
 title: Objets IFC
-permalink: /objets-ifc/
+description: Décryptage des classes d'objets
+ordre: 3
 ---
 
-# Introduction
+# Objets IFC
+
+## Introduction
 
 Le format IFC est un langage dont le vocabulaire principal est formé par les classes `IfcProduct `, destinées à qualifier les objets physiques d'une maquette. Si les logiciels-métiers classent généralement de manière automatique les objets de base, il existe des variations d'une même classe, à travers le `PredefinedType`, permettant d'affiner la qualification.
 
@@ -16,7 +20,7 @@ Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcType
 
 Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, Archicad et Revit).
 
-# Domaine Architectural (IFC2x3-TC1)
+## Domaine Architectural (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
@@ -71,7 +75,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
   </table>
 </div>
 
-# Domaine Structurel (IFC2x3-TC1)
+## Domaine Structurel (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
@@ -126,7 +130,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
   </table>
 </div>
 
-# Domaine Fluides (IFC2x3-TC1)
+## Domaine Fluides (IFC2x3-TC1)
 
 <div id="table-searchable" class="table-responsive">
   <table class="table table-sm table-hover">
@@ -181,7 +185,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
   </table>
 </div>
 
-# Sources
+## Sources
 
 * [Documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
 * [IFC 2×3 element and type classification – The plain language A-Z list](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)

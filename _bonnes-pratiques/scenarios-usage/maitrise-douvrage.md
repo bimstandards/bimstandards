@@ -1,5 +1,5 @@
 ---
-layout: bonnes-pratiques
+layout: default-toc
 group: bonnes-pratiques
 title: Maîtrise d'ouvrage
 description: Comment valider l'évolution d'un projet à partir d'un fichier IFC.
@@ -24,3 +24,4 @@ Les besoins concernant la gestion de patrimoine sont listés [sur une page spéc
 ## Sources
 
 * https://www.nibs.org/?page=bsa_bpie
+* http://www.drofus.no/wiki/_media/public:guide_archicad_en.pdf

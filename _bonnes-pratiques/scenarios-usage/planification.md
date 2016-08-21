@@ -1,5 +1,5 @@
 ---
-layout: bonnes-pratiques
+layout: default-toc
 group: bonnes-pratiques
 title: Planification (4D)
 description: Intégration de données temporelles pour la simulation de planning.

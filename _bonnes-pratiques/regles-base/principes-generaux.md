@@ -1,10 +1,11 @@
 ---
-layout: bonnes-pratiques
+layout: default-toc
 group: bonnes-pratiques
 title: Principes généraux
 description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, les niveaux de détail.
 icon: info-circle
 category: regles-base
+ordre: 1
 status: publish
 ---
 
@@ -191,3 +192,17 @@ Tableau des Niveaux de Développement :
 </div>
 
 ## Sources
+
+* [documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
+* [documentation IFC4-Add1](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
+* [Statsbygg BIM Manual](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf) (page 30/98)
+* [COBIM 2012](http://www.en.buildingsmart.kotisivukone.com/3)
+* [AEC (UK) BIM Protocol v2.0](https://aecuk.wordpress.com/documents/)
+* [Allplan BIM Compendium Theory and Practice](https://www.allplan.com/fileadmin/user_upload/_corp/Home/Aktionsseiten/BIM_Leitfaden/EN/Allplan_BIM_Compendium.pdf)
+* [IFC Reference Guide for ARCHICAD](http://www.graphisoft.com/downloads/addons/ifc/index.html)
+* [Echange de maquette IFC entre CYPECAD MEP et Allplan](https://cypecommunity.zendesk.com/hc/fr/articles/204525969-Echange-de-maquette-IFC-entre-CYPECAD-MEP-et-Allplan)
+* [Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/204281509-Protocole-de-modélisation-et-d-exportation-d-une-maquette-IFC-depuis-ArchiCAD-vers-CYPECAD-MEP)
+* [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
+* [BIMFORUM LOD](http://bimforum.org/lod/)
+* [Cahier Pratique - BIM / Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/)
+* [Blog Areo](http://blog.areo.io/)

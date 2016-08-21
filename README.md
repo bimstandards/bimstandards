@@ -30,7 +30,7 @@ Pour les plus aguerris à la technologie utilisée par le site ([GitHub Pages](h
 
 1. Cloner le dépôt dans le dossier "Sites" du Mac avec l'application GitHub Desktop.
 2. Dans le Terminal, naviguer vers le dossier "bimstandards" avec `cd Sites/bimstandards`
-3. Lancer Jekyll avec la commande `bundle exec jekyll serve`
+3. Lancer Jekyll avec la commande `bundle exec jekyll serve` ou `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
 4. Le site est accessible à l'adresse http://localhost:4000
 5. Pour arrêter Jekyll, appuyer sur `ctrl+c`
 

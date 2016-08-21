@@ -1,5 +1,5 @@
 ---
-layout: bonnes-pratiques
+layout: default-toc
 group: bonnes-pratiques
 title: Conception architecturale
 description: Exploiter le modèle numérique pour élaborer le projet architectural.

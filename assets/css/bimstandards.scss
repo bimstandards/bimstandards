@@ -15,27 +15,24 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
-.bs-masthead {
-  padding: 6rem 0;
+.jumbotron-index {
   background-color: $bs-primary-color;
-  text-align: center;
-  .display-1 {
-    font-size: 3rem;
+  .display-4 {
     color: $bs-primary-color-soft;
   }
-  .display-2 {
-    font-size: 2rem;
+  .lead {
     color: white;
+  }
+  .tag {
+    color: $bs-primary-color;
+    background-color: white;
   }
 }
 
-.bs-featurette {
-  margin-top: 3rem;
-  p {
-    color: #555;
-  }
-  .col-sm-4 {
-    margin-bottom: $spacer*2;
+.container-index {
+  h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -171,11 +168,25 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 }
 
 .card {
-  background-color: #f7f7f7;
+  //background-color: #f7f7f7;
+  a {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+  }
   h4 {
     a {
       color: inherit;
     }
+  }
+}
+
+.card-disabled {
+  .card-title {
+    color: $gray-light !important;
+  }
+  .card-subtitle {
+    color: $gray-light !important;
   }
 }
 
