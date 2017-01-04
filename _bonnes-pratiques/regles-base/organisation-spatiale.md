@@ -164,7 +164,7 @@ Idéalement, le point zéro du projet se trouvera à l'intersection de deux axes
 
 Sur l'illustration ci-dessous : montrer un bâtiment non orienté perpendiculairement au Nord, avec flèche vers le nord géographique.
 
-![capture](/assets/img/bp_archicad_point_zero.png)
+![capture]({{ site.url }}/assets/img/bp_archicad_point_zero.png)
 
 {% include callout-open.html param="danger" %}
 **Attention !:**
@@ -195,6 +195,6 @@ Les axes et le point zéro commun seront communiqués en début de projet par fi
   Indiquer les dépendances d'étages.
 </div>
 
-![capture](/assets/img/bp_assemblages.png)
+![capture]({{ site.url }}/assets/img/bp_assemblages.png)
 
 ## Sources

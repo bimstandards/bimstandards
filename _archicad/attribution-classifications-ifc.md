@@ -8,4 +8,4 @@ Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'él�
 
 Dans l'exemple ci-dessous, la classification d'élément "Mur" attribue automatiquement le Type IFC "IfcWallStandardCase".
 
-![capture](/assets/img/bp_ifc_classification_archicad.png)
+![capture]({{ site.url }}/assets/img/bp_ifc_classification_archicad.png)

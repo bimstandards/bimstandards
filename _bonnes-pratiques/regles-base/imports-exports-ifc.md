@@ -52,6 +52,6 @@ Après l'export du fichier IFC, l'ouvrir avec un éditeur de texte basique type 
 
 Identifier, éventuellement en effectuant une recherche de texte, les lignes pouvant contenir des informations sur l'émetteur du fichier. **Attention** à ne pas supprimer ces lignes (sous peine de corrompre le fichier) mais plutôt à remplacer les informations non désirées par des caractères anonymes.
 
-![anonymat](/assets/img/bp_ifc_anonymat.png)
+![anonymat]({{ site.url }}/assets/img/bp_ifc_anonymat.png)
 
 ## Sources

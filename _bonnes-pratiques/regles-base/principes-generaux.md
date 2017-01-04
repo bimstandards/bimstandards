@@ -15,7 +15,7 @@ status: publish
 Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
-![capture](/assets/img/bp_ifc_version.png)
+![capture]({{ site.url }}/assets/img/bp_ifc_version.png)
 
 ## Catégories d'objets
 
@@ -23,7 +23,7 @@ De manière générale, les éléments du bâti seront modélisés avec les outi
 
 Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations. L'utilisation des objets "proxy" (`IfcBuildingElementProxy`) devra être évitée au maximum ; en cas d'utilisation, le nom de l'objet (`IfcBuildingElementProxy.Name`) explicitera la qualité de l'objet en question.
 
-Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur [cette page]({{ site.url }}/objets-ifc/).
+Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction exhaustive des classifications est disponible sur [cette page]({{ site.url }}/standards/objets-ifc/).
 
 {% include fiche-archicad.html titre="Archicad : attribution des classifications IFC" lien="attribution-classifications-ifc" %}
 
@@ -31,6 +31,8 @@ Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque obje
   <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
   Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif. A insérer à partir d'un fichier .csv du dossier data, pour ne pas alourdir la page.
 </div>
+
+*Principe d'intégration progressive des éléments bâtis dans la maquette numérique :*
 
 <div class="table-responsive">
   <table class="table table-bordered table-hover">
@@ -57,9 +59,31 @@ Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque obje
         <td>x</td>
         <td>x</td>
       </tr>
+      <tr>
+        <td>Bâtiments</td>
+        <td>`IfcBuilding`</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td>Site</td>
+        <td>`IfcSite`</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+        <td>x</td>
+      </tr>
     </tbody>
   </table>
 </div>
+
+## Identifiant unique (GUID)
 
 Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports]({{ site.url }}/bonnes-pratiques/regles-base/imports-exports-ifc) de maquettes.
 
@@ -130,13 +154,15 @@ En fonction des objectifs BIM visés sur le projet, il convient de faire la synt
 
 Voir les différentes pages concernant les  [usages métiers]({{ site.url }}/bonnes-pratiques#scnarios-dusage).
 
-## Niveaux de détail
+## Niveaux de développement
 
-Une spécification des niveaux de développement à chaque phase de projet a été réalisée pour le contexte français par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots.
+Les niveaux de développement ont été développés afin de délimiter la qualité et la précision à intégrer dans une maquette numérique à chaque phase de projet. Différentes spécifications ont été développées selon les besoins et les pays.
 
-La [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/), s'attache plutôt à une niveau de détail par objet, indépendamment des phases de projet.
+Au niveau mondial, la plus reconnue à l'heure actuelle est la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/). Elle s'attache à décrire différents niveaux de développements pour chaque type d'objet composant le bâti.
 
-Tableau des Niveaux de Développement :
+En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
+
+Voici les différents Niveaux de Développement définis par Syntec Ingénierie :
 
 <div class="table-responsive">
   <table class="table table-bordered table-hover">
@@ -174,6 +200,8 @@ Tableau des Niveaux de Développement :
     </tbody>
   </table>
 </div>
+
+Pour en savoir plus sur sur l'historique des niveaux de développement, voir l'article (en anglais) [THE MANY FACES OF ‘LOD’](http://www.bimthinkspace.com/2016/07/the-many-faces-of-lod.html), par Marzia Bolpagni sur le site [BIM ThinkSpace](http://www.bimthinkspace.com/).
 
 ## Sources
 
