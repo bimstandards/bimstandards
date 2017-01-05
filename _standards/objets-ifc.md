@@ -43,15 +43,15 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
     </thead>
     <tbody class="list">
       {% for object in site.data.ifc-objets %}
-        {% if object.domaine_architecture == 'YES' %}
+        {% if object.domaine_architecture == true %}
         <tr>
-          <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
+          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
           <td class="en_gb">
-            {% if object.en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+            {% if object.nom_en_gb != null %}
+              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
             {% endif %}
-            {{ object.en_gb }}
+            {{ object.nom_en_gb }}
           </td>
           <td class="ifcproduct">
             {% if object.ifcproduct != null %}
@@ -98,15 +98,15 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
     </thead>
     <tbody class="list">
       {% for object in site.data.ifc-objets %}
-        {% if object.domaine_structure == 'YES' %}
+        {% if object.domaine_structure == true %}
         <tr>
-          <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
+          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
           <td class="en_gb">
-            {% if object.en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+            {% if object.nom_en_gb != null %}
+              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
             {% endif %}
-            {{ object.en_gb }}
+            {{ object.nom_en_gb }}
           </td>
           <td class="ifcproduct">
             {% if object.ifcproduct != null %}
@@ -153,15 +153,15 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
     </thead>
     <tbody class="list">
       {% for object in site.data.ifc-objets %}
-        {% if object.domaine_fluides == 'YES' %}
+        {% if object.domaine_fluides == true %}
         <tr>
-          <td class="fr_fr"><b>{{ object.fr_fr }}</b></td>
+          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
           <td class="en_gb">
-            {% if object.en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+            {% if object.nom_en_gb != null %}
+              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
             {% endif %}
-            {{ object.en_gb }}
+            {{ object.nom_en_gb }}
           </td>
           <td class="ifcproduct">
             {% if object.ifcproduct != null %}
