@@ -10,11 +10,10 @@
   <div class="collapse navbar-toggleable-xs" id="main-nav">
     <nav class="nav navbar-nav">
       <a class="nav-item nav-link hidden-xs-down {% if page.layout == "home" %}active{% endif %}" href="/">{{ site.title }}</a>
-      <a class="nav-item nav-link {% if page.title == "openBIM" %}active{% endif %}" href="/openbim/">openBIM</a>
-      <a class="nav-item nav-link {% if page.layout == "ifc" %}active{% endif %}" href="/ifc/premiers-pas/introduction.html">IFC</a>
-      <a class="nav-item nav-link {% if page.title == "Objets IFC" %}active{% endif %}" href="/objets-ifc/">Objets IFC</a>
-      <a class="nav-item nav-link {% if page.group == "bonnes-pratiques" %}active{% endif %}" href="/bonnes-pratiques/">Bonnes pratiques</a>
-      <a class="nav-item nav-link {% if page.title == "Outils" %}active{% endif %}" href="/outils/">Outils</a>
+      <a class="nav-item nav-link {% if page.group == "standards" %}active{% endif %}" href="{{ site.url }}#standards">Standards</a>
+      <a class="nav-item nav-link {% if page.group == "bonnes-pratiques" %}active{% endif %}" href="{{ site.url }}#bonnes-pratiques">Bonnes pratiques</a>
+      <a class="nav-item nav-link {% if page.group == "ressources" %}active{% endif %}" href="{{ site.url }}#ressources">Ressources</a>
     </nav>
   </div>
 </header>
+

@@ -6,9 +6,22 @@
   <body>
     {% include nav-home.html %}
 
-    <div class="bs-pageheader">
+    <div class="bs-pageheader hidden-print">
       <div class="container">
         {% include page-header.html %}
+      </div>
+    </div>
+    
+    <div class="visible-print-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">http://www.bimstandards.fr</li>
+              <li class="breadcrumb-item">{{ page.title }}</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -17,13 +30,13 @@
         <div class="row">
           <div class="col-xs-12 bs-content">
             <div class="row">
-              <div class="col-xs-12 bs-content-header">
+              <div class="col-xs-12 bs-content-header hidden-print">
                 {% include content-header.html %}
               </div>
             </div>
             {{ content }}
             <div class="row">
-              <div class="col-xs-12 bs-content-footer">
+              <div class="col-xs-12 bs-content-footer hidden-print">
                 {% include content-footer.html %}
               </div>
             </div>

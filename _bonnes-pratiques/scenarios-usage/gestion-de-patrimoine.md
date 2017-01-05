@@ -1,5 +1,5 @@
 ---
-layout: bonnes-pratiques
+layout: default-toc
 group: bonnes-pratiques
 title: Gestion de patrimoine (6D)
 description: Structuration des données pour l'exploitation-maintenance du bâtiment, à partir d'un DOE.
@@ -34,10 +34,6 @@ Téléchargements :
 * http://www.omniclass.org/tables.asp
 
 Dans le fichier IFC, le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
-
-{% include collapse-open.html titre="Archicad : renseigner le champ classification d'un objet" %}
-A venir...
-{% include collapse-close.html %}
 
 ### Eléments
 

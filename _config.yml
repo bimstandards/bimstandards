@@ -1,14 +1,14 @@
 # Site settings
 title:            BIMstandards
-description:      Bonnes pratiques de l'openBIM, standards et interopérabilité.
-keywords:         standards, BIM, openBIM, BuildingSMART, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
+description:      Bonnes pratiques des standards openBIM, pour des échanges opérationnels au quotidien !
+keywords:         standards, BIM, openBIM, interopérabilité, BuildingSMART, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
 author:           Alexandre Grignon
 url:              "http://bimstandards.fr"
 repository:       bimstandards/bimstandards
 
 # Versions
-version:          v0.1.0-beta.5
-latest_update:    18/05/2016
+version:          v0.1.0-beta.6
+latest_update:    5/01/2017
 
 # Build settings
 markdown:         kramdown
@@ -18,7 +18,10 @@ exclude:          [vendor]
 # Collections
 collections:
   pages: {output: true, permalink: '/:path/'}
+  standards: {output: true, permalink: '/standards/:path/'}
   bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
+  archicad: {output: true, permalink: '/archicad/:path/'}
+  ressources: {output: true, permalink: '/ressources/:path/'}
   
 # Assets
 sass:

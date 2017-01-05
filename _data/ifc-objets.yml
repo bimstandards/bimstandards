@@ -1,0 +1,3827 @@
+- nom_fr_fr: Poutre
+  nom_en_gb: Beam
+  ifcproduct: IfcBeam
+  ifctypeproduct: IfcBeamType BEAM
+  allplan: 
+  archicad: Poutre
+  revit: Structure / Poutre
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Solive
+  nom_en_gb: Joist
+  ifcproduct: IfcBeam
+  ifctypeproduct: IfcBeamType JOIST
+  allplan: 
+  archicad: Poutre
+  revit: Structure / Poutre
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Linteau
+  nom_en_gb: Lintel
+  ifcproduct: IfcBeam
+  ifctypeproduct: IfcBeamType LINTEL
+  allplan: 
+  archicad: Poutre
+  revit: Structure / Poutre
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Poutre en T
+  nom_en_gb: T-Beam
+  ifcproduct: IfcBeam
+  ifctypeproduct: IfcBeamType T_BEAM
+  allplan: 
+  archicad: Poutre
+  revit: Structure / Poutre
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Mass
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Non défini
+  nom_en_gb: Other
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Topographique / Terrain
+  nom_en_gb: Topography
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Arbre
+  nom_en_gb: Tree
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Cheminée
+  nom_en_gb: Chimney
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Plantation
+  nom_en_gb: Planting
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Route
+  nom_en_gb: Road
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Géométrie de site
+  nom_en_gb: Site Geometry
+  ifcproduct: IfcBuildingElementProxy
+  ifctypeproduct: IfcBuildingElementProxyType
+  allplan: 
+  archicad: Terrain
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Poteau
+  nom_en_gb: Column
+  ifcproduct: IfcColumn
+  ifctypeproduct: IfcColumnType COLUMN
+  allplan: 
+  archicad: Poteau
+  revit: Poteau Porteur / Architectural
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Duct Insulation
+  ifcproduct: IfcCovering
+  ifctypeproduct: IfcCoveringType INSULATION
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Duct Lining
+  ifcproduct: IfcCovering
+  ifctypeproduct: IfcCoveringType INSULATION
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: Toiture
+  nom_en_gb: Roofing
+  ifcproduct: IfcCovering
+  ifctypeproduct: IfcCoveringType
+  allplan: 
+  archicad: Toiture
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Plinthe
+  nom_en_gb: Baseboard
+  ifcproduct: IfcCovering *
+  ifctypeproduct: IfcCoveringType *
+  allplan: 
+  archicad: 
+  revit: Composant in situ
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Revêtement
+  nom_en_gb: Covering
+  ifcproduct: IfcCovering *
+  ifctypeproduct: IfcCoveringType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Moulure
+  nom_en_gb: Moulding
+  ifcproduct: IfcCovering *
+  ifctypeproduct: IfcCoveringType *
+  allplan: 
+  archicad: 
+  revit: Composant in situ
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Plinthe
+  nom_en_gb: Skirting Board
+  ifcproduct: IfcCovering *
+  ifctypeproduct: IfcCoveringType *
+  allplan: 
+  archicad: 
+  revit: Composant in situ
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Plafond
+  nom_en_gb: Ceiling
+  ifcproduct: IfcCovering CEILING
+  ifctypeproduct: IfcCoveringType CEILING
+  allplan: 
+  archicad: Dalle
+  revit: Plafond
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Bardage
+  nom_en_gb: Cladding
+  ifcproduct: IfcCovering CLADDING
+  ifctypeproduct: IfcCoveringType CLADDING
+  allplan: 
+  archicad: 
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Revêtement de sol
+  nom_en_gb: Flooring
+  ifcproduct: IfcCovering FLOORING
+  ifctypeproduct: IfcCoveringType FLOORING
+  allplan: 
+  archicad: Dalle
+  revit: Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Isolation
+  nom_en_gb: Insulation
+  ifcproduct: IfcCovering INSULATION
+  ifctypeproduct: IfcCoveringType INSULATION
+  allplan: 
+  archicad: 
+  revit: Mur, Toit, Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Manchon (isolation de tuyau)
+  nom_en_gb: Pipe Insulation
+  ifcproduct: IfcCovering INSULATION
+  ifctypeproduct: IfcCoveringType INSULATION
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 'Membrane d''étanchéité / pare-pluie / écran de sous-toiture'
+  nom_en_gb: Membrane
+  ifcproduct: IfcCovering MEMBRANE
+  ifctypeproduct: IfcCoveringType MEMBRANE
+  allplan: 
+  archicad: 
+  revit: Mur, Toit, Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Encoffrement / gaine
+  nom_en_gb: Sleeving
+  ifcproduct: IfcCovering SLEEVING
+  ifctypeproduct: IfcCoveringType SLEEVING
+  allplan: 
+  archicad: 
+  revit: Mur, Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Manchon
+  nom_en_gb: Wrapping
+  ifcproduct: IfcCovering WRAPPPING
+  ifctypeproduct: IfcCoveringType WRAPPING
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Mur-rideau
+  nom_en_gb: Curtain Wall
+  ifcproduct: IfcCurtainWall
+  ifctypeproduct: IfcCurtainWallType *
+  allplan: 
+  archicad: Mur-rideau
+  revit: Mur-rideau
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Système de mur-rideau
+  nom_en_gb: Curtain Wall System
+  ifcproduct: IfcCurtainWall
+  ifctypeproduct: IfcCurtainWallType
+  allplan: 
+  archicad: Mur-rideau
+  revit: Mur-rideau
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Corbels (as separate elements)
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Discrete Accessory
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Electrical Accessories (for precast concrete elements)
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Shading Device
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Vibration Isolator
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcVibrationIsolatorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Anchor Bolt
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Building Services Accessories
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Fixing Parts
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Joint Accessories
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Lifting Accessories
+  ifcproduct: IfcDiscreteAccessory
+  ifctypeproduct: IfcDiscreteAccessoryType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Distribution Chamber Element
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Formed Duct
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType FORMEDDUCT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Inspection Pit
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType INSPECTIONPIT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Manhole
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType MANHOLE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Meter Chamber
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType METERCHAMBER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sump
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType SUMP
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Trench
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType TRENCH
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Valve Chamber
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType VALVECHAMBER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Inspection Chamber
+  ifcproduct: IfcDistributionChamberElement
+  ifctypeproduct: IfcDistributionChamberElementType INSPECTIONCHAMBER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Earth Failure Device
+  ifcproduct: IfcDistributionControl
+  ifctypeproduct: IfcProtectiveDeviceType EARTHFAILUREDEVICE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Actuator
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcActuatorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Ammeter
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType AMMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Bell
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcAlarmType BELL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Controller
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcControllerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Distribution Control Element
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcDistributionControlElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Time Control
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcElectricTimeControlType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire Alarm Device
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType FIRESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType FIRESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Instrument
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType FLOWSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Frequency Meter
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType FREQUENCYMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Heat Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType HEATSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Humidity Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType HUMIDITYSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Phase Angle Meter
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType PHASEANGLEMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pressure Gauge
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType PRESSURGAUGE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pressure Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType PRESSURESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Siren
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcAlarmType SIREN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Temperature Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType TEMPERATURESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Thermometer
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType THERMOMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Voltmeter (Peak)
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType VOLTMETER_PEAK
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Voltmeter (RMS)
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType VOLTMETER_RMS
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Whistle
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcAlarmType WHISTLE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Alarm
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcAlarmType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Break Glass Button
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcAlarmType BREAKGLASSBUTTON
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: CO2 Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType C02SENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gas Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType GASSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Light Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType LIGHTSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Moisture Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType MOISTURESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Movement Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType MOVEMENTSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Power Factor Meter
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcFlowInstrumentType POWERFACTORMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Smoke Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType SMOKESENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sound Sensor
+  ifcproduct: IfcDistributionControlElement
+  ifctypeproduct: IfcSensorType SOUNDSENSOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Distribution Element
+  ifcproduct: IfcDistributionElement
+  ifctypeproduct: IfcDistributionElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Distribution Flow Element
+  ifcproduct: IfcDistributionElement
+  ifctypeproduct: IfcDistributionFlowElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Meter
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcFlowMeterType ELECTRICMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Meter
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcFlowMeterType FLOWMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Protective Device
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcProtectiveDeviceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Relay
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcElectricTimeControlType RELAY
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Residual Current Switch
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcProtectiveDeviceType RESIDUALCURRENTSWITCH
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Smoke Damper
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcDamperType SMOKEDAMPER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Time Clock
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcElectricTimeControlType TIMECLOCK
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Time Delay
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcElectricTimeControlType TIMEDELAY
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Air Terminal Box
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcAirTerminalBoxType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Residual Current Circuit Breaker
+  ifcproduct: IfcDistributionFlowElement
+  ifctypeproduct: IfcProtectiveDeviceType RESIDUALCURRENTCIRCUITBREAKER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: Porte
+  nom_en_gb: Door
+  ifcproduct: IfcDoor
+  ifctypeproduct: IfcDoorStyle *
+  allplan: 
+  archicad: Porte
+  revit: Porte
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Air Handler
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcUnitaryEquipmentType AIRHANDLER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Air To Air Heat Recovery
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcAirToAirHeatRecoveryType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Battery
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcElectricFlowStorageDeviceType BATTERY
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Boiler
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcBoilerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Condenser
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcCondenserType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Convector
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcSpaceHeaterType CONVECTOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cooled Beam
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcCooledBeamType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cooling Tower
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcCoolingTowerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Generator
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcElectricGeneratorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Motor
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcElectricMotorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Evaporative Cooler
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcEvaporativeCoolerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Evaporator
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcEvaporatorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Heat Exchanger
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcHeatExchangerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Humidifier
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcHumidifierType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Motor Connection
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcMotorConnectionType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Radiator
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcSpaceHeaterType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Roof Top Unit
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcUnitaryEquipmentType ROOFTOPUNIT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Space Heater
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcSpaceHeaterType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Transformer
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcTransformerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Tube Bundle
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcTubeBundleType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Unitary Equipment
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcUnitaryEquipmentType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Air Conditioning Unit
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcUnitaryEquipmentType AIRCONDITIONINGUNIT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Baseboard Heater
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcSpaceHeaterType BASEBOARDHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Chiller
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcChillerType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Coil
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcCoilType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Skirting Board Heater
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcSpaceHeaterType BASEBOARDHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Split System
+  ifcproduct: IfcEnergyConversionDevice
+  ifctypeproduct: IfcUnitaryEquipmentType AIRHANDLER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: Attache / fixation
+  nom_en_gb: Fastener
+  ifcproduct: IfcFastener
+  ifctypeproduct: IfcFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Joint de mortier
+  nom_en_gb: Jointing Mortar
+  ifcproduct: IfcFastener
+  ifctypeproduct: IfcFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Soudure
+  nom_en_gb: Weld
+  ifcproduct: IfcFastener
+  ifctypeproduct: IfcFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Colle
+  nom_en_gb: Glue
+  ifcproduct: IfcFastener
+  ifctypeproduct: IfcFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Circuit Breaker
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcProtectiveDeviceType CIRCUITBREAKER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Damper
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcDamperType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Energy Meter
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcFlowMeterType ENERGYMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire Damper
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcDamperType FIREDAMPER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire and Smoke Damper
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcDamperType FIRESMOKEDAMPER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Controller
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcFlowControllerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Meter
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcFlowMeterType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fume Hood Exhaust
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcDamperType FUMEHOODEXHAUST
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Oil Meter
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcFlowMeterType OILMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Switching Device
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcSwitchingDeviceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Valve
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcValveType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Varistor
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcProtectiveDeviceType VARISTOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Water Meter
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcFlowMeterType WATERMETER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Nurse Call Device
+  ifcproduct: IfcFlowController
+  ifctypeproduct: IfcSwitchingDeviceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Carrier Fitting
+  ifcproduct: IfcFlowFitting
+  ifctypeproduct: IfcCableCarrierFittingType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Duct Fitting
+  ifcproduct: IfcFlowFitting
+  ifctypeproduct: IfcDuctFittingType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Fitting
+  ifcproduct: IfcFlowFitting
+  ifctypeproduct: IfcFlowFittingType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Junction Box
+  ifcproduct: IfcFlowFitting
+  ifctypeproduct: IfcJunctionBoxType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pipe Fitting
+  ifcproduct: IfcFlowFitting
+  ifctypeproduct: IfcPipeFittingType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fan
+  ifcproduct: IfcFlowMovingDevice
+  ifctypeproduct: IfcFanType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Moving Device
+  ifcproduct: IfcFlowMovingDevice
+  ifctypeproduct: IfcFlowMovingDeviceType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pump
+  ifcproduct: IfcFlowMovingDevice
+  ifctypeproduct: IfcPumpType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Compressor
+  ifcproduct: IfcFlowMovingDevice
+  ifctypeproduct: IfcCompressorType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Carrier Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableCarrierSegmentType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Conduit Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableSegmentType CONDUITSEGMENT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Duct Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcDuctSegmentType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcFlowSegmentType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gutter
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcPipeSegmentType GUTTER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pipe Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcPipeSegmentType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Spool
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcPipeSegmentType SPOOL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Ladder Segment Type
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableSegmentType CABLELADDERSEGMENTYPE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableSegmentType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Tray Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableSegmentType CABLETRAYSEGMENT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cable Trunking Segment
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcCableSegmentType CABLETRUNKINGSEGMENT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pipe Segment (Flexible)
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcPipeSegmentType FLEXIBLESEGMENT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Pipe Segment (Rigid)
+  ifcproduct: IfcFlowSegment
+  ifctypeproduct: IfcPipeSegmentType RIGIDSEGMENT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Flow Storage Device
+  ifcproduct: IfcFlowStorageDevice
+  ifctypeproduct: IfcElectricFlowStorageDeviceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Storage Device
+  ifcproduct: IfcFlowStorageDevice
+  ifctypeproduct: IfcFlowStorageDeviceType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Tank
+  ifcproduct: IfcFlowStorageDevice
+  ifctypeproduct: IfcTankType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Air Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcAirTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Audio Visual Outlet
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcOutletType AUDIOVISUALOUTLET
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Breeching Inlet
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFireSuppressionTerminalType BREECHINGINLET
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Communications Outlet
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcOutletType COMMUNICATIONSOUTLET
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cowl
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcStackTerminalType COWL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Direct Water Heater
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType DIRECTWATERHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Dishwasher
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType DISHWASHER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Appliance
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Cooker
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType ELECTRICCOOKER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Heater
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricHeaterType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Heater (Appliance)
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType ELECTRICHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Facsimile
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType FACSIMILIE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire Hydrant
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFireSuppressionTerminalType FIREHYDRANT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fire Suppression Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFireSuppressionTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFlowTerminalType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Floor Trap
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType FLOORTRAP
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Floor Waste
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType FLOORWASTE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Freezer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType FREEZER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Hose Reel
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFireSuppressionTerminalType HOSEREEL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Lamp
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcLampType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Light Fixture
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcLightFixtureType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Outlet
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcOutletType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Power Outlet
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcOutletType POWEROUTLET
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Rainwater Downpipe
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcStackTerminalType RAINWATERHOPPER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Rainwater Hopper
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcStackTerminalType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sanitary Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sink
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType SINK
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sprinkler
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcFireSuppressionTerminalType SPRINKLER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Stack Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcStackTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Telephone
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType TELEPHONE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Toilet Pan
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType TOILETPAN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Tumble Dryer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType TUMBLEDRYER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: TV
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType TV
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Urinal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType URINAL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Vending Machine
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType VENDINGMACHINE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Wash Hand Basin
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType WASHHANDBASIN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Washing Machine
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType WASHINGMACHINE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Waste Disposal Unit
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType WASTEDISPOSALUNIT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: IfcFlowTerminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Waste Trap
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType WASTETRAP
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Water Cooler
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType WATERCOOLER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Water Heater
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType WATERHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: WC Seat
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType WCSEAT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Bath
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType BATH
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Cistern
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType CISTERN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Computer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType COMPUTER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Freestanding Fan
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType FREESTANDINGFAN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Fridge Freezer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType FRIDGE_FREEZER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gas Appliance
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcGasTerminalType GASAPPLIANCE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gas Booster
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcGasTerminalType GASBOOSTER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gas Burner
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcGasTerminalType GASBURNER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gas Terminal
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcGasTerminalType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Grease Interceptor
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType GREASEINTERCEPTOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gully Sump
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType GULLYSUMP
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Gully Trap
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType GULLYTRAP
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Hand Dryer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType HANDDRYER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Indirect Water Heater
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType INDIRECTWATERHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Microwave
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType MICROWAVE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Oil Interceptor
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType OILINTERCEPTOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Petrol Interceptor
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType PETROLINTERCEPTOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Photocopier
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType PHOTOCOPIER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Printer
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType PRINTER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Radiant Heater
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType RADIANTHEATER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Refrigerator
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType REFRIGERATOR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Roof Drain
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcWasteTerminalType ROOFDRAIN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Sanitary Fountain
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType SANITARYFOUNTAIN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Scanner
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcElectricApplianceType SCANNER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Shower
+  ifcproduct: IfcFlowTerminal
+  ifctypeproduct: IfcSanitaryTerminalType SHOWER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Duct Silencer
+  ifcproduct: IfcFlowTreatmentDevice
+  ifctypeproduct: IfcDuctSilencer *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Filter
+  ifcproduct: IfcFlowTreatmentDevice
+  ifctypeproduct: IfcFilterType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Treatment Device
+  ifcproduct: IfcFlowTreatmentDevice
+  ifctypeproduct: IfcFlowTreatmentDeviceType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+
+- nom_fr_fr: Fondation
+  nom_en_gb: Footing
+  ifcproduct: IfcFooting
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: Fondation Filante / Isolée
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Fondation
+  nom_en_gb: Foundation
+  ifcproduct: IfcFooting
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Longrine
+  nom_en_gb: Footing Beam
+  ifcproduct: IfcFooting FOOTING_BEAM
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: Structure / Poutre
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Semelle isolée
+  nom_en_gb: 
+  ifcproduct: IfcFooting PAD_FOOTING
+  ifctypeproduct: 
+  allplan: 
+  archicad: 
+  revit: Fondation Isolée
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Pile Cap
+  ifcproduct: IfcFooting PILE_CAP
+  ifctypeproduct: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Semelle filante
+  nom_en_gb: Strip Footing
+  ifcproduct: IfcFooting STRIP_FOOTING
+  ifctypeproduct: 
+  allplan: 
+  archicad: 
+  revit: Fondation Filante
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Furniture System
+  ifcproduct: IfcFurnishingElement
+  ifctypeproduct: IfcSystemFurnitureElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: System Furniture Element
+  ifcproduct: IfcFurnishingElement
+  ifctypeproduct: IfcSystemFurnitureElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Mobilier
+  nom_en_gb: Furniture
+  ifcproduct: IfcFurnishingElement
+  ifctypeproduct: IfcFurnitureType *
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Furniture Element
+  ifcproduct: IfcFurnishingElement
+  ifctypeproduct: IfcFurnishingElementType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Trame
+  nom_en_gb: Grid
+  ifcproduct: IfcGrid
+  ifctypeproduct: 
+  allplan: 
+  archicad: Grille
+  revit: Quadrillage
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Boulon
+  nom_en_gb: Bolt
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Rondelle
+  nom_en_gb: Washer
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Fixation mécanique
+  nom_en_gb: Mechanical Fastener
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastener
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Clou
+  nom_en_gb: Nail
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Ecrou
+  nom_en_gb: Nut
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Rivet
+  nom_en_gb: Rivet
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Vis
+  nom_en_gb: Screw
+  ifcproduct: IfcMechanicalFastener
+  ifctypeproduct: IfcMechanicalFastenerType
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Entretoise / contrefiche
+  nom_en_gb: Brace
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType BRACE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Corde (poutre treillis)
+  nom_en_gb: Chord
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType CHORD
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Entrait
+  nom_en_gb: Collar
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType COLLAR
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Ossature / montant
+  nom_en_gb: Member
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType MEMBER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Meneau
+  nom_en_gb: Mullion
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType MULLION
+  allplan: 
+  archicad: 
+  revit: Meneau
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Plat
+  nom_en_gb: Plate
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType PLATE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Poinçon
+  nom_en_gb: Post
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType POST
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Panne
+  nom_en_gb: Purlin
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType PURLIN
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Arbalétrier
+  nom_en_gb: Rafter
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType RAFTER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Limon
+  nom_en_gb: Stringer
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType STRINGER
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Contrefiche ?
+  nom_en_gb: Strut
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType STRUT
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Montant
+  nom_en_gb: Stud
+  ifcproduct: IfcMember
+  ifctypeproduct: IfcMemberType STUD
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Pieu
+  nom_en_gb: Pile
+  ifcproduct: IfcPile
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Panneau de mur-rideau
+  nom_en_gb: Curtain Wall Panel
+  ifcproduct: IfcPlate
+  ifctypeproduct: IfcPlateType CURTAIN_PANEL
+  allplan: 
+  archicad: 
+  revit: Panneau de mur-rideau
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Plate
+  ifcproduct: IfcPlate
+  ifctypeproduct: IfcPlateType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Sheet
+  ifcproduct: IfcPlate
+  ifctypeproduct: IfcPlateType SHEET
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Balustrade
+  nom_en_gb: Balustrade
+  ifcproduct: IfcRailing
+  ifctypeproduct: IfcRailingType BALUSTRADE
+  allplan: 
+  archicad: 
+  revit: Barreaux
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Garde-corps
+  nom_en_gb: Guardrail
+  ifcproduct: IfcRailing
+  ifctypeproduct: IfcRailingType GUARDRAIL
+  allplan: 
+  archicad: Objet
+  revit: Garde-corps
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Main-courante
+  nom_en_gb: Handrail
+  ifcproduct: IfcRailing
+  ifctypeproduct: IfcRailingType HANDRAIL
+  allplan: 
+  archicad: 
+  revit: Traverses (profil)
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe
+  nom_en_gb: Railing
+  ifcproduct: IfcRailing
+  ifctypeproduct: IfcRailingType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe
+  nom_en_gb: Ramp
+  ifcproduct: IfcRamp *
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe droite
+  nom_en_gb: 
+  ifcproduct: IfcRamp STRAIGHT_RUN_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe avec palier intermédiaire
+  nom_en_gb: 
+  ifcproduct: IfcRamp TWO_STRAIGHT_RUN_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe quart tournant (1 palier intermédiaire)
+  nom_en_gb: 
+  ifcproduct: IfcRamp QUARTER_TURN_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe double quart tournant (2 paliers intermédiaires)
+  nom_en_gb: 
+  ifcproduct: IfcRamp TWO_QUARTER_TURN_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe double quart tournant (1 palier intermédiaire)
+  nom_en_gb: 
+  ifcproduct: IfcRamp HALF_TURN_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Rampe en spirale
+  nom_en_gb: 
+  ifcproduct: IfcRamp SPIRAL_RAMP
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Volée de rampe
+  nom_en_gb: Ramp Flight
+  ifcproduct: IfcRampFlight
+  ifctypeproduct: IfcRampFlightType *
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Volée de rampe droite
+  nom_en_gb: 
+  ifcproduct: IfcRampFlight
+  ifctypeproduct: IfcRampFlightType STRAIGHT
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Volée de rampe à spirale
+  nom_en_gb: 
+  ifcproduct: IfcRampFlight
+  ifctypeproduct: IfcRampFlightType SPIRAL
+  allplan: 
+  archicad: Escalier
+  revit: 'Rampe d''accès'
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Fer à béton
+  nom_en_gb: Reinforcing Bar
+  ifcproduct: IfcReinforcingBar
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Treillis soudé
+  nom_en_gb: Reinforcing Mesh
+  ifcproduct: IfcReinforcingMesh
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: 
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture terrasse
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType FLAT_ROOF
+  allplan: 
+  archicad: Dalle
+  revit: Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à un versant (appentis)
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType SHED_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à deux versants
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType GABLE_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à quatre versants égaux
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType HIP_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à deux pans en croupe
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType HIPPED_GABLE_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à deux pans avec ligne de bris
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType GAMBREL_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toit à la mansard
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType MANSARD_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Voûte plein-cintre
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType BARREL_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Voûte brisée
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType RAINBOW_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture papillon
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType BUTTERFLY_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à 4 pans égaux
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType PAVILION_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Dôme
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType DOME_ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture à forme libre
+  nom_en_gb: 
+  ifcproduct: IfcRoof
+  ifctypeproduct: IfcRoofType FREEFORM
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Dalle
+  nom_en_gb: Slab
+  ifcproduct: IfcSlab
+  ifctypeproduct: IfcSlabType
+  allplan: 
+  archicad: Dalle
+  revit: Sol
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Radier
+  nom_en_gb: Base Slab
+  ifcproduct: IfcSlab BASESLAB
+  ifctypeproduct: IfcSlabType BASESLAB
+  allplan: 
+  archicad: Dalle
+  revit: Radier
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Plancher
+  nom_en_gb: Floor
+  ifcproduct: IfcSlab FLOOR
+  ifctypeproduct: IfcSlabType FLOOR
+  allplan: 
+  archicad: Dalle
+  revit: Sol
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Palier
+  nom_en_gb: Landing
+  ifcproduct: IfcSlab LANDING
+  ifctypeproduct: IfcSlabType LANDING
+  allplan: 
+  archicad: Dalle
+  revit: Sol
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Toiture
+  nom_en_gb: Roof
+  ifcproduct: IfcSlab ROOF
+  ifctypeproduct: IfcSlabType ROOF
+  allplan: 
+  archicad: Toit
+  revit: Toit
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Zone
+  nom_en_gb: Area
+  ifcproduct: IfcSpace
+  ifctypeproduct: IfcSpaceType *
+  allplan: 
+  archicad: Zone
+  revit: Pièce
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Espace
+  nom_en_gb: Space
+  ifcproduct: IfcSpace
+  ifctypeproduct: IfcSpaceType *
+  allplan: 
+  archicad: Zone
+  revit: Pièce
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Pièce
+  nom_en_gb: Room
+  ifcproduct: IfcSpace
+  ifctypeproduct: IfcSpaceType
+  allplan: 
+  archicad: Zone
+  revit: Pièce
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier
+  nom_en_gb: Stair
+  ifcproduct: IfcStair *
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier droit
+  nom_en_gb: 
+  ifcproduct: IfcStair STRAIGHT_RUN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier droit avec palier intermédiaire
+  nom_en_gb: 
+  ifcproduct: IfcStair TWO_STRAIGHT_RUN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair QUARTER_WINDING_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier quart tournant
+  nom_en_gb: 
+  ifcproduct: IfcStair QUARTER_TURN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier balancé
+  nom_en_gb: 
+  ifcproduct: IfcStair HALF_WINDING_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair HALF_TURN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair TWO_QUARTER_WINDING_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair TWO_QUARTER_TURN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair THREE_QUARTER_WINDING_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair THREE_QUARTER_TURN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier hélicoïdal
+  nom_en_gb: 
+  ifcproduct: IfcStair SPIRAL_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair DOUBLE_RETURN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair CURVED_RUN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStair TWO_CURVED_RUN_STAIR
+  ifctypeproduct: 
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 'Volée d''escalier'
+  nom_en_gb: Stair Flight
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 'Volée d''escalier droite'
+  nom_en_gb: 
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType STRAIGHT
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType WINDER
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType SPIRAL
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType CURVED
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct: IfcStairFlight
+  ifctypeproduct: IfcStairFlightType FREEFORM
+  allplan: 
+  archicad: Escalier
+  revit: Escalier
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Tendon
+  nom_en_gb: Tendon
+  ifcproduct: IfcTendon
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Ancrage de tendon
+  nom_en_gb: Tendon Anchor
+  ifcproduct: IfcTendonAnchor
+  ifctypeproduct: n/a
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Tapis roulant
+  nom_en_gb: Moving Walkway
+  ifcproduct: IfcTranportElement MOVINGWALKWAY
+  ifctypeproduct: IfcTransportElementType MOVINGWALKWAY
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Elément de transport
+  nom_en_gb: Transport Element
+  ifcproduct: IfcTransportElement *
+  ifctypeproduct: IfcTransportElementType *
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Ascenseur
+  nom_en_gb: Elevator
+  ifcproduct: IfcTransportElement ELEVATOR
+  ifctypeproduct: IfcTransportElementType ELEVATOR
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Escalier mécanique
+  nom_en_gb: Escalator
+  ifcproduct: IfcTransportElement ESCALATOR
+  ifctypeproduct: IfcTransportElementType ESCALATOR
+  allplan: 
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Cloison
+  nom_en_gb: Bulkhead
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Coffrage de sanitaires
+  nom_en_gb: Plumbing Wall
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType PLUMBINGWALL
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Mur avec fruit
+  nom_en_gb: Shear Wall
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType SHEAR
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Mur à épaisseur constante dans la longueur
+  nom_en_gb: 
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType STANDARD
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Mur à épaisseur variable dans la longueur
+  nom_en_gb: 
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType POLYGONAL
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Mur composé de différents éléments (ex ossature bois)
+  nom_en_gb: 
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType ELEMENTEDWALL
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Mur
+  nom_en_gb: Wall
+  ifcproduct: IfcWall
+  ifctypeproduct: IfcWallType *
+  allplan: 
+  archicad: Mur
+  revit: Mur
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+
+- nom_fr_fr: Fenêtre
+  nom_en_gb: Window
+  ifcproduct: IfcWindow
+  ifctypeproduct: IfcWindowStyle *
+  allplan: 
+  archicad: Fenêtre
+  revit: Fenêtre
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Chassis vitré
+  nom_en_gb: Glazed Screen
+  ifcproduct: IfcWindow
+  ifctypeproduct: IfcWindowStyle *
+  allplan: 
+  archicad: Fenêtre
+  revit: Fenêtre
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Fenêtre de toit
+  nom_en_gb: Rooflight
+  ifcproduct: IfcWindow
+  ifctypeproduct: IfcWindowStyle *
+  allplan: 
+  archicad: Fenêtre de toit
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: Verrière
+  nom_en_gb: Skylight
+  ifcproduct: IfcWindow
+  ifctypeproduct: IfcWindowStyle *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+
+- nom_fr_fr: 
+  nom_en_gb: Energy Conversion Device
+  ifcproduct: 
+  ifctypeproduct: IfcEnergyConversionDeviceType *
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true

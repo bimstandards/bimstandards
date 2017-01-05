@@ -4,36 +4,138 @@ title: BIMstandards
 permalink: /
 ---
 
-<main class="bs-masthead">
+<div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-1">
-      {{ site.title }}
-    </h1>
-    <h2 class="display-2">
-      {{ site.description }}
-    </h2>
+    <h1 class="display-4">{{ site.title }}</h1>
+    <p class="lead">{{ site.description }}</p>
     <p>
-      <span class="label label-default">{{ site.version }}</span>
+      <span class="tag tag-default">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}/tag/{{ site.version }}" role="button">(notes de version)</a>
     </p>
   </div>
-</main>
+</div>
 
-<div class="bs-featurette">
-  <div class="container">
-    <div class="col-sm-4">
-      <h4>Une philosophie</h4>
-      <p>Une nouvelle méthode de travail basée sur la transparence et la libération des données.</p>
-      <a class="btn btn-primary-outline btn-sm" href="/openbim/">Introduction sur l'openBIM</a>
+<div class="container container-index">
+  
+  <div class="row" id="standards">
+    <div class="col-xs-12">
+      <h2>
+        Standards
+        <small class="text-muted">buildingSMART, Mediaconstruct, etc.</small>
+      </h2>
     </div>
-    <div class="col-sm-4">
-      <h4>Un langage unique</h4>
-      <p>Une structuration des données pour moins de ressaisies et plus d'efficacité.</p>
-      <a class="btn btn-primary-outline btn-sm" href="/objets-ifc/">Voir les classifications IFC</a>
-    </div>
-    <div class="col-sm-4">
-      <h4>Des usages variés</h4>
-      <p>Savoir adopter quelques règles basiques pour bien collaborer.</p>
-      <a class="btn btn-primary-outline btn-sm" href="/bonnes-pratiques/">Bonnes pratiques</a>
-    </div>
+    {% assign pages_sorted = site.standards | sort: 'ordre' %}
+    {% for page in pages_sorted %}
+      <div class="col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+          <a href="{{ page.url }}"></a>
+          <div class="card-block">
+            <h4 class="card-title">{{ page.title }}</h4>
+            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
+            {% if page.status == 'draft' %}
+              <span class="tag tag-warning">bientôt disponible</span>
+            {% endif %}
+          </div>
+          <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.png" alt="">
+        </div>
+      </div>
+    {% endfor %}
   </div>
+  
+  <div class="row" id="bonnes-pratiques">
+    <div class="col-xs-12">
+      <h2>
+        Bonnes pratiques
+        <small class="text-muted">et règles de base</small>
+      </h2>
+    </div>
+    {% assign pages_sorted = site.bonnes-pratiques | sort: 'ordre' %}
+    {% for page in pages_sorted %}
+      {% if page.category == 'regles-base' %}
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card">
+            <a href="{{ page.url }}"></a>
+            <div class="card-block">
+              <h4 class="card-title">
+                <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
+                {{ page.title }}
+              </h4>
+              <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
+              {% if page.status == 'draft' %}
+                <span class="tag tag-warning">bientôt disponible</span>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>
+        Scénarios d'usage
+        <small class="text-muted">à la carte</small>
+      </h2>
+    </div>
+    {% assign pages_sorted = site.bonnes-pratiques | sort: 'ordre' | where: 'status','publish' %}
+    {% for page in pages_sorted %}
+      {% if page.category == 'scenarios-usage' %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-block">
+                <h4 class="card-title">
+                  <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
+                  {{ page.title }}
+                </h4>
+                <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
+              </div>
+            </div>
+          </div>
+      {% endif %}
+    {% endfor %}
+    {% assign pages_sorted = site.bonnes-pratiques | sort: 'ordre' | where: 'status','draft' %}
+    {% for page in pages_sorted %}
+      {% if page.category == 'scenarios-usage' %}
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card card-disabled">
+            <div class="card-block">
+              <span class="tag tag-warning">bientôt disponible</span>
+              <h4 class="card-title">
+                <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
+                {{ page.title }}
+              </h4>
+              <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="row" id="ressources">
+    <div class="col-xs-12">
+      <h2>
+        Ressources
+        <small class="text-muted">pour aller plus loin</small>
+      </h2>
+    </div>
+    {% assign pages_sorted = site.ressources | sort: 'ordre' %}
+    {% for page in pages_sorted %}
+      <div class="col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+          <a href="{{ page.url }}"></a>
+          <div class="card-block">
+            <h4 class="card-title">{{ page.title }}</h4>
+            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
+            {% if page.status == 'draft' %}
+              <span class="tag tag-warning">bientôt disponible</span>
+            {% endif %}
+          </div>
+          <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.png" alt="">
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
 </div>
