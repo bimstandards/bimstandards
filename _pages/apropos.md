@@ -6,7 +6,7 @@ permalink: /apropos/
 
 # Qui ?
 
-Ce site est développé et mis à jour par [Alexandre Grignon](https://fr.linkedin.com/in/alexandregrignon), architecte et BIM manager à [forma6](http://www.forma6.net), diplômé de la première promotion du [Mastère Spécialisé BIM](http://www.enpc.fr/node/12839) codirigé par l'Ecole des Ponts et l'ESTP.
+Ce site est développé et mis à jour par [Alexandre Grignon](https://fr.linkedin.com/in/alexandregrignon), architecte et BIM manager à [forma6](http://www.forma6.net), diplômé de la première promotion du [Mastère Spécialisé BIM](http://www.enpc.fr/node/146951) codirigé par l'Ecole des Ponts et l'ESTP.
 
 # Pourquoi ?
 
