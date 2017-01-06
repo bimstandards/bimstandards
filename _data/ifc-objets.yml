@@ -2,7 +2,7 @@
   nom_en_gb: Beam
   ifcproduct: IfcBeam
   ifctypeproduct: IfcBeamType BEAM
-  allplan: 
+  allplan: Poutre
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
@@ -13,7 +13,7 @@
   nom_en_gb: Joist
   ifcproduct: IfcBeam
   ifctypeproduct: IfcBeamType JOIST
-  allplan: 
+  allplan: Solive
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
@@ -23,8 +23,8 @@
 - nom_fr_fr: Linteau
   nom_en_gb: Lintel
   ifcproduct: IfcBeam
-  ifctypeproduct: IfcBeamType LINTEL
-  allplan: 
+  ifctypeproduct: IfcBeamType LINTEL
+  allplan: Linteau / Poutre
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
@@ -34,8 +34,8 @@
 - nom_fr_fr: Poutre en T
   nom_en_gb: T-Beam
   ifcproduct: IfcBeam
-  ifctypeproduct: IfcBeamType T_BEAM
-  allplan: 
+  ifctypeproduct: IfcBeamType T_BEAM
+  allplan: Poutre
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
@@ -123,7 +123,7 @@
   nom_en_gb: Site Geometry
   ifcproduct: IfcBuildingElementProxy
   ifctypeproduct: IfcBuildingElementProxyType
-  allplan: 
+  allplan: Terrain
   archicad: Terrain
   revit: 
   domaine_architecture: true
@@ -134,7 +134,7 @@
   nom_en_gb: Column
   ifcproduct: IfcColumn
   ifctypeproduct: IfcColumnType COLUMN
-  allplan: 
+  allplan: Poteau
   archicad: Poteau
   revit: Poteau Porteur / Architectural
   domaine_architecture: true
@@ -167,7 +167,7 @@
   nom_en_gb: Roofing
   ifcproduct: IfcCovering
   ifctypeproduct: IfcCoveringType
-  allplan: 
+  allplan: Couverture
   archicad: Toiture
   revit: Toit
   domaine_architecture: true
@@ -178,7 +178,7 @@
   nom_en_gb: Baseboard
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
-  allplan: 
+  allplan: Plinthe
   archicad: 
   revit: Composant in situ
   domaine_architecture: true
@@ -189,7 +189,7 @@
   nom_en_gb: Covering
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
-  allplan: 
+  allplan: Second-Oeuvre
   archicad: 
   revit: 
   domaine_architecture: true
@@ -200,7 +200,7 @@
   nom_en_gb: Moulding
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
-  allplan: 
+  allplan: Elément d'installation
   archicad: 
   revit: Composant in situ
   domaine_architecture: true
@@ -211,7 +211,7 @@
   nom_en_gb: Skirting Board
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
-  allplan: 
+  allplan: Plinthe
   archicad: 
   revit: Composant in situ
   domaine_architecture: true
@@ -222,7 +222,7 @@
   nom_en_gb: Ceiling
   ifcproduct: IfcCovering CEILING
   ifctypeproduct: IfcCoveringType CEILING
-  allplan: 
+  allplan: Plafond 
   archicad: Dalle
   revit: Plafond
   domaine_architecture: true
@@ -233,7 +233,7 @@
   nom_en_gb: Cladding
   ifcproduct: IfcCovering CLADDING
   ifctypeproduct: IfcCoveringType CLADDING
-  allplan: 
+  allplan: Mur-rideau
   archicad: 
   revit: Mur
   domaine_architecture: true
@@ -243,8 +243,8 @@
 - nom_fr_fr: Revêtement de sol
   nom_en_gb: Flooring
   ifcproduct: IfcCovering FLOORING
-  ifctypeproduct: IfcCoveringType FLOORING
-  allplan: 
+  ifctypeproduct: IfcCoveringType FLOORING
+  allplan: Second-oeuvre sol
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -255,7 +255,7 @@
   nom_en_gb: Insulation
   ifcproduct: IfcCovering INSULATION
   ifctypeproduct: IfcCoveringType INSULATION
-  allplan: 
+  allplan: Mur, Toit, Sol
   archicad: 
   revit: Mur, Toit, Sol
   domaine_architecture: true
@@ -276,8 +276,8 @@
 - nom_fr_fr: 'Membrane d''étanchéité / pare-pluie / écran de sous-toiture'
   nom_en_gb: Membrane
   ifcproduct: IfcCovering MEMBRANE
-  ifctypeproduct: IfcCoveringType MEMBRANE
-  allplan: 
+  ifctypeproduct: IfcCoveringType MEMBRANE
+  allplan: Mur, Toit, Sol
   archicad: 
   revit: Mur, Toit, Sol
   domaine_architecture: true
@@ -288,7 +288,7 @@
   nom_en_gb: Sleeving
   ifcproduct: IfcCovering SLEEVING
   ifctypeproduct: IfcCoveringType SLEEVING
-  allplan: 
+  allplan: Mur
   archicad: 
   revit: Mur, Sol
   domaine_architecture: true
@@ -310,7 +310,7 @@
   nom_en_gb: Curtain Wall
   ifcproduct: IfcCurtainWall
   ifctypeproduct: IfcCurtainWallType *
-  allplan: 
+  allplan: Mur-rideau
   archicad: Mur-rideau
   revit: Mur-rideau
   domaine_architecture: true
@@ -321,7 +321,7 @@
   nom_en_gb: Curtain Wall System
   ifcproduct: IfcCurtainWall
   ifctypeproduct: IfcCurtainWallType
-  allplan: 
+  allplan: Mur-rideau
   archicad: Mur-rideau
   revit: Mur-rideau
   domaine_architecture: true
@@ -365,10 +365,10 @@
   nom_en_gb: Shading Device
   ifcproduct: IfcDiscreteAccessory
   ifctypeproduct: IfcDiscreteAccessoryType
-  allplan: 
+  allplan: Pare-soleil
   archicad: 
   revit: 
-  domaine_architecture: 
+  domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
 
@@ -1047,7 +1047,7 @@
   nom_en_gb: Door
   ifcproduct: IfcDoor
   ifctypeproduct: IfcDoorStyle *
-  allplan: 
+  allplan: Porte
   archicad: Porte
   revit: Porte
   domaine_architecture: true
@@ -2609,7 +2609,7 @@
   nom_en_gb: Footing
   ifcproduct: IfcFooting
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Semelle filante / isolée / Radier général
   archicad: 
   revit: Fondation Filante / Isolée
   domaine_architecture: true
@@ -2631,7 +2631,7 @@
   nom_en_gb: Footing Beam
   ifcproduct: IfcFooting FOOTING_BEAM
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Semelle filante
   archicad: 
   revit: Structure / Poutre
   domaine_architecture: true
@@ -2642,7 +2642,7 @@
   nom_en_gb: 
   ifcproduct: IfcFooting PAD_FOOTING
   ifctypeproduct: 
-  allplan: 
+  allplan: Semelle isolée
   archicad: 
   revit: Fondation Isolée
   domaine_architecture: true
@@ -2653,7 +2653,7 @@
   nom_en_gb: Pile Cap
   ifcproduct: IfcFooting PILE_CAP
   ifctypeproduct: 
-  allplan: 
+  allplan: Radier général
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2664,7 +2664,7 @@
   nom_en_gb: Strip Footing
   ifcproduct: IfcFooting STRIP_FOOTING
   ifctypeproduct: 
-  allplan: 
+  allplan: Semelle filante
   archicad: 
   revit: Fondation Filante
   domaine_architecture: true
@@ -2719,7 +2719,7 @@
   nom_en_gb: Grid
   ifcproduct: IfcGrid
   ifctypeproduct: 
-  allplan: 
+  allplan: Trame
   archicad: Grille
   revit: Quadrillage
   domaine_architecture: true
@@ -2828,8 +2828,8 @@
 - nom_fr_fr: Entrait
   nom_en_gb: Collar
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType COLLAR
-  allplan: 
+  ifctypeproduct: IfcMemberType COLLAR
+  allplan: Entrait simple / Entrait moisé
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2839,8 +2839,8 @@
 - nom_fr_fr: Ossature / montant
   nom_en_gb: Member
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType MEMBER
-  allplan: 
+  ifctypeproduct: IfcMemberType MEMBER
+  allplan: Chevron / élément d'ossature quelconque
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2861,8 +2861,8 @@
 - nom_fr_fr: Plat
   nom_en_gb: Plate
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType PLATE
-  allplan: 
+  ifctypeproduct: IfcMemberType PLATE
+  allplan: Elément d'ossature quelconque
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2873,7 +2873,7 @@
   nom_en_gb: Post
   ifcproduct: IfcMember
   ifctypeproduct: IfcMemberType POST
-  allplan: 
+  allplan: Poinçon
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2884,7 +2884,7 @@
   nom_en_gb: Purlin
   ifcproduct: IfcMember
   ifctypeproduct: IfcMemberType PURLIN
-  allplan: 
+  allplan: Panne
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2895,7 +2895,7 @@
   nom_en_gb: Rafter
   ifcproduct: IfcMember
   ifctypeproduct: IfcMemberType RAFTER
-  allplan: 
+  allplan: Chevron
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2905,8 +2905,8 @@
 - nom_fr_fr: Limon
   nom_en_gb: Stringer
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType STRINGER
-  allplan: 
+  ifctypeproduct: IfcMemberType STRINGER
+  allplan: Escalier
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2917,7 +2917,7 @@
   nom_en_gb: Strut
   ifcproduct: IfcMember
   ifctypeproduct: IfcMemberType STRUT
-  allplan: 
+  allplan: Poinçon
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2939,7 +2939,7 @@
   nom_en_gb: Pile
   ifcproduct: IfcPile
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Poteau
   archicad: 
   revit: 
   domaine_architecture: true
@@ -2950,7 +2950,7 @@
   nom_en_gb: Curtain Wall Panel
   ifcproduct: IfcPlate
   ifctypeproduct: IfcPlateType CURTAIN_PANEL
-  allplan: 
+  allplan: Mur-rideau
   archicad: 
   revit: Panneau de mur-rideau
   domaine_architecture: true
@@ -2983,7 +2983,7 @@
   nom_en_gb: Balustrade
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType BALUSTRADE
-  allplan: 
+  allplan: Garde-corps
   archicad: 
   revit: Barreaux
   domaine_architecture: true
@@ -2994,7 +2994,7 @@
   nom_en_gb: Guardrail
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType GUARDRAIL
-  allplan: 
+  allplan: Garde-corps
   archicad: Objet
   revit: Garde-corps
   domaine_architecture: true
@@ -3005,7 +3005,7 @@
   nom_en_gb: Handrail
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType HANDRAIL
-  allplan: 
+  allplan: Garde-corps
   archicad: 
   revit: Traverses (profil)
   domaine_architecture: true
@@ -3016,7 +3016,7 @@
   nom_en_gb: Railing
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType *
-  allplan: 
+  allplan: Rampe
   archicad: 
   revit: 
   domaine_architecture: true
@@ -3027,7 +3027,7 @@
   nom_en_gb: Ramp
   ifcproduct: IfcRamp *
   ifctypeproduct: n/a
-  allplan: 
+  allplan: RAmpe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3038,7 +3038,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp STRAIGHT_RUN_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3049,7 +3049,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp TWO_STRAIGHT_RUN_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3060,7 +3060,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp QUARTER_TURN_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3071,7 +3071,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp TWO_QUARTER_TURN_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3082,7 +3082,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp HALF_TURN_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3093,7 +3093,7 @@
   nom_en_gb: 
   ifcproduct: IfcRamp SPIRAL_RAMP
   ifctypeproduct: 
-  allplan: 
+  allplan: Rampe en colimaçon
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3104,7 +3104,7 @@
   nom_en_gb: Ramp Flight
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType *
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3115,7 +3115,7 @@
   nom_en_gb: 
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType STRAIGHT
-  allplan: 
+  allplan: Rampe
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3126,7 +3126,7 @@
   nom_en_gb: 
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType SPIRAL
-  allplan: 
+  allplan: Rampe en colimaçon
   archicad: Escalier
   revit: 'Rampe d''accès'
   domaine_architecture: true
@@ -3137,7 +3137,7 @@
   nom_en_gb: Reinforcing Bar
   ifcproduct: IfcReinforcingBar
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Forme de barre
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3148,7 +3148,7 @@
   nom_en_gb: Reinforcing Mesh
   ifcproduct: IfcReinforcingMesh
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Forme de panneau
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3159,7 +3159,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: 
-  allplan: 
+  allplan: Toit
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3170,7 +3170,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType FLAT_ROOF
-  allplan: 
+  allplan: Dalle
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -3181,7 +3181,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType SHED_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3192,7 +3192,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType GABLE_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3203,7 +3203,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType HIP_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3214,7 +3214,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType HIPPED_GABLE_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3225,7 +3225,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType GAMBREL_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3236,7 +3236,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType MANSARD_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3247,7 +3247,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType BARREL_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3258,7 +3258,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType RAINBOW_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3269,7 +3269,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType BUTTERFLY_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3280,7 +3280,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType PAVILION_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3291,7 +3291,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType DOME_ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3302,7 +3302,7 @@
   nom_en_gb: 
   ifcproduct: IfcRoof
   ifctypeproduct: IfcRoofType FREEFORM
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3313,7 +3313,7 @@
   nom_en_gb: Slab
   ifcproduct: IfcSlab
   ifctypeproduct: IfcSlabType
-  allplan: 
+  allplan: Dalle
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -3323,8 +3323,8 @@
 - nom_fr_fr: Radier
   nom_en_gb: Base Slab
   ifcproduct: IfcSlab BASESLAB
-  ifctypeproduct: IfcSlabType BASESLAB
-  allplan: 
+  ifctypeproduct: IfcSlabType BASESLAB
+  allplan: Radier général
   archicad: Dalle
   revit: Radier
   domaine_architecture: true
@@ -3334,8 +3334,8 @@
 - nom_fr_fr: Plancher
   nom_en_gb: Floor
   ifcproduct: IfcSlab FLOOR
-  ifctypeproduct: IfcSlabType FLOOR
-  allplan: 
+  ifctypeproduct: IfcSlabType FLOOR
+  allplan: Dalle
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -3346,7 +3346,7 @@
   nom_en_gb: Landing
   ifcproduct: IfcSlab LANDING
   ifctypeproduct: IfcSlabType LANDING
-  allplan: 
+  allplan: Dalle
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -3357,7 +3357,7 @@
   nom_en_gb: Roof
   ifcproduct: IfcSlab ROOF
   ifctypeproduct: IfcSlabType ROOF
-  allplan: 
+  allplan: Couverture
   archicad: Toit
   revit: Toit
   domaine_architecture: true
@@ -3368,7 +3368,7 @@
   nom_en_gb: Area
   ifcproduct: IfcSpace
   ifctypeproduct: IfcSpaceType *
-  allplan: 
+  allplan: Pièce
   archicad: Zone
   revit: Pièce
   domaine_architecture: true
@@ -3379,7 +3379,7 @@
   nom_en_gb: Space
   ifcproduct: IfcSpace
   ifctypeproduct: IfcSpaceType *
-  allplan: 
+  allplan: Pièce
   archicad: Zone
   revit: Pièce
   domaine_architecture: true
@@ -3390,7 +3390,7 @@
   nom_en_gb: Room
   ifcproduct: IfcSpace
   ifctypeproduct: IfcSpaceType
-  allplan: 
+  allplan: Pièce
   archicad: Zone
   revit: Pièce
   domaine_architecture: true
@@ -3401,7 +3401,7 @@
   nom_en_gb: Stair
   ifcproduct: IfcStair *
   ifctypeproduct: n/a
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3412,7 +3412,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair STRAIGHT_RUN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3423,7 +3423,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair TWO_STRAIGHT_RUN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3434,7 +3434,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair QUARTER_WINDING_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3445,7 +3445,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair QUARTER_TURN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3456,7 +3456,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair HALF_WINDING_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3467,7 +3467,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair HALF_TURN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3478,7 +3478,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair TWO_QUARTER_WINDING_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3489,7 +3489,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair TWO_QUARTER_TURN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3500,7 +3500,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair THREE_QUARTER_WINDING_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3511,7 +3511,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair THREE_QUARTER_TURN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3522,7 +3522,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair SPIRAL_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3533,7 +3533,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair DOUBLE_RETURN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3544,7 +3544,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair CURVED_RUN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3555,7 +3555,7 @@
   nom_en_gb: 
   ifcproduct: IfcStair TWO_CURVED_RUN_STAIR
   ifctypeproduct: 
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3566,7 +3566,7 @@
   nom_en_gb: Stair Flight
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3577,7 +3577,7 @@
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType STRAIGHT
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3588,7 +3588,7 @@
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType WINDER
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3599,7 +3599,7 @@
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType SPIRAL
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3610,7 +3610,7 @@
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType CURVED
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3621,7 +3621,7 @@
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType FREEFORM
-  allplan: 
+  allplan: Escalier
   archicad: Escalier
   revit: Escalier
   domaine_architecture: true
@@ -3698,7 +3698,7 @@
   nom_en_gb: Bulkhead
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType
-  allplan: 
+  allplan: Mur
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3708,8 +3708,8 @@
 - nom_fr_fr: Coffrage de sanitaires
   nom_en_gb: Plumbing Wall
   ifcproduct: IfcWall
-  ifctypeproduct: IfcWallType PLUMBINGWALL
-  allplan: 
+  ifctypeproduct: IfcWallType PLUMBINGWALL
+  allplan: Mur
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3719,8 +3719,8 @@
 - nom_fr_fr: Mur avec fruit
   nom_en_gb: Shear Wall
   ifcproduct: IfcWall
-  ifctypeproduct: IfcWallType SHEAR
-  allplan: 
+  ifctypeproduct: IfcWallType SHEAR
+  allplan: Mur de profil
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3731,7 +3731,7 @@
   nom_en_gb: 
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType STANDARD
-  allplan: 
+  allplan: Mur
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3742,7 +3742,7 @@
   nom_en_gb: 
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType POLYGONAL
-  allplan: 
+  allplan: Mur polygonal
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3753,7 +3753,7 @@
   nom_en_gb: 
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType ELEMENTEDWALL
-  allplan: 
+  allplan: Mur
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3764,7 +3764,7 @@
   nom_en_gb: Wall
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType *
-  allplan: 
+  allplan: Mur
   archicad: Mur
   revit: Mur
   domaine_architecture: true
@@ -3775,7 +3775,7 @@
   nom_en_gb: Window
   ifcproduct: IfcWindow
   ifctypeproduct: IfcWindowStyle *
-  allplan: 
+  allplan: Fenêtre
   archicad: Fenêtre
   revit: Fenêtre
   domaine_architecture: true
@@ -3786,7 +3786,7 @@
   nom_en_gb: Glazed Screen
   ifcproduct: IfcWindow
   ifctypeproduct: IfcWindowStyle *
-  allplan: 
+  allplan: Fenêtre
   archicad: Fenêtre
   revit: Fenêtre
   domaine_architecture: true
@@ -3797,7 +3797,7 @@
   nom_en_gb: Rooflight
   ifcproduct: IfcWindow
   ifctypeproduct: IfcWindowStyle *
-  allplan: 
+  allplan: Fenêtre de toit
   archicad: Fenêtre de toit
   revit: 
   domaine_architecture: true
@@ -3808,7 +3808,7 @@
   nom_en_gb: Skylight
   ifcproduct: IfcWindow
   ifctypeproduct: IfcWindowStyle *
-  allplan: 
+  allplan: Fenêtre de toit
   archicad: 
   revit: 
   domaine_architecture: true
