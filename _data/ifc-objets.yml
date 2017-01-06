@@ -23,7 +23,7 @@
 - nom_fr_fr: Linteau
   nom_en_gb: Lintel
   ifcproduct: IfcBeam
-  ifctypeproduct: IfcBeamType LINTEL
+  ifctypeproduct: IfcBeamType LINTEL
   allplan: 
   archicad: Poutre
   revit: Structure / Poutre
@@ -34,7 +34,7 @@
 - nom_fr_fr: Poutre en T
   nom_en_gb: T-Beam
   ifcproduct: IfcBeam
-  ifctypeproduct: IfcBeamType T_BEAM
+  ifctypeproduct: IfcBeamType T_BEAM
   allplan: 
   archicad: Poutre
   revit: Structure / Poutre
@@ -243,7 +243,7 @@
 - nom_fr_fr: Revêtement de sol
   nom_en_gb: Flooring
   ifcproduct: IfcCovering FLOORING
-  ifctypeproduct: IfcCoveringType FLOORING
+  ifctypeproduct: IfcCoveringType FLOORING
   allplan: 
   archicad: Dalle
   revit: Sol
@@ -253,7 +253,7 @@
 
 - nom_fr_fr: Isolation
   nom_en_gb: Insulation
-  ifcproduct: IfcCovering INSULATION
+  ifcproduct: IfcCovering INSULATION
   ifctypeproduct: IfcCoveringType INSULATION
   allplan: 
   archicad: 
@@ -264,8 +264,8 @@
 
 - nom_fr_fr: Manchon (isolation de tuyau)
   nom_en_gb: Pipe Insulation
-  ifcproduct: IfcCovering INSULATION
-  ifctypeproduct: IfcCoveringType INSULATION
+  ifcproduct: IfcCovering INSULATION
+  ifctypeproduct: IfcCoveringType INSULATION
   allplan: 
   archicad: 
   revit: 
@@ -276,7 +276,7 @@
 - nom_fr_fr: 'Membrane d''étanchéité / pare-pluie / écran de sous-toiture'
   nom_en_gb: Membrane
   ifcproduct: IfcCovering MEMBRANE
-  ifctypeproduct: IfcCoveringType MEMBRANE
+  ifctypeproduct: IfcCoveringType MEMBRANE
   allplan: 
   archicad: 
   revit: Mur, Toit, Sol
@@ -286,7 +286,7 @@
 
 - nom_fr_fr: Encoffrement / gaine
   nom_en_gb: Sleeving
-  ifcproduct: IfcCovering SLEEVING
+  ifcproduct: IfcCovering SLEEVING
   ifctypeproduct: IfcCoveringType SLEEVING
   allplan: 
   archicad: 
@@ -297,7 +297,7 @@
 
 - nom_fr_fr: Manchon
   nom_en_gb: Wrapping
-  ifcproduct: IfcCovering WRAPPPING
+  ifcproduct: IfcCovering WRAPPING
   ifctypeproduct: IfcCoveringType WRAPPING
   allplan: 
   archicad: 
@@ -452,7 +452,7 @@
 - nom_fr_fr: 
   nom_en_gb: Formed Duct
   ifcproduct: IfcDistributionChamberElement
-  ifctypeproduct: IfcDistributionChamberElementType FORMEDDUCT
+  ifctypeproduct: IfcDistributionChamberElementType FORMEDDUCT
   allplan: 
   archicad: 
   revit: 
@@ -463,7 +463,7 @@
 - nom_fr_fr: 
   nom_en_gb: Inspection Pit
   ifcproduct: IfcDistributionChamberElement
-  ifctypeproduct: IfcDistributionChamberElementType INSPECTIONPIT
+  ifctypeproduct: IfcDistributionChamberElementType INSPECTIONPIT
   allplan: 
   archicad: 
   revit: 
@@ -485,7 +485,7 @@
 - nom_fr_fr: 
   nom_en_gb: Meter Chamber
   ifcproduct: IfcDistributionChamberElement
-  ifctypeproduct: IfcDistributionChamberElementType METERCHAMBER
+  ifctypeproduct: IfcDistributionChamberElementType METERCHAMBER
   allplan: 
   archicad: 
   revit: 
@@ -496,7 +496,7 @@
 - nom_fr_fr: 
   nom_en_gb: Sump
   ifcproduct: IfcDistributionChamberElement
-  ifctypeproduct: IfcDistributionChamberElementType SUMP
+  ifctypeproduct: IfcDistributionChamberElementType SUMP
   allplan: 
   archicad: 
   revit: 
@@ -562,7 +562,7 @@
 - nom_fr_fr: 
   nom_en_gb: Ammeter
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcFlowInstrumentType AMMETER
+  ifctypeproduct: IfcFlowInstrumentType AMMETER
   allplan: 
   archicad: 
   revit: 
@@ -628,7 +628,7 @@
 - nom_fr_fr: 
   nom_en_gb: Fire Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType FIRESENSOR
+  ifctypeproduct: IfcSensorType FIRESENSOR
   allplan: 
   archicad: 
   revit: 
@@ -650,7 +650,7 @@
 - nom_fr_fr: 
   nom_en_gb: Flow Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType FLOWSENSOR
+  ifctypeproduct: IfcSensorType FLOWSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -661,7 +661,7 @@
 - nom_fr_fr: 
   nom_en_gb: Frequency Meter
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcFlowInstrumentType FREQUENCYMETER
+  ifctypeproduct: IfcFlowInstrumentType FREQUENCYMETER
   allplan: 
   archicad: 
   revit: 
@@ -672,7 +672,7 @@
 - nom_fr_fr: 
   nom_en_gb: Heat Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType HEATSENSOR
+  ifctypeproduct: IfcSensorType HEATSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -683,7 +683,7 @@
 - nom_fr_fr: 
   nom_en_gb: Humidity Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType HUMIDITYSENSOR
+  ifctypeproduct: IfcSensorType HUMIDITYSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -694,7 +694,7 @@
 - nom_fr_fr: 
   nom_en_gb: Phase Angle Meter
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcFlowInstrumentType PHASEANGLEMETER
+  ifctypeproduct: IfcFlowInstrumentType PHASEANGLEMETER
   allplan: 
   archicad: 
   revit: 
@@ -716,7 +716,7 @@
 - nom_fr_fr: 
   nom_en_gb: Pressure Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType PRESSURESENSOR
+  ifctypeproduct: IfcSensorType PRESSURESENSOR
   allplan: 
   archicad: 
   revit: 
@@ -724,10 +724,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Sirène d'alarme incendie
   nom_en_gb: Siren
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcAlarmType SIREN
+  ifctypeproduct: IfcAlarmType SIREN
   allplan: 
   archicad: 
   revit: 
@@ -790,7 +790,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Dispositif d'alarme incendie
   nom_en_gb: Alarm
   ifcproduct: IfcDistributionControlElement
   ifctypeproduct: IfcAlarmType *
@@ -801,10 +801,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Déclencheur manuel - bris de glace
   nom_en_gb: Break Glass Button
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcAlarmType BREAKGLASSBUTTON
+  ifctypeproduct: IfcAlarmType BREAKGLASSBUTTON
   allplan: 
   archicad: 
   revit: 
@@ -815,7 +815,7 @@
 - nom_fr_fr: 
   nom_en_gb: CO2 Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType C02SENSOR
+  ifctypeproduct: IfcSensorType C02SENSOR
   allplan: 
   archicad: 
   revit: 
@@ -826,7 +826,7 @@
 - nom_fr_fr: 
   nom_en_gb: Gas Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType GASSENSOR
+  ifctypeproduct: IfcSensorType GASSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -837,7 +837,7 @@
 - nom_fr_fr: 
   nom_en_gb: Light Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType LIGHTSENSOR
+  ifctypeproduct: IfcSensorType LIGHTSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -848,7 +848,7 @@
 - nom_fr_fr: 
   nom_en_gb: Moisture Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType MOISTURESENSOR
+  ifctypeproduct: IfcSensorType MOISTURESENSOR
   allplan: 
   archicad: 
   revit: 
@@ -859,7 +859,7 @@
 - nom_fr_fr: 
   nom_en_gb: Movement Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType MOVEMENTSENSOR
+  ifctypeproduct: IfcSensorType MOVEMENTSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -870,7 +870,7 @@
 - nom_fr_fr: 
   nom_en_gb: Power Factor Meter
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcFlowInstrumentType POWERFACTORMETER
+  ifctypeproduct: IfcFlowInstrumentType POWERFACTORMETER
   allplan: 
   archicad: 
   revit: 
@@ -881,7 +881,7 @@
 - nom_fr_fr: 
   nom_en_gb: Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType *
+  ifctypeproduct: IfcSensorType *
   allplan: 
   archicad: 
   revit: 
@@ -892,7 +892,7 @@
 - nom_fr_fr: 
   nom_en_gb: Smoke Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType SMOKESENSOR
+  ifctypeproduct: IfcSensorType SMOKESENSOR
   allplan: 
   archicad: 
   revit: 
@@ -903,7 +903,7 @@
 - nom_fr_fr: 
   nom_en_gb: Sound Sensor
   ifcproduct: IfcDistributionControlElement
-  ifctypeproduct: IfcSensorType SOUNDSENSOR
+  ifctypeproduct: IfcSensorType SOUNDSENSOR
   allplan: 
   archicad: 
   revit: 
@@ -947,7 +947,7 @@
 - nom_fr_fr: 
   nom_en_gb: Flow Meter
   ifcproduct: IfcDistributionFlowElement
-  ifctypeproduct: IfcFlowMeterType FLOWMETER
+  ifctypeproduct: IfcFlowMeterType FLOWMETER
   allplan: 
   archicad: 
   revit: 
@@ -969,7 +969,7 @@
 - nom_fr_fr: 
   nom_en_gb: Relay
   ifcproduct: IfcDistributionFlowElement
-  ifctypeproduct: IfcElectricTimeControlType RELAY
+  ifctypeproduct: IfcElectricTimeControlType RELAY
   allplan: 
   archicad: 
   revit: 
@@ -980,7 +980,7 @@
 - nom_fr_fr: 
   nom_en_gb: Residual Current Switch
   ifcproduct: IfcDistributionFlowElement
-  ifctypeproduct: IfcProtectiveDeviceType RESIDUALCURRENTSWITCH
+  ifctypeproduct: IfcProtectiveDeviceType RESIDUALCURRENTSWITCH
   allplan: 
   archicad: 
   revit: 
@@ -991,7 +991,7 @@
 - nom_fr_fr: 
   nom_en_gb: Smoke Damper
   ifcproduct: IfcDistributionFlowElement
-  ifctypeproduct: IfcDamperType SMOKEDAMPER
+  ifctypeproduct: IfcDamperType SMOKEDAMPER
   allplan: 
   archicad: 
   revit: 
@@ -1233,7 +1233,7 @@
 - nom_fr_fr: 
   nom_en_gb: Roof Top Unit
   ifcproduct: IfcEnergyConversionDevice
-  ifctypeproduct: IfcUnitaryEquipmentType ROOFTOPUNIT
+  ifctypeproduct: IfcUnitaryEquipmentType ROOFTOPUNIT
   allplan: 
   archicad: 
   revit: 
@@ -1288,7 +1288,7 @@
 - nom_fr_fr: 
   nom_en_gb: Air Conditioning Unit
   ifcproduct: IfcEnergyConversionDevice
-  ifctypeproduct: IfcUnitaryEquipmentType AIRCONDITIONINGUNIT
+  ifctypeproduct: IfcUnitaryEquipmentType AIRCONDITIONINGUNIT
   allplan: 
   archicad: 
   revit: 
@@ -1332,7 +1332,7 @@
 - nom_fr_fr: 
   nom_en_gb: Skirting Board Heater
   ifcproduct: IfcEnergyConversionDevice
-  ifctypeproduct: IfcSpaceHeaterType BASEBOARDHEATER
+  ifctypeproduct: IfcSpaceHeaterType BASEBOARDHEATER
   allplan: 
   archicad: 
   revit: 
@@ -1343,7 +1343,7 @@
 - nom_fr_fr: 
   nom_en_gb: Split System
   ifcproduct: IfcEnergyConversionDevice
-  ifctypeproduct: IfcUnitaryEquipmentType AIRHANDLER
+  ifctypeproduct: IfcUnitaryEquipmentType AIRHANDLER
   allplan: 
   archicad: 
   revit: 
@@ -1398,7 +1398,7 @@
 - nom_fr_fr: 
   nom_en_gb: Circuit Breaker
   ifcproduct: IfcFlowController
-  ifctypeproduct: IfcProtectiveDeviceType CIRCUITBREAKER
+  ifctypeproduct: IfcProtectiveDeviceType CIRCUITBREAKER
   allplan: 
   archicad: 
   revit: 
@@ -1442,7 +1442,7 @@
 - nom_fr_fr: 
   nom_en_gb: Fire and Smoke Damper
   ifcproduct: IfcFlowController
-  ifctypeproduct: IfcDamperType FIRESMOKEDAMPER
+  ifctypeproduct: IfcDamperType FIRESMOKEDAMPER
   allplan: 
   archicad: 
   revit: 
@@ -1464,7 +1464,7 @@
 - nom_fr_fr: 
   nom_en_gb: Flow Meter
   ifcproduct: IfcFlowController
-  ifctypeproduct: IfcFlowMeterType *
+  ifctypeproduct: IfcFlowMeterType *
   allplan: 
   archicad: 
   revit: 
@@ -1486,7 +1486,7 @@
 - nom_fr_fr: 
   nom_en_gb: Oil Meter
   ifcproduct: IfcFlowController
-  ifctypeproduct: IfcFlowMeterType OILMETER
+  ifctypeproduct: IfcFlowMeterType OILMETER
   allplan: 
   archicad: 
   revit: 
@@ -1538,7 +1538,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Dispositif d'appel-malade
   nom_en_gb: Nurse Call Device
   ifcproduct: IfcFlowController
   ifctypeproduct: IfcSwitchingDeviceType *
@@ -1560,7 +1560,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Raccord de gaine
   nom_en_gb: Duct Fitting
   ifcproduct: IfcFlowFitting
   ifctypeproduct: IfcDuctFittingType *
@@ -1593,7 +1593,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Raccord de canalisation
   nom_en_gb: Pipe Fitting
   ifcproduct: IfcFlowFitting
   ifctypeproduct: IfcPipeFittingType *
@@ -1670,7 +1670,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Gaine et accessoires de gaine
   nom_en_gb: Duct Segment
   ifcproduct: IfcFlowSegment
   ifctypeproduct: IfcDuctSegmentType *
@@ -1695,7 +1695,7 @@
 - nom_fr_fr: 
   nom_en_gb: Gutter
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcPipeSegmentType GUTTER
+  ifctypeproduct: IfcPipeSegmentType GUTTER
   allplan: 
   archicad: 
   revit: 
@@ -1703,7 +1703,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Canalisation
   nom_en_gb: Pipe Segment
   ifcproduct: IfcFlowSegment
   ifctypeproduct: IfcPipeSegmentType *
@@ -1717,7 +1717,7 @@
 - nom_fr_fr: 
   nom_en_gb: Spool
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcPipeSegmentType SPOOL
+  ifctypeproduct: IfcPipeSegmentType SPOOL
   allplan: 
   archicad: 
   revit: 
@@ -1728,7 +1728,7 @@
 - nom_fr_fr: 
   nom_en_gb: Cable Ladder Segment Type
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcCableSegmentType CABLELADDERSEGMENTYPE
+  ifctypeproduct: IfcCableSegmentType CABLELADDERSEGMENTYPE
   allplan: 
   archicad: 
   revit: 
@@ -1739,7 +1739,7 @@
 - nom_fr_fr: 
   nom_en_gb: Cable Segment
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcCableSegmentType *
+  ifctypeproduct: IfcCableSegmentType *
   allplan: 
   archicad: 
   revit: 
@@ -1769,10 +1769,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Canalisation (Souple)
   nom_en_gb: Pipe Segment (Flexible)
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcPipeSegmentType FLEXIBLESEGMENT
+  ifctypeproduct: IfcPipeSegmentType FLEXIBLESEGMENT
   allplan: 
   archicad: 
   revit: 
@@ -1780,10 +1780,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Canalisation (Rigide)
   nom_en_gb: Pipe Segment (Rigid)
   ifcproduct: IfcFlowSegment
-  ifctypeproduct: IfcPipeSegmentType RIGIDSEGMENT
+  ifctypeproduct: IfcPipeSegmentType RIGIDSEGMENT
   allplan: 
   archicad: 
   revit: 
@@ -1849,7 +1849,7 @@
 - nom_fr_fr: 
   nom_en_gb: Breeching Inlet
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcFireSuppressionTerminalType BREECHINGINLET
+  ifctypeproduct: IfcFireSuppressionTerminalType BREECHINGINLET
   allplan: 
   archicad: 
   revit: 
@@ -1970,7 +1970,7 @@
 - nom_fr_fr: 
   nom_en_gb: Fire Suppression Terminal
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcFireSuppressionTerminalType *
+  ifctypeproduct: IfcFireSuppressionTerminalType *
   allplan: 
   archicad: 
   revit: 
@@ -1992,7 +1992,7 @@
 - nom_fr_fr: 
   nom_en_gb: Floor Trap
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType FLOORTRAP
+  ifctypeproduct: IfcWasteTerminalType FLOORTRAP
   allplan: 
   archicad: 
   revit: 
@@ -2003,7 +2003,7 @@
 - nom_fr_fr: 
   nom_en_gb: Floor Waste
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType FLOORWASTE
+  ifctypeproduct: IfcWasteTerminalType FLOORWASTE
   allplan: 
   archicad: 
   revit: 
@@ -2014,7 +2014,7 @@
 - nom_fr_fr: 
   nom_en_gb: Freezer
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcElectricApplianceType FREEZER
+  ifctypeproduct: IfcElectricApplianceType FREEZER
   allplan: 
   archicad: 
   revit: 
@@ -2025,7 +2025,7 @@
 - nom_fr_fr: 
   nom_en_gb: Hose Reel
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcFireSuppressionTerminalType HOSEREEL
+  ifctypeproduct: IfcFireSuppressionTerminalType HOSEREEL
   allplan: 
   archicad: 
   revit: 
@@ -2033,7 +2033,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Ampoule
   nom_en_gb: Lamp
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcLampType *
@@ -2044,7 +2044,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Luminaire
   nom_en_gb: Light Fixture
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcLightFixtureType *
@@ -2099,7 +2099,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil Sanitaire
   nom_en_gb: Sanitary Terminal
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType *
@@ -2110,10 +2110,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Evier
   nom_en_gb: Sink
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcSanitaryTerminalType SINK
+  ifctypeproduct: IfcSanitaryTerminalType SINK
   allplan: 
   archicad: 
   revit: 
@@ -2121,10 +2121,10 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Sprinkler
   nom_en_gb: Sprinkler
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcFireSuppressionTerminalType SPRINKLER
+  ifctypeproduct: IfcFireSuppressionTerminalType SPRINKLER
   allplan: 
   archicad: 
   revit: 
@@ -2143,7 +2143,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil téléphonique
   nom_en_gb: Telephone
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcElectricApplianceType TELEPHONE
@@ -2154,7 +2154,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Cuvette de WC
   nom_en_gb: Toilet Pan
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType TOILETPAN
@@ -2187,7 +2187,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Urinoir
   nom_en_gb: Urinal
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType URINAL
@@ -2209,7 +2209,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Lavabo
   nom_en_gb: Wash Hand Basin
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType WASHHANDBASIN
@@ -2286,7 +2286,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Siège WC
   nom_en_gb: WC Seat
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType WCSEAT
@@ -2297,7 +2297,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Baignoire
   nom_en_gb: Bath
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType BATH
@@ -2308,7 +2308,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Réservoir WC
   nom_en_gb: Cistern
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType CISTERN
@@ -2333,7 +2333,7 @@
 - nom_fr_fr: 
   nom_en_gb: Freestanding Fan
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcElectricApplianceType FREESTANDINGFAN
+  ifctypeproduct: IfcElectricApplianceType FREESTANDINGFAN
   allplan: 
   archicad: 
   revit: 
@@ -2366,7 +2366,7 @@
 - nom_fr_fr: 
   nom_en_gb: Gas Booster
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcGasTerminalType GASBOOSTER
+  ifctypeproduct: IfcGasTerminalType GASBOOSTER
   allplan: 
   archicad: 
   revit: 
@@ -2377,7 +2377,7 @@
 - nom_fr_fr: 
   nom_en_gb: Gas Burner
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcGasTerminalType GASBURNER
+  ifctypeproduct: IfcGasTerminalType GASBURNER
   allplan: 
   archicad: 
   revit: 
@@ -2399,7 +2399,7 @@
 - nom_fr_fr: 
   nom_en_gb: Grease Interceptor
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType GREASEINTERCEPTOR
+  ifctypeproduct: IfcWasteTerminalType GREASEINTERCEPTOR
   allplan: 
   archicad: 
   revit: 
@@ -2410,7 +2410,7 @@
 - nom_fr_fr: 
   nom_en_gb: Gully Sump
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType GULLYSUMP
+  ifctypeproduct: IfcWasteTerminalType GULLYSUMP
   allplan: 
   archicad: 
   revit: 
@@ -2432,7 +2432,7 @@
 - nom_fr_fr: 
   nom_en_gb: Hand Dryer
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcElectricApplianceType HANDDRYER
+  ifctypeproduct: IfcElectricApplianceType HANDDRYER
   allplan: 
   archicad: 
   revit: 
@@ -2465,7 +2465,7 @@
 - nom_fr_fr: 
   nom_en_gb: Oil Interceptor
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType OILINTERCEPTOR
+  ifctypeproduct: IfcWasteTerminalType OILINTERCEPTOR
   allplan: 
   archicad: 
   revit: 
@@ -2476,7 +2476,7 @@
 - nom_fr_fr: 
   nom_en_gb: Petrol Interceptor
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType PETROLINTERCEPTOR
+  ifctypeproduct: IfcWasteTerminalType PETROLINTERCEPTOR
   allplan: 
   archicad: 
   revit: 
@@ -2487,7 +2487,7 @@
 - nom_fr_fr: 
   nom_en_gb: Photocopier
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcElectricApplianceType PHOTOCOPIER
+  ifctypeproduct: IfcElectricApplianceType PHOTOCOPIER
   allplan: 
   archicad: 
   revit: 
@@ -2531,7 +2531,7 @@
 - nom_fr_fr: 
   nom_en_gb: Roof Drain
   ifcproduct: IfcFlowTerminal
-  ifctypeproduct: IfcWasteTerminalType ROOFDRAIN
+  ifctypeproduct: IfcWasteTerminalType ROOFDRAIN
   allplan: 
   archicad: 
   revit: 
@@ -2561,7 +2561,7 @@
   domaine_structure: 
   domaine_fluides: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Douche
   nom_en_gb: Shower
   ifcproduct: IfcFlowTerminal
   ifctypeproduct: IfcSanitaryTerminalType SHOWER
@@ -2671,7 +2671,7 @@
   domaine_structure: true
   domaine_fluides: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Système de mobilier
   nom_en_gb: Furniture System
   ifcproduct: IfcFurnishingElement
   ifctypeproduct: IfcSystemFurnitureElementType
@@ -2806,7 +2806,7 @@
 - nom_fr_fr: Entretoise / contrefiche
   nom_en_gb: Brace
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType BRACE
+  ifctypeproduct: IfcMemberType BRACE
   allplan: 
   archicad: 
   revit: 
@@ -2817,7 +2817,7 @@
 - nom_fr_fr: Corde (poutre treillis)
   nom_en_gb: Chord
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType CHORD
+  ifctypeproduct: IfcMemberType CHORD
   allplan: 
   archicad: 
   revit: 
@@ -2828,7 +2828,7 @@
 - nom_fr_fr: Entrait
   nom_en_gb: Collar
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType COLLAR
+  ifctypeproduct: IfcMemberType COLLAR
   allplan: 
   archicad: 
   revit: 
@@ -2839,7 +2839,7 @@
 - nom_fr_fr: Ossature / montant
   nom_en_gb: Member
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType MEMBER
+  ifctypeproduct: IfcMemberType MEMBER
   allplan: 
   archicad: 
   revit: 
@@ -2850,7 +2850,7 @@
 - nom_fr_fr: Meneau
   nom_en_gb: Mullion
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType MULLION
+  ifctypeproduct: IfcMemberType MULLION
   allplan: 
   archicad: 
   revit: Meneau
@@ -2861,7 +2861,7 @@
 - nom_fr_fr: Plat
   nom_en_gb: Plate
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType PLATE
+  ifctypeproduct: IfcMemberType PLATE
   allplan: 
   archicad: 
   revit: 
@@ -2905,7 +2905,7 @@
 - nom_fr_fr: Limon
   nom_en_gb: Stringer
   ifcproduct: IfcMember
-  ifctypeproduct: IfcMemberType STRINGER
+  ifctypeproduct: IfcMemberType STRINGER
   allplan: 
   archicad: 
   revit: 
@@ -2971,7 +2971,7 @@
 - nom_fr_fr: 
   nom_en_gb: Sheet
   ifcproduct: IfcPlate
-  ifctypeproduct: IfcPlateType SHEET
+  ifctypeproduct: IfcPlateType SHEET
   allplan: 
   archicad: 
   revit: 
@@ -3012,7 +3012,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe
+- nom_fr_fr: Rampe (main-courante)
   nom_en_gb: Railing
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType *
@@ -3023,7 +3023,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe
+- nom_fr_fr: Rampe d'accès
   nom_en_gb: Ramp
   ifcproduct: IfcRamp *
   ifctypeproduct: n/a
@@ -3034,7 +3034,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe droite
+- nom_fr_fr: Rampe d'accès droite
   nom_en_gb: 
   ifcproduct: IfcRamp STRAIGHT_RUN_RAMP
   ifctypeproduct: 
@@ -3045,7 +3045,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe avec palier intermédiaire
+- nom_fr_fr: Rampe d'accès avec palier intermédiaire
   nom_en_gb: 
   ifcproduct: IfcRamp TWO_STRAIGHT_RUN_RAMP
   ifctypeproduct: 
@@ -3056,7 +3056,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe quart tournant (1 palier intermédiaire)
+- nom_fr_fr: Rampe d'accès quart tournant (1 palier intermédiaire)
   nom_en_gb: 
   ifcproduct: IfcRamp QUARTER_TURN_RAMP
   ifctypeproduct: 
@@ -3067,7 +3067,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe double quart tournant (2 paliers intermédiaires)
+- nom_fr_fr: Rampe d'accès double quart tournant (2 paliers intermédiaires)
   nom_en_gb: 
   ifcproduct: IfcRamp TWO_QUARTER_TURN_RAMP
   ifctypeproduct: 
@@ -3078,7 +3078,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe double quart tournant (1 palier intermédiaire)
+- nom_fr_fr: Rampe d'accès double quart tournant (1 palier intermédiaire)
   nom_en_gb: 
   ifcproduct: IfcRamp HALF_TURN_RAMP
   ifctypeproduct: 
@@ -3089,7 +3089,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Rampe en spirale
+- nom_fr_fr: Rampe d'accès en spirale
   nom_en_gb: 
   ifcproduct: IfcRamp SPIRAL_RAMP
   ifctypeproduct: 
@@ -3100,7 +3100,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Volée de rampe
+- nom_fr_fr: Volée de rampe d'accès
   nom_en_gb: Ramp Flight
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType *
@@ -3111,7 +3111,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Volée de rampe droite
+- nom_fr_fr: Volée de rampe d'accès droite
   nom_en_gb: 
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType STRAIGHT
@@ -3122,7 +3122,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: Volée de rampe à spirale
+- nom_fr_fr: Volée de rampe d'accès à spirale
   nom_en_gb: 
   ifcproduct: IfcRampFlight
   ifctypeproduct: IfcRampFlightType SPIRAL
@@ -3323,7 +3323,7 @@
 - nom_fr_fr: Radier
   nom_en_gb: Base Slab
   ifcproduct: IfcSlab BASESLAB
-  ifctypeproduct: IfcSlabType BASESLAB
+  ifctypeproduct: IfcSlabType BASESLAB
   allplan: 
   archicad: Dalle
   revit: Radier
@@ -3334,7 +3334,7 @@
 - nom_fr_fr: Plancher
   nom_en_gb: Floor
   ifcproduct: IfcSlab FLOOR
-  ifctypeproduct: IfcSlabType FLOOR
+  ifctypeproduct: IfcSlabType FLOOR
   allplan: 
   archicad: Dalle
   revit: Sol
@@ -3399,7 +3399,7 @@
 
 - nom_fr_fr: Escalier
   nom_en_gb: Stair
-  ifcproduct: IfcStair *
+  ifcproduct: IfcStair *
   ifctypeproduct: n/a
   allplan: 
   archicad: Escalier
@@ -3653,7 +3653,7 @@
 - nom_fr_fr: Tapis roulant
   nom_en_gb: Moving Walkway
   ifcproduct: IfcTranportElement MOVINGWALKWAY
-  ifctypeproduct: IfcTransportElementType MOVINGWALKWAY
+  ifctypeproduct: IfcTransportElementType MOVINGWALKWAY
   allplan: 
   archicad: Objet
   revit: 
@@ -3708,7 +3708,7 @@
 - nom_fr_fr: Coffrage de sanitaires
   nom_en_gb: Plumbing Wall
   ifcproduct: IfcWall
-  ifctypeproduct: IfcWallType PLUMBINGWALL
+  ifctypeproduct: IfcWallType PLUMBINGWALL
   allplan: 
   archicad: Mur
   revit: Mur
@@ -3719,7 +3719,7 @@
 - nom_fr_fr: Mur avec fruit
   nom_en_gb: Shear Wall
   ifcproduct: IfcWall
-  ifctypeproduct: IfcWallType SHEAR
+  ifctypeproduct: IfcWallType SHEAR
   allplan: 
   archicad: Mur
   revit: Mur
