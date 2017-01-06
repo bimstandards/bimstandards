@@ -277,7 +277,7 @@
   nom_en_gb: Membrane
   ifcproduct: IfcCovering MEMBRANE
   ifctypeproduct: IfcCoveringType MEMBRANE
-  allplan: Mur, Toit, So
+  allplan: Mur, Toit, Sol
   archicad: 
   revit: Mur, Toit, Sol
   domaine_architecture: true
@@ -368,7 +368,7 @@
   allplan: Pare-soleil
   archicad: 
   revit: 
-  domaine_architecture: 
+  domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
 
