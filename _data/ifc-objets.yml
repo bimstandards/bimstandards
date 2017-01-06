@@ -125,7 +125,7 @@
   ifctypeproduct: IfcBuildingElementProxyType
   allplan: Terrain
   archicad: Terrain
-  revit: 
+  revit: Surface topographique
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -179,7 +179,7 @@
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
   allplan: Plinthe
-  archicad: 
+  archicad: Profil complexe
   revit: Composant in situ
   domaine_architecture: true
   domaine_structure: 
@@ -201,7 +201,7 @@
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
   allplan: Elément d'installation
-  archicad: 
+  archicad: Profil complexe
   revit: Composant in situ
   domaine_architecture: true
   domaine_structure: 
@@ -212,7 +212,7 @@
   ifcproduct: IfcCovering *
   ifctypeproduct: IfcCoveringType *
   allplan: Plinthe
-  archicad: 
+  archicad: Profil complexe
   revit: Composant in situ
   domaine_architecture: true
   domaine_structure: 
@@ -234,7 +234,7 @@
   ifcproduct: IfcCovering CLADDING
   ifctypeproduct: IfcCoveringType CLADDING
   allplan: Mur-rideau
-  archicad: 
+  archicad: Mur, Accessoire de mur
   revit: Mur
   domaine_architecture: true
   domaine_structure: 
@@ -256,7 +256,7 @@
   ifcproduct: IfcCovering INSULATION
   ifctypeproduct: IfcCoveringType INSULATION
   allplan: Mur, Toit, Sol
-  archicad: 
+  archicad: Mur, Toit, Dalle
   revit: Mur, Toit, Sol
   domaine_architecture: true
   domaine_structure: 
@@ -273,12 +273,12 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: 'Membrane d''étanchéité / pare-pluie / écran de sous-toiture'
+- nom_fr_fr: Membrane d'étanchéité / pare-pluie / écran de sous-toiture
   nom_en_gb: Membrane
   ifcproduct: IfcCovering MEMBRANE
   ifctypeproduct: IfcCoveringType MEMBRANE
   allplan: Mur, Toit, Sol
-  archicad: 
+  archicad: Mur, Toit, Dalle
   revit: Mur, Toit, Sol
   domaine_architecture: true
   domaine_structure: 
@@ -289,7 +289,7 @@
   ifcproduct: IfcCovering SLEEVING
   ifctypeproduct: IfcCoveringType SLEEVING
   allplan: Mur
-  archicad: 
+  archicad: Mur
   revit: Mur, Sol
   domaine_architecture: true
   domaine_structure: 
@@ -366,7 +366,7 @@
   ifcproduct: IfcDiscreteAccessory
   ifctypeproduct: IfcDiscreteAccessoryType
   allplan: Pare-soleil
-  archicad: 
+  archicad: Objet
   revit: 
   domaine_architecture: true
   domaine_structure: 
@@ -2951,7 +2951,7 @@
   ifcproduct: IfcPlate
   ifctypeproduct: IfcPlateType CURTAIN_PANEL
   allplan: Mur-rideau
-  archicad: 
+  archicad: Mur-rideau
   revit: Panneau de mur-rideau
   domaine_architecture: true
   domaine_structure: 
@@ -2984,7 +2984,7 @@
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType BALUSTRADE
   allplan: Garde-corps
-  archicad: 
+  archicad: Mur, Profil complexe, Objet
   revit: Barreaux
   domaine_architecture: true
   domaine_structure: 
@@ -2995,7 +2995,7 @@
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType GUARDRAIL
   allplan: Garde-corps
-  archicad: Objet
+  archicad: Mur, Profil complexe, Objet
   revit: Garde-corps
   domaine_architecture: true
   domaine_structure: 
@@ -3006,7 +3006,7 @@
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType HANDRAIL
   allplan: Garde-corps
-  archicad: 
+  archicad: Mur, Profil complexe, Objet
   revit: Traverses (profil)
   domaine_architecture: true
   domaine_structure: 
@@ -3017,7 +3017,7 @@
   ifcproduct: IfcRailing
   ifctypeproduct: IfcRailingType *
   allplan: Rampe
-  archicad: 
+  archicad: Mur, Profil complexe, Objet
   revit: 
   domaine_architecture: true
   domaine_structure: 
@@ -3027,9 +3027,9 @@
   nom_en_gb: Ramp
   ifcproduct: IfcRamp *
   ifctypeproduct: n/a
-  allplan: RAmpe
+  allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe daccès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3040,7 +3040,7 @@
   ifctypeproduct: 
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3051,7 +3051,7 @@
   ifctypeproduct: 
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3062,7 +3062,7 @@
   ifctypeproduct: 
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3073,7 +3073,7 @@
   ifctypeproduct: 
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3084,7 +3084,7 @@
   ifctypeproduct: 
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3095,7 +3095,7 @@
   ifctypeproduct: 
   allplan: Rampe en colimaçon
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3106,7 +3106,7 @@
   ifctypeproduct: IfcRampFlightType *
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3117,7 +3117,7 @@
   ifctypeproduct: IfcRampFlightType STRAIGHT
   allplan: Rampe
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3128,7 +3128,7 @@
   ifctypeproduct: IfcRampFlightType SPIRAL
   allplan: Rampe en colimaçon
   archicad: Escalier
-  revit: 'Rampe d''accès'
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3562,7 +3562,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: 'Volée d''escalier'
+- nom_fr_fr: Volée d'escalier
   nom_en_gb: Stair Flight
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType
@@ -3573,7 +3573,7 @@
   domaine_structure: 
   domaine_fluides: 
 
-- nom_fr_fr: 'Volée d''escalier droite'
+- nom_fr_fr: Volée d'escalier droite
   nom_en_gb: 
   ifcproduct: IfcStairFlight
   ifctypeproduct: IfcStairFlightType STRAIGHT
@@ -3754,7 +3754,7 @@
   ifcproduct: IfcWall
   ifctypeproduct: IfcWallType ELEMENTEDWALL
   allplan: Mur
-  archicad: Mur
+  archicad: Mur, Accessoire de mur
   revit: Mur
   domaine_architecture: true
   domaine_structure: true
@@ -3809,7 +3809,7 @@
   ifcproduct: IfcWindow
   ifctypeproduct: IfcWindowStyle *
   allplan: Fenêtre de toit
-  archicad: 
+  archicad: Fenêtre de toit, Objet
   revit: 
   domaine_architecture: true
   domaine_structure: 
