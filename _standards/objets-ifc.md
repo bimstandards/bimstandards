@@ -20,169 +20,183 @@ Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcType
 
 Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, Archicad et Revit).
 
-## Domaine Architectural (IFC2x3-TC1)
+## Listes par spécialités
 
-<div id="table-searchable" class="table-responsive">
-  <table class="table table-sm table-hover">
-    <div class="form-group">
-      <div class="input-group">
-        <div class="input-group-addon"><i class="fa fa-search"></i></div>
-        <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
-      </div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#domaine_architectural" role="tab" aria-controls="domaine_architectural" rel="nofollow">Domaine Architectural (IFC2x3-TC1)</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#domaine_structurel" role="tab" aria-controls="domaine_structurel" rel="nofollow">Domaine Structurel (IFC2x3-TC1)</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#domaine_fluides" role="tab" aria-controls="domaine_fluides" rel="nofollow">Domaine Fluides (IFC2x3-TC1)</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="domaine_architectural" role="tabpanel">
+    <div id="table-searchable" class="table-responsive">
+      <table class="table table-sm table-hover">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+          </div>
+        </div>
+        <thead>
+          <tr>
+            <th>Terme français</th>
+            <th>Terme anglais</th>
+            <th>IfcProduct + PredefinedType</th>
+            <th>IfcTypeProduct + PredefinedType</th>
+            <th>Outil Allplan</th>
+            <th>Outil Archicad</th>
+            <th>Outil Revit</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          {% for object in site.data.ifc-objets %}
+            {% if object.domaine_architecture == true %}
+            <tr>
+              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
+              <td class="en_gb">
+                {% if object.nom_en_gb != null %}
+                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+                {% endif %}
+                {{ object.nom_en_gb }}
+              </td>
+              <td class="ifcproduct">
+                {% if object.ifcproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
+                {% endif %}
+                {{ object.ifcproduct }}
+              </td>
+              <td class="ifctypeproduct">
+                {% if object.ifctypeproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% endif %}
+                {{ object.ifctypeproduct }}
+              </td>
+              <td class="outil_allplan">{{ object.allplan }}</td>
+              <td class="outil_archicad">{{ object.archicad }}</td>
+              <td class="outil_revit">{{ object.revit }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
-    <thead>
-      <tr>
-        <th>Terme français</th>
-        <th>Terme anglais</th>
-        <th>IfcProduct + PredefinedType</th>
-        <th>IfcTypeProduct + PredefinedType</th>
-        <th>Outil Allplan</th>
-        <th>Outil Archicad</th>
-        <th>Outil Revit</th>
-      </tr>
-    </thead>
-    <tbody class="list">
-      {% for object in site.data.ifc-objets %}
-        {% if object.domaine_architecture == true %}
-        <tr>
-          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-          <td class="en_gb">
-            {% if object.nom_en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+  </div>
+  <div class="tab-pane" id="domaine_structurel" role="tabpanel">
+    <div id="table-searchable" class="table-responsive">
+      <table class="table table-sm table-hover">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+          </div>
+        </div>
+        <thead>
+          <tr>
+            <th>Terme français</th>
+            <th>Terme anglais</th>
+            <th>IfcProduct + PredefinedType</th>
+            <th>IfcTypeProduct + PredefinedType</th>
+            <th>Outil Allplan</th>
+            <th>Outil Archicad</th>
+            <th>Outil Revit</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          {% for object in site.data.ifc-objets %}
+            {% if object.domaine_structure == true %}
+            <tr>
+              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
+              <td class="en_gb">
+                {% if object.nom_en_gb != null %}
+                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+                {% endif %}
+                {{ object.nom_en_gb }}
+              </td>
+              <td class="ifcproduct">
+                {% if object.ifcproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% endif %}
+                {{ object.ifcproduct }}
+              </td>
+              <td class="ifctypeproduct">
+                {% if object.ifctypeproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% endif %}
+                {{ object.ifctypeproduct }}
+              </td>
+              <td class="outil_allplan">{{ object.allplan }}</td>
+              <td class="outil_archicad">{{ object.archicad }}</td>
+              <td class="outil_revit">{{ object.revit }}</td>
+            </tr>
             {% endif %}
-            {{ object.nom_en_gb }}
-          </td>
-          <td class="ifcproduct">
-            {% if object.ifcproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
-            {% endif %}
-            {{ object.ifcproduct }}
-          </td>
-          <td class="ifctypeproduct">
-            {% if object.ifctypeproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-            {% endif %}
-            {{ object.ifctypeproduct }}
-          </td>
-          <td class="outil_allplan">{{ object.allplan }}</td>
-          <td class="outil_archicad">{{ object.archicad }}</td>
-          <td class="outil_revit">{{ object.revit }}</td>
-        </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-## Domaine Structurel (IFC2x3-TC1)
-
-<div id="table-searchable" class="table-responsive">
-  <table class="table table-sm table-hover">
-    <div class="form-group">
-      <div class="input-group">
-        <div class="input-group-addon"><i class="fa fa-search"></i></div>
-        <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
-      </div>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
-    <thead>
-      <tr>
-        <th>Terme français</th>
-        <th>Terme anglais</th>
-        <th>IfcProduct + PredefinedType</th>
-        <th>IfcTypeProduct + PredefinedType</th>
-        <th>Outil Allplan</th>
-        <th>Outil Archicad</th>
-        <th>Outil Revit</th>
-      </tr>
-    </thead>
-    <tbody class="list">
-      {% for object in site.data.ifc-objets %}
-        {% if object.domaine_structure == true %}
-        <tr>
-          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-          <td class="en_gb">
-            {% if object.nom_en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+  </div>
+  <div class="tab-pane" id="domaine_fluides" role="tabpanel">
+    <div id="table-searchable" class="table-responsive">
+      <table class="table table-sm table-hover">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+          </div>
+        </div>
+        <thead>
+          <tr>
+            <th>Terme français</th>
+            <th>Terme anglais</th>
+            <th>IfcProduct + PredefinedType</th>
+            <th>IfcTypeProduct + PredefinedType</th>
+            <th>Outil Allplan</th>
+            <th>Outil Archicad</th>
+            <th>Outil Revit</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          {% for object in site.data.ifc-objets %}
+            {% if object.domaine_fluides == true %}
+            <tr>
+              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
+              <td class="en_gb">
+                {% if object.nom_en_gb != null %}
+                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+                {% endif %}
+                {{ object.nom_en_gb }}
+              </td>
+              <td class="ifcproduct">
+                {% if object.ifcproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% endif %}
+                {{ object.ifcproduct }}
+              </td>
+              <td class="ifctypeproduct">
+                {% if object.ifctypeproduct != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% endif %}
+                {{ object.ifctypeproduct }}
+              </td>
+              <td class="outil_allplan">{{ object.allplan }}</td>
+              <td class="outil_archicad">{{ object.archicad }}</td>
+              <td class="outil_revit">{{ object.revit }}</td>
+            </tr>
             {% endif %}
-            {{ object.nom_en_gb }}
-          </td>
-          <td class="ifcproduct">
-            {% if object.ifcproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-            {% endif %}
-            {{ object.ifcproduct }}
-          </td>
-          <td class="ifctypeproduct">
-            {% if object.ifctypeproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-            {% endif %}
-            {{ object.ifctypeproduct }}
-          </td>
-          <td class="outil_allplan">{{ object.allplan }}</td>
-          <td class="outil_archicad">{{ object.archicad }}</td>
-          <td class="outil_revit">{{ object.revit }}</td>
-        </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-## Domaine Fluides (IFC2x3-TC1)
-
-<div id="table-searchable" class="table-responsive">
-  <table class="table table-sm table-hover">
-    <div class="form-group">
-      <div class="input-group">
-        <div class="input-group-addon"><i class="fa fa-search"></i></div>
-        <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
-      </div>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
-    <thead>
-      <tr>
-        <th>Terme français</th>
-        <th>Terme anglais</th>
-        <th>IfcProduct + PredefinedType</th>
-        <th>IfcTypeProduct + PredefinedType</th>
-        <th>Outil Allplan</th>
-        <th>Outil Archicad</th>
-        <th>Outil Revit</th>
-      </tr>
-    </thead>
-    <tbody class="list">
-      {% for object in site.data.ifc-objets %}
-        {% if object.domaine_fluides == true %}
-        <tr>
-          <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-          <td class="en_gb">
-            {% if object.nom_en_gb != null %}
-              <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-              <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
-            {% endif %}
-            {{ object.nom_en_gb }}
-          </td>
-          <td class="ifcproduct">
-            {% if object.ifcproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-            {% endif %}
-            {{ object.ifcproduct }}
-          </td>
-          <td class="ifctypeproduct">
-            {% if object.ifctypeproduct != null %}
-              <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-            {% endif %}
-            {{ object.ifctypeproduct }}
-          </td>
-          <td class="outil_allplan">{{ object.allplan }}</td>
-          <td class="outil_archicad">{{ object.archicad }}</td>
-          <td class="outil_revit">{{ object.revit }}</td>
-        </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
+  </div>
 </div>
 
 ## Sources
