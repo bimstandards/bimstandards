@@ -36,7 +36,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
 
 <div class="tab-content">
   <div class="tab-pane active" id="domaine_architectural" role="tabpanel">
-    <div id="table-searchable" class="table-responsive">
+    <div id="table-domaine-architectural" class="table-responsive">
       <table class="table table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
@@ -90,7 +90,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
     </div>
   </div>
   <div class="tab-pane" id="domaine_structurel" role="tabpanel">
-    <div id="table-searchable" class="table-responsive">
+    <div id="table-domaine-structurel" class="table-responsive">
       <table class="table table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
@@ -144,7 +144,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
     </div>
   </div>
   <div class="tab-pane" id="domaine_fluides" role="tabpanel">
-    <div id="table-searchable" class="table-responsive">
+    <div id="table-domaine-fluides" class="table-responsive">
       <table class="table table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
