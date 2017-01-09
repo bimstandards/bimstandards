@@ -149,7 +149,7 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: zones thermiques, de recoupement au feu, zones fonctionnelles, acoustiques, ou plusieurs locaux appartenant à un même logement). Un même local peut appartenir à plusieurs zones.
 
-{% include fiche-archicad.html titre="Archicad : créer des regroupements entre locaux (à venir)" lien="" %}
+{% include fiche-archicad.html titre="Archicad : créer des regroupements entre locaux (à venir)" lien="regroupement-locaux" %}
 
 ## Géoréférencement
 

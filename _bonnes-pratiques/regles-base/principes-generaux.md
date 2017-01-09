@@ -152,7 +152,7 @@ Chaque discipline possède des exigences concernant la méthode de modélisation
 
 En fonction des objectifs BIM visés sur le projet, il convient de faire la synthèse entre les différentes intervenants afin d'identifier les éventuels incompatibilités et la méthode de modélisation à adopter.
 
-Voir les différentes pages concernant les  [usages métiers]({{ site.url }}/bonnes-pratiques#scnarios-dusage).
+Voir les différentes pages concernant les  [usages métiers]({{ site.url }}#bonnes-pratiques).
 
 ## Niveaux de développement
 

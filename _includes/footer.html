@@ -27,7 +27,7 @@
 <!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
 <script type="text/javascript">
   $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
+    $('a[href*="#"]:not([href="#"]):not([rel="nofollow"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -55,5 +55,7 @@
     valueNames: [ 'fr_fr', 'ifcproduct', 'ifctypeproduct' ],
     plugins: [ ListFuzzySearch() ]
   };
-  var ifcList = new List('table-searchable', options);
+  var ifcListArchi = new List('table-domaine-architectural', options);
+  var ifcListStructure = new List('table-domaine-structurel', options);
+  var ifcListFluides = new List('table-domaine-fluides', options);
 </script>
