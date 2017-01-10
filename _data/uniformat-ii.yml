@@ -26,22 +26,22 @@
 - code: A20
   level: 2
   title_EN:
-  title_FR: Construction du sous-sol
+  title_FR: Construction de sous-sol
 
 - code: A2010
   level: 3
   title_EN:
-  title_FR: Excavation du sous-sol
+  title_FR: Excavation de sous-sol
 
 - code: A2020
   level: 3
   title_EN:
-  title_FR: Murs du sous-sol
+  title_FR: Murs de sous-sol
 
 - code: B
   level: 1
   title_EN:
-  title_FR: ENVELOPPE
+  title_FR: SUPERSTRUCTURE ET ENVELOPPE
 
 - code: B10
   level: 2
@@ -111,7 +111,7 @@
 - code: C1020
   level: 3
   title_EN:
-  title_FR: portes intérieures
+  title_FR: Portes intérieures
 
 - code: C1030
   level: 3
@@ -186,7 +186,7 @@
 - code: D2010
   level: 3
   title_EN:
-  title_FR: Appareils de plomberie
+  title_FR: Appareils sanitaires
 
 - code: D2020
   level: 3
@@ -201,17 +201,17 @@
 - code: D2040
   level: 3
   title_EN:
-  title_FR: Réseau de drianage pluvial
+  title_FR: Réseau de drainage pluvial
 
 - code: D2090
   level: 3
   title_EN:
-  title_FR: Atres systèmes de plomberie
+  title_FR: Autres systèmes de plomberie
 
 - code: D30
   level: 2
   title_EN:
-  title_FR: Chauffage, ventilation et conditionnement d'air (HVAC)
+  title_FR: Chauffage, ventilation et conditionnement d'air (CVC)
 
 - code: D3010
   level: 3
@@ -266,7 +266,7 @@
 - code: D4020
   level: 3
   title_EN:
-  title_FR: Canalisations montantes
+  title_FR: Canalisations et robinets d'incendie
 
 - code: D4030
   level: 3
@@ -301,7 +301,7 @@
 - code: D5090
   level: 3
   title_EN:
-  title_FR: Atres systèmes électriques
+  title_FR: Autres systèmes électriques
 
 - code: E
   level: 1
@@ -321,7 +321,7 @@
 - code: E1020
   level: 3
   title_EN:
-  title_FR: Equipement de laboratoire
+  title_FR: Equipement institutionnel
 
 - code: E1030
   level: 3
@@ -351,7 +351,7 @@
 - code: F
   level: 1
   title_EN:
-  title_FR: CONSTRUCTIONS SPECIALES & DEMOLITION
+  title_FR: CONSTRUCTION SPECIALE & DEMOLITION
 
 - code: F10
   level: 2
@@ -361,12 +361,12 @@
 - code: F1010
   level: 3
   title_EN:
-  title_FR: Système spécial de construction
+  title_FR: Structures spéciales
 
 - code: F1020
   level: 3
   title_EN:
-  title_FR: Sous-ensembles intégrés
+  title_FR: Construction intégrée
 
 - code: F1030
   level: 3
@@ -391,7 +391,7 @@
 - code: F2010
   level: 3
   title_EN:
-  title_FR: Démentèlement d'élément de bâtiment
+  title_FR: Démantèlement d'éléments de bâtiment
 
 - code: F2020
   level: 3
@@ -531,7 +531,7 @@
 - code: G9010
   level: 3
   title_EN:
-  title_FR: Tunnel de services et piétonnier
+  title_FR: Tunnel de service et piétonnier
   
 - code: G9090
   level: 3
