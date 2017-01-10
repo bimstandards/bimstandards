@@ -9,7 +9,7 @@ permalink: /
     <h1 class="display-4">{{ site.title }}</h1>
     <p class="lead">{{ site.description }}</p>
     <p>
-      <span class="tag tag-default">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}/tag/{{ site.version }}" role="button">(notes de version)</a>
+      <span class="badge badge-default">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}/tag/{{ site.version }}" role="button">(notes de version)</a>
     </p>
   </div>
 </div>
@@ -17,7 +17,7 @@ permalink: /
 <div class="container container-index">
   
   <div class="row" id="standards">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h2>
         Standards
         <small class="text-muted">buildingSMART, Mediaconstruct, etc.</small>
@@ -32,7 +32,7 @@ permalink: /
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
             {% if page.status == 'draft' %}
-              <span class="tag tag-warning">bientôt disponible</span>
+              <span class="badge badge-warning">bientôt disponible</span>
             {% endif %}
           </div>
           <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.png" alt="{{ page.title }}">
@@ -42,7 +42,7 @@ permalink: /
   </div>
   
   <div class="row" id="bonnes-pratiques">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h2>
         Bonnes pratiques
         <small class="text-muted">et règles de base</small>
@@ -61,7 +61,7 @@ permalink: /
               </h4>
               <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
               {% if page.status == 'draft' %}
-                <span class="tag tag-warning">bientôt disponible</span>
+                <span class="badge badge-warning">bientôt disponible</span>
               {% endif %}
             </div>
           </div>
@@ -71,7 +71,7 @@ permalink: /
   </div>
   
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h2>
         Scénarios d'usage
         <small class="text-muted">à la carte</small>
@@ -100,7 +100,7 @@ permalink: /
         <div class="col-sm-6 col-md-4 col-xl-3">
           <div class="card card-disabled">
             <div class="card-block">
-              <span class="tag tag-warning">bientôt disponible</span>
+              <span class="badge badge-warning">bientôt disponible</span>
               <h4 class="card-title">
                 <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
                 {{ page.title }}
@@ -114,7 +114,7 @@ permalink: /
   </div>
   
   <div class="row" id="ressources">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h2>
         Ressources
         <small class="text-muted">pour aller plus loin</small>
@@ -129,7 +129,7 @@ permalink: /
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
             {% if page.status == 'draft' %}
-              <span class="tag tag-warning">bientôt disponible</span>
+              <span class="badge badge-warning">bientôt disponible</span>
             {% endif %}
           </div>
           <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.png" alt="{{ page.title }}">

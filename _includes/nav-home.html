@@ -1,19 +1,21 @@
-<header class="navbar navbar-light navbar-static-top">
-  <div class="clearfix">
-    <button class="navbar-toggler pull-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav">
-      &#9776;
-    </button>
-    <a class="navbar-brand hidden-sm-up" href="/">
-      {{ site.title }}
-    </a>
+<nav class="navbar navbar-toggleable-md navbar-light">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">{{ site.title }}</a>
+
+  <div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if page.group == "standards" %}active{% endif %}">
+        <a class="nav-link" href="{{ site.url }}#standards">Standards</a>
+      </li>
+      <li class="nav-item {% if page.group == "bonnes-pratiques" %}active{% endif %}">
+        <a class="nav-link" href="{{ site.url }}#bonnes-pratiques">Bonnes pratiques</a>
+      </li>
+      <li class="nav-item {% if page.group == "ressources" %}active{% endif %}">
+        <a class="nav-link" href="{{ site.url }}#ressources">Ressources</a>
+      </li>
+    </ul>
   </div>
-  <div class="collapse navbar-toggleable-xs" id="main-nav">
-    <nav class="nav navbar-nav">
-      <a class="nav-item nav-link hidden-xs-down {% if page.layout == "home" %}active{% endif %}" href="/">{{ site.title }}</a>
-      <a class="nav-item nav-link {% if page.group == "standards" %}active{% endif %}" href="{{ site.url }}#standards">Standards</a>
-      <a class="nav-item nav-link {% if page.group == "bonnes-pratiques" %}active{% endif %}" href="{{ site.url }}#bonnes-pratiques">Bonnes pratiques</a>
-      <a class="nav-item nav-link {% if page.group == "ressources" %}active{% endif %}" href="{{ site.url }}#ressources">Ressources</a>
-    </nav>
-  </div>
-</header>
+</nav>
 
