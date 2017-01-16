@@ -518,31 +518,31 @@
   level: 2
   title_EN:
   title_FR: Amélioration d'emplacement
-    mapping_uniformat_csi_2010: G20
+  mapping_uniformat_csi_2010: G20
 
 - code: G2010
   level: 3
   title_EN:
   title_FR: Chaussée
-    mapping_uniformat_csi_2010: G2010
+  mapping_uniformat_csi_2010: G2010
 
 - code: G2020
   level: 3
   title_EN:
   title_FR: Aire de stationnement
-    mapping_uniformat_csi_2010: G2020
+  mapping_uniformat_csi_2010: G2020
 
 - code: G2030
   level: 3
   title_EN:
   title_FR: Surface piétonne
-    mapping_uniformat_csi_2010: G2030
+  mapping_uniformat_csi_2010: G2030
 
 - code: G2040
   level: 3
   title_EN:
   title_FR: Aménagement d'emplacement
-    mapping_uniformat_csi_2010: G2060
+  mapping_uniformat_csi_2010: G2060
 
 - code: G2050
   level: 3
@@ -554,43 +554,43 @@
   level: 2
   title_EN:
   title_FR: Services mécaniques de l'emplacement
-    mapping_uniformat_csi_2010: G30
+  mapping_uniformat_csi_2010: G30
 
 - code: G3010
   level: 3
   title_EN:
   title_FR: Alimentation en eau
-    mapping_uniformat_csi_2010: G3010
+  mapping_uniformat_csi_2010: G3010
 
 - code: G3020
   level: 3
   title_EN:
   title_FR: Egout sanitaire
-    mapping_uniformat_csi_2010: G3020
+  mapping_uniformat_csi_2010: G3020
 
 - code: G3030
   level: 3
   title_EN:
   title_FR: Egout pluvial
-    mapping_uniformat_csi_2010: G3030
+  mapping_uniformat_csi_2010: G3030
 
 - code: G3040
   level: 3
   title_EN:
   title_FR: Réseau distribution de chaleur
-    mapping_uniformat_csi_2010: G3050.10
+  mapping_uniformat_csi_2010: G3050.10
 
 - code: G3050
   level: 3
   title_EN:
   title_FR: Réseau de distribution de refroidissement
-    mapping_uniformat_csi_2010: G3050.20
+  mapping_uniformat_csi_2010: G3050.20
 
 - code: G3060
   level: 3
   title_EN:
   title_FR: Réseau de combustible
-    mapping_uniformat_csi_2010: G3060
+  mapping_uniformat_csi_2010: G3060
 
 - code: G3090
   level: 3
@@ -602,25 +602,25 @@
   level: 2
   title_EN:
   title_FR: Services d'électricité de l'emplacement
-    mapping_uniformat_csi_2010: G40
+  mapping_uniformat_csi_2010: G40
 
 - code: G4010
   level: 3
   title_EN:
   title_FR: Distribution d'électricité
-    mapping_uniformat_csi_2010: G4010
+  mapping_uniformat_csi_2010: G4010
 
 - code: G4020
   level: 3
   title_EN:
   title_FR: Eclairage extérieur
-    mapping_uniformat_csi_2010: G4050
+  mapping_uniformat_csi_2010: G4050
 
 - code: G4030
   level: 3
   title_EN:
   title_FR: Communication et sécurité sur l'emplacement
-    mapping_uniformat_csi_2010: G5010
+  mapping_uniformat_csi_2010: G5010
 
 - code: G4090
   level: 3
@@ -632,15 +632,16 @@
   level: 2
   title_EN:
   title_FR: Autres constructions sur l'emplacement
-    mapping_uniformat_csi_2010: G90
+  mapping_uniformat_csi_2010: G90
 
 - code: G9010
   level: 3
   title_EN:
   title_FR: Tunnel de service et piétonnier
-    mapping_uniformat_csi_2010: G9010
+  mapping_uniformat_csi_2010: G9010
 
 - code: G9090
   level: 3
   title_EN:
   title_FR: Autres systèmes sur l'emplacement
+  mapping_uniformat_csi_2010: 
