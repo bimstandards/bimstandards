@@ -53,7 +53,7 @@ La liste ci-dessous est une traduction de la norme depuis l'anglais :
     </tr>
     </thead>
     <tbody>
-      {% for classification in site.data.uniformat-ii %}
+      {% for classification in site.data.uniformat-ii-2015 %}
       <tr>
         <td>
           {% if classification.level == 1 %}
