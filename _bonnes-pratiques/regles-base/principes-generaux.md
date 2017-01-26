@@ -160,7 +160,7 @@ Les niveaux de développement ont été développés afin de délimiter la quali
 
 Au niveau mondial, la plus reconnue à l'heure actuelle est la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/). Elle s'attache à décrire différents niveaux de développements pour chaque type d'objet composant le bâti.
 
-En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
+En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
 
 Voici les différents Niveaux de Développement définis par Syntec Ingénierie :
 
