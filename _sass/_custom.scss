@@ -3,14 +3,13 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
+$gray-light:                #818a91;
+
 $brand-primary:             #de0323;
 
-$enable-flex:               true;
+$link-color:            #de0323;
 
-//$font-family-sans-serif:     "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text-muted: #818a91;
 
-//$font-family-monospace:      "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
-
-//$font-size-base:             1.05rem;
-
-//$headings-font-weight:       600;
+$btn-primary-bg:                 #de0323;
+$btn-primary-border:             #de0323;

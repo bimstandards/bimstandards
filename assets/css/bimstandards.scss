@@ -3,31 +3,10 @@
 
 @import "mixins/_image";
 @import "variables";
+@import "custom";
 
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
-
-@media (max-width: 33.9em) {
-  #main-nav {
-    .nav-link {
-      float: none;
-    }
-  }
-}
-
-.jumbotron-index {
-  background-color: $bs-primary-color;
-  .display-4 {
-    color: $bs-primary-color-soft;
-  }
-  .lead {
-    color: white;
-  }
-  .tag {
-    color: $bs-primary-color;
-    background-color: white;
-  }
-}
 
 .container-index {
   h2 {
@@ -169,6 +148,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .card {
   //background-color: #f7f7f7;
+  margin-bottom: $card-spacer-y;
   a {
     position: absolute;
     top: 0; left: 0;
