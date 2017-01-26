@@ -30,9 +30,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 push-lg-9 hidden-print">
+            <ul class="nav flex-column">
             {% for page in site.archicad %}
-              {{ page.title }}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+              </li>
             {% endfor %}
+            </ul>
           </div>
           <div class="col-lg-9 pull-lg-3 bs-content">
             <div class="row">

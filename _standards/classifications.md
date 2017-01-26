@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-toc
 group: standards
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
@@ -11,6 +11,7 @@ ordre: 5
 Norme ISO 12006-2.
 
 Classifications existantes :
+
 * Uniformat II 2015 (US) - ASTM E1557
 * Uniformat CSI 2010 (US)
 * Uniclass 1997 (UK) - CPIC
@@ -18,6 +19,7 @@ Classifications existantes :
 * OmniClass (US)
 
 D'autres moins connues / plus spécifiques :
+
 * CRTI-B - Bibliothèque des prestations standardisées (LU)
 * SfB 1950 (SE)
 * NL/SfB (NL) - adaptation néerlandaise du SfB - http://www.bimloket.nl/NL-SfB
