@@ -5,7 +5,7 @@ title: Economie (5D)
 description: Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.
 icon: money
 category: scenarios-usage
-status: publish
+status: draft
 ---
 
 # Economie (5D)

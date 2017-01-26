@@ -5,7 +5,7 @@ title: Structure
 description: Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.
 icon: institution
 category: scenarios-usage
-status: publish
+status: draft
 ---
 
 # Structure

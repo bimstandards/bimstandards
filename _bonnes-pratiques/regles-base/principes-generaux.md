@@ -27,62 +27,6 @@ Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque obje
 
 {% include fiche-archicad.html titre="Archicad : attribution des classifications IFC" lien="attribution-classifications-ifc" %}
 
-<div class="alert alert-danger" role="alert">
-  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
-  Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif. A insérer à partir d'un fichier .csv du dossier data, pour ne pas alourdir la page.
-</div>
-
-*Principe d'intégration progressive des éléments bâtis dans la maquette numérique :*
-
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead>
-    <tr>
-      <th>Catégorie d'objet / Ouvrage</th>
-      <th>Classe IFC</th>
-      <th>ESQ</th>
-      <th>APS</th>
-      <th>APD</th>
-      <th>PRO</th>
-      <th>EXE</th>
-      <th>DOE</th>
-    </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Site</td>
-        <td>`IfcSite`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Bâtiments</td>
-        <td>`IfcBuilding`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Site</td>
-        <td>`IfcSite`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 ## Identifiant unique (GUID)
 
 Chaque objet de la maquette possède également un identifiant unique (GUID) du type `"167KXdKof41x8LiwyqdgRN"`, permettant une traçabilité dans les échanges. Attention à bien conserver cet identifiant lors des [imports / exports]({{ site.url }}/bonnes-pratiques/regles-base/imports-exports-ifc) de maquettes.
