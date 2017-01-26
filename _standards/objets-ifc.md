@@ -68,16 +68,16 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
                 {{ object.nom_en_gb }}
               </td>
               <td class="ifcproduct">
-                {% if object.ifcproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
+                {% if object.ifcproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
                 {% endif %}
-                {{ object.ifcproduct }}
+                {{ object.ifcproduct_ifc2x3tc1 }}
               </td>
               <td class="ifctypeproduct">
-                {% if object.ifctypeproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% if object.ifctypeproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
                 {% endif %}
-                {{ object.ifctypeproduct }}
+                {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
               <td class="outil_allplan">{{ object.allplan }}</td>
               <td class="outil_archicad">{{ object.archicad }}</td>
@@ -122,16 +122,16 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
                 {{ object.nom_en_gb }}
               </td>
               <td class="ifcproduct">
-                {% if object.ifcproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% if object.ifcproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
                 {% endif %}
-                {{ object.ifcproduct }}
+                {{ object.ifcproduct_ifc2x3tc1 }}
               </td>
               <td class="ifctypeproduct">
-                {% if object.ifctypeproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% if object.ifctypeproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
                 {% endif %}
-                {{ object.ifctypeproduct }}
+                {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
               <td class="outil_allplan">{{ object.allplan }}</td>
               <td class="outil_archicad">{{ object.archicad }}</td>
@@ -176,16 +176,16 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
                 {{ object.nom_en_gb }}
               </td>
               <td class="ifcproduct">
-                {% if object.ifcproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifcproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% if object.ifcproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
                 {% endif %}
-                {{ object.ifcproduct }}
+                {{ object.ifcproduct_ifc2x3tc1 }}
               </td>
               <td class="ifctypeproduct">
-                {% if object.ifctypeproduct != null %}
-                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                {% if object.ifctypeproduct_ifc2x3tc1 != null %}
+                  <a href="https://www.google.fr/search?q={{ object.ifctypeproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
                 {% endif %}
-                {{ object.ifctypeproduct }}
+                {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
               <td class="outil_allplan">{{ object.allplan }}</td>
               <td class="outil_archicad">{{ object.archicad }}</td>
