@@ -3,6 +3,7 @@ layout: default-toc
 group: standards
 title: IFC
 description: (Industry Foundation Classes)
+comments: true
 ordre: 2
 ---
 

@@ -3,6 +3,7 @@ layout: default-toc
 group: standards
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
+comments: true
 ordre: 5
 ---
 

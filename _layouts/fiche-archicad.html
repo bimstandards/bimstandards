@@ -49,6 +49,9 @@
             <div class="row">
               <div class="col-12 bs-content-footer hidden-print">
                 {% include content-footer.html %}
+                {% if page.comments %}
+                {% include disqus.html %}
+                {% endif %}
               </div>
             </div>
           </div>

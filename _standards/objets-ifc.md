@@ -3,6 +3,7 @@ layout: default
 group: standards
 title: Objets IFC
 description: Décryptage des classes d'objets
+comments: true
 ordre: 3
 ---
 

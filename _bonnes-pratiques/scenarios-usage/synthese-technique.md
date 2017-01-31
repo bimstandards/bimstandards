@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Synthèse technique
 description: Revue de projet. Coordination spatiale, réglementaire et technique.
+comments: true
 icon: cogs
 category: scenarios-usage
 status: draft

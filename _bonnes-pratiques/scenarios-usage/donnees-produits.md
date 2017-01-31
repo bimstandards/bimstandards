@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Intégration des données produits
 description: Normalisation des propriétés produits.
+comments: true
 icon: industry
 category: scenarios-usage
 status: draft

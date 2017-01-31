@@ -2,6 +2,7 @@
 layout: fiche-archicad
 group: bonnes-pratiques
 title: Configurer les niveaux
+comments: true
 ---
 
 Les niveaux doivent d'abord être renseignées dans la fenêtre "Dessin > Définir étage...". Le nom renseigné à cet endroit correspond au "code" de niveau à 2 caractères.
