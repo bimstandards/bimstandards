@@ -5,7 +5,7 @@ title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
 ordre: 4
-status: publish
+status: draft
 ---
 
 # Classifications
