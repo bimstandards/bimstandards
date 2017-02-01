@@ -23,7 +23,7 @@ permalink: /
         <small class="text-muted">buildingSMART, Mediaconstruct, etc.</small>
       </h2>
     </div>
-    {% assign pages_sorted = site.standards | sort: 'ordre' %}
+    {% assign pages_sorted = site.standards | sort: 'ordre' | where: 'status','publish' %}
     {% for page in pages_sorted %}
       <div class="col-sm-6 col-md-4 col-xl-3">
         <div class="card">
@@ -31,9 +31,19 @@ permalink: /
           <div class="card-block">
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
-            {% if page.status == 'draft' %}
-              <span class="badge badge-warning">bientôt disponible</span>
-            {% endif %}
+          </div>
+          <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
+        </div>
+      </div>
+    {% endfor %}
+    {% assign pages_sorted = site.standards | sort: 'ordre' | where: 'status','draft' %}
+    {% for page in pages_sorted %}
+      <div class="col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+          <div class="card-block card-disabled">
+            <span class="badge badge-warning">bientôt disponible</span>
+            <h4 class="card-title">{{ page.title }}</h4>
+            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
           </div>
           <img class="card-img-bottom img-fluid" src="/assets/img/covers/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
         </div>

@@ -4,6 +4,7 @@ group: standards
 title: openBIM
 description: Philosophie de collaboration
 ordre: 1
+status: publish
 ---
 
 # openBIM
