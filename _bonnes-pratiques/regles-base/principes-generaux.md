@@ -161,5 +161,5 @@ Pour en savoir plus sur sur l'historique des niveaux de développement, voir l'a
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/204281509-Protocole-de-modélisation-et-d-exportation-d-une-maquette-IFC-depuis-ArchiCAD-vers-CYPECAD-MEP)
 * [Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP](https://cypecommunity.zendesk.com/hc/fr/articles/201766699-Protocole-d-exportation-d-une-maquette-IFC-depuis-REVIT-et-importation-dans-CYPECAD-MEP-)
 * [BIMFORUM LOD](http://bimforum.org/lod/)
-* [Cahier Pratique - BIM / Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/)
+* [Cahier Pratique - BIM / Maquette Numérique](http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/)
 * [Blog Areo](http://blog.areo.io/)
