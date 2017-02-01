@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Demande de Permis de Construire
 description: Utilisation du modèle numérique pour faciliter le processus d'instruction du PC.
+comments: true
 icon: certificate
 category: scenarios-usage
 status: draft

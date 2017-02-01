@@ -2,6 +2,7 @@
 layout: fiche-archicad
 group: bonnes-pratiques
 title: Configurer les coordonnées géographiques
+comments: true
 ---
 
 Les coordonnées doivent être renseignées dans la fenêtre "Emplacement Projet..." (menu : Options > Préférences Projet > Emplacement Projet...).

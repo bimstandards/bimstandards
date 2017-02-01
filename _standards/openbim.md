@@ -3,6 +3,7 @@ layout: default-toc
 group: standards
 title: openBIM
 description: Philosophie de collaboration
+comments: true
 ordre: 1
 status: publish
 ---

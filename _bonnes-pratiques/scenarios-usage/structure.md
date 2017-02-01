@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Structure
 description: Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.
+comments: true
 icon: institution
 category: scenarios-usage
 status: draft

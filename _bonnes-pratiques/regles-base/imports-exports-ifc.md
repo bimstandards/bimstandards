@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Imports / Exports IFC
 description: Règles de base pour garantir la qualité des imports / export IFC.
+comments: true
 icon: exchange
 category: regles-base
 ordre: 3

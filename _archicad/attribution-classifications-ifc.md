@@ -2,6 +2,7 @@
 layout: fiche-archicad
 group: bonnes-pratiques
 title: Attribution des classifications IFC
+comments: true
 ---
 
 Pour chaque objet, la valeur sélectionnée dans le champ "Classification d'élément" permet de définir le "type IFC".
