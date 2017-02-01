@@ -3,9 +3,10 @@ layout: default-toc
 group: bonnes-pratiques
 title: Gestion de patrimoine (6D)
 description: Structuration des données pour l'exploitation-maintenance du bâtiment, à partir d'un DOE.
+comments: true
 icon: database
 category: scenarios-usage
-status: publish
+status: draft
 ---
 
 # Gestion de patrimoine (6D)
@@ -28,53 +29,13 @@ La gestion de patrimoine nécessite généralement une classification complémen
 * **Uniformat II 2015** pour la qualification des éléments du bâti
 * **Omniclass Table 13** pour la qualification des fonctions d'espaces.
 
-Téléchargements :
-
-* http://www.astm.org/Standards/E1557.htm
-* http://www.omniclass.org/tables.asp
-
 Dans le fichier IFC, le code spécifique à la classification choisie est inséré dans l'attribut `IfcClassificationReference`.
 
 ### Eléments
 
 La gestion de patrimoine s'intéresse particulièrement aux éléments qui nécessitent un suivi et une maintenance spécifique, c'est-à-dire les équipements et terminaux.
 
-La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de la maquette numérique dans un grand ensemble fonctionnel.
-
-La liste ci-dessous est une traduction de la norme depuis l'anglais :
-
-<div class="table-responsive">
-  <table class="table table-bordered table-hover table-sm">
-    <thead>
-    <tr>
-      <th>Niveau 1</th>
-      <th>Niveau 2</th>
-      <th>Niveau 3</th>
-    </tr>
-    </thead>
-    <tbody>
-      {% for classification in site.data.uniformat-ii %}
-      <tr>
-        <td>
-          {% if classification.level == 1 %}
-          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
-          {% endif %}
-        </td>
-        <td>
-          {% if classification.level == 2 %}
-          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
-          {% endif %}
-        </td>
-        <td>
-          {% if classification.level == 3 %}
-          <b>{{ classification.code }}</b> - {{ classification.title_FR }}
-          {% endif %}
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+La classification **Uniformat II 2015** permet de hiérarchiser chaque objet de la maquette numérique dans un grand ensemble fonctionnel. Voir la page "Classifications".
 
 ### Espaces
 

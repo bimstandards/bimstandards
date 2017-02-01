@@ -15,9 +15,10 @@
     <div class="visible-print-block">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-12">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">http://www.bimstandards.fr</li>
+              <li class="breadcrumb-item">{{ page.group }}</li>
               <li class="breadcrumb-item">{{ page.title }}</li>
             </ol>
           </div>
@@ -29,21 +30,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 push-lg-9 hidden-print">
+            <ul class="nav flex-column">
             {% for page in site.archicad %}
-              {{ page.title }}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+              </li>
             {% endfor %}
+            </ul>
           </div>
           <div class="col-lg-9 pull-lg-3 bs-content">
             <div class="row">
-              <div class="col-xs-12 bs-content-header hidden-print">
+              <div class="col-12 bs-content-header hidden-print">
                 {% include content-header.html %}
               </div>
             </div>
-            <h1><span class="tag tag-default">Archicad</span> {{ page.title }}</h1>
+            <h1><span class="badge badge-default">Archicad</span> {{ page.title }}</h1>
             {{ content }}
             <div class="row">
-              <div class="col-xs-12 bs-content-footer hidden-print">
+              <div class="col-12 bs-content-footer hidden-print">
                 {% include content-footer.html %}
+                {% if page.comments %}
+                {% include disqus.html %}
+                {% endif %}
               </div>
             </div>
           </div>

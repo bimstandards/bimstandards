@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A propos
+comments: false
 permalink: /apropos/
 ---
 
@@ -33,6 +34,6 @@ Technologies web utilisées :
 * Plateforme collaborative : [GitHub](https://github.com)
 * Générateur de site : [Jekyll](http://jekyllrb.com) (v3.1.5)
 * Validation de code : [html-proofer](https://github.com/gjtorikian/html-proofer) (v3.0.6)
-* Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-alpha.3)
-* Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.6.3)
+* Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-alpha.6)
+* Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.7.0)
 * Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)

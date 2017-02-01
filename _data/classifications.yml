@@ -1,0 +1,134 @@
+- nom: SfB
+  pays_nom: Suède
+  pays_code: SE
+  annee: 1950
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: MasterFormat
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 1963
+  organisme: CSI
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: CI/SfB
+  pays_nom: Royaume-Uni
+  pays_code: UK
+  annee: 1976
+  organisme: RIBA
+  lien: 
+  reconnue: 
+  commentaire: adaptation britannique du SfB
+
+- nom: CAWS - Common Arrangement of Work Sections
+  pays_nom: Royaume-Uni
+  pays_code: UK
+  annee: 1987
+  organisme: CPIC
+  lien: 
+  reconnue: 
+  commentaire: intégré dans la table J de l'Uniclass
+
+- nom: CIB Master List
+  pays_nom: 
+  pays_code: 
+  annee: 1993
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: EPIC
+  pays_nom: Europe
+  pays_code: EU
+  annee: 1994
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: Uniclass
+  pays_nom: Royaume-Uni
+  pays_code: UK
+  annee: 1997
+  organisme: CPIC
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: UniFormat
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 1998
+  organisme: ASTM/CSI/CSC
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: UniFormat CSI 2010
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 2010
+  organisme: CSI
+  lien: 
+  reconnue: 
+  commentaire: 
+
+- nom: OmniClass OCCS
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 2010
+  organisme: CSI
+  lien: 
+  reconnue: true
+  commentaire: 
+
+- nom: UNIFORMAT II 2015
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 2015
+  organisme: ASTM
+  lien: 
+  reconnue: true
+  commentaire: norme E1557
+
+- nom: Uniclass2/Uniclass2015
+  pays_nom: Royaume-Uni
+  pays_code: UK
+  annee: 2015
+  organisme: CPIC
+  lien: 
+  reconnue: true
+  commentaire: compatibilité COBie-UK-2012
+
+- nom: NL/SfB
+  pays_nom: Pays-Bas
+  pays_code: NL
+  annee: 
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: adaptation néerlandaise du SfB
+
+- nom: BB/SfB
+  pays_nom: Belgique
+  pays_code: BE
+  annee: 
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: adaptation belge du CI/SfB
+
+- nom: CRTI-B - Bibliothèque des prestations standardisées
+  pays_nom: Luxembourg
+  pays_code: LU
+  annee: 
+  organisme: 
+  lien: 
+  reconnue: 
+  commentaire: 

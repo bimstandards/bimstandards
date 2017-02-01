@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Thermique
 description: Logiques de modélisation pour l'analyse énergétique, échanges entre architecte et ingénieur.
+comments: true
 icon: bolt
 category: scenarios-usage
 status: draft

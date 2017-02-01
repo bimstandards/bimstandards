@@ -3,9 +3,10 @@ layout: default-toc
 group: bonnes-pratiques
 title: Economie (5D)
 description: Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.
+comments: true
 icon: money
 category: scenarios-usage
-status: publish
+status: draft
 ---
 
 # Economie (5D)

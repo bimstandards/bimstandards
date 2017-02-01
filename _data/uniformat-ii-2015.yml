@@ -1,0 +1,971 @@
+- code: A
+  code_level1: A
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: INFRASTRUCTURE
+  mapping_uniformat_csi_2010: A
+
+- code: A10
+  code_level1: A
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Fondations
+  mapping_uniformat_csi_2010: A10
+
+- code: A1010
+  code_level1: A
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Fondations standard
+  mapping_uniformat_csi_2010: A1010
+
+- code: A1020
+  code_level1: A
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Fondations spéciales
+  mapping_uniformat_csi_2010: A1020
+
+- code: A1030
+  code_level1: A
+  code_level2: 10
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Dalle inférieure
+  mapping_uniformat_csi_2010: A40
+
+- code: A20
+  code_level1: A
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Construction de sous-sol
+  mapping_uniformat_csi_2010: A20
+
+- code: A2010
+  code_level1: A
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Excavation de sous-sol
+  mapping_uniformat_csi_2010: A90
+
+- code: A2020
+  code_level1: A
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Murs de sous-sol
+  mapping_uniformat_csi_2010: A2010
+
+- code: B
+  code_level1: B
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: SUPERSTRUCTURE ET ENVELOPPE
+  mapping_uniformat_csi_2010: B
+
+- code: B10
+  code_level1: B
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Superstructure
+  mapping_uniformat_csi_2010: B10
+
+- code: B1010
+  code_level1: B
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Construction de plancher
+  mapping_uniformat_csi_2010: B1010
+
+- code: B1020
+  code_level1: B
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Construction de toiture
+  mapping_uniformat_csi_2010: B1020
+
+- code: B20
+  code_level1: B
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Enveloppe extérieure
+  mapping_uniformat_csi_2010: B20
+
+- code: B2010
+  code_level1: B
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Murs extérieurs
+  mapping_uniformat_csi_2010: B2010
+
+- code: B2020
+  code_level1: B
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Fenêtres extérieures
+  mapping_uniformat_csi_2010: B2020
+
+- code: B2030
+  code_level1: B
+  code_level2: 20
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Portes extérieures
+  mapping_uniformat_csi_2010: B2030
+
+- code: B30
+  code_level1: B
+  code_level2: 30
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Toit
+  mapping_uniformat_csi_2010: B30
+
+- code: B3010
+  code_level1: B
+  code_level2: 30
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Couverture
+  mapping_uniformat_csi_2010: B3010
+
+- code: B3020
+  code_level1: B
+  code_level2: 30
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Ouvertures de toit
+  mapping_uniformat_csi_2010: B3060
+
+- code: C
+  code_level1: C
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: AMENAGEMENT INTERIEUR
+  mapping_uniformat_csi_2010: C
+
+- code: C10
+  code_level1: C
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Construction intérieure
+  mapping_uniformat_csi_2010: C10
+
+- code: C1010
+  code_level1: C
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Cloisons
+  mapping_uniformat_csi_2010: C1010
+
+- code: C1020
+  code_level1: C
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Portes intérieures
+  mapping_uniformat_csi_2010: C1030
+
+- code: C1030
+  code_level1: C
+  code_level2: 10
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Accessoires intégrés
+  mapping_uniformat_csi_2010: C1090
+
+- code: C20
+  code_level1: C
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Escaliers
+  mapping_uniformat_csi_2010: B1080
+
+- code: C2010
+  code_level1: C
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Constructions d'escaliers
+  mapping_uniformat_csi_2010: C1080.10
+
+- code: C2020
+  code_level1: C
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Finitions d'escaliers
+  mapping_uniformat_csi_2010: C2040
+
+- code: C30
+  code_level1: C
+  code_level2: 30
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Finitions intérieures
+  mapping_uniformat_csi_2010: C20
+
+- code: C3010
+  code_level1: C
+  code_level2: 30
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Finitions de murs
+  mapping_uniformat_csi_2010: C2010
+
+- code: C3020
+  code_level1: C
+  code_level2: 30
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Finitions de planchers
+  mapping_uniformat_csi_2010: C2030
+
+- code: C3030
+  code_level1: C
+  code_level2: 30
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Finitions de plafonds
+  mapping_uniformat_csi_2010: C2050
+
+- code: D
+  code_level1: D
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: SERVICES
+  mapping_uniformat_csi_2010: D
+
+- code: D10
+  code_level1: D
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Moyens de transport
+  mapping_uniformat_csi_2010: D10
+
+- code: D1010
+  code_level1: D
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Ascenseurs et monte-charge
+  mapping_uniformat_csi_2010: D1010
+
+- code: D1020
+  code_level1: D
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Escaliers mécaniques et trottoirs roulants
+  mapping_uniformat_csi_2010: D1030
+
+- code: D1090
+  code_level1: D
+  code_level2: 10
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes transporteurs
+  mapping_uniformat_csi_2010: D1050
+
+- code: D20
+  code_level1: D
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Plomberie
+  mapping_uniformat_csi_2010: D20
+
+- code: D2010
+  code_level1: D
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Appareils sanitaires
+  mapping_uniformat_csi_2010: D2010.60
+
+- code: D2020
+  code_level1: D
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Réseau d'eau domestique
+  mapping_uniformat_csi_2010: D2010.60
+
+- code: D2030
+  code_level1: D
+  code_level2: 20
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Réseau de drainage sanitaire
+  mapping_uniformat_csi_2010: D2020
+
+- code: D2040
+  code_level1: D
+  code_level2: 20
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Réseau de drainage pluvial
+  mapping_uniformat_csi_2010: D2030
+
+- code: D2090
+  code_level1: D
+  code_level2: 20
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes de plomberie
+  mapping_uniformat_csi_2010: D2060
+
+- code: D30
+  code_level1: D
+  code_level2: 30
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Chauffage, ventilation et conditionnement d'air (CVC)
+  mapping_uniformat_csi_2010: D30
+
+- code: D3010
+  code_level1: D
+  code_level2: 30
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Source d'énergie
+  mapping_uniformat_csi_2010: D3010
+
+- code: D3020
+  code_level1: D
+  code_level2: 30
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Système de production de chaleur
+  mapping_uniformat_csi_2010: D3020
+
+- code: D3030
+  code_level1: D
+  code_level2: 30
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Système de production de froid
+  mapping_uniformat_csi_2010: D3030
+
+- code: D3040
+  code_level1: D
+  code_level2: 30
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Distribution de CVC
+  mapping_uniformat_csi_2010: D3050
+
+- code: D3050
+  code_level1: D
+  code_level2: 30
+  code_level3: 50
+  level: 3
+  title_EN:
+  title_FR: Unités autonomes ou monoblocs
+  mapping_uniformat_csi_2010: 
+
+- code: D3060
+  code_level1: D
+  code_level2: 30
+  code_level3: 60
+  level: 3
+  title_EN:
+  title_FR: Régulation et instrumentation
+  mapping_uniformat_csi_2010: D3060.90
+
+- code: D3070
+  code_level1: D
+  code_level2: 30
+  code_level3: 70
+  level: 3
+  title_EN:
+  title_FR: Essai et réglage des systèmes
+  mapping_uniformat_csi_2010: 
+
+- code: D3090
+  code_level1: D
+  code_level2: 30
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes ou équipements de CVC
+  mapping_uniformat_csi_2010: D3070
+
+- code: D40
+  code_level1: D
+  code_level2: 40
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Protection incendie
+  mapping_uniformat_csi_2010: D40
+
+- code: D4010
+  code_level1: D
+  code_level2: 40
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Gicleurs
+  mapping_uniformat_csi_2010: D4010.10
+
+- code: D4020
+  code_level1: D
+  code_level2: 40
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Canalisations et robinets d'incendie
+  mapping_uniformat_csi_2010: 
+
+- code: D4030
+  code_level1: D
+  code_level2: 40
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Accessoires de protection incendie
+  mapping_uniformat_csi_2010: D4030
+
+- code: D4090
+  code_level1: D
+  code_level2: 40
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes de protection incendie
+  mapping_uniformat_csi_2010: D4010.50
+
+- code: D50
+  code_level1: D
+  code_level2: 50
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Electricité
+  mapping_uniformat_csi_2010: D50
+
+- code: D5010
+  code_level1: D
+  code_level2: 50
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Services et distribution électrique
+  mapping_uniformat_csi_2010: D5020
+
+- code: D5020
+  code_level1: D
+  code_level2: 50
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Eclairage et distribution secondaire
+  mapping_uniformat_csi_2010: D5040
+
+- code: D5030
+  code_level1: D
+  code_level2: 50
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Communication & Sécurité
+  mapping_uniformat_csi_2010: D60
+
+- code: D5090
+  code_level1: D
+  code_level2: 50
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes électriques
+  mapping_uniformat_csi_2010: 
+
+- code: E
+  code_level1: E
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: EQUIPEMENTS ET AMEUBLEMENT
+  mapping_uniformat_csi_2010: E
+
+- code: E10
+  code_level1: E
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Equipement
+  mapping_uniformat_csi_2010: E10
+
+- code: E1010
+  code_level1: E
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Equipement commercial
+  mapping_uniformat_csi_2010: E1030
+
+- code: E1020
+  code_level1: E
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Equipement institutionnel
+  mapping_uniformat_csi_2010: E1040
+
+- code: E1030
+  code_level1: E
+  code_level2: 10
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Equipement pour véhicules
+  mapping_uniformat_csi_2010: E1010
+
+- code: E1090
+  code_level1: E
+  code_level2: 10
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres équipements
+  mapping_uniformat_csi_2010: E1090
+
+- code: E20
+  code_level1: E
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Ameublement et décoration
+  mapping_uniformat_csi_2010: E20
+
+- code: E2010
+  code_level1: E
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Ameublement et décoration fixes
+  mapping_uniformat_csi_2010: E2010
+
+- code: E2020
+  code_level1: E
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Ameublement et décoration mobiles
+  mapping_uniformat_csi_2010: E2050
+
+- code: F
+  code_level1: F
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: CONSTRUCTION SPECIALE & DEMOLITION
+  mapping_uniformat_csi_2010: F
+
+- code: F10
+  code_level1: F
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Construction spéciale
+  mapping_uniformat_csi_2010: F10
+
+- code: F1010
+  code_level1: F
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Structures spéciales
+  mapping_uniformat_csi_2010: F1020
+
+- code: F1020
+  code_level1: F
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Construction intégrée
+  mapping_uniformat_csi_2010: F1010
+
+- code: F1030
+  code_level1: F
+  code_level2: 10
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Système spécial de construction
+  mapping_uniformat_csi_2010: F1030
+
+- code: F1040
+  code_level1: F
+  code_level2: 10
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Installation spéciale
+  mapping_uniformat_csi_2010: F1050
+
+- code: F1050
+  code_level1: F
+  code_level2: 10
+  code_level3: 50
+  level: 3
+  title_EN:
+  title_FR: Instrumentation & régulation spéciales
+  mapping_uniformat_csi_2010: F1080
+
+- code: F20
+  code_level1: F
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Démolition sélective de bâtiment
+  mapping_uniformat_csi_2010: F30
+
+- code: F2010
+  code_level1: F
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Démantèlement d'éléments de bâtiment
+  mapping_uniformat_csi_2010: F3010
+
+- code: F2020
+  code_level1: F
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Elimination de produits dangereux
+  mapping_uniformat_csi_2010: F2010
+
+- code: G
+  code_level1: G
+  code_level2: 
+  code_level3: 
+  level: 1
+  title_EN:
+  title_FR: AMENAGEMENT EXTERIEUR
+  mapping_uniformat_csi_2010: G
+
+- code: G10
+  code_level1: G
+  code_level2: 10
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Préparation de l'emplacement
+  mapping_uniformat_csi_2010: G10
+
+- code: G1010
+  code_level1: G
+  code_level2: 10
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Déblaiement d'emplacement
+  mapping_uniformat_csi_2010: G1010
+
+- code: G1020
+  code_level1: G
+  code_level2: 10
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Déplacement et démolition sur l'emplacement
+  mapping_uniformat_csi_2010: G1020
+
+- code: G1030
+  code_level1: G
+  code_level2: 10
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Terrassement d'emplacement
+  mapping_uniformat_csi_2010: G1070
+
+- code: G1040
+  code_level1: G
+  code_level2: 10
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Décontamination d'emplacement
+  mapping_uniformat_csi_2010: G1050
+
+- code: G20
+  code_level1: G
+  code_level2: 20
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Amélioration d'emplacement
+  mapping_uniformat_csi_2010: G20
+
+- code: G2010
+  code_level1: G
+  code_level2: 20
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Chaussée
+  mapping_uniformat_csi_2010: G2010
+
+- code: G2020
+  code_level1: G
+  code_level2: 20
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Aire de stationnement
+  mapping_uniformat_csi_2010: G2020
+
+- code: G2030
+  code_level1: G
+  code_level2: 20
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Surface piétonne
+  mapping_uniformat_csi_2010: G2030
+
+- code: G2040
+  code_level1: G
+  code_level2: 20
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Aménagement d'emplacement
+  mapping_uniformat_csi_2010: G2060
+
+- code: G2050
+  code_level1: G
+  code_level2: 20
+  code_level3: 50
+  level: 3
+  title_EN:
+  title_FR: Aménagement paysager
+  mapping_uniformat_csi_2010: G2080
+
+- code: G30
+  code_level1: G
+  code_level2: 30
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Services mécaniques de l'emplacement
+  mapping_uniformat_csi_2010: G30
+
+- code: G3010
+  code_level1: G
+  code_level2: 30
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Alimentation en eau
+  mapping_uniformat_csi_2010: G3010
+
+- code: G3020
+  code_level1: G
+  code_level2: 30
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Egout sanitaire
+  mapping_uniformat_csi_2010: G3020
+
+- code: G3030
+  code_level1: G
+  code_level2: 30
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Egout pluvial
+  mapping_uniformat_csi_2010: G3030
+
+- code: G3040
+  code_level1: G
+  code_level2: 30
+  code_level3: 40
+  level: 3
+  title_EN:
+  title_FR: Réseau distribution de chaleur
+  mapping_uniformat_csi_2010: G3050.10
+
+- code: G3050
+  code_level1: G
+  code_level2: 30
+  code_level3: 50
+  level: 3
+  title_EN:
+  title_FR: Réseau de distribution de refroidissement
+  mapping_uniformat_csi_2010: G3050.20
+
+- code: G3060
+  code_level1: G
+  code_level2: 30
+  code_level3: 60
+  level: 3
+  title_EN:
+  title_FR: Réseau de combustible
+  mapping_uniformat_csi_2010: G3060
+
+- code: G3090
+  code_level1: G
+  code_level2: 30
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres services de mécanique sur l'emplacement
+  mapping_uniformat_csi_2010: 
+
+- code: G40
+  code_level1: G
+  code_level2: 40
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Services d'électricité de l'emplacement
+  mapping_uniformat_csi_2010: G40
+
+- code: G4010
+  code_level1: G
+  code_level2: 40
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Distribution d'électricité
+  mapping_uniformat_csi_2010: G4010
+
+- code: G4020
+  code_level1: G
+  code_level2: 40
+  code_level3: 20
+  level: 3
+  title_EN:
+  title_FR: Eclairage extérieur
+  mapping_uniformat_csi_2010: G4050
+
+- code: G4030
+  code_level1: G
+  code_level2: 40
+  code_level3: 30
+  level: 3
+  title_EN:
+  title_FR: Communication et sécurité sur l'emplacement
+  mapping_uniformat_csi_2010: G5010
+
+- code: G4090
+  code_level1: G
+  code_level2: 40
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres services d'électricité sur l'emplacement
+  mapping_uniformat_csi_2010: 
+
+- code: G90
+  code_level1: G
+  code_level2: 90
+  code_level3: 
+  level: 2
+  title_EN:
+  title_FR: Autres constructions sur l'emplacement
+  mapping_uniformat_csi_2010: G90
+
+- code: G9010
+  code_level1: G
+  code_level2: 90
+  code_level3: 10
+  level: 3
+  title_EN:
+  title_FR: Tunnel de service et piétonnier
+  mapping_uniformat_csi_2010: G9010
+
+- code: G9090
+  code_level1: G
+  code_level2: 90
+  code_level3: 90
+  level: 3
+  title_EN:
+  title_FR: Autres systèmes sur l'emplacement
+  mapping_uniformat_csi_2010: 

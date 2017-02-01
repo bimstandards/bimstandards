@@ -1,7 +1,8 @@
 ---
-layout: default-fiches
+layout: fiche-archicad
 group: bonnes-pratiques
 title: Activer les relations spatiales
+comments: true
 ---
 
 Pour activer la relation spatiale entre pièces et équipements, vérifier que l'option "Contenu spatial" est bien sélectionnée dans "Fichier > Fichier spécial > IFC 2x3 > Options IFC...".

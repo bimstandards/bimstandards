@@ -3,6 +3,7 @@ layout: default
 group: ressources
 title: Outils
 description: Trouver l'outil adapté au besoin
+comments: true
 ordre:
 ---
 
@@ -32,7 +33,7 @@ L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de
         <td>{{ outil.editor }}</td>
         <td>
           {% for standard in outil.standards %}
-          <span class="tag tag-default">{{ standard }}</span>
+          <span class="badge badge-default">{{ standard }}</span>
           {% endfor %}
         </td>
       </tr>
@@ -42,4 +43,3 @@ L'openBIM développe l'idée de ne pas dépendre d'un seul logiciel ou format de
 </div>
 
 Les logiciels **officiellement certifiés IFC** sont listés par [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/). Une liste plus complète des logiciels **compatibles** mais non certifiés en import et/ou export IFC est publiée par l'[Implementation Support Group de buildingSMART](http://www.buildingsmart-tech.org/implementation/implementations/allplominoform.application).
-

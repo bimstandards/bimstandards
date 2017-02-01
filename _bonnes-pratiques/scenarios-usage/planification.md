@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Planification (4D)
 description: Intégration de données temporelles pour la simulation de planning.
+comments: true
 icon: calendar
 category: scenarios-usage
 status: draft

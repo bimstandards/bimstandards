@@ -2,10 +2,14 @@
   date: (en développement)
   url_doc: 
 
+- version: IFC4-Add2
+  date: juillet 2016
+  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/
+  actuelle: oui
+
 - version: IFC4-Add1
   date: juillet 2015
   url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/
-  actuelle: oui
 
 - version: IFC4 (anciennement 2x4)
   date: mars 2013

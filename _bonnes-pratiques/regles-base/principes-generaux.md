@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Principes généraux
 description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, les niveaux de détail.
+comments: true
 icon: info-circle
 category: regles-base
 ordre: 1
@@ -26,62 +27,6 @@ Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car
 Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction exhaustive des classifications est disponible sur [cette page]({{ site.url }}/standards/objets-ifc/).
 
 {% include fiche-archicad.html titre="Archicad : attribution des classifications IFC" lien="attribution-classifications-ifc" %}
-
-<div class="alert alert-danger" role="alert">
-  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
-  Tableau des correspondances ouvrages <-> classes IFC avec progression dans les différentes phases de projet, à titre indicatif. A insérer à partir d'un fichier .csv du dossier data, pour ne pas alourdir la page.
-</div>
-
-*Principe d'intégration progressive des éléments bâtis dans la maquette numérique :*
-
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead>
-    <tr>
-      <th>Catégorie d'objet / Ouvrage</th>
-      <th>Classe IFC</th>
-      <th>ESQ</th>
-      <th>APS</th>
-      <th>APD</th>
-      <th>PRO</th>
-      <th>EXE</th>
-      <th>DOE</th>
-    </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Site</td>
-        <td>`IfcSite`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Bâtiments</td>
-        <td>`IfcBuilding`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Site</td>
-        <td>`IfcSite`</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
 ## Identifiant unique (GUID)
 
@@ -160,7 +105,7 @@ Les niveaux de développement ont été développés afin de délimiter la quali
 
 Au niveau mondial, la plus reconnue à l'heure actuelle est la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/). Elle s'attache à décrire différents niveaux de développements pour chaque type d'objet composant le bâti.
 
-En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/actualites/2014/08/29/bimmaquette-numerique-contenu-et-niveaux-de-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
+En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
 
 Voici les différents Niveaux de Développement définis par Syntec Ingénierie :
 

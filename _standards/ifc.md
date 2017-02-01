@@ -2,8 +2,10 @@
 layout: default-toc
 group: standards
 title: IFC
-description: (Industry Foundation Classes)
+description: Industry Foundation Classes, le format universel
+comments: true
 ordre: 2
+status: publish
 ---
 
 # IFC (Industry Foundation Classes)

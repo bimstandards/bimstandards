@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Organisation spatiale
 description: Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.
+comments: true
 icon: cubes
 category: regles-base
 ordre: 2

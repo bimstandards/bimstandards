@@ -3,6 +3,7 @@ layout: default-toc
 group: bonnes-pratiques
 title: Securité incendie
 description: Prévention, respect de la réglementation, conception et maintenance des système de sécurité.
+comments: true
 icon: fire-extinguisher
 category: scenarios-usage
 status: draft
