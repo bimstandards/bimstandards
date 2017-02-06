@@ -20,4 +20,4 @@ status: draft
 
 ## Sources
 
-* http://www.lemoniteur.fr/article/permis-de-construire-premiere-instruction-avec-le-bim-32129666
+* **Permis de construire : première instruction avec le BIM** [Article en ligne]. Le Moniteur, avril 2016.  [http://www.lemoniteur.fr/article/permis-de-construire-premiere-instruction-avec-le-bim-32129666](http://www.lemoniteur.fr/article/permis-de-construire-premiere-instruction-avec-le-bim-32129666)

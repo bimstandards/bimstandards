@@ -13,6 +13,6 @@ status: draft
 
 ## Sources :
 
-* ELODIE : http://editions.cstb.fr/Products/Elodie
-* COCON-BIM : http://www.cocon-bim.fr/
-* Quartz Project : http://quartzproject.org
+* **ELODIE**. Disponible sur : [http://editions.cstb.fr/Products/Elodie](http://editions.cstb.fr/Products/Elodie)
+* **COCON-BIM**. Disponible sur : [http://www.cocon-bim.fr/](http://www.cocon-bim.fr/)
+* **Quartz Project**. Disponible sur : [http://quartzproject.org](http://quartzproject.org)

@@ -60,6 +60,6 @@ Voir les Property Sets de la classe `IfcSpace`.
 
 ## Sources
 
-* https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20
-* http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html
-* http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf
+* **le carnet de suivi et d'entretien numérique du bâtiment** [support de conférence]. Astus Construction, novembre 2015. Disponible sur : [https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20](https://issuu.com/astusconstruction/docs/ppt_alliance_en_ra_-_18_novembre_20)
+* **Classification - not so Easy**. practical BIM, juin 2015. Disponible sur : [http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html](http://practicalbim.blogspot.fr/2015/06/classification-not-so-easy.html)
+* **IFC Reference Guide for ArchiCAD 19**. Graphisoft, 2015. [http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf](http://www.graphisoft.com/ftp/techsupport/documentation/IFC/IFC%20Reference%20Guide%20for%20ARCHICAD%2019.pdf)
