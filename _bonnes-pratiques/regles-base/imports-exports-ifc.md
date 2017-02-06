@@ -32,7 +32,7 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
 
 * activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
 
-{% include fiche-archicad.html titre="Archicad : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
+{% include fiche-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
 
 * activer l'export des **limites d'espaces** (utile pour la thermique)
 
@@ -40,6 +40,33 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
 **Note :**
 Après l'export, il est conseillé d'ouvrir le fichier IFC dans une visionneuse (Solibri, Tekla BIMsight) afin de vérifier que la géométrie et les données sont correctes.
 {% include callout-close.html %}
+
+## Problèmes connus
+
+Les problèmes d'échanges sont dépendants d'une multitude de facteurs. Voir ci-dessous les points à prendre en compte lorsqu'un problème est rencontré.
+
+**Problèmes généraux**
+
+* Modélisation
+* Etait-ce bien présent à l'origine ?
+* Réglages d'export
+* Réglages d'import
+* Schéma IFC
+* Géoréférencement
+* Autres problèmes liés aux logiciels-métier
+
+**Problèmes connus d'ARCHICAD vers Revit**
+
+* Géométrie de site
+* Revêtements
+* Hauteur de mur correspondant à une hauteur de porte
+* Hauteur de pièce
+* Symbole d'ouverture de porte
+* Connexion d'éléments Revit à des murs récupérés depuis ARCHICAD
+
+**Problèmes connus de Revit vers ARCHICAD**
+
+* Attributs de profils
 
 ## Anonymat
 
@@ -56,3 +83,6 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 ![anonymat]({{ site.url }}/assets/img/bp_ifc_anonymat.png)
 
 ## Sources
+
+* **Guidance notes for Autodesk Revit users exchanging models with Graphisoft ARCHICAD** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/guidance-notes-for-autodesk-revit-users-exchanging-models-with-graphisoft-archicad/](http://bimblog.bondbryan.com/guidance-notes-for-autodesk-revit-users-exchanging-models-with-graphisoft-archicad/)
+* **IFC based data exchange – Troubleshooting guide** [Article d'aide en ligne - mis à jour le 13/04/2016]. Help Center, Graphisoft. Disponible sur : [http://helpcenter.graphisoft.com/troubleshooting/import-export/troubleshooting-guide-for-ifc-based-data-exchange-2/](http://helpcenter.graphisoft.com/troubleshooting/import-export/troubleshooting-guide-for-ifc-based-data-exchange-2/)
