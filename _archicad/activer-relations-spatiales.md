@@ -1,5 +1,5 @@
 ---
-layout: fiche-archicad
+layout: methode-archicad
 group: bonnes-pratiques
 title: Activer les relations spatiales
 comments: true

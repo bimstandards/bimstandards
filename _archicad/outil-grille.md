@@ -1,5 +1,5 @@
 ---
-layout: fiche-archicad
+layout: methode-archicad
 group: bonnes-pratiques
 title: Outil grille
 comments: true

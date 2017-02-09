@@ -34,7 +34,7 @@ Les éléments `IfcProduct` peuvent être contenues dans un niveau (`IfcBuilding
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
 
-{% include fiche-archicad.html titre="ARCHICAD : activer les relations spatiales" lien="activer-relations-spatiales" %}
+{% include methode-archicad.html titre="ARCHICAD : activer les relations spatiales" lien="activer-relations-spatiales" %}
 
 ### Projet
 
@@ -102,7 +102,7 @@ La codification des niveaux est établie par des codes à 2 caractères dans le 
 
 Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
 
-{% include fiche-archicad.html titre="ARCHICAD : configurer les niveaux" lien="configurer-niveaux" %}
+{% include methode-archicad.html titre="ARCHICAD : configurer les niveaux" lien="configurer-niveaux" %}
 
 ### Locaux
 
@@ -146,11 +146,11 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
   </table>
 </div>
 
-{% include fiche-archicad.html titre="ARCHICAD : configurer les locaux (zones)" lien="configurer-locaux" %}
+{% include methode-archicad.html titre="ARCHICAD : configurer les locaux (zones)" lien="configurer-locaux" %}
 
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: zones thermiques, de recoupement au feu, zones fonctionnelles, acoustiques, ou plusieurs locaux appartenant à un même logement). Un même local peut appartenir à plusieurs zones.
 
-{% include fiche-archicad.html titre="ARCHICAD : créer des regroupements entre locaux (à venir)" lien="regroupement-locaux" %}
+{% include methode-archicad.html titre="ARCHICAD : créer des regroupements entre locaux (à venir)" lien="regroupement-locaux" %}
 
 ## Géoréférencement
 
@@ -174,7 +174,7 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
-{% include fiche-archicad.html titre="ARCHICAD : configurer les coordonnées géographiques" lien="configurer-coordonnees-geographiques" %}
+{% include methode-archicad.html titre="ARCHICAD : configurer les coordonnées géographiques" lien="configurer-coordonnees-geographiques" %}
 
 Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
 
@@ -184,7 +184,7 @@ Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), co
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
-{% include fiche-archicad.html titre="ARCHICAD : outil grille" lien="outil-grille" %}
+{% include methode-archicad.html titre="ARCHICAD : outil grille" lien="outil-grille" %}
 
 ## Méthode de modélisation
 

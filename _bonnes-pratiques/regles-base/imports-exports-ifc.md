@@ -32,7 +32,7 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
 
 * activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
 
-{% include fiche-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
+{% include methode-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
 
 * activer l'export des **limites d'espaces** (utile pour la thermique)
 

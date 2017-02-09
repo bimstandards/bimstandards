@@ -1,5 +1,5 @@
 ---
-layout: fiche-revit
+layout: methode-revit
 group: bonnes-pratiques
 title: Importer un fichier IFC
 comments: true
