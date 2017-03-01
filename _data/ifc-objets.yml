@@ -82,15 +82,15 @@
   domaine_fluides: 
   requis_cobie: 
 
-- nom_fr_fr: Topographique / Terrain
+- nom_fr_fr: Topographie / Terrain
   nom_en_gb: Topography
   ifcproduct_ifc2x3tc1: IfcBuildingElementProxy
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcBuildingElementProxyType
   ifctypeproduct_ifc4add2: 
   allplan: 
-  archicad: 
-  revit: 
+  archicad: Maillage
+  revit: Surface topographique
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -104,7 +104,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
   archicad: Objet
-  revit: 
+  revit: Composant de site
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -132,7 +132,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: Objet
-  revit: 
+  revit: Composant de site
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -174,7 +174,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Poteau
   archicad: Poteau
-  revit: Poteau Porteur / Architectural
+  revit: Poteau Porteur / Poteau Architectural
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
@@ -930,7 +930,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareil > Alarme incendie
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -1014,7 +1014,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareil > Alarme incendie
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -1028,7 +1028,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareil > Alarme incendie
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -1966,7 +1966,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareil > Appel malade
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -1994,7 +1994,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Raccord de gaine
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2036,7 +2036,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Raccord de canalisation
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2134,7 +2134,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Gaine / Accessoire de gaine
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2176,7 +2176,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Canalisation
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2260,7 +2260,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Canalisation souple
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2274,7 +2274,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Canalisation
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2610,7 +2610,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Luminaire
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2680,7 +2680,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2694,7 +2694,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2708,7 +2708,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Sprinkler
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2736,7 +2736,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareil > Téléphone
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2750,7 +2750,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2792,7 +2792,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2820,7 +2820,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2918,7 +2918,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2932,7 +2932,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -2946,7 +2946,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -3268,7 +3268,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Appareils sanitaires
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
@@ -3324,7 +3324,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Semelle filante / isolée / Radier général
   archicad: 
-  revit: Fondation Filante / Isolée
+  revit: Fondation Isolée / Fondation Filante / Fondation Radier
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
@@ -3338,7 +3338,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
-  revit: 
+  revit: Fondation Isolée / Fondation Filante / Fondation Radier
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
@@ -3352,7 +3352,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Semelle filante
   archicad: 
-  revit: Structure / Poutre
+  revit: Fondation Filante
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
@@ -3408,7 +3408,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
   archicad: 
-  revit: 
+  revit: Composant
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3436,7 +3436,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
   archicad: Objet
-  revit: 
+  revit: Composant
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3743,8 +3743,8 @@
   ifctypeproduct_ifc2x3tc1: n/a
   ifctypeproduct_ifc4add2: 
   allplan: Poteau
-  archicad: 
-  revit: 
+  archicad: Poteau
+  revit: Poteau
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
@@ -3758,7 +3758,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Mur-rideau
   archicad: Mur-rideau
-  revit: Panneau de mur-rideau
+  revit: Système de mur-rideau
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3800,7 +3800,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Garde-corps
   archicad: Mur, Profil complexe, Objet
-  revit: Barreaux
+  revit: Garde-corps
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3842,7 +3842,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Garde-corps
   archicad: Mur, Profil complexe, Objet
-  revit: 
+  revit: Garde-corps
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3856,7 +3856,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Rampe droite
   archicad: Escalier
-  revit: Rampe daccès
+  revit: Rampe d'accès
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
@@ -3995,8 +3995,8 @@
   ifctypeproduct_ifc2x3tc1: n/a
   ifctypeproduct_ifc4add2: 
   allplan: Forme de barre
-  archicad: 
-  revit: 
+  archicad: n/a
+  revit: Armature surfacique - Barres
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
@@ -4009,8 +4009,8 @@
   ifctypeproduct_ifc2x3tc1: n/a
   ifctypeproduct_ifc4add2: 
   allplan: Forme de panneau
-  archicad: 
-  revit: 
+  archicad: n/a
+  revit: Armature surfacique (treillis)
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
@@ -4234,7 +4234,7 @@
   ifctypeproduct_ifc4add2: 
   allplan: Radier général
   archicad: Dalle
-  revit: Radier
+  revit: Fondation Radier
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
