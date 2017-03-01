@@ -4282,39 +4282,11 @@
   domaine_fluides: 
   requis_cobie: 
 
-- nom_fr_fr: Espace
-  nom_en_gb: Area
+- nom_fr_fr: Espace / Pièce / Local
+  nom_en_gb: Space / Room / Area
   ifcproduct_ifc2x3tc1: IfcSpace
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcSpaceType *
-  ifctypeproduct_ifc4add2: 
-  allplan: Pièce
-  archicad: Zone
-  revit: Pièce
-  domaine_architecture: true
-  domaine_structure: 
-  domaine_fluides: 
-  requis_cobie: 
-
-- nom_fr_fr: Espace
-  nom_en_gb: Space
-  ifcproduct_ifc2x3tc1: IfcSpace
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcSpaceType *
-  ifctypeproduct_ifc4add2: 
-  allplan: Pièce
-  archicad: Zone
-  revit: Pièce
-  domaine_architecture: true
-  domaine_structure: 
-  domaine_fluides: 
-  requis_cobie: 
-
-- nom_fr_fr: Pièce
-  nom_en_gb: Room
-  ifcproduct_ifc2x3tc1: IfcSpace
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcSpaceType
   ifctypeproduct_ifc4add2: 
   allplan: Pièce
   archicad: Zone
