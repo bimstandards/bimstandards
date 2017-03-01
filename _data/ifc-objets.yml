@@ -102,7 +102,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcBuildingElementProxyType
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: Objet
   revit: 
   domaine_architecture: true
@@ -284,7 +284,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcCoveringType CEILING
   ifctypeproduct_ifc4add2: 
-  allplan: Plafond 
+  allplan: Surface de plafond 
   archicad: Dalle
   revit: Plafond
   domaine_architecture: true
@@ -312,7 +312,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcCoveringType FLOORING
   ifctypeproduct_ifc4add2: 
-  allplan: Second-oeuvre sol
+  allplan: Surface de plancher
   archicad: Dalle
   revit: Sol
   domaine_architecture: true
@@ -326,7 +326,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcCoveringType INSULATION
   ifctypeproduct_ifc4add2: 
-  allplan: Mur, Toit, Sol
+  allplan: Mur, Toit, Sol, Surface de plancher, Surface de plafond
   archicad: Mur, Toit, Dalle
   revit: Mur, Toit, Sol
   domaine_architecture: true
@@ -354,7 +354,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcCoveringType MEMBRANE
   ifctypeproduct_ifc4add2: 
-  allplan: Mur, Toit, Sol
+  allplan: Mur, Toit, Sol, Couverture, Surface latérale, Surface de plancher, Plinthe
   archicad: Mur, Toit, Dalle
   revit: Mur, Toit, Sol
   domaine_architecture: true
@@ -2930,7 +2930,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType BATH
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3168,7 +3168,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType PHOTOCOPIER
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3196,7 +3196,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType RADIANTHEATER
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3210,7 +3210,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType REFRIGERATOR
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3238,7 +3238,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType SANITARYFOUNTAIN
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: 
@@ -3406,7 +3406,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcSystemFurnitureElementType
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: true
@@ -3420,7 +3420,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcSystemFurnitureElementType
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: true
@@ -3434,7 +3434,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcFurnitureType *
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: Objet
   revit: 
   domaine_architecture: true
@@ -3448,7 +3448,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcFurnishingElementType
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro / Smartpart
   archicad: 
   revit: 
   domaine_architecture: true
@@ -3616,7 +3616,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcMemberType MEMBER
   ifctypeproduct_ifc4add2: 
-  allplan: Chevron / élément d'ossature quelconque
+  allplan: Chevron / élément d'ossature quelconque / Poteau / Pilier de mur
   archicad: 
   revit: 
   domaine_architecture: true
@@ -3840,7 +3840,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcRailingType *
   ifctypeproduct_ifc4add2: 
-  allplan: Rampe
+  allplan: Garde-corps
   archicad: Mur, Profil complexe, Objet
   revit: 
   domaine_architecture: true
@@ -3854,7 +3854,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: n/a
   ifctypeproduct_ifc4add2: 
-  allplan: Rampe
+  allplan: Rampe droite
   archicad: Escalier
   revit: Rampe daccès
   domaine_architecture: true
@@ -3952,7 +3952,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcRampFlightType *
   ifctypeproduct_ifc4add2: 
-  allplan: Rampe
+  allplan: Rampe droite
   archicad: Escalier
   revit: Rampe d'accès
   domaine_architecture: true
@@ -4624,7 +4624,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcTransportElementType MOVINGWALKWAY
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro, smartpart
   archicad: Objet
   revit: 
   domaine_architecture: true
@@ -4638,7 +4638,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcTransportElementType *
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro, smartpart
   archicad: Objet
   revit: 
   domaine_architecture: true
@@ -4652,7 +4652,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcTransportElementType ELEVATOR
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Macro, smartpart
   archicad: Objet
   revit: 
   domaine_architecture: true

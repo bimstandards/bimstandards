@@ -24,5 +24,5 @@ Les besoins concernant la gestion de patrimoine sont listés [sur une page spéc
 
 ## Sources
 
-* https://www.nibs.org/?page=bsa_bpie
-* http://www.drofus.no/wiki/_media/public:guide_archicad_en.pdf
+* **Building Programming information exchange (BPie)**. Disponible sur : [https://www.nibs.org/?page=bsa_bpie](https://www.nibs.org/?page=bsa_bpie)
+* **ArchiCAD – dRofus workflow** [PDF en ligne]. dRofus. Disponible sur : [http://www.drofus.no/wiki/_media/public:guide_archicad_en.pdf](http://www.drofus.no/wiki/_media/public:guide_archicad_en.pdf)

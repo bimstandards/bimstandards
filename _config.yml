@@ -21,6 +21,7 @@ collections:
   standards: {output: true, permalink: '/standards/:path/'}
   bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
+  revit: {output: true, permalink: '/revit/:path/'}
   ressources: {output: true, permalink: '/ressources/:path/'}
   
 # Assets

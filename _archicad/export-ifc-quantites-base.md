@@ -1,5 +1,5 @@
 ---
-layout: fiche-archicad
+layout: methode-archicad
 group: bonnes-pratiques
 title: Activer l'export IFC des quantités de base
 comments: true

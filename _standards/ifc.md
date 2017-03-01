@@ -68,5 +68,5 @@ Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continue
 
 ## Sources
 
-* [Versions IFC sur le site buildingSMART](http://www.buildingsmart-tech.org/specifications/ifc-releases)
-* [Histoire de buildingSMART](http://www.buildingsmart.org/about/about-buildingsmart/history/)
+* **Versions IFC sur le site buildingSMART**. Disponible sur :  [http://www.buildingsmart-tech.org/specifications/ifc-releases](http://www.buildingsmart-tech.org/specifications/ifc-releases)
+* **Histoire de buildingSMART**. Disponible sur : [http://www.buildingsmart.org/about/about-buildingsmart/history/](http://www.buildingsmart.org/about/about-buildingsmart/history/)
