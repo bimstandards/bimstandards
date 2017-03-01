@@ -1,5 +1,5 @@
 ---
-layout: fiche-archicad
+layout: methode-archicad
 group: bonnes-pratiques
 title: Attribution des classifications IFC
 comments: true

@@ -15,4 +15,4 @@ status: draft
 
 ## Sources
 
-* http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/schema/ifcprocessextension/lexical/ifctask.htm
+* **IfcTask** [documentation IFC en ligne]. buildingSMART. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/schema/ifcprocessextension/lexical/ifctask.htm](http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/schema/ifcprocessextension/lexical/ifctask.htm)

@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col-lg-3 push-lg-9 hidden-print">
             <ul class="nav flex-column">
-            {% for page in site.archicad %}
+            {% for page in site.revit %}
               <li class="nav-item">
                 <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
               </li>
@@ -44,7 +44,8 @@
                 {% include content-header.html %}
               </div>
             </div>
-            <h1><span class="badge badge-default">Archicad</span> {{ page.title }}</h1>
+            
+            <h1><span class="badge badge-default">Méthode Revit</span><br>{{ page.title }}</h1>
             {{ content }}
             <div class="row">
               <div class="col-12 bs-content-footer hidden-print">

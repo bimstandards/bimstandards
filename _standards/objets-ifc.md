@@ -20,7 +20,7 @@ Cette même déclinaison est aussi présente dans les `IfcTypeProduct` qui regro
 
 Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcTypeProduct` comme on peut le voir dans les tableaux ci-dessous, mais ils ne sont pas forcément cohérents entre les deux niveaux. l'IFC4 devrait corriger en grande partie ces incohérences.
 
-Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, Archicad et Revit).
+Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, ARCHICAD et Revit).
 
 ## Listes par spécialités
 
@@ -53,7 +53,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
             <th>Outil Allplan</th>
-            <th>Outil Archicad</th>
+            <th>Outil ARCHICAD</th>
             <th>Outil Revit</th>
           </tr>
         </thead>
@@ -107,7 +107,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
             <th>Outil Allplan</th>
-            <th>Outil Archicad</th>
+            <th>Outil ARCHICAD</th>
             <th>Outil Revit</th>
           </tr>
         </thead>
@@ -161,7 +161,7 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
             <th>Outil Allplan</th>
-            <th>Outil Archicad</th>
+            <th>Outil ARCHICAD</th>
             <th>Outil Revit</th>
           </tr>
         </thead>
@@ -203,5 +203,5 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
 
 ## Sources
 
-* [Documentation IFC2x3-TC1](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
-* [IFC 2×3 element and type classification – The plain language A-Z list](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)
+* **IFC2x Edition 3 - Technical Corrigendum 1**. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
+* **IFC 2×3 element and type classification – The plain language A-Z list** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)
