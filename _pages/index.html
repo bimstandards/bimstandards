@@ -127,6 +127,24 @@ permalink: /
   <div class="row" id="ressources">
     <div class="col-12">
       <h2>
+        Documents utiles
+        <small class="text-muted">pour aller plus loin</small>
+      </h2>
+    </div>
+    {% for doc in site.data.documents-utiles %}
+      <div class="col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+          <a target="_blank" href="{{ doc.url_doc }}"></a>
+          <img class="card-img-top img-fluid" src="/assets/img/documents/{{ doc.couverture }}.jpg" alt="{{ doc.titre }}">
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <!-- 
+  <div class="row" id="ressources">
+    <div class="col-12">
+      <h2>
         Ressources
         <small class="text-muted">pour aller plus loin</small>
       </h2>
@@ -148,5 +166,6 @@ permalink: /
       </div>
     {% endfor %}
   </div>
-  
+   -->
+   
 </div>

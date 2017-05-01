@@ -1,0 +1,48 @@
+- titre: BIM/Maquette numérique - contenu et niveaux de développement
+  auteur: SYNTEC INGENIERIE - Le Moniteur
+  description: 
+  couverture: moniteur-syntec-nd
+  date: mai 2014
+  url_doc: http://www.syntec-ingenierie.fr/wp-content/uploads/_mediavault/2017/01/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement.pdf
+
+- titre: Cahier des charges BIM
+  auteur: Bernard FERRIES - société LAURENTI, Jérôme LABBAYE - société 3ème OPUS, Habitat 76
+  description: 
+  couverture: habitat76
+  date: mai 2016
+  url_doc: http://ressourceshlm.union-habitat.org/ush/download/Dossiers/Dossier+Maquette+numérique+++BIM/Cahier%20des%20charges%20BIM%20V2.3def.pdf
+
+- titre: Guide de recommandations à la maîtrise d'ouvrage
+  auteur: PTNB
+  description: 
+  couverture: ptnb-moa
+  date: juillet 2016
+  url_doc: http://www.batiment-numerique.fr/uploads/DOC/PTNB%20-%20Guide%20Methodo%20MOA.pdf
+
+- titre: Delivering Construction-Operations Building information exchange (COBie) in GRAPHISOFT ARCHICAD
+  auteur: E William East, Robert Jackson
+  description: 
+  couverture: cobie-archicad
+  date: août 2016
+  url_doc: http://www.lulu.com/shop/e-william-east-and-robert-jackson/delivering-construction-operations-building-information-exchange-cobie-in-graphisoft-archicad/paperback/product-22823550.html
+
+- titre: Réussir le BIM pour l'exploitation
+  auteur: FEDENE, SYNTEC INGENIERIE, SYPEMI, SYPIM
+  description: 
+  couverture: bim-exploitation
+  date: septembre 2016
+  url_doc: http://www.fedene.fr/sites/default/files/actualites/BROCHURE-BIM_FEDENE%20SYNTEC%20revue.pdf
+
+- titre: Level of Development Specification
+  auteur: BIM FORUM
+  description: 
+  couverture: lod-bimforum
+  date: octobre 2016
+  url_doc: http://bimforum.org/wp-content/uploads/2016/10/LOD_Spec_2016_Part_I_2016-10-19.zip
+
+- titre: Feuille de route Normalisation
+  auteur: PTNB
+  description: Stratégie française pour les actions de pré-normalisation et normalisation BIM appliquées au bâtiment
+  couverture: ptnb-normalisation
+  date: avril 2017
+  url_doc: http://www.batiment-numerique.fr/uploads/DOC/PTNB%20-%20FdR%20Normalisation%202017.pdf
