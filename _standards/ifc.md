@@ -1,6 +1,7 @@
 ---
 layout: default-toc
 group: standards
+lang: français
 title: IFC
 description: Industry Foundation Classes, le format universel
 comments: true

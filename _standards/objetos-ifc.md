@@ -1,43 +1,36 @@
 ---
 layout: default
 group: standards
-lang: français
+lang: español/català
 ref: objets-ifc
-title: Objets IFC
-description: Décryptage des classes d'objets IFC
+title: Objetos IFC
+description: Descifrando las clases de objetos IFC
 comments: true
 ordre: 3
 status: publish
 ---
 
-# Objets IFC
+# Objetos IFC
 
 {% assign langs = site.standards | where: 'ref','objets-ifc' %}
-Cette page est disponible dans les langues suivantes : {% for page in langs %}<a class="btn btn-secondary btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
+Esta página está disponible en los siguientes idiomas : {% for page in langs %}<a class="btn btn-secondary btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
 
-## Introduction
+## Introducción
 
-Le format IFC est un langage dont le vocabulaire principal est formé par les classes `IfcProduct`, destinées à qualifier les objets physiques d'une maquette. Si les logiciels-métiers classent généralement de manière automatique les objets de base, il existe des variations d'une même classe, à travers le `PredefinedType`, permettant d'affiner la qualification.
+Traducción de clases IFC en español y catalán fue realizado con la ayuda de [GUBIMCAT -
+Grup D'usaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
 
-Par exemple, la classe `IfcSlab` utilisée pour une dalle, peut aussi qualifier un radier avec le type `IfcSlab BASESLAB`, un palier d'escalier avec le type `IfcSlab LANDING`, ou une dalle de toiture-terrasse avec le type `IfcSlab ROOF`.
-
-Cette même déclinaison est aussi présente dans les `IfcTypeProduct` qui regroupent les propriétés de plusieurs objets d'un même type. Par exemple, 5 poteaux identiques possédant la classe `IfcColumn` seront regroupés dans un type `IfcColumnType`.
-
-Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcTypeProduct` comme on peut le voir dans les tableaux ci-dessous, mais ils ne sont pas forcément cohérents entre les deux niveaux. l'IFC4 devrait corriger en grande partie ces incohérences.
-
-Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, ARCHICAD et Revit).
-
-## Listes par spécialités
+## Listas por especialidades
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#domaine_architectural" role="tab" aria-controls="domaine_architectural" rel="nofollow">Architecture (IFC2x3-TC1)</a>
+    <a class="nav-link active" data-toggle="tab" href="#domaine_architectural" role="tab" aria-controls="domaine_architectural" rel="nofollow">Arquitectura (IFC2x3-TC1)</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#domaine_structurel" role="tab" aria-controls="domaine_structurel" rel="nofollow">Structure (IFC2x3-TC1)</a>
+    <a class="nav-link" data-toggle="tab" href="#domaine_structurel" role="tab" aria-controls="domaine_structurel" rel="nofollow">Estructura (IFC2x3-TC1)</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#domaine_fluides" role="tab" aria-controls="domaine_fluides" rel="nofollow">Fluides (IFC2x3-TC1)</a>
+    <a class="nav-link" data-toggle="tab" href="#domaine_fluides" role="tab" aria-controls="domaine_fluides" rel="nofollow">MEP (IFC2x3-TC1)</a>
   </li>
 </ul>
 
@@ -48,32 +41,23 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" id="test" placeholder="Buscar en la lista..." />
           </div>
         </div>
         <thead>
           <tr>
-            <th>Terme français</th>
-            <th>Terme anglais</th>
+            <th>Expresión español</th>
+            <th>Expresión catalán</th>
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
-            <th>Outil Allplan</th>
-            <th>Outil ARCHICAD</th>
-            <th>Outil Revit</th>
           </tr>
         </thead>
         <tbody class="list">
           {% for object in site.data.ifc-objets %}
             {% if object.domaine_architecture == true %}
             <tr>
-              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-              <td class="en_gb">
-                {% if object.nom_en_gb != null %}
-                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
-                {% endif %}
-                {{ object.nom_en_gb }}
-              </td>
+              <td class="es_es"></td>
+              <td class="cat_cat"></td>
               <td class="ifcproduct">
                 {% if object.ifcproduct_ifc2x3tc1 != null %}
                   <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank"><i class="fa fa-search" data-proofer-ignore></i></a>
@@ -86,9 +70,6 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
                 {% endif %}
                 {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
-              <td class="outil_allplan">{{ object.allplan }}</td>
-              <td class="outil_archicad">{{ object.archicad }}</td>
-              <td class="outil_revit">{{ object.revit }}</td>
             </tr>
             {% endif %}
           {% endfor %}
@@ -102,32 +83,23 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" id="test" placeholder="Buscar en la lista..." />
           </div>
         </div>
         <thead>
           <tr>
-            <th>Terme français</th>
-            <th>Terme anglais</th>
+            <th>Expresión español</th>
+            <th>Expresión catalán</th>
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
-            <th>Outil Allplan</th>
-            <th>Outil ARCHICAD</th>
-            <th>Outil Revit</th>
           </tr>
         </thead>
         <tbody class="list">
           {% for object in site.data.ifc-objets %}
             {% if object.domaine_structure == true %}
             <tr>
-              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-              <td class="en_gb">
-                {% if object.nom_en_gb != null %}
-                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
-                {% endif %}
-                {{ object.nom_en_gb }}
-              </td>
+              <td class="es_es"></td>
+              <td class="cat_cat"></td>
               <td class="ifcproduct">
                 {% if object.ifcproduct_ifc2x3tc1 != null %}
                   <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
@@ -140,9 +112,6 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
                 {% endif %}
                 {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
-              <td class="outil_allplan">{{ object.allplan }}</td>
-              <td class="outil_archicad">{{ object.archicad }}</td>
-              <td class="outil_revit">{{ object.revit }}</td>
             </tr>
             {% endif %}
           {% endfor %}
@@ -156,32 +125,23 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" id="test" placeholder="Buscar en la lista..." />
           </div>
         </div>
         <thead>
           <tr>
-            <th>Terme français</th>
-            <th>Terme anglais</th>
+            <th>Expresión español</th>
+            <th>Expresión catalán</th>
             <th>IfcProduct + PredefinedType</th>
             <th>IfcTypeProduct + PredefinedType</th>
-            <th>Outil Allplan</th>
-            <th>Outil ARCHICAD</th>
-            <th>Outil Revit</th>
           </tr>
         </thead>
         <tbody class="list">
           {% for object in site.data.ifc-objets %}
             {% if object.domaine_fluides == true %}
             <tr>
-              <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
-              <td class="en_gb">
-                {% if object.nom_en_gb != null %}
-                  <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
-                  <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
-                {% endif %}
-                {{ object.nom_en_gb }}
-              </td>
+              <td class="es_es"></td>
+              <td class="cat_cat"></td>
               <td class="ifcproduct">
                 {% if object.ifcproduct_ifc2x3tc1 != null %}
                   <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
