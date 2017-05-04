@@ -18,7 +18,7 @@ Esta página está disponible en los siguientes idiomas : {% for page in langs %
 ## Introducción
 
 Traducción de clases IFC en español y catalán fue realizado con la ayuda de [GUBIMCAT -
-Grup D'usaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
+Grup D'usuaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
 
 ## Listas por especialidades
 
@@ -154,9 +154,6 @@ Grup D'usaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
                 {% endif %}
                 {{ object.ifctypeproduct_ifc2x3tc1 }}
               </td>
-              <td class="outil_allplan">{{ object.allplan }}</td>
-              <td class="outil_archicad">{{ object.archicad }}</td>
-              <td class="outil_revit">{{ object.revit }}</td>
             </tr>
             {% endif %}
           {% endfor %}
