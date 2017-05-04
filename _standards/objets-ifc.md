@@ -24,6 +24,8 @@ Cette page est donc destinée à faire connaître la richesse de cette classific
 
 ## Listes par spécialités
 
+Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_data/ifc-objets.yml) pour contribuer à la liste.
+
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" data-toggle="tab" href="#domaine_architectural" role="tab" aria-controls="domaine_architectural" rel="nofollow">Domaine Architectural (IFC2x3-TC1)</a>
