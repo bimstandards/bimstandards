@@ -36,6 +36,7 @@ cdn:
 gems:
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-feed
 
 # Pour activer github-metadata : https://github.com/jekyll/github-metadata
 # $ JEKYLL_GITHUB_TOKEN=123abc [bundle exec] jekyll serve
