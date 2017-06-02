@@ -20,6 +20,7 @@ collections:
   pages: {output: true, permalink: '/:path/'}
   standards: {output: true, permalink: '/standards/:path/'}
   bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
+  autocontrole: {output: true, permalink: '/autocontrole/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
   ressources: {output: true, permalink: '/ressources/:path/'}
