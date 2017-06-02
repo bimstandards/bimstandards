@@ -1,6 +1,7 @@
 ---
 layout: default-toc
 group: standards
+lang: français
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true

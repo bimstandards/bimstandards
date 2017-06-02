@@ -1,6 +1,7 @@
 ---
 layout: default-toc
 group: standards
+lang: français
 title: openBIM
 description: Philosophie de collaboration
 comments: true
