@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include nav-home.html %}
+
+    <div class="bs-pageheader hidden-print">
+      <div class="container">
+        {% include page-header.html %}
+      </div>
+    </div>
+    
+    <div class="visible-print-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">http://www.bimstandards.fr</li>
+              <li class="breadcrumb-item">{{ page.group }}</li>
+              <li class="breadcrumb-item">{{ page.title }}</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bs-main">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-sm-8 bs-content">
+            <div class="row">
+            </div>
+            <h1>{{ page.title }}</h1>
+            <p class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%d/%m/%Y" }}</p>
+            {{ content }}
+            <div class="row">
+              <div class="col-12 bs-content-footer hidden-print">
+                {% if page.comments %}
+                {% include disqus.html %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

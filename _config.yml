@@ -7,8 +7,8 @@ url:              "http://bimstandards.fr"
 repository:       bimstandards/bimstandards
 
 # Versions
-version:          v0.1.0-beta.10
-latest_update:    01/05/2017
+version:          v0.1.0-beta.11
+latest_update:    02/06/2017
 
 # Build settings
 markdown:         kramdown
@@ -20,6 +20,7 @@ collections:
   pages: {output: true, permalink: '/:path/'}
   standards: {output: true, permalink: '/standards/:path/'}
   bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
+  autocontrole: {output: true, permalink: '/autocontrole/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
   ressources: {output: true, permalink: '/ressources/:path/'}

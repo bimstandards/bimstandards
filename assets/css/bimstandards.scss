@@ -179,6 +179,14 @@ pre {
   background-color: $code-bg;
 }
 
+.post {
+  list-style-type: none;
+  .post-date-author {
+    color: $gray;
+    font-size: $font-size-sm;
+  }
+}
+
 //
 // Callouts
 //
