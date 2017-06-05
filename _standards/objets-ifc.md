@@ -210,5 +210,6 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
 
 ## Sources
 
-* **IFC2x Edition 3 - Technical Corrigendum 1**. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
+* **IFC2x Edition 3 - Technical Corrigendum 1** [Documentation en ligne]. buildingSMART IAI. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
 * **IFC 2×3 element and type classification – The plain language A-Z list** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)
+* **COBie Responsibility Matrix** [XLS]. Bill East, NIBS. Disponible sur : [http://projects.buildingsmartalliance.org/files/?artifact_id=4093](http://projects.buildingsmartalliance.org/files/?artifact_id=4093)
