@@ -115,3 +115,7 @@ Il existe aujourdhui deux classifications Uniformat développées en parallèle 
 ### OmniClass Table 13
 
 La [Table 13](http://www.omniclass.org) de l'Omniclass est complémentaire de l'Uniformat puisqu'elle propose une classification des espaces par type d'usage.
+
+## Sources
+
+* **Intégration de classifications dans Archicad**. Disponible sur :  [http://www.graphisoft.com/downloads/archicad/BIM_Data.html](http://www.graphisoft.com/downloads/archicad/BIM_Data.html)
