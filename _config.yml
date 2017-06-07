@@ -7,8 +7,8 @@ url:              "http://bimstandards.fr"
 repository:       bimstandards/bimstandards
 
 # Versions
-version:          v0.1.0-beta.10
-latest_update:    01/05/2017
+version:          v0.1.0-beta.11
+latest_update:    02/06/2017
 
 # Build settings
 markdown:         kramdown
@@ -37,6 +37,7 @@ cdn:
 gems:
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-feed
 
 # Pour activer github-metadata : https://github.com/jekyll/github-metadata
 # $ JEKYLL_GITHUB_TOKEN=123abc [bundle exec] jekyll serve

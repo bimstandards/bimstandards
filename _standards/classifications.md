@@ -1,6 +1,7 @@
 ---
 layout: default-toc
 group: standards
+lang: français
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
@@ -115,7 +116,10 @@ Il existe aujourdhui deux classifications Uniformat développées en parallèle 
 ### OmniClass Table 13
 
 La [Table 13](http://www.omniclass.org) de l'Omniclass est complémentaire de l'Uniformat puisqu'elle propose une classification des espaces par type d'usage.
+<<<<<<< HEAD
 
 ## Sources
 
 * **Intégration de classifications dans Archicad**. Disponible sur :  [http://www.graphisoft.com/downloads/archicad/BIM_Data.html](http://www.graphisoft.com/downloads/archicad/BIM_Data.html)
+=======
+>>>>>>> origin/v0.1.0-dev
