@@ -31,7 +31,14 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
 ## Paramètres généraux
 
 * activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
-
+  * **Allplan** : ???
+  * **Archicad** : Dans les réglages de traducteur IFC, cocher la case "Quantités de base IFC". Le détail des quantités exportées par type d'élément est expliqué [ici](http://bimblog.bondbryan.com/exporting-quantities-to-ifc-2x3-from-archicad-1819-models/).
+  * **Cadworks** : Il n'est pas possible de calculer les quantités de base IFC au moment de l'export. En alternative, il est possible avec le logiciel simplebim de calculer les quantités et de les ajouter au fichier IFC.
+  * **Revit** : Dans les réglages d'export IFC, cocher la case "Exporter les quantités de base".
+  * **Sketchup** : Il n'est pas possible de calculer les quantités de base IFC au moment de l'export. En alternative, il est possible avec le logiciel simplebim de calculer les quantités et de les ajouter au fichier IFC.
+  * **Tekla** : Dans les réglages d'export IFC, cocher la case "Base Quantities". Le détail des quantités exportées par type d'élément est expliqué [ici](https://teklastructures.support.tekla.com/2017/en/int_IFC_base_quantities).
+  * **Vectorworks** : Dans les réglages d'export IFC, activer l'export des quantités.
+  
 {% include methode-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
 
 * activer l'export des **limites d'espaces** (utile pour la thermique)
