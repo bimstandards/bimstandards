@@ -38,7 +38,7 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
   * **Sketchup** : Il n'est pas possible de calculer les quantités de base IFC au moment de l'export. En alternative, il est possible avec le logiciel simplebim de calculer les quantités et de les ajouter au fichier IFC.
   * **Tekla** : Dans les réglages d'export IFC, cocher la case "Base Quantities". Le détail des quantités exportées par type d'élément est expliqué [ici](https://teklastructures.support.tekla.com/2017/en/int_IFC_base_quantities).
   * **Vectorworks** : Dans les réglages d'export IFC, activer l'export des quantités.
-  
+
 {% include methode-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
 
 * activer l'export des **limites d'espaces** (utile pour la thermique)
@@ -79,15 +79,19 @@ Les problèmes d'échanges sont dépendants d'une multitude de facteurs. Voir ci
 
 En cas de remise d'une maquette IFC à un concours placé sous anonymat, il est impératif de vérifier qu'aucune information nominative ne soit présente dans le contenu du fichier.
 
-Généralement, les informations personnelles peuvent être contenues aux lignes `FILE_NAME`, `IFCPERSON`, `IFCACTORROLE`, `IFCPOSTALADDRESS`, `IFCTELECOMADDRESS`, `IFCORGANIZATION`, `IFCPERSONANDORGANIZATION`, `IFCOWNERHISTORY`.
+Généralement, les informations personnelles peuvent être contenues dans les lignes `FILE_NAME`, `IFCPERSON`, `IFCACTORROLE`, `IFCPOSTALADDRESS`, `IFCTELECOMADDRESS`, `IFCORGANIZATION`, `IFCPERSONANDORGANIZATION`, `IFCOWNERHISTORY`.
 
-**Vérifier l'anonymat avec un éditeur de texte :**
+**Méthode 1 - Vérifier l'anonymat avec un éditeur de texte :**
 
 Après l'export du fichier IFC, l'ouvrir avec un éditeur de texte basique type "Bloc-notes" sur Windows ou "TextEdit" sur Mac.
 
 Identifier, éventuellement en effectuant une recherche de texte, les lignes pouvant contenir des informations sur l'émetteur du fichier. **Attention** à ne pas supprimer ces lignes (sous peine de corrompre le fichier) mais plutôt à remplacer les informations non désirées par des caractères anonymes.
 
 ![anonymat]({{ site.url }}/assets/img/bp_ifc_anonymat.png)
+
+**Méthode 2 - Supprimer les informations nominatives avec simplebim :**
+
+Le logiciel simplebim [payant - PC - [Datacubist](http://www.datacubist.com/)] permet, via l'[add-on "Anonymizer"](http://datacubist.com/support/addon-prototypes.html#tool-anonymizer), de rendre anonyme un fichier IFC en remplaçant les champs d'identification par des caractères aléatoires.
 
 ## Sources
 
