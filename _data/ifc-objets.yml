@@ -572,7 +572,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Canalisation
   nom_en_gb: Formed Duct
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -586,7 +586,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Fosse d'inspection
   nom_en_gb: Inspection Pit
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -600,7 +600,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Regard
   nom_en_gb: Manhole
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -614,7 +614,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Regard de comptage
   nom_en_gb: Meter Chamber
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -628,7 +628,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Puisard
   nom_en_gb: Sump
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -642,7 +642,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Tranchée / Fosse
   nom_en_gb: Trench
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -656,7 +656,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Regard de coupure
   nom_en_gb: Valve Chamber
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -670,7 +670,7 @@
   domaine_fluides: true
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Regard d'inspection
   nom_en_gb: Inspection Chamber
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -3372,7 +3372,7 @@
   domaine_fluides: 
   requis_cobie: 
 
-- nom_fr_fr: 
+- nom_fr_fr: Tête de pieu ?
   nom_en_gb: Pile Cap
   ifcproduct_ifc2x3tc1: IfcFooting PILE_CAP
   ifcproduct_ifc4add2: 
@@ -3708,7 +3708,7 @@
   domaine_fluides: 
   requis_cobie: 
 
-- nom_fr_fr: Contrefiche ?
+- nom_fr_fr: Contrefiche / Buton / Contrefort
   nom_en_gb: Strut
   ifcproduct_ifc2x3tc1: IfcMember
   ifcproduct_ifc4add2: 
