@@ -48,7 +48,7 @@ Liste des classifications par année de parution et caractéristiques principale
           {{ classification.annee }}
         </td>
         <td>
-          {{ classification.nom }}
+          <a href="{{ classification.lien }}">{{ classification.nom }}</a>
         </td>
         <td>
           {{ classification.pays_code }} - {{ classification.pays_nom }}

@@ -64,9 +64,18 @@
 - nom: UniFormat
   pays_nom: Etats-Unis
   pays_code: US
-  annee: 1998
+  annee: 1992
+  organisme: 
+  lien: https://www.gpo.gov/fdsys/pkg/GOVPUB-C13-8cdc820494ea4060be53eb079a7919a0/pdf/GOVPUB-C13-8cdc820494ea4060be53eb079a7919a0.pdf
+  reconnue: 
+  commentaire: 
+
+- nom: UniFormat
+  pays_nom: Etats-Unis
+  pays_code: US
+  annee: 1999
   organisme: ASTM/CSI/CSC
-  lien: 
+  lien: http://www.ct.gov/dcs/lib/dcs/uniformat_ii_report.pdf
   reconnue: 
   commentaire: 
 
@@ -75,7 +84,7 @@
   pays_code: US
   annee: 2010
   organisme: CSI
-  lien: 
+  lien: http://icee.usm.edu/dkemp/download/ACT380/Presentations/Supporting%20Docs-Samples/PDPG%20Docs/UniFormat2010.pdf
   reconnue: 
   commentaire: 
 
@@ -93,7 +102,7 @@
   pays_code: US
   annee: 2015
   organisme: ASTM
-  lien: 
+  lien: http://portal.dci.com.ph/PDF%20Forms/ASTM%20-%20Building%20Elements%20and%20Related%20Sitework%20(UNIFORMAT%20II).pdf
   reconnue: true
   commentaire: norme E1557
 
