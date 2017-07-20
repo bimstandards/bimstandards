@@ -33,10 +33,8 @@ comments: true
 				<DataDescriptor Variable="number" Title="Code" />
 				<DataDescriptor Variable="title" Title="Ouvrage" />
 			</DataDescriptors>
-			<DataEntries>
-      {% for classification in site.data.uniformat-ii-2015 %}
-      <DataEntry number="{{ classification.code }}" title="{{ classification.title_FR }}">
-      {% endfor %}
+			<DataEntries>{% for classification in site.data.uniformat-ii-2015 %}
+			<DataEntry number="{{ classification.code }}" title="{{ classification.title_FR }}">{% endfor %}
 			</DataEntries>
 		</Data>
 		<Script>

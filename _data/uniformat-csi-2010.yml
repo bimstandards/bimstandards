@@ -1060,7 +1060,7 @@
     code: G2050
     level: 3
     title_EN: Athletic, Recreational, and Playfield Areas
-    title_FR: Espace récréatif (bac à sable, jeux, )
+    title_FR: Espace récréatif
     mapping_uniformat_ii_2015: 
     comment: 
 -
@@ -1074,7 +1074,7 @@
     code: G2080
     level: 3
     title_EN: Landscaping
-    title_FR: Espaces verts (massifs, haies, )
+    title_FR: Espaces verts
     mapping_uniformat_ii_2015: 
     comment: 
 -
@@ -1095,7 +1095,7 @@
     code: G3020
     level: 3
     title_EN: Sanitary Sewerage Utilities
-    title_FR: Réseaux sanitaires (regard, tuyaux, )
+    title_FR: Réseaux sanitaires
     mapping_uniformat_ii_2015: 
     comment: 
 -
