@@ -21,7 +21,7 @@ Cette spécification, certifiée ISO 16739, est développée et mise à jour par
 
 L'association buildingSMART a tout naturellement donné son logo au format IFC. Celui-ci symbolise la collaboration à travers toutes les phases de projet.
 
-![logo IFC](http://www.buildingsmart.org/wp-content/uploads/2014/11/Full-Logo1.jpg "logo IFC")
+![logo IFC]({{ site.url }}/assets/img/logo-ifc.jpeg)
 
 Ci-dessous, le documentaire "The End of Babel" réalisé en 1994 pour faire la promotion de l'IFC.
 
