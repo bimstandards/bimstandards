@@ -10,7 +10,7 @@ permalink: /
     <h1 class="display-4">{{ site.title }}</h1>
     <p class="lead">{{ site.description }}</p>
     <p>
-      <span class="badge badge-default">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}" role="button">(notes de version)</a>
+      <span class="badge badge-secondary">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}" role="button">(notes de version)</a>
     </p>
   </div>
 </div>
@@ -29,7 +29,7 @@ permalink: /
       <div class="col-sm-6 col-md-4 col-xl-3">
         <div class="card">
           <a href="{{ page.url }}"></a>
-          <div class="card-block">
+          <div class="card-body">
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
           </div>
@@ -41,7 +41,7 @@ permalink: /
     {% for page in pages_sorted %}
       <div class="col-sm-6 col-md-4 col-xl-3">
         <div class="card">
-          <div class="card-block card-disabled">
+          <div class="card-body card-disabled">
             <span class="badge badge-warning">bientôt disponible</span>
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
@@ -65,7 +65,7 @@ permalink: /
         <div class="col-sm-6 col-md-4 col-xl-3">
           <div class="card">
             <a href="{{ page.url }}"></a>
-            <div class="card-block">
+            <div class="card-body">
               <h4 class="card-title">
                 <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
                 {{ page.title }}
@@ -94,7 +94,7 @@ permalink: /
           <div class="col-sm-6 col-md-4 col-xl-3">
             <div class="card">
               <a href="{{ page.url }}"></a>
-              <div class="card-block">
+              <div class="card-body">
                 <h4 class="card-title">
                   <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
                   {{ page.title }}
@@ -110,7 +110,7 @@ permalink: /
       {% if page.category == 'scenarios-usage' %}
         <div class="col-sm-6 col-md-4 col-xl-3">
           <div class="card card-disabled">
-            <div class="card-block">
+            <div class="card-body">
               <span class="badge badge-warning">bientôt disponible</span>
               <h4 class="card-title">
                 <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
@@ -154,7 +154,7 @@ permalink: /
       <div class="col-sm-6 col-md-4 col-xl-3">
         <div class="card">
           <a href="{{ page.url }}"></a>
-          <div class="card-block">
+          <div class="card-body">
             <h4 class="card-title">{{ page.title }}</h4>
             <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
             {% if page.status == 'draft' %}

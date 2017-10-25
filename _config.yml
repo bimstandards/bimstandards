@@ -28,13 +28,9 @@ collections:
 # Assets
 sass:
   style: compressed
-cdn:
-  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
-  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
-  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
 # Gems (Jekyll plugins)
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-feed

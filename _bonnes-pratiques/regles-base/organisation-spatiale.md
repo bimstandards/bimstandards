@@ -66,39 +66,37 @@ Il est déconseillé d'utiliser des niveaux fictifs pour régler de façon simul
 
 La codification des niveaux est établie par des codes à 2 caractères dans le champ `IfcBuildingStorey.Name` + une description plus complète du niveau dans le champ `IfcBuildingStorey.LongName`.
 
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead>
-      <tr>
-        <th>`IfcBuildingStorey.Name`</th>
-        <th>`IfcBuildingStorey.LongName`</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>00</th>
-        <th>Rez-de-chaussée</th>
-        <td>Correspond au niveau d'accès au bâtiment depuis l'espace public</td>
-      </tr>
-      <tr>
-        <th>01, 02, 03, ...</th>
-        <th>Etages</th>
-        <td>Niveaux en élévation au-dessus du sol</td>
-      </tr>
-      <tr>
-        <th>S1, S2, S3, ...</th>
-        <th>Sous-sol</th>
-        <td>Niveaux enterrés</td>
-      </tr>
-      <tr>
-        <th>TT</th>
-        <th>Toiture</th>
-        <td>Au-dessus du dernier niveau d'étage</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<table class="table table-responsive table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>`IfcBuildingStorey.Name`</th>
+      <th>`IfcBuildingStorey.LongName`</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>00</th>
+      <th>Rez-de-chaussée</th>
+      <td>Correspond au niveau d'accès au bâtiment depuis l'espace public</td>
+    </tr>
+    <tr>
+      <th>01, 02, 03, ...</th>
+      <th>Etages</th>
+      <td>Niveaux en élévation au-dessus du sol</td>
+    </tr>
+    <tr>
+      <th>S1, S2, S3, ...</th>
+      <th>Sous-sol</th>
+      <td>Niveaux enterrés</td>
+    </tr>
+    <tr>
+      <th>TT</th>
+      <th>Toiture</th>
+      <td>Au-dessus du dernier niveau d'étage</td>
+    </tr>
+  </tbody>
+</table>
 
 Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
 
@@ -112,39 +110,37 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
 
 **Exemple de nomenclature de locaux**
 
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead>
-      <tr>
-        <th>`IfcSpace.Name`</th>
-        <th>`IfcSpace.LongName`</th>
-        <td>Commentaire</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>CE_A_00_001</th>
-        <th>Hall d'entrée</th>
-        <td>Local "Hall d'entrée" n°001 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
-      </tr>
-      <tr>
-        <th>CE_A_00_012</th>
-        <th>Bureau</th>
-        <td>Local "Bureau" n°012 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
-      </tr>
-      <tr>
-        <th>CE_A_01_027</th>
-        <th>Ménage</th>
-        <td>Local "ménage" n°027 situé au niveau 1 du bâtiment A, sur le site "Campus Erdre" (CE)</td>
-      </tr>
-      <tr>
-        <th>CL_D_03_005</th>
-        <th>Salle de réunion</th>
-        <td>Local "Salle de réunion" n°005 situé au niveau 3 du bâtiment D, sur le site "Campus Loire" (CL)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<table class="table table-responsive table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>`IfcSpace.Name`</th>
+      <th>`IfcSpace.LongName`</th>
+      <td>Commentaire</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CE_A_00_001</th>
+      <th>Hall d'entrée</th>
+      <td>Local "Hall d'entrée" n°001 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
+    </tr>
+    <tr>
+      <th>CE_A_00_012</th>
+      <th>Bureau</th>
+      <td>Local "Bureau" n°012 situé au RDC du bâtiment A, sur le site "Campus Erdre" (CE)</td>
+    </tr>
+    <tr>
+      <th>CE_A_01_027</th>
+      <th>Ménage</th>
+      <td>Local "ménage" n°027 situé au niveau 1 du bâtiment A, sur le site "Campus Erdre" (CE)</td>
+    </tr>
+    <tr>
+      <th>CL_D_03_005</th>
+      <th>Salle de réunion</th>
+      <td>Local "Salle de réunion" n°005 situé au niveau 3 du bâtiment D, sur le site "Campus Loire" (CL)</td>
+    </tr>
+  </tbody>
+</table>
 
 {% include methode-archicad.html titre="ARCHICAD : configurer les locaux (zones)" lien="configurer-locaux" %}
 

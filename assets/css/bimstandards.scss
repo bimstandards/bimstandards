@@ -1,10 +1,17 @@
 ---
 ---
 
-@import "variables";
-@import "mixins/_image";
-@import "custom";
+// Your variable overrides
+$primary:               #de0323;
+$link-color:            #de0323;
+$text-muted:            #818a91;
+$btn-primary-bg:        #de0323;
+$btn-primary-border:    #de0323;
 
+// Bootstrap and its default variables
+@import "bootstrap";
+
+// BIMstandards specific CSS
 $bs-primary-color: #de0323;
 $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
@@ -30,9 +37,9 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-content-header {
   height: auto;
-  color: $gray-light;
+  color: $gray-600;
   a {
-    color: $gray-light;
+    color: $gray-600;
   }
 }
 
@@ -40,14 +47,14 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   .table {
     font-size: 80%;
     a {
-      color: $gray-light;
+      color: $gray-800;
     }
   }
   h1 {
     padding-top: $spacer;
     padding-bottom: $spacer;
     margin-bottom: $spacer;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-300;
   }
   h2 {
     padding-top: $spacer;
@@ -68,10 +75,10 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-content-footer {
   height: auto;
-  color: $gray-light;
+  color: $gray-600;
   font-size: 95%;
   a {
-    color: $gray-light;
+    color: $gray-600;
   }
   hr {
     margin-top: $spacer * 3;
@@ -163,10 +170,10 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .card-disabled {
   .card-title {
-    color: $gray-light !important;
+    color: $gray-600 !important;
   }
   .card-subtitle {
-    color: $gray-light !important;
+    color: $gray-600 !important;
   }
 }
 
@@ -182,7 +189,7 @@ pre {
 .post {
   list-style-type: none;
   .post-date-author {
-    color: $gray;
+    color: $gray-800;
     font-size: $font-size-sm;
   }
 }
@@ -224,6 +231,6 @@ pre {
   h4 { color: $color; }
 }
 
-.bs-callout-info { @include bs-callout-variant($brand-info); }
-.bs-callout-warning { @include bs-callout-variant($brand-warning); }
-.bs-callout-danger { @include bs-callout-variant($brand-danger); }
+.bs-callout-info { @include bs-callout-variant($teal); }
+.bs-callout-warning { @include bs-callout-variant($orange); }
+.bs-callout-danger { @include bs-callout-variant($red); }

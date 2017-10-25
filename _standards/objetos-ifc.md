@@ -13,7 +13,7 @@ status: publish
 # Objetos IFC
 
 {% assign langs = site.standards | where: 'ref','objets-ifc' %}
-Esta página está disponible en los siguientes idiomas : {% for page in langs %}<a class="btn btn-secondary btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
+Esta página está disponible en los siguientes idiomas : {% for page in langs %}<a class="btn btn-outline-dark btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
 
 ## Introducción
 
@@ -36,8 +36,8 @@ Grup D'usuaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
 
 <div class="tab-content">
   <div class="tab-pane active" id="domaine_architectural" role="tabpanel">
-    <div id="table-domaine-architectural" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-architectural">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
@@ -78,8 +78,8 @@ Grup D'usuaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
     </div>
   </div>
   <div class="tab-pane" id="domaine_structurel" role="tabpanel">
-    <div id="table-domaine-structurel" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-structurel">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
@@ -120,8 +120,8 @@ Grup D'usuaris BIM de Catalunya](http://gubimcat.blogspot.com.es).
     </div>
   </div>
   <div class="tab-pane" id="domaine_fluides" role="tabpanel">
-    <div id="table-domaine-fluides" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-fluides">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
