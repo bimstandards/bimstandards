@@ -32,8 +32,8 @@ Technologies web utilisées :
 
 * Hébergement : [GitHub Pages](https://pages.github.com) (v166)
 * Plateforme collaborative : [GitHub](https://github.com)
-* Générateur de site : [Jekyll](http://jekyllrb.com) (v3.7.4)
-* Validation de code : [html-proofer](https://github.com/gjtorikian/html-proofer) (v3.0.6)
+* Générateur de site : [Jekyll](http://jekyllrb.com) (v3.6.2)
+* Validation de code : [html-proofer](https://github.com/gjtorikian/html-proofer) (v3.7.4)
 * Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-beta.2)
 * Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.7.0)
 * Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
