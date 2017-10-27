@@ -50,7 +50,7 @@ Le nom du terrain est indiqué dans l'attribut `IfcSite.Name`, et le numéro de 
 
 Tout comme pour l'`IfcProject`, l'objet `IfcSite` doit posséder un `GUID` et `Name` identiques dans tous les fichiers IFC.
 
-Cette classe défini notamment le [géoréférencement](#gorfrencement) du projet.
+Cette classe défini notamment le [géoréférencement](#géoréférencement) du projet.
 
 ### Bâtiment
 

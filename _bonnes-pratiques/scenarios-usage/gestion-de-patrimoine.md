@@ -13,8 +13,8 @@ status: draft
 
 La gestion de données liée à l'exploitation-maintenance est basée sur 4 standards principaux :
 
-* **IFC2x3 / IFC4** pour la [géométrie](#gomtrie-et-niveaux-de-dtail)
-* **LOD 2015** pour la gestion des [niveaux de détail](#gomtrie-et-niveaux-de-dtail)
+* **IFC2x3 / IFC4** pour la [géométrie](#géométrie-et-niveaux-de-dtail)
+* **LOD 2015** pour la gestion des [niveaux de détail](#géométrie-et-niveaux-de-dtail)
 * **Uniformat II 2015 / Omniclass Table 13** pour les [classifications](#classifications)
 * **COBie (BS 1192-4)** pour la structuration du [DOE-BIM](#doe-bim).
 

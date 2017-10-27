@@ -35,7 +35,7 @@ permalink: /autocontrole/
 {% endif %}
 {% endfor %}
 
-* Géolocalisation (obligatoire) - [Généralités]({{ site.url }}/bonnes-pratiques/regles-base/organisation-spatiale#gorfrencement) - [Archicad]({{ site.url }}/archicad/configurer-coordonnees-geographiques)
+* Géolocalisation (obligatoire) - [Généralités]({{ site.url }}/bonnes-pratiques/regles-base/organisation-spatiale#géoréférencement) - [Archicad]({{ site.url }}/archicad/configurer-coordonnees-geographiques)
 * Etages (obligatoire)
 
 ## Transmettre un modèle numérique à un tiers
