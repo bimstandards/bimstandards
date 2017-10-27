@@ -7,8 +7,8 @@ url:              "http://bimstandards.fr"
 repository:       bimstandards/bimstandards
 
 # Versions
-version:          v0.1.0-beta.11
-latest_update:    02/06/2017
+version:          v0.1.0-beta.12
+latest_update:    27/10/2017
 
 # Build settings
 markdown:         kramdown
