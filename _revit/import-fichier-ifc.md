@@ -13,7 +13,7 @@ comments: true
 Prérequis à prend en compte sans exception :
 
 1. Avoir installé le dernier [Service Pack](https://knowledge.autodesk.com/support/revit-products/downloads) pour Revit
-2.	Avoir installé le module "[IFC for Revit](https://sourceforge.net/projects/ifcexporter/files/)" (disponible pour les versions 2012 à 2017 de Revit)
+2.	Avoir installé le module "[IFC for Revit](https://sourceforge.net/projects/ifcexporter/files/)" (disponible pour les versions 2012 à 2018 de Revit)
 3.	Avoir installé le module "[ARCHICAD Connection for Revit](http://www.graphisoft.com/downloads/interoperability.html)". Les versions précédentes sont disponibles en [archive](http://www.graphisoft.com/downloads/addons/interoperability/Archive.html).
 
 > Il est recommandé d'utiliser systématiquement l'Add-In "ARCHICAD Connection for Revit" pour toutes les opération d'import/export avec ARCHICAD.
@@ -23,13 +23,13 @@ Prérequis à prend en compte sans exception :
 
 ## Conseils préalables
 
-Les réglages suivants sont à prendre en compte lors d'un échange de modèle avec Autodesk Revit :
+**Vérifications de modèle**
 
-* Certains réglages par défaut de Revit font des éléments du modèle peuvent être masqués à l'import du fichier IFC. Pour éviter cela, il faut les activer dans la boîte de dialogue "Visibilité/Graphismes".
+* **Important** - Valider au préalable les étapes de la page [Autocontrôle](/autocontrole/).
 
 **Contrôle visuel**
 
-Il est recommandé d'effectuer un contrôle systématique des fichiers IFC à réception ou envoi à un tiers. Cela permet de prévenir toute erreur avant import dans le logiciel-métier. Il est possible d'utiliser un viewer IFC gratuit parmi ceux proposés dans la liste suivante :
+Il est recommandé d'effectuer un contrôle systématique des fichiers IFC à réception ou avant envoi à un tiers. Cela permet de prévenir toute erreur avant import dans le logiciel-métier. Il est possible d'utiliser un viewer IFC gratuit parmi ceux proposés dans la liste suivante :
 
 * **Solibri Model Viewer** (PC ou Mac) : [http://www.solibri.com/products/solibri-model-viewer/](http://www.solibri.com/products/solibri-model-viewer/)
 * **Tekla BIMsight** (PC) : [http://www.teklabimsight.com/](http://www.teklabimsight.com/)
@@ -64,8 +64,12 @@ Voici les étapes à suivre :
 
 > Avec cette méthode, il n'est pas possible de modifier des éléments du fichier IFC dans Revit. Si le fichier source IFC est mis à jour, il est possible de recharger les modifications dans Revit via "Gestion des liens" (menu Insérer).
 
+### Bugs possibles
+
+* Certains réglages par défaut de Revit font que des éléments du modèle peuvent être masqués à l'import du fichier IFC. Pour éviter cela, il faut les activer dans la boîte de dialogue "Visibilité/Graphismes".
+
 ## Sources
 
-* **IFC Exchange Best Practices** [PDF en ligne - mis à jour en janvier 2017]. Graphisoft, 2017. Disponible sur : [http://helpcenterint.wpengine.netdna-cdn.com/wp-content/uploads/2017/01/IFC-Exchange-Best-Practices.pdf](http://helpcenterint.wpengine.netdna-cdn.com/wp-content/uploads/2017/01/IFC-Exchange-Best-Practices.pdf)
+* **IFC ARCHICAD & REVIT - Bonnes pratiques** [PDF en ligne - mis à jour en mai 2017]. Abvent, 2017. Disponible sur : [https://archicad.fr/download/guide-ifc-abvent/?wpdmdl=14005](https://archicad.fr/download/guide-ifc-abvent/?wpdmdl=14005)
 * **Les bonnes pratiques BIM IFC dans Revit** [PDF en ligne]. Autodesk, 2016. Disponible sur : [http://abcdblog.typepad.com/abcd/2016/05/Livre_blanc_Autodesk-Bonnes_Pratiques_BIM-Revit-IFC.pdf](http://abcdblog.typepad.com/abcd/2016/05/Livre_blanc_Autodesk-Bonnes_Pratiques_BIM-Revit-IFC.pdf)
 * **Guidance notes for Autodesk Revit users exchanging models with Graphisoft ARCHICAD** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/guidance-notes-for-autodesk-revit-users-exchanging-models-with-graphisoft-archicad/](http://bimblog.bondbryan.com/guidance-notes-for-autodesk-revit-users-exchanging-models-with-graphisoft-archicad/)

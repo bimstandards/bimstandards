@@ -6,13 +6,13 @@
   <body>
     {% include nav-home.html %}
 
-    <div class="bs-pageheader hidden-print">
+    <div class="bs-pageheader d-print-none">
       <div class="container">
         {% include page-header.html %}
       </div>
     </div>
     
-    <div class="visible-print-block">
+    <div class="d-print-block">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -29,7 +29,7 @@
     <div class="bs-main">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 push-lg-9 hidden-print">
+          <div class="col-lg-3 order-lg-2 d-print-none">
             <ul class="nav flex-column">
             {% for page in site.archicad %}
               <li class="nav-item">
@@ -38,17 +38,17 @@
             {% endfor %}
             </ul>
           </div>
-          <div class="col-lg-9 pull-lg-3 bs-content">
+          <div class="col-lg-9 order-lg-1 bs-content">
             <div class="row">
-              <div class="col-12 bs-content-header hidden-print">
+              <div class="col-12 bs-content-header d-print-none">
                 {% include content-header.html %}
               </div>
             </div>
             
-            <h1><span class="badge badge-default">Méthode ARCHICAD</span><br>{{ page.title }}</h1>
+            <h1><span class="badge badge-secondary">Méthode ARCHICAD</span><br>{{ page.title }}</h1>
             {{ content }}
             <div class="row">
-              <div class="col-12 bs-content-footer hidden-print">
+              <div class="col-12 bs-content-footer d-print-none">
                 {% include content-footer.html %}
                 {% if page.comments %}
                 {% include disqus.html %}

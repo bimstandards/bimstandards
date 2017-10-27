@@ -19,7 +19,7 @@ permalink: /autocontrole/
   <div class="col-sm-8">
     <div class="card">
       <a href="{{ page.url }}"></a>
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">
           <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
           {{ page.title }}
@@ -35,7 +35,7 @@ permalink: /autocontrole/
 {% endif %}
 {% endfor %}
 
-* Géolocalisation (obligatoire) - [Généralités]({{ site.url }}/bonnes-pratiques/regles-base/organisation-spatiale#gorfrencement) - [Archicad]({{ site.url }}/archicad/configurer-coordonnees-geographiques)
+* Géolocalisation (obligatoire) - [Généralités]({{ site.url }}/bonnes-pratiques/regles-base/organisation-spatiale#géoréférencement) - [Archicad]({{ site.url }}/archicad/configurer-coordonnees-geographiques)
 * Etages (obligatoire)
 
 ## Transmettre un modèle numérique à un tiers
@@ -47,7 +47,7 @@ permalink: /autocontrole/
   <div class="col-sm-8">
     <div class="card">
       <a href="{{ page.url }}"></a>
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">
           <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
           {{ page.title }}
@@ -83,7 +83,7 @@ permalink: /autocontrole/
   <div class="col-sm-8">
     <div class="card">
       <a href="{{ page.url }}"></a>
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">
           <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
           {{ page.title }}

@@ -6,13 +6,13 @@
   <body>
     {% include nav-home.html %}
 
-    <div class="bs-pageheader hidden-print">
+    <div class="bs-pageheader d-print-none">
       <div class="container">
         {% include page-header.html %}
       </div>
     </div>
     
-    <div class="visible-print-block">
+    <div class="d-print-block">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -34,7 +34,7 @@
             </div>
             {{ content }}
             <div class="row">
-              <div class="col-12 bs-content-footer hidden-print">
+              <div class="col-12 bs-content-footer d-print-none">
                 {% if page.comments %}
                 {% include disqus.html %}
                 {% endif %}

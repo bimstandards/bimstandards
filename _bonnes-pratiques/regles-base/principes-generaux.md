@@ -109,42 +109,40 @@ En France, une spécification plus synthétique des niveaux de développement pa
 
 Voici les différents Niveaux de Développement définis par Syntec Ingénierie :
 
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead>
+<table class="table table-responsive table-bordered table-hover">
+  <thead>
+  <tr>
+    <th>ND (Niveau de Développement)</th>
+    <th>Correspondance loi MOP</th>
+  </tr>
+  </thead>
+  <tbody>
     <tr>
-      <th>ND (Niveau de Développement)</th>
-      <th>Correspondance loi MOP</th>
+      <td>ND 1</td>
+      <td>Esquisse</td>
     </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>ND 1</td>
-        <td>Esquisse</td>
-      </tr>
-      <tr>
-        <td>ND 2</td>
-        <td>Avant-Projet Sommaire, Permis de Construire</td>
-      </tr>
-      <tr>
-        <td>ND 3</td>
-        <td>Avant-Projet Détaillé, Pré-Synthèse, PRO/DCE</td>
-      </tr>
-      <tr>
-        <td>ND 4</td>
-        <td>Synthèse, Etudes d'exécution, construction</td>
-      </tr>
-      <tr>
-        <td>ND 5</td>
-        <td>Dossier des Ouvrages Exécutés</td>
-      </tr>
-      <tr>
-        <td>ND 6</td>
-        <td>Exploitation</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <tr>
+      <td>ND 2</td>
+      <td>Avant-Projet Sommaire, Permis de Construire</td>
+    </tr>
+    <tr>
+      <td>ND 3</td>
+      <td>Avant-Projet Détaillé, Pré-Synthèse, PRO/DCE</td>
+    </tr>
+    <tr>
+      <td>ND 4</td>
+      <td>Synthèse, Etudes d'exécution, construction</td>
+    </tr>
+    <tr>
+      <td>ND 5</td>
+      <td>Dossier des Ouvrages Exécutés</td>
+    </tr>
+    <tr>
+      <td>ND 6</td>
+      <td>Exploitation</td>
+    </tr>
+  </tbody>
+</table>
 
 Pour en savoir plus sur sur l'historique des niveaux de développement, voir l'article (en anglais) [THE MANY FACES OF ‘LOD’](http://www.bimthinkspace.com/2016/07/the-many-faces-of-lod.html), par Marzia Bolpagni sur le site [BIM ThinkSpace](http://www.bimthinkspace.com/).
 
