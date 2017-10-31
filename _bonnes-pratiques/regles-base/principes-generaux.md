@@ -26,7 +26,7 @@ Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car
 
 Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction exhaustive des classifications est disponible sur [cette page]({{ site.url }}/standards/objets-ifc/).
 
-{% include methode-archicad.html titre="ARCHICAD : attribution des classifications IFC" lien="attribution-classifications-ifc" %}
+{% include methode-archicad.html titre="ARCHICAD : attribution des classifications IFC" lien="attribution-classifications" %}
 
 ## Identifiant unique (GUID)
 
