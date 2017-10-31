@@ -1,7 +1,7 @@
 ---
 layout: methode-revit
 group: bonnes-pratiques
-title: Importer un fichier IFC
+title: Importer un fichier IFC Archicad comme référence dans Revit
 comments: true
 ---
 
@@ -9,6 +9,14 @@ comments: true
 > 
 > * ARCHICAD : exporter un fichier IFC pour Revit
 > * Allplan : exporter un fichier IFC pour Revit
+
+{% include callout-open.html param="warning" %}
+**Attention !**
+
+Pour une coordination réussie entre différentes maquettes, la géolocalisation doit être réalisée dans la maquette architecte, puis cette dernière importée en tant que référence AVANT toute modélisation dans les autres logiciels spécialisés.
+
+-- schéma --
+{% include callout-close.html %}
 
 Prérequis à prend en compte sans exception :
 
@@ -63,6 +71,10 @@ Voici les étapes à suivre :
 ![capture]({{ site.url }}/assets/img/bp_revit_acfr_link_ifc.png)
 
 > Avec cette méthode, il n'est pas possible de modifier des éléments du fichier IFC dans Revit. Si le fichier source IFC est mis à jour, il est possible de recharger les modifications dans Revit via "Gestion des liens" (menu Insérer).
+
+###
+
+
 
 ### Bugs possibles
 
