@@ -35,10 +35,10 @@ maj: 07/03/2017 // Date de mise à jour
 ---
 ```
 
-* [Créer une nouvelle fiche](https://github.com/alexandregrignon/MC-GT07-IFCINT/new/master/_fiches), coller le texte et compléter les métadonnées.
+* [Créer une nouvelle fiche](https://github.com/bimstandards/bimstandards/new/gh-pages/_fiches), coller le texte et compléter les métadonnées.
 
 * Enregistrer le fichier en le nommant de la façon suivante : `source-destination.md`, par exemple `archicad-revit.md`.
 
 ### Etape 3 : Ajouter la fiche au format .pdf
 
-Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/alexandregrignon/MC-GT07-IFCINT/upload/master/_fiches) nommé de la façon suivante : `source-destination.pdf`, par exemple `archicad-revit.pdf`.
+Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante : `source-destination.pdf`, par exemple `archicad-revit.pdf`.
