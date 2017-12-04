@@ -73,6 +73,12 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
+.embed-responsive-21by30 {
+  &::before {
+    padding-top: percentage(30 / 21);
+  }
+}
+
 .bs-content-footer {
   height: auto;
   color: $gray-600;
