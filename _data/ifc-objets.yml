@@ -10,7 +10,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Solive
   nom_en_gb: Joist
@@ -24,7 +24,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Linteau
   nom_en_gb: Lintel
@@ -38,7 +38,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Poutre en T
   nom_en_gb: T-Beam
@@ -52,7 +52,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Mass
@@ -66,7 +66,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Non défini
   nom_en_gb: Other
@@ -80,7 +80,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Topographie / Terrain
   nom_en_gb: Topography
@@ -94,7 +94,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Arbre
   nom_en_gb: Tree
@@ -108,7 +108,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Cheminée
   nom_en_gb: Chimney
@@ -122,7 +122,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Plantation
   nom_en_gb: Planting
@@ -136,7 +136,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Route
   nom_en_gb: Road
@@ -150,7 +150,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Géométrie de site
   nom_en_gb: Site Geometry
@@ -164,7 +164,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Poteau
   nom_en_gb: Column
@@ -178,7 +178,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Duct Insulation
@@ -192,7 +192,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Duct Lining
@@ -206,7 +206,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Toiture
   nom_en_gb: Roofing
@@ -220,7 +220,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Plinthe
   nom_en_gb: Baseboard
@@ -234,7 +234,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Revêtement
   nom_en_gb: Covering
@@ -248,7 +248,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Moulure
   nom_en_gb: Moulding
@@ -262,7 +262,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Plinthe
   nom_en_gb: Skirting Board
@@ -276,7 +276,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Plafond
   nom_en_gb: Ceiling
@@ -290,7 +290,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Bardage
   nom_en_gb: Cladding
@@ -304,7 +304,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Revêtement de sol
   nom_en_gb: Flooring
@@ -318,7 +318,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Isolation
   nom_en_gb: Insulation
@@ -332,7 +332,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Manchon (isolation de tuyau)
   nom_en_gb: Pipe Insulation
@@ -346,7 +346,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Membrane d'étanchéité / pare-pluie / écran de sous-toiture
   nom_en_gb: Membrane
@@ -360,7 +360,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Encoffrement / gaine
   nom_en_gb: Sleeving
@@ -374,7 +374,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Manchon
   nom_en_gb: Wrapping
@@ -388,7 +388,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Mur-rideau
   nom_en_gb: Curtain Wall
@@ -402,7 +402,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Système de mur-rideau
   nom_en_gb: Curtain Wall System
@@ -416,7 +416,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Corbels (as separate elements)
@@ -430,7 +430,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Discrete Accessory
@@ -444,7 +444,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electrical Accessories (for precast concrete elements)
@@ -458,7 +458,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Shading Device
@@ -472,7 +472,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Vibration Isolator
@@ -486,7 +486,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Anchor Bolt
@@ -500,7 +500,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Building Services Accessories
@@ -514,7 +514,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fixing Parts
@@ -528,7 +528,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Joint Accessories
@@ -542,7 +542,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Lifting Accessories
@@ -556,7 +556,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Distribution Chamber Element
@@ -570,7 +570,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Canalisation
   nom_en_gb: Formed Duct
@@ -584,7 +584,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Fosse d'inspection
   nom_en_gb: Inspection Pit
@@ -598,7 +598,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Regard
   nom_en_gb: Manhole
@@ -612,7 +612,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Regard de comptage
   nom_en_gb: Meter Chamber
@@ -626,7 +626,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Puisard
   nom_en_gb: Sump
@@ -640,7 +640,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Tranchée / Fosse
   nom_en_gb: Trench
@@ -654,7 +654,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Regard de coupure
   nom_en_gb: Valve Chamber
@@ -668,7 +668,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Regard d'inspection
   nom_en_gb: Inspection Chamber
@@ -682,26 +682,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Earth Failure Device
-  ifcproduct_ifc2x3tc1: IfcDistributionControl
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType EARTHFAILUREDEVICE
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Actuator
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcActuator
   ifctypeproduct_ifc2x3tc1: IfcActuatorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -710,12 +696,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Ammeter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType AMMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -724,12 +710,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Bell
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAlarm
   ifctypeproduct_ifc2x3tc1: IfcAlarmType BELL
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -738,12 +724,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Controller
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcController
   ifctypeproduct_ifc2x3tc1: IfcControllerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -752,7 +738,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Distribution Control Element
@@ -766,26 +752,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Electric Time Control
-  ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType *
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire Alarm Device
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType FIRESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -794,12 +766,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType FIRESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -808,12 +780,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Instrument
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -822,12 +794,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType FLOWSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -836,12 +808,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Frequency Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType FREQUENCYMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -850,12 +822,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Heat Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType HEATSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -864,12 +836,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Humidity Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType HUMIDITYSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -878,12 +850,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Phase Angle Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType PHASEANGLEMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -892,12 +864,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Pressure Gauge
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType PRESSURGAUGE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -906,12 +878,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Pressure Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType PRESSURESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -920,12 +892,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Sirène d'alarme incendie
   nom_en_gb: Siren
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAlarm
   ifctypeproduct_ifc2x3tc1: IfcAlarmType SIREN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -934,12 +906,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Temperature Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType TEMPERATURESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -948,12 +920,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Thermometer
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType THERMOMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -962,12 +934,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Voltmeter (Peak)
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType VOLTMETER_PEAK
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -976,12 +948,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Voltmeter (RMS)
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType VOLTMETER_RMS
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -990,12 +962,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Whistle
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAlarm
   ifctypeproduct_ifc2x3tc1: IfcAlarmType WHISTLE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1004,12 +976,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Dispositif d'alarme incendie
   nom_en_gb: Alarm
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAlarm
   ifctypeproduct_ifc2x3tc1: IfcAlarmType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1018,12 +990,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Déclencheur manuel - bris de glace
   nom_en_gb: Break Glass Button
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAlarm
   ifctypeproduct_ifc2x3tc1: IfcAlarmType BREAKGLASSBUTTON
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1032,12 +1004,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: CO2 Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType C02SENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1046,12 +1018,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Gas Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType GASSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1060,12 +1032,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Light Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType LIGHTSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1074,12 +1046,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Moisture Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType MOISTURESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1088,12 +1060,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Movement Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType MOVEMENTSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1102,12 +1074,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Power Factor Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowInstrument
   ifctypeproduct_ifc2x3tc1: IfcFlowInstrumentType POWERFACTORMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1116,12 +1088,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1130,12 +1102,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Smoke Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType SMOKESENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1144,12 +1116,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Sound Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSensor
   ifctypeproduct_ifc2x3tc1: IfcSensorType SOUNDSENSOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1158,7 +1130,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Distribution Element
@@ -1172,7 +1144,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Distribution Flow Element
@@ -1186,147 +1158,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Electric Meter
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcFlowMeterType ELECTRICMETER
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Flow Meter
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcFlowMeterType FLOWMETER
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Protective Device
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType *
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Relay
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType RELAY
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Residual Current Switch
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType RESIDUALCURRENTSWITCH
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Smoke Damper
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcDamperType SMOKEDAMPER
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Time Clock
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType TIMECLOCK
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Time Delay
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType TIMEDELAY
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Air Terminal Box
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcAirTerminalBoxType *
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Residual Current Circuit Breaker
-  ifcproduct_ifc2x3tc1: IfcDistributionFlowElement
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType RESIDUALCURRENTCIRCUITBREAKER
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Porte
   nom_en_gb: Door
@@ -1340,12 +1172,12 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Air Handler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcUnitaryEquipment
   ifctypeproduct_ifc2x3tc1: IfcUnitaryEquipmentType AIRHANDLER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1354,12 +1186,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Air To Air Heat Recovery
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAirToAirHeatRecovery
   ifctypeproduct_ifc2x3tc1: IfcAirToAirHeatRecoveryType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1368,26 +1200,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Battery
-  ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcElectricFlowStorageDeviceType BATTERY
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Boiler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBoiler
   ifctypeproduct_ifc2x3tc1: IfcBoilerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1396,12 +1214,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Condenser
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCondenser
   ifctypeproduct_ifc2x3tc1: IfcCondenserType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1410,12 +1228,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Convector
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcSpaceHeaterType CONVECTOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1424,12 +1242,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Cooled Beam
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCooledBeam
   ifctypeproduct_ifc2x3tc1: IfcCooledBeamType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1438,12 +1256,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Cooling Tower
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCoolingTower
   ifctypeproduct_ifc2x3tc1: IfcCoolingTowerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1452,12 +1270,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Generator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricGenerator
   ifctypeproduct_ifc2x3tc1: IfcElectricGeneratorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1466,12 +1284,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Motor
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricMotor
   ifctypeproduct_ifc2x3tc1: IfcElectricMotorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1480,12 +1298,26 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Energy Conversion Device
+  ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
+  ifcproduct_ifc4add2: 
+  ifctypeproduct_ifc2x3tc1: IfcEnergyConversionDeviceType *
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Evaporative Cooler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcEvaporativeCooler
   ifctypeproduct_ifc2x3tc1: IfcEvaporativeCoolerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1494,12 +1326,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Evaporator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcEvaporator
   ifctypeproduct_ifc2x3tc1: IfcEvaporatorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1508,12 +1340,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Heat Exchanger
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcHeatExchanger
   ifctypeproduct_ifc2x3tc1: IfcHeatExchangerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1522,12 +1354,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Humidifier
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcHumidifier
   ifctypeproduct_ifc2x3tc1: IfcHumidifierType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1536,12 +1368,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Motor Connection
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcMotorConnection
   ifctypeproduct_ifc2x3tc1: IfcMotorConnectionType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1550,12 +1382,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Radiator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcSpaceHeaterType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1564,12 +1396,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Roof Top Unit
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcUnitaryEquipment
   ifctypeproduct_ifc2x3tc1: IfcUnitaryEquipmentType ROOFTOPUNIT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1578,12 +1410,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Space Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcSpaceHeaterType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1592,12 +1424,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Transformer
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcTransformer
   ifctypeproduct_ifc2x3tc1: IfcTransformerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1606,12 +1438,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Tube Bundle
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcTubeBundle
   ifctypeproduct_ifc2x3tc1: IfcTubeBundleType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1620,12 +1452,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Unitary Equipment
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcUnitaryEquipment
   ifctypeproduct_ifc2x3tc1: IfcUnitaryEquipmentType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1634,12 +1466,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Air Conditioning Unit
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcUnitaryEquipment
   ifctypeproduct_ifc2x3tc1: IfcUnitaryEquipmentType AIRCONDITIONINGUNIT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1648,12 +1480,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Baseboard Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcSpaceHeaterType BASEBOARDHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1662,12 +1494,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Chiller
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcChiller
   ifctypeproduct_ifc2x3tc1: IfcChillerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1676,12 +1508,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Coil
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCoil
   ifctypeproduct_ifc2x3tc1: IfcCoilType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1690,12 +1522,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Skirting Board Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcSpaceHeaterType BASEBOARDHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1704,12 +1536,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Split System
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcUnitaryEquipment
   ifctypeproduct_ifc2x3tc1: IfcUnitaryEquipmentType AIRHANDLER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1718,7 +1550,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Attache / fixation
   nom_en_gb: Fastener
@@ -1732,7 +1564,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Joint de mortier
   nom_en_gb: Jointing Mortar
@@ -1746,7 +1578,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Soudure
   nom_en_gb: Weld
@@ -1760,7 +1592,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Colle
   nom_en_gb: Glue
@@ -1774,12 +1606,26 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
+
+- nom_fr_fr: 
+  nom_en_gb: Air Terminal Box
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcAirTerminalBox
+  ifctypeproduct_ifc2x3tc1: IfcAirTerminalBoxType *
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Circuit Breaker
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcProtectiveDevice
   ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType CIRCUITBREAKER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1788,12 +1634,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDamper
   ifctypeproduct_ifc2x3tc1: IfcDamperType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1802,12 +1648,26 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Meter
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcFlowMeter
+  ifctypeproduct_ifc2x3tc1: IfcFlowMeterType ELECTRICMETER
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Energy Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowMeter
   ifctypeproduct_ifc2x3tc1: IfcFlowMeterType ENERGYMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1816,12 +1676,40 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Earth Failure Device
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcProtectiveDevice
+  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType EARTHFAILUREDEVICE
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Electric Time Control
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcElectricTimeControl
+  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType *
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDamper
   ifctypeproduct_ifc2x3tc1: IfcDamperType FIREDAMPER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1830,12 +1718,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire and Smoke Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDamper
   ifctypeproduct_ifc2x3tc1: IfcDamperType FIRESMOKEDAMPER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1844,7 +1732,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Controller
@@ -1858,12 +1746,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowMeter
   ifctypeproduct_ifc2x3tc1: IfcFlowMeterType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1872,12 +1760,26 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Flow Meter
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcFlowMeter
+  ifctypeproduct_ifc2x3tc1: IfcFlowMeterType FLOWMETER
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fume Hood Exhaust
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDamper
   ifctypeproduct_ifc2x3tc1: IfcDamperType FUMEHOODEXHAUST
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1886,12 +1788,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Oil Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowMeter
   ifctypeproduct_ifc2x3tc1: IfcFlowMeterType OILMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1900,12 +1802,82 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Protective Device
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcProtectiveDevice
+  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType *
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Relay
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcElectricTimeControl
+  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType RELAY
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Residual Current Circuit Breaker
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcProtectiveDevice
+  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType RESIDUALCURRENTCIRCUITBREAKER
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Residual Current Switch
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcProtectiveDevice
+  ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType RESIDUALCURRENTSWITCH
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Smoke Damper
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcDamper
+  ifctypeproduct_ifc2x3tc1: IfcDamperType SMOKEDAMPER
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Switching Device
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSwitchingDevice
   ifctypeproduct_ifc2x3tc1: IfcSwitchingDeviceType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1914,12 +1886,40 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Time Delay
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcElectricTimeControl
+  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType TIMEDELAY
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: 
+  nom_en_gb: Time Clock
+  ifcproduct_ifc2x3tc1: IfcFlowController
+  ifcproduct_ifc4add2: IfcElectricTimeControl
+  ifctypeproduct_ifc2x3tc1: IfcElectricTimeControlType TIMECLOCK
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Valve
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcValve
   ifctypeproduct_ifc2x3tc1: IfcValveType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1928,12 +1928,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Varistor
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcProtectiveDevice
   ifctypeproduct_ifc2x3tc1: IfcProtectiveDeviceType VARISTOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1942,12 +1942,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Water Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowMeter
   ifctypeproduct_ifc2x3tc1: IfcFlowMeterType WATERMETER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1956,12 +1956,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Dispositif d'appel-malade
   nom_en_gb: Nurse Call Device
   ifcproduct_ifc2x3tc1: IfcFlowController
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSwitchingDevice
   ifctypeproduct_ifc2x3tc1: IfcSwitchingDeviceType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1970,12 +1970,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Cable Carrier Fitting
   ifcproduct_ifc2x3tc1: IfcFlowFitting
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableCarrierFitting
   ifctypeproduct_ifc2x3tc1: IfcCableCarrierFittingType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1984,12 +1984,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Raccord de gaine
   nom_en_gb: Duct Fitting
   ifcproduct_ifc2x3tc1: IfcFlowFitting
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDuctFitting
   ifctypeproduct_ifc2x3tc1: IfcDuctFittingType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -1998,7 +1998,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Flow Fitting
@@ -2012,12 +2012,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Junction Box
   ifcproduct_ifc2x3tc1: IfcFlowFitting
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcJunctionBox
   ifctypeproduct_ifc2x3tc1: IfcJunctionBoxType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2026,12 +2026,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Raccord de canalisation
   nom_en_gb: Pipe Fitting
   ifcproduct_ifc2x3tc1: IfcFlowFitting
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeFitting
   ifctypeproduct_ifc2x3tc1: IfcPipeFittingType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2040,12 +2040,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Fan
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFan
   ifctypeproduct_ifc2x3tc1: IfcFanType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2054,7 +2054,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Moving Device
@@ -2068,12 +2068,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Pump
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPump
   ifctypeproduct_ifc2x3tc1: IfcPumpType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2082,12 +2082,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Compressor
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCompressor
   ifctypeproduct_ifc2x3tc1: IfcCompressorType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2096,12 +2096,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Cable Carrier Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableCarrierSegment
   ifctypeproduct_ifc2x3tc1: IfcCableCarrierSegmentType
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2110,12 +2110,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Conduit Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableSegment
   ifctypeproduct_ifc2x3tc1: IfcCableSegmentType CONDUITSEGMENT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2124,12 +2124,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Gaine et accessoires de gaine
   nom_en_gb: Duct Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcDuctSegment
   ifctypeproduct_ifc2x3tc1: IfcDuctSegmentType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2138,7 +2138,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Flow Segment
@@ -2152,12 +2152,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Gutter
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeSegment
   ifctypeproduct_ifc2x3tc1: IfcPipeSegmentType GUTTER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2166,12 +2166,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Canalisation
   nom_en_gb: Pipe Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeSegment
   ifctypeproduct_ifc2x3tc1: IfcPipeSegmentType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2180,12 +2180,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Spool
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeSegment
   ifctypeproduct_ifc2x3tc1: IfcPipeSegmentType SPOOL
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2194,12 +2194,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Cable Ladder Segment Type
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableSegment
   ifctypeproduct_ifc2x3tc1: IfcCableSegmentType CABLELADDERSEGMENTYPE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2208,12 +2208,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Cable Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableSegment
   ifctypeproduct_ifc2x3tc1: IfcCableSegmentType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2222,12 +2222,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Cable Tray Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableSegment
   ifctypeproduct_ifc2x3tc1: IfcCableSegmentType CABLETRAYSEGMENT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2236,12 +2236,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Cable Trunking Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcCableSegment
   ifctypeproduct_ifc2x3tc1: IfcCableSegmentType CABLETRUNKINGSEGMENT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2250,12 +2250,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Canalisation (Souple)
   nom_en_gb: Pipe Segment (Flexible)
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeSegment
   ifctypeproduct_ifc2x3tc1: IfcPipeSegmentType FLEXIBLESEGMENT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2264,12 +2264,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Canalisation (Rigide)
   nom_en_gb: Pipe Segment (Rigid)
   ifcproduct_ifc2x3tc1: IfcFlowSegment
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcPipeSegment
   ifctypeproduct_ifc2x3tc1: IfcPipeSegmentType RIGIDSEGMENT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2278,12 +2278,26 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: false
+
+- nom_fr_fr: 
+  nom_en_gb: Battery
+  ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
+  ifcproduct_ifc4add2: IfcElectricFlowStorageDevice
+  ifctypeproduct_ifc2x3tc1: IfcElectricFlowStorageDeviceType BATTERY
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Flow Storage Device
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricFlowStorageDevice
   ifctypeproduct_ifc2x3tc1: IfcElectricFlowStorageDeviceType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2292,7 +2306,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Storage Device
@@ -2306,12 +2320,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Tank
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcTank
   ifctypeproduct_ifc2x3tc1: IfcTankType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2320,12 +2334,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Air Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcAirTerminal
   ifctypeproduct_ifc2x3tc1: IfcAirTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2334,12 +2348,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Audio Visual Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcOutlet
   ifctypeproduct_ifc2x3tc1: IfcOutletType AUDIOVISUALOUTLET
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2348,12 +2362,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Breeching Inlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFireSuppressionTerminal
   ifctypeproduct_ifc2x3tc1: IfcFireSuppressionTerminalType BREECHINGINLET
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2362,12 +2376,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Communications Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcOutlet
   ifctypeproduct_ifc2x3tc1: IfcOutletType COMMUNICATIONSOUTLET
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2376,12 +2390,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Cowl
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcStackTerminal
   ifctypeproduct_ifc2x3tc1: IfcStackTerminalType COWL
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2390,12 +2404,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Direct Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType DIRECTWATERHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2404,12 +2418,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Dishwasher
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType DISHWASHER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2418,7 +2432,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Appliance
@@ -2432,12 +2446,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Cooker
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType ELECTRICCOOKER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2446,12 +2460,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSpaceHeater
   ifctypeproduct_ifc2x3tc1: IfcElectricHeaterType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2460,12 +2474,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Electric Heater (Appliance)
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType ELECTRICHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2474,12 +2488,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Facsimile
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType FACSIMILIE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2488,12 +2502,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire Hydrant
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFireSuppressionTerminal
   ifctypeproduct_ifc2x3tc1: IfcFireSuppressionTerminalType FIREHYDRANT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2502,12 +2516,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fire Suppression Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFireSuppressionTerminal
   ifctypeproduct_ifc2x3tc1: IfcFireSuppressionTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2516,12 +2530,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFlowTerminal
   ifctypeproduct_ifc2x3tc1: IfcFlowTerminalType
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2530,12 +2544,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Floor Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType FLOORTRAP
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2544,12 +2558,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Floor Waste
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType FLOORWASTE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2558,12 +2572,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Freezer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType FREEZER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2572,12 +2586,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Hose Reel
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFireSuppressionTerminal
   ifctypeproduct_ifc2x3tc1: IfcFireSuppressionTerminalType HOSEREEL
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2586,12 +2600,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Ampoule
   nom_en_gb: Lamp
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcLamp
   ifctypeproduct_ifc2x3tc1: IfcLampType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2600,12 +2614,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Luminaire
   nom_en_gb: Light Fixture
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcLightFixture
   ifctypeproduct_ifc2x3tc1: IfcLightFixtureType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2614,12 +2628,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcOutlet
   ifctypeproduct_ifc2x3tc1: IfcOutletType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2628,12 +2642,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Power Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcOutlet
   ifctypeproduct_ifc2x3tc1: IfcOutletType POWEROUTLET
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2642,12 +2656,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Rainwater Downpipe
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcStackTerminal
   ifctypeproduct_ifc2x3tc1: IfcStackTerminalType RAINWATERHOPPER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2656,12 +2670,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Rainwater Hopper
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcStackTerminal
   ifctypeproduct_ifc2x3tc1: IfcStackTerminalType
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2670,12 +2684,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Appareil Sanitaire
   nom_en_gb: Sanitary Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2684,12 +2698,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Evier
   nom_en_gb: Sink
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType SINK
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2698,12 +2712,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Sprinkler
   nom_en_gb: Sprinkler
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFireSuppressionTerminal
   ifctypeproduct_ifc2x3tc1: IfcFireSuppressionTerminalType SPRINKLER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2712,12 +2726,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Stack Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcStackTerminal
   ifctypeproduct_ifc2x3tc1: IfcStackTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2726,12 +2740,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Appareil téléphonique
   nom_en_gb: Telephone
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType TELEPHONE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2740,12 +2754,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Cuvette de WC
   nom_en_gb: Toilet Pan
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType TOILETPAN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2754,12 +2768,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Tumble Dryer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType TUMBLEDRYER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2768,12 +2782,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: TV
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType TV
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2782,12 +2796,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Urinoir
   nom_en_gb: Urinal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType URINAL
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2796,12 +2810,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Vending Machine
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType VENDINGMACHINE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2810,12 +2824,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Lavabo
   nom_en_gb: Wash Hand Basin
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType WASHHANDBASIN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2824,12 +2838,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Washing Machine
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType WASHINGMACHINE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2838,12 +2852,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Waste Disposal Unit
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType WASTEDISPOSALUNIT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2852,12 +2866,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
-  nom_en_gb: IfcFlowTerminal
+  nom_en_gb: Waste Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2866,12 +2880,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Waste Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType WASTETRAP
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2880,12 +2894,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Water Cooler
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType WATERCOOLER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2894,12 +2908,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType WATERHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2908,12 +2922,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Siège WC
   nom_en_gb: WC Seat
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType WCSEAT
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2922,12 +2936,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Baignoire
   nom_en_gb: Bath
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType BATH
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
@@ -2936,12 +2950,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Réservoir WC
   nom_en_gb: Cistern
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType CISTERN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2950,12 +2964,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Computer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType COMPUTER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2964,12 +2978,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Freestanding Fan
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType FREESTANDINGFAN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2978,12 +2992,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Fridge Freezer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType FRIDGE_FREEZER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -2992,12 +3006,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Gas Appliance
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: ???
   ifctypeproduct_ifc2x3tc1: IfcGasTerminalType GASAPPLIANCE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3006,12 +3020,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: ???
 
 - nom_fr_fr: 
   nom_en_gb: Gas Booster
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: ???
   ifctypeproduct_ifc2x3tc1: IfcGasTerminalType GASBOOSTER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3020,12 +3034,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: ???
 
 - nom_fr_fr: 
   nom_en_gb: Gas Burner
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBurner
   ifctypeproduct_ifc2x3tc1: IfcGasTerminalType GASBURNER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3034,12 +3048,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Gas Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: ???
   ifctypeproduct_ifc2x3tc1: IfcGasTerminalType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3048,12 +3062,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: ???
 
 - nom_fr_fr: 
   nom_en_gb: Grease Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType GREASEINTERCEPTOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3062,12 +3076,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Gully Sump
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType GULLYSUMP
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3076,12 +3090,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Gully Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType GULLYTRAP
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3090,12 +3104,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Hand Dryer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType HANDDRYER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3104,12 +3118,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Indirect Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType INDIRECTWATERHEATER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3118,12 +3132,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Microwave
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType MICROWAVE
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3132,12 +3146,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Oil Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType OILINTERCEPTOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3146,12 +3160,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Petrol Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType PETROLINTERCEPTOR
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3160,12 +3174,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Photocopier
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType PHOTOCOPIER
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
@@ -3174,12 +3188,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Printer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType PRINTER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3188,12 +3202,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Radiant Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType RADIANTHEATER
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
@@ -3202,12 +3216,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Refrigerator
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType REFRIGERATOR
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
@@ -3216,12 +3230,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Roof Drain
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcWasteTerminal
   ifctypeproduct_ifc2x3tc1: IfcWasteTerminalType ROOFDRAIN
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3230,12 +3244,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Sanitary Fountain
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType SANITARYFOUNTAIN
   ifctypeproduct_ifc4add2: 
   allplan: Macro / Smartpart
@@ -3244,12 +3258,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Scanner
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcElectricAppliance
   ifctypeproduct_ifc2x3tc1: IfcElectricApplianceType SCANNER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3258,12 +3272,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Douche
   nom_en_gb: Shower
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcSanitaryTerminal
   ifctypeproduct_ifc2x3tc1: IfcSanitaryTerminalType SHOWER
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3272,13 +3286,13 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Duct Silencer
   ifcproduct_ifc2x3tc1: IfcFlowTreatmentDevice
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcDuctSilencer *
+  ifcproduct_ifc4add2: IfcDuctSilencer
+  ifctypeproduct_ifc2x3tc1: IfcDuctSilencerType *
   ifctypeproduct_ifc4add2: 
   allplan: 
   archicad: 
@@ -3286,12 +3300,12 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Filter
   ifcproduct_ifc2x3tc1: IfcFlowTreatmentDevice
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcFilter
   ifctypeproduct_ifc2x3tc1: IfcFilterType *
   ifctypeproduct_ifc4add2: 
   allplan: 
@@ -3300,7 +3314,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Flow Treatment Device
@@ -3314,7 +3328,7 @@
   domaine_architecture: 
   domaine_structure: 
   domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Fondation
   nom_en_gb: Footing
@@ -3328,7 +3342,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Fondation
   nom_en_gb: Foundation
@@ -3342,7 +3356,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Longrine
   nom_en_gb: Footing Beam
@@ -3356,7 +3370,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Semelle isolée
   nom_en_gb: 
@@ -3370,7 +3384,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Tête de pieu ?
   nom_en_gb: Pile Cap
@@ -3384,7 +3398,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Semelle filante
   nom_en_gb: Strip Footing
@@ -3398,7 +3412,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Système de mobilier
   nom_en_gb: Furniture System
@@ -3412,7 +3426,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: System Furniture Element
@@ -3426,7 +3440,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Mobilier
   nom_en_gb: Furniture
@@ -3440,7 +3454,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: 
   nom_en_gb: Furniture Element
@@ -3454,7 +3468,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Trame
   nom_en_gb: Grid
@@ -3468,7 +3482,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Boulon
   nom_en_gb: Bolt
@@ -3482,7 +3496,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rondelle
   nom_en_gb: Washer
@@ -3496,7 +3510,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Fixation mécanique
   nom_en_gb: Mechanical Fastener
@@ -3510,7 +3524,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Clou
   nom_en_gb: Nail
@@ -3524,7 +3538,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Ecrou
   nom_en_gb: Nut
@@ -3538,7 +3552,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rivet
   nom_en_gb: Rivet
@@ -3552,7 +3566,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Vis
   nom_en_gb: Screw
@@ -3566,7 +3580,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Entretoise / contrefiche
   nom_en_gb: Brace
@@ -3580,7 +3594,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Corde (poutre treillis)
   nom_en_gb: Chord
@@ -3594,7 +3608,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Entrait
   nom_en_gb: Collar
@@ -3608,7 +3622,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Ossature / montant
   nom_en_gb: Member
@@ -3622,7 +3636,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Meneau
   nom_en_gb: Mullion
@@ -3636,7 +3650,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Plat
   nom_en_gb: Plate
@@ -3650,7 +3664,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Poinçon
   nom_en_gb: Post
@@ -3664,7 +3678,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Panne
   nom_en_gb: Purlin
@@ -3678,7 +3692,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Arbalétrier
   nom_en_gb: Rafter
@@ -3692,7 +3706,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Limon
   nom_en_gb: Stringer
@@ -3706,7 +3720,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Contrefiche / Buton / Contrefort
   nom_en_gb: Strut
@@ -3720,7 +3734,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Montant
   nom_en_gb: Stud
@@ -3734,7 +3748,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Pieu
   nom_en_gb: Pile
@@ -3748,7 +3762,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Panneau de mur-rideau
   nom_en_gb: Curtain Wall Panel
@@ -3762,7 +3776,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Plate
@@ -3776,7 +3790,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: Sheet
@@ -3790,7 +3804,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Balustrade
   nom_en_gb: Balustrade
@@ -3804,7 +3818,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Garde-corps
   nom_en_gb: Guardrail
@@ -3818,7 +3832,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Main-courante
   nom_en_gb: Handrail
@@ -3832,7 +3846,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe (main-courante)
   nom_en_gb: Railing
@@ -3846,7 +3860,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès
   nom_en_gb: Ramp
@@ -3860,7 +3874,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès droite
   nom_en_gb: 
@@ -3874,7 +3888,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès avec palier intermédiaire
   nom_en_gb: 
@@ -3888,7 +3902,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès quart tournant (1 palier intermédiaire)
   nom_en_gb: 
@@ -3902,7 +3916,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès double quart tournant (2 paliers intermédiaires)
   nom_en_gb: 
@@ -3916,7 +3930,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès double quart tournant (1 palier intermédiaire)
   nom_en_gb: 
@@ -3930,7 +3944,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Rampe d'accès en spirale
   nom_en_gb: 
@@ -3944,7 +3958,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Volée de rampe d'accès
   nom_en_gb: Ramp Flight
@@ -3958,7 +3972,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Volée de rampe d'accès droite
   nom_en_gb: 
@@ -3972,7 +3986,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Volée de rampe d'accès à spirale
   nom_en_gb: 
@@ -3986,7 +4000,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Fer à béton
   nom_en_gb: Reinforcing Bar
@@ -4000,7 +4014,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Treillis soudé
   nom_en_gb: Reinforcing Mesh
@@ -4014,7 +4028,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture
   nom_en_gb: 
@@ -4028,7 +4042,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture terrasse
   nom_en_gb: 
@@ -4042,7 +4056,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à un versant (appentis)
   nom_en_gb: 
@@ -4056,7 +4070,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à deux versants
   nom_en_gb: 
@@ -4070,7 +4084,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à quatre versants égaux
   nom_en_gb: 
@@ -4084,7 +4098,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à deux pans en croupe
   nom_en_gb: 
@@ -4098,7 +4112,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à deux pans avec ligne de bris
   nom_en_gb: 
@@ -4112,7 +4126,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toit à la mansard
   nom_en_gb: 
@@ -4126,7 +4140,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Voûte plein-cintre
   nom_en_gb: 
@@ -4140,7 +4154,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Voûte brisée
   nom_en_gb: 
@@ -4154,7 +4168,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture papillon
   nom_en_gb: 
@@ -4168,7 +4182,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à 4 pans égaux
   nom_en_gb: 
@@ -4182,7 +4196,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Dôme
   nom_en_gb: 
@@ -4196,7 +4210,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture à forme libre
   nom_en_gb: 
@@ -4210,7 +4224,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Dalle
   nom_en_gb: Slab
@@ -4224,7 +4238,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Radier
   nom_en_gb: Base Slab
@@ -4238,7 +4252,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Plancher
   nom_en_gb: Floor
@@ -4252,7 +4266,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Palier
   nom_en_gb: Landing
@@ -4266,7 +4280,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture
   nom_en_gb: Roof
@@ -4280,7 +4294,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Espace / Pièce / Local
   nom_en_gb: Space / Room / Area
@@ -4294,7 +4308,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Escalier
   nom_en_gb: Stair
@@ -4308,7 +4322,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Escalier droit
   nom_en_gb: 
@@ -4322,7 +4336,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Escalier droit avec palier intermédiaire
   nom_en_gb: 
@@ -4336,7 +4350,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4350,7 +4364,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Escalier quart tournant
   nom_en_gb: 
@@ -4364,7 +4378,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Escalier balancé
   nom_en_gb: 
@@ -4378,7 +4392,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4392,7 +4406,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4406,7 +4420,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4420,7 +4434,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4434,7 +4448,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4448,7 +4462,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Escalier hélicoïdal
   nom_en_gb: 
@@ -4462,7 +4476,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4476,7 +4490,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4490,7 +4504,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4504,7 +4518,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Volée d'escalier
   nom_en_gb: Stair Flight
@@ -4518,7 +4532,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Volée d'escalier droite
   nom_en_gb: 
@@ -4532,7 +4546,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4546,7 +4560,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4560,7 +4574,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4574,7 +4588,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: 
   nom_en_gb: 
@@ -4588,7 +4602,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Tendon
   nom_en_gb: Tendon
@@ -4602,7 +4616,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Ancrage de tendon
   nom_en_gb: Tendon Anchor
@@ -4616,7 +4630,7 @@
   domaine_architecture: 
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Tapis roulant
   nom_en_gb: Moving Walkway
@@ -4630,7 +4644,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Elément de transport
   nom_en_gb: Transport Element
@@ -4644,7 +4658,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Ascenseur
   nom_en_gb: Elevator
@@ -4658,7 +4672,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Escalier mécanique
   nom_en_gb: Escalator
@@ -4672,7 +4686,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Cloison
   nom_en_gb: Bulkhead
@@ -4686,7 +4700,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Coffrage de sanitaires
   nom_en_gb: Plumbing Wall
@@ -4700,7 +4714,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Mur avec fruit
   nom_en_gb: Shear Wall
@@ -4714,7 +4728,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Mur à épaisseur constante dans la longueur
   nom_en_gb: 
@@ -4728,7 +4742,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Mur à épaisseur variable dans la longueur
   nom_en_gb: 
@@ -4742,7 +4756,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Mur composé de différents éléments (ex ossature bois)
   nom_en_gb: 
@@ -4756,7 +4770,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Mur
   nom_en_gb: Wall
@@ -4770,7 +4784,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: false
 
 - nom_fr_fr: Fenêtre
   nom_en_gb: Window
@@ -4784,7 +4798,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Chassis vitré
   nom_en_gb: Glazed Screen
@@ -4798,7 +4812,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Fenêtre de toit
   nom_en_gb: Rooflight
@@ -4812,7 +4826,7 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
+  requis_cobie: true
 
 - nom_fr_fr: Verrière
   nom_en_gb: Skylight
@@ -4826,18 +4840,4 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
-  requis_cobie: 
-
-- nom_fr_fr: 
-  nom_en_gb: Energy Conversion Device
-  ifcproduct_ifc2x3tc1: 
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcEnergyConversionDeviceType *
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: 
+  requis_cobie: true
