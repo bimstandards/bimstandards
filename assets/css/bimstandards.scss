@@ -46,7 +46,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 .bs-content {
   .table {
     font-size: 80%;
-    a {
+    a:not(.btn) {
       color: $gray-800;
     }
   }

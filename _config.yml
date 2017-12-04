@@ -24,6 +24,7 @@ collections:
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
   ressources: {output: true, permalink: '/ressources/:path/'}
+  fiches: {output: true, permalink: '/fiches/:path/'}
   
 # Assets
 sass:
