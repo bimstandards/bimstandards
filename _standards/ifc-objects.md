@@ -13,7 +13,7 @@ status: publish
 # IFC objects
 
 {% assign langs = site.standards | where: 'ref','objets-ifc' %}
-This page is also available in the following languages : {% for page in langs %}<a class="btn btn-secondary btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
+This page is also available in the following languages : {% for page in langs %}<a class="btn btn-outline-dark btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
 
 ## Introduction
 
@@ -35,8 +35,8 @@ This page is also available in the following languages : {% for page in langs %}
 
 <div class="tab-content">
   <div class="tab-pane active" id="domaine_architectural" role="tabpanel">
-    <div id="table-domaine-architectural" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-architectural">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
@@ -81,8 +81,8 @@ This page is also available in the following languages : {% for page in langs %}
     </div>
   </div>
   <div class="tab-pane" id="domaine_structurel" role="tabpanel">
-    <div id="table-domaine-structurel" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-structurel">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
@@ -127,8 +127,8 @@ This page is also available in the following languages : {% for page in langs %}
     </div>
   </div>
   <div class="tab-pane" id="domaine_fluides" role="tabpanel">
-    <div id="table-domaine-fluides" class="table-responsive">
-      <table class="table table-sm table-hover">
+    <div id="table-domaine-fluides">
+      <table class="table table-responsive table-sm table-hover">
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>

@@ -6,13 +6,13 @@
   <body>
     {% include nav-home.html %}
 
-    <div class="bs-pageheader hidden-print">
+    <div class="bs-pageheader d-print-none">
       <div class="container">
         {% include page-header.html %}
       </div>
     </div>
     
-    <div class="visible-print-block">
+    <div class="d-print-block">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -33,10 +33,10 @@
             <div class="row">
             </div>
             <h1>{{ page.title }}</h1>
-            <p class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%d/%m/%Y" }}</p>
+            <p class="post-date-author"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%d/%m/%Y" }} par <i class="fa fa-user" aria-hidden="true"></i> {{ page.author }}</p>
             {{ content }}
             <div class="row">
-              <div class="col-12 bs-content-footer hidden-print">
+              <div class="col-12 bs-content-footer d-print-none">
                 {% if page.comments %}
                 {% include disqus.html %}
                 {% endif %}

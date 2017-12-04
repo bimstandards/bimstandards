@@ -21,7 +21,7 @@ Cette spécification, certifiée ISO 16739, est développée et mise à jour par
 
 L'association buildingSMART a tout naturellement donné son logo au format IFC. Celui-ci symbolise la collaboration à travers toutes les phases de projet.
 
-![logo IFC](http://www.buildingsmart.org/wp-content/uploads/2014/11/Full-Logo1.jpg "logo IFC")
+![logo IFC]({{ site.url }}/assets/img/logo-ifc.jpeg)
 
 Ci-dessous, le documentaire "The End of Babel" réalisé en 1994 pour faire la promotion de l'IFC.
 
@@ -42,30 +42,28 @@ Ci-dessous, le documentaire "The End of Babel" réalisé en 1994 pour faire la p
 
 Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. L'IFC4-Add1, dernière version officielle, n'est pas encore pleinement prise en charge par les différents logiciels-métiers ; c'est donc l'IFC2x3-TC1 qui demeure le standard de fait actuellement. On peut espérer que les échanges IFC4 deviendront pleinement opérationnels durant l'année 2016.
 
-<div class="table-responsive">
-  <table class="table table-sm table-hover">
-    <thead>
-      <tr>
-        <th>Version</th>
-        <th>Date de publication</th>
-        <th>Documentation</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for version in site.data.ifc-versions %}
-      <tr {% if version.actuelle == "oui" %}class="table-success"{% endif %}>
-        <td><b>{{ version.version }}</b></td>
-        <td>{{ version.date }}</td>
-        <td>
-          {% if version.url_doc != nil %}
-          <a href="{{ version.url_doc }}" target="_blank">Documentation</a>
-          {% endif %}
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+<table class="table table-responsive table-sm table-hover">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date de publication</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for version in site.data.ifc-versions %}
+    <tr {% if version.actuelle == "oui" %}class="table-success"{% endif %}>
+      <td><b>{{ version.version }}</b></td>
+      <td>{{ version.date }}</td>
+      <td>
+        {% if version.url_doc != nil %}
+        <a href="{{ version.url_doc }}" target="_blank">Documentation</a>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 ## Sources
 

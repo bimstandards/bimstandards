@@ -1,7 +1,7 @@
 ---
 layout: methode-archicad
 group: bonnes-pratiques
-title: Attribution des classifications IFC
+title: Attribution des classes IFC
 comments: true
 ---
 

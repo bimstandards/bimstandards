@@ -1,0 +1,1177 @@
+---
+-
+    code: A
+    level: 1
+    title_EN: SUBSTRUCTURE
+    title_FR: INFRASTRUCTURE
+    mapping_uniformat_ii_2015: A
+    comment: 
+-
+    code: A10
+    level: 2
+    title_EN: FOUNDATIONS
+    title_FR: FONDATIONS
+    mapping_uniformat_ii_2015: A10
+    comment: 
+-
+    code: A1010
+    level: 3
+    title_EN: Standard Foundations
+    title_FR: Fondations standards
+    mapping_uniformat_ii_2015: A1010
+    comment: 
+-
+    code: A1020
+    level: 3
+    title_EN: Special Foundations
+    title_FR: Fondations spéciales
+    mapping_uniformat_ii_2015: A1020
+    comment: 
+-
+    code: A20
+    level: 2
+    title_EN: SUBGRADE ENCLOSURES
+    title_FR: ENCEINTE DE SOUS-SOL
+    mapping_uniformat_ii_2015: A20
+    comment: 
+-
+    code: A2010
+    level: 3
+    title_EN: Walls for Subgrade Enclosures
+    title_FR: Parois enterrées
+    mapping_uniformat_ii_2015: A2020
+    comment: 
+-
+    code: A40
+    level: 2
+    title_EN: SLABS-ON-GRADE
+    title_FR: DALLE INFERIEURE
+    mapping_uniformat_ii_2015: A1030
+    comment: 
+-
+    code: A4010
+    level: 3
+    title_EN: Standard Slabs-on-Grade
+    title_FR: Dallages sur terre-plein
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A4020
+    level: 3
+    title_EN: Structural Slabs-on-Grade
+    title_FR: Dallages sur vide sanitaire
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A4030
+    level: 3
+    title_EN: Slab Trenches
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A4040
+    level: 3
+    title_EN: Pits and Bases
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A4090
+    level: 3
+    title_EN: Slab-On-Grade Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A60
+    level: 2
+    title_EN: WATER AND GAS MITIGATION
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A6010
+    level: 3
+    title_EN: Building Subdrainage
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A6020
+    level: 3
+    title_EN: Off-Gassing Mitigation
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A90
+    level: 2
+    title_EN: SUBSTRUCTURE RELATED ACTIVITIES
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A9010
+    level: 3
+    title_EN: Substructure Excavation
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A9020
+    level: 3
+    title_EN: Construction Dewatering
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A9030
+    level: 3
+    title_EN: Excavation Support
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: A9040
+    level: 3
+    title_EN: Soil Treatment
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B
+    level: 1
+    title_EN: SHELL
+    title_FR: SUPERSTRUCTURE ET ENVELOPPE
+    mapping_uniformat_ii_2015: B
+    comment: 
+-
+    code: B10
+    level: 2
+    title_EN: SUPERSTRUCTURE
+    title_FR: SUPERSTRUCTURE
+    mapping_uniformat_ii_2015: B10
+    comment: 
+-
+    code: B1010
+    level: 3
+    title_EN: Floor Construction
+    title_FR: Structure de plancher
+    mapping_uniformat_ii_2015: B1010
+    comment: Eléments structurels pour la construction des planchers. Comprend les poteaux, poutres, solives, dalles, balcons. Comprend le béton armé, la maçonnerie, le métal, le bois et les systèmes mixtes.
+-
+    code: B1010.50
+    level: 4
+    title_EN: Ramps
+    title_FR: Rampes
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B1020
+    level: 3
+    title_EN: Roof Construction
+    title_FR: Structure de toiture
+    mapping_uniformat_ii_2015: B1020
+    comment: Eléments structurels pour la construction des toitures. Comprend les poteaux, poutres, fermes, solives, dalles. Comprend le béton armé, la maçonnerie, le métal, le bois et les systèmes mixtes.
+-
+    code: B1080
+    level: 3
+    title_EN: Stairs
+    title_FR: Escaliers
+    mapping_uniformat_ii_2015: C20
+    comment: Comprend les escaliers et leurs garde-corps, échelles, grilles et passerelles de franchissement.
+-
+    code: B20
+    level: 2
+    title_EN: EXTERIOR VERTICAL ENCLOSURES
+    title_FR: ENVELOPPE EXTERIEURE
+    mapping_uniformat_ii_2015: B20
+    comment: 
+-
+    code: B2010
+    level: 3
+    title_EN: Exterior Walls
+    title_FR: Murs extérieurs
+    mapping_uniformat_ii_2015: B2010
+    comment: 
+-
+    code: B2010.10
+    level: 4
+    title_EN: Exterior Wall Veneer
+    title_FR: Parement de mur extérieur
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.20
+    level: 4
+    title_EN: Exterior Wall Construction
+    title_FR: Structure de mur extérieur
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.30
+    level: 4
+    title_EN: Exterior Wall Interior Skin
+    title_FR: Parement intérieur de mur extérieur
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.40
+    level: 4
+    title_EN: Fabricated Exterior Wall Assemblies
+    title_FR: Mur extérieur préfabriqué
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.50
+    level: 4
+    title_EN: Parapets
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.60
+    level: 4
+    title_EN: Equipment Screens
+    title_FR: Protections solaires
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.80
+    level: 4
+    title_EN: Exterior Wall Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2010.90
+    level: 4
+    title_EN: Exterior Wall Opening Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2020
+    level: 3
+    title_EN: Exterior Windows
+    title_FR: Fenêtres extérieures
+    mapping_uniformat_ii_2015: B2020
+    comment: Comprend les murs-rideaux
+-
+    code: B2050
+    level: 3
+    title_EN: Exterior Doors and Grilles
+    title_FR: Portes extérieures
+    mapping_uniformat_ii_2015: B2030
+    comment: 
+-
+    code: B2050.10
+    level: 4
+    title_EN: Exterior Entrance Doors
+    title_FR: 'Porte d''entrée extérieure'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2050.20
+    level: 4
+    title_EN: Exterior Utility Doors
+    title_FR: Porte de service extérieure
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2070
+    level: 3
+    title_EN: Exterior Louvers and Vents
+    title_FR: Brises-soleil et grilles
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2080
+    level: 3
+    title_EN: Exterior Wall Appurtenances
+    title_FR: Accessoires de murs extérieurs
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2080.50
+    level: 4
+    title_EN: Exterior Balcony Walls and Railings
+    title_FR: Garde-corps, barrières et mains-courantes extérieurs
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B2090
+    level: 3
+    title_EN: Exterior Wall Specialties
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B30
+    level: 2
+    title_EN: EXTERIOR HORIZONTAL ENCLOSURES
+    title_FR: TOIT
+    mapping_uniformat_ii_2015: B30
+    comment: 
+-
+    code: B3010
+    level: 3
+    title_EN: Roofing
+    title_FR: Couverture
+    mapping_uniformat_ii_2015: B3010
+    comment: 
+-
+    code: B3020
+    level: 3
+    title_EN: Roof Appurtenances
+    title_FR: Accessoires de toit
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B3040
+    level: 3
+    title_EN: Traffic Bearing Horizontal Enclosures
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: B3060
+    level: 3
+    title_EN: Horizontal Openings
+    title_FR: Ouvertures de toit
+    mapping_uniformat_ii_2015: B3020
+    comment: Comprend les fenêtres de toit, skydômes, trappes, évacuations de fumées.
+-
+    code: B3080
+    level: 3
+    title_EN: Overhead Exterior Enclosures
+    title_FR: Enveloppes extérieures
+    mapping_uniformat_ii_2015: 
+    comment: Comprend les plafonds extérieures, cloisonnements extérieurs.
+-
+    code: C
+    level: 1
+    title_EN: INTERIORS
+    title_FR: AMENAGEMENT INTERIEUR
+    mapping_uniformat_ii_2015: C
+    comment: 
+-
+    code: C10
+    level: 2
+    title_EN: INTERIOR CONSTRUCTION
+    title_FR: CONSTRUCTION INTERIEURE
+    mapping_uniformat_ii_2015: C10
+    comment: 
+-
+    code: C1010
+    level: 3
+    title_EN: Interior Partitions
+    title_FR: Cloisons
+    mapping_uniformat_ii_2015: C1010
+    comment: 
+-
+    code: C1020
+    level: 3
+    title_EN: Interior Windows
+    title_FR: Chassis vitrés
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1030
+    level: 3
+    title_EN: Interior Doors
+    title_FR: Portes intérieures
+    mapping_uniformat_ii_2015: C1020
+    comment: 
+-
+    code: C1030.20
+    level: 4
+    title_EN: Interior Entrance Doors
+    title_FR: 'Porte d''entrée intérieure'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1030.80
+    level: 4
+    title_EN: Interior Access Doors and Panels
+    title_FR: Portes et trappes techniques intérieures
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1040
+    level: 3
+    title_EN: Interior Grilles and Gates
+    title_FR: Grilles et trappes de visite intérieures
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1060
+    level: 3
+    title_EN: Raised Floor Construction
+    title_FR: Plancher surélevé
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1070
+    level: 3
+    title_EN: Suspended Ceiling Construction
+    title_FR: Plafond suspendu
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C1090
+    level: 3
+    title_EN: Interior Specialties
+    title_FR: Accessoires intégrés
+    mapping_uniformat_ii_2015: C1030
+    comment: 'Comprend les mains-courantes, garde-corps, stores intérieurs, dispositifs d''affiche et de signalisation, protections de murs et portes, accessoires de toilettes et salles de bain, cheminées et poêles, casiers, portes-manteaux, boîtes aux lettres, miroirs.'
+-
+    code: C1090.10
+    level: 4
+    title_EN: Interior Railings and Handrails
+    title_FR: Garde-corps, barrières et mains-courantes intérieurs
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C20
+    level: 2
+    title_EN: INTERIOR FINISHES
+    title_FR: FINITIONS INTERIEURES
+    mapping_uniformat_ii_2015: C30
+    comment: 
+-
+    code: C2010
+    level: 3
+    title_EN: Wall Finishes
+    title_FR: Finitions de mur
+    mapping_uniformat_ii_2015: C3010
+    comment: 
+-
+    code: C2020
+    level: 3
+    title_EN: Interior Fabrications
+    title_FR: Eléments de décoration intérieurs
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: C2030
+    level: 3
+    title_EN: Flooring
+    title_FR: Finitions de sol
+    mapping_uniformat_ii_2015: C3020
+    comment: 
+-
+    code: C2040
+    level: 3
+    title_EN: Stair Finishes
+    title_FR: 'Finitions d''escalier'
+    mapping_uniformat_ii_2015: C2020
+    comment: 
+-
+    code: C2050
+    level: 3
+    title_EN: Ceiling Finishes
+    title_FR: Finitions de plafond
+    mapping_uniformat_ii_2015: C3030
+    comment: 
+-
+    code: C2090
+    level: 3
+    title_EN: Interior Finish Schedules
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D
+    level: 1
+    title_EN: SERVICES
+    title_FR: SERVICES
+    mapping_uniformat_ii_2015: D
+    comment: 
+-
+    code: D10
+    level: 2
+    title_EN: CONVEYING
+    title_FR: Moyens de transport
+    mapping_uniformat_ii_2015: D10
+    comment: 
+-
+    code: D1010
+    level: 3
+    title_EN: Vertical Conveying Systems
+    title_FR: Ascenseurs et monte-charge
+    mapping_uniformat_ii_2015: D1010
+    comment: 
+-
+    code: D1030
+    level: 3
+    title_EN: Horizontal Conveying
+    title_FR: Escaliers mécaniques et trottoirs roulants
+    mapping_uniformat_ii_2015: D1020
+    comment: 
+-
+    code: D1050
+    level: 3
+    title_EN: Material Handling
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D1080
+    level: 3
+    title_EN: Operable Access Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D20
+    level: 2
+    title_EN: PLUMBING
+    title_FR: PLOMBERIE
+    mapping_uniformat_ii_2015: D20
+    comment: 
+-
+    code: D2010
+    level: 3
+    title_EN: Domestic Water Distribution
+    title_FR: 'Réseau d''eau domestique'
+    mapping_uniformat_ii_2015: D2020
+    comment: 
+-
+    code: D2010.60
+    level: 4
+    title_EN: Plumbing Fixtures
+    title_FR: Appareils sanitaires
+    mapping_uniformat_ii_2015: D2010
+    comment: 
+-
+    code: D2020
+    level: 3
+    title_EN: Sanitary Drainage
+    title_FR: Réseau de drainage sanitaire
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D2030
+    level: 3
+    title_EN: Building Support Plumbing Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D2050
+    level: 3
+    title_EN: General Service Compressed-Air
+    title_FR: 'Réseau d''air comprimé'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D2060
+    level: 3
+    title_EN: Process Support Plumbing Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D30
+    level: 2
+    title_EN: HEATING, VENTILATION, AND AIR CONDITIONING (HVAC)
+    title_FR: 'CHAUFFAGE, VENTILATION ET CONDITIONNEMENT D''AIR (CVC)'
+    mapping_uniformat_ii_2015: D30
+    comment: 
+-
+    code: D3010
+    level: 3
+    title_EN: Facility Fuel Systems
+    title_FR: Système de stockage et distribution de carburant
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D3020
+    level: 3
+    title_EN: Heating Systems
+    title_FR: Système de production de chaleur
+    mapping_uniformat_ii_2015: D3020
+    comment: 
+-
+    code: D3030
+    level: 3
+    title_EN: Cooling Systems
+    title_FR: Système de production de froid
+    mapping_uniformat_ii_2015: D3030
+    comment: 
+-
+    code: D3050
+    level: 3
+    title_EN: Facility HVAC Distribution Systems
+    title_FR: Distribution de CVC
+    mapping_uniformat_ii_2015: D3040
+    comment: 
+-
+    code: D3060
+    level: 3
+    title_EN: Ventilation
+    title_FR: Ventilation
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D3070
+    level: 3
+    title_EN: Special Purpose HVAC Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D40
+    level: 2
+    title_EN: FIRE PROTECTION
+    title_FR: PROTECTION INCENDIE
+    mapping_uniformat_ii_2015: D40
+    comment: 
+-
+    code: D4010
+    level: 3
+    title_EN: Fire Suppression
+    title_FR: 'Système d''extinction d''incendie'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D4010.10
+    level: 4
+    title_EN: Water-Based Fire-Suppression
+    title_FR: Gicleurs
+    mapping_uniformat_ii_2015: D4010
+    comment: 
+-
+    code: D4030
+    level: 3
+    title_EN: Fire Protection Specialties
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D50
+    level: 2
+    title_EN: ELECTRICAL
+    title_FR: ELECTRICITE
+    mapping_uniformat_ii_2015: D50
+    comment: 
+-
+    code: D5010
+    level: 3
+    title_EN: Facility Power Generation
+    title_FR: 'Système de génération d''énergie'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D5020
+    level: 3
+    title_EN: Electrical Service and Distribution
+    title_FR: Réseau de distribution électrique
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D5030
+    level: 3
+    title_EN: General Purpose Electrical Power
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D5040
+    level: 3
+    title_EN: Lighting
+    title_FR: Eclairage
+    mapping_uniformat_ii_2015: D5020
+    comment: 
+-
+    code: D5080
+    level: 3
+    title_EN: Miscellaneous Electrical Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D60
+    level: 2
+    title_EN: COMMUNICATIONS
+    title_FR: COMMUNICATIONS
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D6010
+    level: 3
+    title_EN: Data Communications
+    title_FR: Données
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D6020
+    level: 3
+    title_EN: Voice Communications
+    title_FR: Voix
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D6030
+    level: 3
+    title_EN: Audio-Video Communication
+    title_FR: Audio-Vidéo
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D6060
+    level: 3
+    title_EN: Distributed Communications and Monitoring
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D6090
+    level: 3
+    title_EN: Communications Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D70
+    level: 2
+    title_EN: ELECTRONIC SAFETY AND SECURITY
+    title_FR: SECURITE
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D7010
+    level: 3
+    title_EN: Access Control and Intrusion Detection
+    title_FR: 'Contrôle d''accès et détection d''intrusion'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D7030
+    level: 3
+    title_EN: Electronic Surveillance
+    title_FR: Surveillance
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D7050
+    level: 3
+    title_EN: Detection and Alarm
+    title_FR: Détection et Alarme
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D7070
+    level: 3
+    title_EN: Electronic Monitoring and Control
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D7090
+    level: 3
+    title_EN: Electronic Safety and Security Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D80
+    level: 2
+    title_EN: INTEGRATED AUTOMATION
+    title_FR: AUTOMATISATION INTEGREE
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: D8010
+    level: 3
+    title_EN: Integrated Automation Facility Controls
+    title_FR: Gestion Technique du Bâtiment (GTB)
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E
+    level: 1
+    title_EN: EQUIPMENT AND FURNISHINGS
+    title_FR: EQUIPEMENTS ET AMEUBLEMENT
+    mapping_uniformat_ii_2015: E
+    comment: 
+-
+    code: E10
+    level: 2
+    title_EN: EQUIPMENT
+    title_FR: EQUIPEMENT
+    mapping_uniformat_ii_2015: E10
+    comment: 
+-
+    code: E1010
+    level: 3
+    title_EN: Vehicle and Pedestrian Equipment
+    title_FR: Equipement pour véhicules et piétons
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E1010.30
+    level: 4
+    title_EN: Interior Parking Control Equipment
+    title_FR: 'Contrôle d''accès au parking (portail, barrières, )'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E1030
+    level: 3
+    title_EN: Commercial Equipment
+    title_FR: Equipement commercial
+    mapping_uniformat_ii_2015: E1010
+    comment: 
+-
+    code: E1040
+    level: 3
+    title_EN: Institutional Equipment
+    title_FR: Equipement institutionnel
+    mapping_uniformat_ii_2015: E1020
+    comment: 
+-
+    code: E1060
+    level: 3
+    title_EN: Residential Equipment
+    title_FR: Equipement résidentiel
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E1070
+    level: 3
+    title_EN: Entertainment and Recreational Equipment
+    title_FR: Equipement de loisirs et récréatifs
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E1090
+    level: 3
+    title_EN: Other Equipment
+    title_FR: Autre équipement
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: E20
+    level: 2
+    title_EN: FURNISHINGS
+    title_FR: AMEUBLEMENT
+    mapping_uniformat_ii_2015: E20
+    comment: 
+-
+    code: E2010
+    level: 3
+    title_EN: Fixed Furnishings
+    title_FR: Mobilier fixe
+    mapping_uniformat_ii_2015: E2010
+    comment: 
+-
+    code: E2050
+    level: 3
+    title_EN: Movable Furnishings
+    title_FR: Mobilier mobile
+    mapping_uniformat_ii_2015: E2020
+    comment: 
+-
+    code: F
+    level: 1
+    title_EN: SPECIAL CONSTRUCTION AND DEMOLITION
+    title_FR: CONSTRUCTION SPECIALE ET DEMOLITION
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F10
+    level: 2
+    title_EN: SPECIAL CONSTRUCTION
+    title_FR: CONSTRUCTION SPECIALE
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1010
+    level: 3
+    title_EN: Integrated Construction
+    title_FR: Construction intégrée
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1020
+    level: 3
+    title_EN: Special Structures
+    title_FR: Structures spéciales
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1030
+    level: 3
+    title_EN: Special Function Construction
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1050
+    level: 3
+    title_EN: Special Facility Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1060
+    level: 3
+    title_EN: Athletic and Recreational Special Construction
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F1080
+    level: 3
+    title_EN: Special Instrumentation
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F20
+    level: 2
+    title_EN: FACILITY REMEDIATION
+    title_FR: RESTAURATION
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F2010
+    level: 3
+    title_EN: Hazardous Materials Remediation
+    title_FR: Suppression de matières dangereuses
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F30
+    level: 2
+    title_EN: DEMOLITION
+    title_FR: DEMOLITION
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F3010
+    level: 3
+    title_EN: Structure Demolition
+    title_FR: Démolition de structure
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F3030
+    level: 3
+    title_EN: Selective Demolition
+    title_FR: Démolition sélective
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: F3050
+    level: 3
+    title_EN: Structure Moving
+    title_FR: Déplacement de structure
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G
+    level: 1
+    title_EN: SITEWORK
+    title_FR: AMENAGEMENT EXTERIEUR
+    mapping_uniformat_ii_2015: G
+    comment: 
+-
+    code: G10
+    level: 2
+    title_EN: SITE PREPARATION
+    title_FR: 'PREPARATION DE L''EMPLACEMENT'
+    mapping_uniformat_ii_2015: G10
+    comment: 
+-
+    code: G1010
+    level: 3
+    title_EN: Site Clearing
+    title_FR: Nettoyage du site
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G1020
+    level: 3
+    title_EN: Site Elements Demolition
+    title_FR: Travaux de démolition
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G1030
+    level: 3
+    title_EN: Site Element Relocations
+    title_FR: 'Travaux de relocalisation d''éléments du site'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G1050
+    level: 3
+    title_EN: Site Remediation
+    title_FR: Travaux de restauration du site
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G1070
+    level: 3
+    title_EN: Site Earthwork
+    title_FR: Travaux de terrassement
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G20
+    level: 2
+    title_EN: SITE IMPROVEMENTS
+    title_FR: 'AMELIORATION D''EMPLACEMENT'
+    mapping_uniformat_ii_2015: G20
+    comment: 
+-
+    code: G2010
+    level: 3
+    title_EN: Roadways
+    title_FR: Voiries
+    mapping_uniformat_ii_2015: G2010
+    comment: 
+-
+    code: G2020
+    level: 3
+    title_EN: Parking Lots
+    title_FR: Aires de stationnement
+    mapping_uniformat_ii_2015: G2020
+    comment: 
+-
+    code: G2030
+    level: 3
+    title_EN: Pedestrian Plazas and Walkways
+    title_FR: Cheminements piétons
+    mapping_uniformat_ii_2015: G2030
+    comment: 
+-
+    code: G2040
+    level: 3
+    title_EN: Airfields
+    title_FR: Aérodromes
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G2050
+    level: 3
+    title_EN: Athletic, Recreational, and Playfield Areas
+    title_FR: Espace récréatif
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G2060
+    level: 3
+    title_EN: Site Development
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G2080
+    level: 3
+    title_EN: Landscaping
+    title_FR: Espaces verts
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G30
+    level: 2
+    title_EN: LIQUID AND GAS SITE UTILITIES
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3010
+    level: 3
+    title_EN: Water Utilities
+    title_FR: 'Réseaux de distribution d''eau'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3020
+    level: 3
+    title_EN: Sanitary Sewerage Utilities
+    title_FR: Réseaux sanitaires
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3030
+    level: 3
+    title_EN: Storm Drainage Utilities
+    title_FR: Réseaux de drainage
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3050
+    level: 3
+    title_EN: Site Energy Distribution
+    title_FR: Réseaux de chauffage urbain
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3060
+    level: 3
+    title_EN: Site Fuel Distribution
+    title_FR: Réseaux de gaz et carburant
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G3090
+    level: 3
+    title_EN: Liquid and Gas Site Utilities Supplementary Components
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G40
+    level: 2
+    title_EN: ELECTRICAL SITE IMPROVEMENTS
+    title_FR: AMENAGEMENTS ELECTRIQUES DU SITE
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G4010
+    level: 3
+    title_EN: Site Electric Distribution Systems
+    title_FR: Réseau électrique
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G4050
+    level: 3
+    title_EN: Site Lighting
+    title_FR: 'Réseau d''éclairage'
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G50
+    level: 2
+    title_EN: SITE COMMUNICATIONS
+    title_FR: COMMUNICATIONS SUR SITE
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G5010
+    level: 3
+    title_EN: Site Communications Systems
+    title_FR: 
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G90
+    level: 2
+    title_EN: MISCELLANEOUS SITE CONSTRUCTION
+    title_FR: CONSTRUCTIONS DIVERSES
+    mapping_uniformat_ii_2015: 
+    comment: 
+-
+    code: G9010
+    level: 3
+    title_EN: Tunnels
+    title_FR: Tunnels
+    mapping_uniformat_ii_2015: 
+    comment: 
