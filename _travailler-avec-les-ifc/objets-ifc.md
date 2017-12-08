@@ -1,11 +1,12 @@
 ---
 layout: default
-group: standards
+group: travailler-avec-les-ifc
 lang: français
 ref: objets-ifc
 title: Objets IFC
 description: Décryptage des classes d'objets IFC
 comments: true
+icon: cube
 ordre: 3
 status: publish
 ---

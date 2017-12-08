@@ -1,11 +1,11 @@
 ---
 layout: default-toc
-group: standards
-lang: français
+group: echanger-en-bim
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
-ordre: 4
+icon: filter
+ordre: 2
 status: publish
 ---
 

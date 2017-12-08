@@ -99,3 +99,10 @@ var tfConfig = {
 var tf = new TableFilter(document.querySelector('#tablefilter'), tfConfig);
 tf.init();
 </script>
+
+<!-- https://css-tricks.com/snippets/jquery/open-external-links-in-new-window/ -->
+<script type="text/javascript">
+  $('a').filter(function () {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+</script>

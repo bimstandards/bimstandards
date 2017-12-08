@@ -1,11 +1,10 @@
 ---
 layout: default-toc
-group: bonnes-pratiques
+group: travailler-avec-les-ifc
 title: Principes généraux
 description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, les niveaux de détail.
 comments: true
 icon: info-circle
-category: regles-base
 ordre: 1
 status: publish
 ---

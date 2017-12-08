@@ -19,7 +19,9 @@ exclude:          [vendor]
 collections:
   pages: {output: true, permalink: '/:path/'}
   standards: {output: true, permalink: '/standards/:path/'}
+  echanger-en-bim: {output: true, permalink: '/echanger-en-bim/:path/'}
   bonnes-pratiques: {output: true, permalink: '/bonnes-pratiques/:path/'}
+  travailler-avec-les-ifc: {output: true, permalink: '/travailler-avec-les-ifc/:path/'}
   autocontrole: {output: true, permalink: '/autocontrole/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}

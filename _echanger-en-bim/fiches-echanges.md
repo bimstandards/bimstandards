@@ -1,9 +1,13 @@
 ---
 layout: default
-group: fiches-echanges
+group: echanger-en-bim
 title: Fiches d'échanges
+description: Méthodes d'échanges point à point entre logiciels BIM
 comments: false
-permalink: /fiches-echanges/
+icon: file-text-o
+ordre: 1
+status: publish
+permalink: /fiches/
 ---
 
 <div class="container container-index">
