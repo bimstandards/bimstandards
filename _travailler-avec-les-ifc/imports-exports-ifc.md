@@ -5,11 +5,13 @@ title: Imports / Exports IFC
 description: Règles de base pour garantir la qualité des imports / export IFC.
 comments: true
 icon: exchange
-ordre: 4
+ordre: 5
 status: publish
 ---
 
 # Imports / Exports IFC
+
+## Introduction
 
 Tout d'abord, il faut garder en tête qu'un export de maquette numérique au format IFC est réalisé en fonction de son destinataire, car le paramétrage d'export peut être radicalement différent entre deux acteurs. C'est ce qu'on appelle un MVD (Model View Definition), c'est-à-dire une certaine vision d'une même modèle.
 
@@ -38,13 +40,11 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
   * **Tekla** : Dans les réglages d'export IFC, cocher la case "Base Quantities". Le détail des quantités exportées par type d'élément est expliqué [ici](https://teklastructures.support.tekla.com/2017/en/int_IFC_base_quantities).
   * **Vectorworks** : Dans les réglages d'export IFC, activer l'export des quantités.
 
-{% include methode-archicad.html titre="ARCHICAD : activer l'export IFC des quantités de base" lien="export-ifc-quantites-base" %}
-
 * activer l'export des **limites d'espaces** (utile pour la thermique)
 
 {% include callout-open.html param="danger" %}
 **Note :**
-Après l'export, il est conseillé d'ouvrir le fichier IFC dans une visionneuse (Solibri, Tekla BIMsight) afin de vérifier que la géométrie et les données sont correctes.
+Après l'export, il est conseillé d'ouvrir le fichier IFC dans une visionneuse (type Solibri, Tekla BIMsight) afin de vérifier que la géométrie et les données sont correctes.
 {% include callout-close.html %}
 
 ## Problèmes connus
@@ -53,13 +53,13 @@ Les problèmes d'échanges sont dépendants d'une multitude de facteurs. Voir ci
 
 **Problèmes généraux**
 
-* Modélisation
-* Etait-ce bien présent à l'origine ?
-* Réglages d'export
-* Réglages d'import
-* Schéma IFC
-* Géoréférencement
-* Autres problèmes liés aux logiciels-métier
+* La modélisation était-elle correcte à la base ?
+* L'objet était-il bien présent à l'origine ?
+* Cela vient-il des réglages d'export ?
+* Cela vient-il des réglages d'import ?
+* Le schéma IFC est-il respecté ?
+* Le géoréférencement a-t-il été mis en place ?
+* Le problème est-il lié au logiciel-métier ?
 
 **Problèmes connus d'ARCHICAD vers Revit**
 
@@ -91,6 +91,10 @@ Identifier, éventuellement en effectuant une recherche de texte, les lignes pou
 **Méthode 2 - Supprimer les informations nominatives avec simplebim :**
 
 Le logiciel simplebim [payant - PC - [Datacubist](http://www.datacubist.com/)] permet, via l'[add-on "Anonymizer"](http://datacubist.com/support/addon-prototypes.html#tool-anonymizer), de rendre anonyme un fichier IFC en remplaçant les champs d'identification par des caractères aléatoires.
+
+**Méthode 3 - Supprimer les informations nominatives avec eveBIM viewer :**
+
+A compléter.
 
 ## Sources
 

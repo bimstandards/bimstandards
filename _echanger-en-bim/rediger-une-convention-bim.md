@@ -11,4 +11,6 @@ status: publish
 
 # Rédiger une convention BIM
 
-Voir : http://www.mediaconstruct.fr/travaux/guide-de-convention-bim
+Texte d'introduction à rédiger.
+
+<a class="btn btn-info" href="http://www.mediaconstruct.fr/travaux/guide-de-convention-bim" role="button">Télécharger le Guide (site institutionnel)</a>

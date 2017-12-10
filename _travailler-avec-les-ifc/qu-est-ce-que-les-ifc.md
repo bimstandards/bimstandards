@@ -1,11 +1,12 @@
 ---
 layout: default-toc
-group: standards
+group: travailler-avec-les-ifc
 lang: français
-title: IFC
-description: Industry Foundation Classes, le format universel
+title: Qu'est-ce que les IFC ?
+description: Industry Foundation Classes, le format d'échanges universel
 comments: true
-ordre: 2
+icon: refresh
+ordre: 1
 status: publish
 ---
 
@@ -23,7 +24,7 @@ L'association buildingSMART a tout naturellement donné son logo au format IFC. 
 
 ![logo IFC]({{ site.url }}/assets/img/logo-ifc.jpeg)
 
-Ci-dessous, le documentaire "The End of Babel" réalisé en 1994 pour faire la promotion de l'IFC.
+Ci-dessous, le documentaire "The End of Babel" réalisé dès 1994 pour faire la promotion de l'IFC.
 
 <div class="row">
   <div class="col-md-6">
@@ -40,7 +41,7 @@ Ci-dessous, le documentaire "The End of Babel" réalisé en 1994 pour faire la p
 
 ## Versions IFC
 
-Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. L'IFC4-Add1, dernière version officielle, n'est pas encore pleinement prise en charge par les différents logiciels-métiers ; c'est donc l'IFC2x3-TC1 qui demeure le standard de fait actuellement. On peut espérer que les échanges IFC4 deviendront pleinement opérationnels durant l'année 2016.
+Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. L'IFC4-Add1, dernière version officielle, n'est pas encore pleinement prise en charge par les différents logiciels-métiers ; c'est donc l'IFC2x3-TC1 qui demeure le standard de fait actuellement. On peut espérer que les échanges IFC4 deviendront pleinement opérationnels durant l'année 2018.
 
 <table class="table table-responsive table-sm table-hover">
   <thead>

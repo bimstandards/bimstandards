@@ -11,6 +11,11 @@ status: publish
 
 # Classifications
 
+<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau dans cette catégorie</h4>
+  <p>Le groupe de travail "Systèmes de classification" de Mediaconstruct prépare actuellement la publication d'un état des lieux détaillé sur les classifications. Dans ce cadre, cette section sera bientôt mise à jour pour devenir plus complète.</p>
+</div>
+
 ## Introduction
 
 Bien avant l’avènement des IFC, certains acteurs de la construction ont cherché à classifier les ouvrages d’un bâtiment. Initialement développées pour faciliter les estimations de coûts dans les premières phases de projet, ces standards de classification sont désormais utilisés pour différents sujets : nommage des calques dans les fichiers de dessin, analyse du cycle de vie, classification des produits, facilitation de la gestion de patrimoine et exploitation-maintenance.

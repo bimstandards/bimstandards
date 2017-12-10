@@ -11,4 +11,6 @@ status: publish
 
 # Code d'éthique BIM
 
-Voir : http://www.mediaconstruct.fr/travaux/code-dethique-bim
+Texte d'introduction à rédiger.
+
+<a class="btn btn-info" href="http://www.mediaconstruct.fr/travaux/guide-de-convention-bim" role="button">Lire et signer le code d'éthique (site institutionnel)</a>

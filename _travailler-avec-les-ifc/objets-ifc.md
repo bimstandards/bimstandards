@@ -7,14 +7,11 @@ title: Objets IFC
 description: Décryptage des classes d'objets IFC
 comments: true
 icon: cube
-ordre: 3
+ordre: 4
 status: publish
 ---
 
 # Objets IFC
-
-{% assign langs = site.standards | where: 'ref','objets-ifc' %}
-Cette page est disponible dans les langues suivantes : {% for page in langs %}<a class="btn btn-outline-dark btn-sm" href="{{ page.url }}" role="button"><i class="fa fa-globe" aria-hidden="true"></i> {{ page.lang }}</a> {% endfor %}
 
 ## Introduction
 
@@ -26,7 +23,7 @@ Cette même déclinaison est aussi présente dans les `IfcTypeProduct` qui regro
 
 Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcTypeProduct` comme on peut le voir dans les tableaux ci-dessous, mais ils ne sont pas forcément cohérents entre les deux niveaux. l'IFC4 devrait corriger en grande partie ces incohérences.
 
-Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels de modélisation (Allplan, ARCHICAD et Revit).
+Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels BIM de modélisation architecturale (Allplan, ARCHICAD et Revit).
 
 ## Listes par spécialités
 
