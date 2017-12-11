@@ -7,7 +7,7 @@ comments: false
 icon: file-text-o
 ordre: 1
 status: publish
-permalink: /fiches/
+permalink: /echanger-en-bim/fiches-echanges/
 ---
 
 # Fiches d'échanges BIM point à point
@@ -16,7 +16,7 @@ Texte d'introduction...
 
 <div class="row">
   <div class="col-12">
-    <p class="text-right"><a class="btn btn-sm btn-secondary" href="/nouvelle-fiche-echange/" role="button"><i class="fa fa-plus" aria-hidden="true"></i> Ajouter une fiche (éditeurs)</a></p>
+    <p class="text-right"><a class="btn btn-sm btn-secondary" href="/echanger-en-bim/fiches-echanges/nouvelle/" role="button"><i class="fa fa-plus" aria-hidden="true"></i> Ajouter une fiche (éditeurs)</a></p>
   </div>
 </div>
 

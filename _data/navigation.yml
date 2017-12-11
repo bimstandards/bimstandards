@@ -1,0 +1,69 @@
+- title: Mediaconstruct
+  url: 
+  sublinks:
+    - title: Nos objectifs
+      url: /test/
+      external: true
+    - title: Pré-normalisation
+      url: 
+      external: true
+    - title: Adhérez
+      url: 
+      external: true
+- title: Echanger en BIM
+  url: 
+  sublinks:
+    - title: Fiches d'échanges
+      url: /echanger-en-bim/fiches-echanges/
+      external: false
+    - title: Systèmes de classification
+      url: /echanger-en-bim/classifications/
+      external: false
+    - title: Rédiger une convention BIM
+      url: /echanger-en-bim/rediger-une-convention-bim/
+      external: false
+    - title: Code d'éthique BIM
+      url: /echanger-en-bim/code-ethique-bim/
+      external: false
+- title: Travailler avec les IFC
+  url: 
+  sublinks:
+    - title: Qu'est-ce que les IFC ?
+      url: /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
+      external: false
+    - title: Principes généraux
+      url: /travailler-avec-les-ifc/principes-generaux/
+      external: false
+    - title: Organisation spatiale
+      url: /travailler-avec-les-ifc/organisation-spatiale/
+      external: false
+    - title: Objets IFC
+      url: /travailler-avec-les-ifc/objets-ifc/
+      external: false
+    - title: Imports / Exports IFC
+      url: /travailler-avec-les-ifc/imports-exports-ifc/
+      external: false
+- title: Standards du BIM
+  url: 
+  sublinks:
+    - title: Décryptage
+      url: /standards/decryptage/
+      external: false
+    - title: Normes à suivre
+      url: /standards/normes-a-suivre/
+      external: false
+- title: Infos
+  url: 
+  sublinks:
+    - title: Documents utiles
+      url: /documents-utiles/
+      external: false
+    - title: Blog du BIM
+      url: http://www.blog-du-bim.fr
+      external: true
+    - title: Actualités Mediaconstruct
+      url: 
+      external: true
+- title: Contact
+  url: /contact/
+  external: false
