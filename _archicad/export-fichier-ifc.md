@@ -9,7 +9,7 @@ comments: true
 
 **Vérifications de modèle**
 
-* **Important** - Valider au préalable les étapes de la page [Autocontrôle](/autocontrole/).
+* **Important** - Valider au préalable les étapes de la page "Autocontrôle".
 
 **Export vers Revit**
 

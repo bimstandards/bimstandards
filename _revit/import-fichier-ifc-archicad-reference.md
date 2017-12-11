@@ -33,7 +33,7 @@ Prérequis à prend en compte sans exception :
 
 **Vérifications de modèle**
 
-* **Important** - Valider au préalable les étapes de la page [Autocontrôle](/autocontrole/).
+* **Important** - Valider au préalable les étapes de la page "Autocontrôle".
 
 **Contrôle visuel**
 

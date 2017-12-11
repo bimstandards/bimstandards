@@ -23,7 +23,7 @@ De manière générale, les éléments du bâti seront modélisés avec les outi
 
 Il faut à tout prix éviter de "forcer" les classifications IFC des objets, car cela leur fait perdre une logique de construction géométrique pouvant fausser les quantitatifs ou simulations. L'utilisation des objets "proxy" (`IfcBuildingElementProxy`) devra être évitée au maximum ; en cas d'utilisation, le nom de l'objet (`IfcBuildingElementProxy.Name`) explicitera la qualité de l'objet en question.
 
-Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur la page [Objets IFC]({{ site.url }}/travailler-avec-les-ifc/objets-ifc/).
+Chaque intervenant veillera donc à bien renseigner la classe IFC de chaque objet. Une traduction des classifications est disponible sur la page [Objets IFC]({{ site.url }}/travailler-avec-les-ifc/objets-ifc).
 
 ## Identifiant unique (GUID)
 
