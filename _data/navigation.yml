@@ -1,17 +1,17 @@
 - title: Mediaconstruct
-  url: 
+  url: #
   sublinks:
     - title: Nos objectifs
-      url: /test/
+      url: #
       external: true
     - title: Pré-normalisation
-      url: 
+      url: #
       external: true
     - title: Adhérez
-      url: 
+      url: #
       external: true
 - title: Echanger en BIM
-  url: 
+  url: #
   sublinks:
     - title: Fiches d'échanges
       url: /echanger-en-bim/fiches-echanges/
@@ -26,7 +26,7 @@
       url: /echanger-en-bim/code-ethique-bim/
       external: false
 - title: Travailler avec les IFC
-  url: 
+  url: #
   sublinks:
     - title: Qu'est-ce que les IFC ?
       url: /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
@@ -44,7 +44,7 @@
       url: /travailler-avec-les-ifc/imports-exports-ifc/
       external: false
 - title: Standards du BIM
-  url: 
+  url: #
   sublinks:
     - title: Décryptage
       url: /standards/decryptage/
@@ -53,7 +53,7 @@
       url: /standards/normes-a-suivre/
       external: false
 - title: Infos
-  url: 
+  url: #
   sublinks:
     - title: Documents utiles
       url: /documents-utiles/
@@ -62,7 +62,7 @@
       url: http://www.blog-du-bim.fr
       external: true
     - title: Actualités Mediaconstruct
-      url: 
+      url: #
       external: true
 - title: Contact
   url: /contact/
