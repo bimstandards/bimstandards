@@ -58,3 +58,10 @@ permalink: /fiches-echanges/
   </div>
     
 </div>
+
+
+MES COMMENTAIRES:
+1.	Passer ligne de filtres sous lignes de titres de colonnes
+2.	« Filtres »
+3.	Seule les fiches avec statut « publiée » doivent apparaître n’est ce pas ? Je me demande si on a besoin de cette note de Statut : effectivement, maintenant on se contente d’y déposer des fiches. Par ailleurs, c’est via GitHub que pourront être soumis à relecture des fiches aux relecteurs de ton GT afin d’être publiée. Je crois que c’est redondant avec l’aspect collaboratif de GitHUB. A voir si il ne faut pas supprimer, donc.
+
