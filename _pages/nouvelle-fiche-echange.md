@@ -17,28 +17,30 @@ permalink: /nouvelle-fiche-echange/
 * Copier le modèle ci-dessous :
 
 ```
----
-layout: fiche // Ne pas modifier
-group: fiches-echanges // Ne pas modifier
-comments: true // Ne pas modifier
-titre: Fiche point à point - Logiciel A > Logiciel B
-source_nom: Logiciel A
-source_version: version
-source_editeur: Editeur A
-destination_nom: Logiciel B
-destination_version: version
-destination_editeur: Editeur B
-usage_metier: usage
-nom_pdf: source-destination.pdf
-statut: statut // brouillon, relecture, publiée
-maj: 07/03/2017 // Date de mise à jour
+---  // RETIRER COMMENTAIRES DERRIERE CARACTERES « // » Y COMPRIS CE COMMENTAIRE
+layout: fiche // NE PAS MODIFIER
+group: fiches-echanges // NE PAS MODIFIER
+comments: true // NE PAS MODIFIER
+titre: Fiche d’échanges - Logiciel A > Logiciel B // REMPLACER « Logiciel A » et « Logiciel B »
+source_nom: Logiciel A // REMPLACER
+source_version: version // REMPLACER
+source_editeur: Editeur A // REMPLACER
+destination_nom: Logiciel B // REMPLACER
+destination_version: version // REMPLACER
+destination_editeur: Editeur B // REMPLACER
+usage_metier: usage // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL B « Métré », « Structure », « Fluides ». MAXI 3 MOTS.
+nom_pdf: logicielA-logicielB.pdf // REMPLACER « logicielA » et « LogicielB »
+statut: statut // INDIQUER « brouillon », « relecture » ou « publiée »  
+maj: 07/03/2017 // DATE DE MISE A JOUR
 ---
 ```
 
-* [Créer une nouvelle fiche](https://github.com/bimstandards/bimstandards/new/gh-pages/_fiches), coller le texte et compléter les métadonnées.
+* [Créer une nouvelle fiche](https://github.com/bimstandards/bimstandards/new/gh-pages/_fiches), coller le texte et compléter les métadonnées suivant commentaires  après caractères « // ». 
 
-* Enregistrer le fichier en le nommant de la façon suivante : `source-destination.md`, par exemple `archicad-revit.md`.
+* En haut de la page, nommer le fichier de la façon suivante : `logicielA-logicielB.md`, par exemple `allplan-sciaengineer.md` (tout en minuscule).
+
+* Puis cliquer en bas de page sur « Commit new file ».
 
 ### Etape 3 : Ajouter la fiche au format .pdf
 
-Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante : `source-destination.pdf`, par exemple `archicad-revit.pdf`.
+Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante (comme pour les métadonnées) : `logicielA-logicielB.pdf`, par exemple `allplan-sciaengineer.pdf` (tout en minuscule).
