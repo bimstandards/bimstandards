@@ -28,20 +28,19 @@ source_editeur: Editeur A // REMPLACER
 destination_nom: Logiciel B // REMPLACER
 destination_version: version // REMPLACER
 destination_editeur: Editeur B // REMPLACER
-usage_metier: usage // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL B « Métré » « Structure ». MAXI 3 MOTS.
+usage_metier: usage // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL B « Métré », « Structure », « Fluides ». MAXI 3 MOTS.
 nom_pdf: logicielA-logicielB.pdf // REMPLACER « logicielA » et « LogicielB »
-statut: statut // INDIQUER « brouillon », « relecture », ou « publiée »  
+statut: statut // INDIQUER « brouillon », « relecture » ou « publiée »  
 maj: 07/03/2017 // DATE DE MISE A JOUR
 ---
 ```
 
 * [Créer une nouvelle fiche](https://github.com/bimstandards/bimstandards/new/gh-pages/_fiches), coller le texte et compléter les métadonnées suivant commentaires  après caractères « // ». 
 
-* •	En haut de la page, nommer le fichier en le nommant  `logicielA-logicielB.md`, par exemple `Allplan-SCIAEngineer.md`.
+* En haut de la page, nommer le fichier de la façon suivante : `logicielA-logicielB.md`, par exemple `allplan-sciaengineer.md` (tout en minuscule).
 
-
-* •	•	Puis cliquer en bas de page sur « Commit new file ».
+* Puis cliquer en bas de page sur « Commit new file ».
 
 ### Etape 3 : Ajouter la fiche au format .pdf
 
-Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante : `logicielA-logicielB.pdf`, par exemple `Allplan-SCIAEngineer.pdf`.
+Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante (comme pour les métadonnées) : `logicielA-logicielB.pdf`, par exemple `allplan-sciaengineer.pdf` (tout en minuscule).
