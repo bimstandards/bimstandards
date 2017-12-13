@@ -2,7 +2,7 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche point à point - Revit > JustBIM
+titre: Fiche d'échanges - Revit > JustBIM
 source_nom: Revit
 source_version: 2018
 source_editeur: Autodesk
