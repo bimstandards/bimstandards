@@ -12,21 +12,7 @@
       </div>
     </div>
     
-    <div class="d-print-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">http://www.bimstandards.fr</li>
-              <li class="breadcrumb-item">{{ page.group }}</li>
-              <li class="breadcrumb-item">{{ page.title }}</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
+    {% include fil-ariane.html %}
 
     <div class="bs-main">
       <div class="container">
@@ -35,7 +21,7 @@
             
             <div class="row">
               <div class="col-12">
-                <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/fiches-echanges/" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
+                <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/fiches-echanges" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
                 <h1>{{ page.titre }}</h1>
               </div>
             </div>

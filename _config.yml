@@ -1,7 +1,7 @@
 # Site settings
 title:            BIMstandards
-description:      Bonnes pratiques des standards openBIM, pour des échanges opérationnels au quotidien !
-keywords:         standards, BIM, openBIM, interopérabilité, BuildingSMART, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
+description:      Plateforme collaborative sur les standards d'échanges et l'interopérabilité BIM
+keywords:         standards, BIM, openBIM, interopérabilité, BuildingSMART, France, Mediaconstruct, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
 author:           Alexandre Grignon
 url:              "http://bimstandards.fr"
 repository:       bimstandards/bimstandards

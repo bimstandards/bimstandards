@@ -5,20 +5,24 @@ comments: false
 permalink: /
 ---
 
-<div class="jumbotron jumbotron-fluid">
+<div class="bs-pageheader d-print-none">
   <div class="container">
-    <h1 class="display-4">{{ site.title }}</h1>
-    <p class="lead">{{ site.description }}</p>
-    <p>
-      <span class="badge badge-secondary">{{ site.version }}</span> <a class="btn btn-link btn-sm" href="{{ site.github.releases_url }}" role="button">(notes de version)</a>
-    </p>
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <img src="{{ site.url }}/assets/img/logo_buildingsmart-france.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-9">
+        <h1>{{ site.title }}</h1>
+        <p class="lead">
+          {{ site.description }}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
-
-
-
-<div class="container container-index">
   
+<div class="container container-index">
+
   <div class="row">
     <div class="col-12">
       <div class="alert alert-success" role="alert">
