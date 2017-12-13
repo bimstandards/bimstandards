@@ -11,6 +11,5 @@ destination_version: 1.1
 destination_editeur: SOC Informatique
 usage_metier: Métré
 nom_pdf: revit-justbim.pdf
-statut: publiée
-maj: 27/10/2017
+maj: octobre 2017
 ---

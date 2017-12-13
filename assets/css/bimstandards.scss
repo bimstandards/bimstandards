@@ -45,10 +45,24 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-content {
   .table {
-    font-size: 80%;
+    thead {
+      font-size: 90%;
+    }
+    tbody {
+      font-size: 80%;
+    }
     a:not(.btn) {
       color: $gray-800;
     }
+  }
+  .no-results {
+    position: relative;
+    margin-top: -1rem;
+    padding: ($spacer * 3);
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    box-shadow: inset 0 0 10px rgba($black, 0.05);
   }
   h1 {
     padding-top: $spacer;

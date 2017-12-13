@@ -30,8 +30,7 @@ destination_version: version // REMPLACER
 destination_editeur: Editeur B // REMPLACER
 usage_metier: usage // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL B « Métré », « Structure », « Fluides ». MAXI 3 MOTS.
 nom_pdf: logicielA-logicielB.pdf // REMPLACER « logicielA » et « LogicielB »
-statut: statut // INDIQUER « brouillon », « relecture » ou « publiée »  
-maj: 07/03/2017 // DATE DE MISE A JOUR
+maj: janvier 2018 // DATE DE MISE A JOUR
 ---
 ```
 

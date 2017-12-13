@@ -11,6 +11,5 @@ destination_version: 17.01.2031
 destination_editeur: SCIA nv
 usage_metier: Structure
 nom_pdf: allplan2018-sciaengineer.pdf
-statut: publiée  
-maj: Novembre 2017
+maj: novembre 2017
 ---

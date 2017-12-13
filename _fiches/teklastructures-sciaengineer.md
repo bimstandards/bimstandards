@@ -11,6 +11,5 @@ destination_version: 17
 destination_editeur: SCIA nv
 usage_metier: Structure
 nom_pdf: teklastructures-sciaengineer.pdf
-statut: publiée  
-maj: Novembre 2017
+maj: novembre 2017
 ---
