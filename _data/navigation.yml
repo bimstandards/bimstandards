@@ -5,7 +5,7 @@
       url: http://www.mediaconstruct.fr/lassociation/strategie
       external: true
     - title: Pré-normalisation
-      url: #
+      url: http://www.mediaconstruct.fr/travaux/pre-normalisation-bim
       external: true
     - title: Adhérez
       url: http://www.mediaconstruct.fr/adherer/avantages
@@ -47,11 +47,11 @@
   url: #
   sublinks:
     - title: Décryptage
-      url: /standards/decryptage/
-      external: false
+      url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
+      external: true
     - title: Normes à suivre
-      url: /standards/normes-a-suivre/
-      external: false
+      url: http://www.mediaconstruct.fr/sinformer/blog-du-bim/term/15/bim-et-normalisation
+      external: true
 - title: Infos
   url: #
   sublinks:
