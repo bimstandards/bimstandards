@@ -3,7 +3,7 @@ layout: fiche
 group: fiches-echanges
 comments: true
 titre: Fiche d’échanges - TEKLA Structures > SCIA Engineer
-source_nom: TEKLA Structures
+source_nom: Tekla Structures
 source_version: 2017
 source_editeur: Trimble
 destination_nom: SCIA Engineer
