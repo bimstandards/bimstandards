@@ -10,6 +10,9 @@
     - title: Adhérez
       url: http://www.mediaconstruct.fr/adherer/avantages
       external: true
+    - title: Blog du BIM
+      url: http://www.blog-du-bim.fr
+      external: true
 - title: Echanger en BIM
   url: #
   sublinks:
@@ -50,19 +53,7 @@
       url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
       external: true
     - title: Normes à suivre
-      url: http://www.mediaconstruct.fr/sinformer/blog-du-bim/term/15/bim-et-normalisation
-      external: true
-- title: Infos
-  url: #
-  sublinks:
-    - title: Documents utiles
-      url: /documents-utiles/
-      external: false
-    - title: Blog du BIM
-      url: http://www.blog-du-bim.fr
-      external: true
-    - title: Actualités Mediaconstruct
-      url: #
+      url: http://www.mediaconstruct.fr/travaux/pre-normalisation-bim
       external: true
 - title: Contact
   url: /contact/
