@@ -1,12 +1,11 @@
 ---
 layout: default-toc
-group: bonnes-pratiques
+group: travailler-avec-les-ifc
 title: Organisation spatiale
 description: Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.
 comments: true
 icon: cubes
-category: regles-base
-ordre: 2
+ordre: 3
 status: publish
 ---
 
@@ -33,8 +32,6 @@ Un fichier IFC ne doit contenir qu'un seul bâtiment. Pour gérer plusieurs bât
 Les éléments `IfcProduct` peuvent être contenues dans un niveau (`IfcBuildingStorey`) ou dans un local (`IfcSpace`), lui-même contenu dans un niveau.
 
 Pour une bonne structure de fichier IFC, il est conseillé de renseigner à minima les attributs `IfcProject.Name`, `IfcSite.Name` et `IfcBuilding.Name`.
-
-{% include methode-archicad.html titre="ARCHICAD : activer les relations spatiales" lien="activer-relations-spatiales" %}
 
 ### Projet
 
@@ -100,8 +97,6 @@ La codification des niveaux est établie par des codes à 2 caractères dans le 
 
 Il est également possible d'indiquer le niveau d'entrée dans le bâtiment avec l'attribut `Pset_BuildingStoreyCommon.EntranceLevel=TRUE` sur le niveau concerné. On pourra également définir les niveaux situés au-dessus du sol avec l'attribut `Pset_BuildingStoreyCommon.AboveGround=TRUE`.
 
-{% include methode-archicad.html titre="ARCHICAD : configurer les niveaux" lien="configurer-niveaux" %}
-
 ### Locaux
 
 Chaque local est représenté par un objet `IfcSpace` correspondant aux limites spatiales de cette pièce, dans les trois dimensions.
@@ -142,18 +137,9 @@ Le code (numéro) du local est inséré dans le champ `IfcSpace.Name`, tandis qu
   </tbody>
 </table>
 
-{% include methode-archicad.html titre="ARCHICAD : configurer les locaux (zones)" lien="configurer-locaux" %}
-
 Il est possible de définir des relations entre plusieurs locaux à l'aide de la classe `IfcZone` (ex: zones thermiques, de recoupement au feu, zones fonctionnelles, acoustiques, ou plusieurs locaux appartenant à un même logement). Un même local peut appartenir à plusieurs zones.
 
-{% include methode-archicad.html titre="ARCHICAD : créer des regroupements entre locaux (à venir)" lien="regroupement-locaux" %}
-
 ## Géoréférencement
-
-<div class="alert alert-danger" role="alert">
-  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
-  Section à corriger en fonction de l'IDM <a href="http://iug.buildingsmart.org/idms/information-delivery-manuals/IDM-GeographicalReferencing_10-04-15%20-2.pdf">"Géographical Referencing"</a>.
-</div>
 
 Chaque maquette est située dans l'espace par rapport à un point zéro projet qui doit être commun à toutes les disciplines pour garantir une parfaite superposition des différentes maquettes numériques.
 
@@ -170,8 +156,6 @@ La modélisation doit projet doit se situer à proximité du point zéro pour é
 
 La correspondance de ce zéro projet avec les coordonnées géographiques réelles se fait via les attributs `IfcSite.RefLatitude` et `IfcSite.RefLongitude` exprimés en degrés, minutes, secondes ; ainsi que la valeur d'altitude via l'attribut `IfcSite.RefElevation`.
 
-{% include methode-archicad.html titre="ARCHICAD : configurer les coordonnées géographiques" lien="configurer-coordonnees-geographiques" %}
-
 Le projet doit toujours être modélisé en orientation réelle (nord géographique en haut, sur la coordonnée Y) ; les vues orientées au besoin sont gérées par le logiciel-métier.
 
 ## Axes du projet
@@ -180,18 +164,12 @@ Il est important de définir au plus tôt les axes du projet (`IfcGridAxis`), co
 
 Les axes et le point zéro commun seront communiqués en début de projet par fichier IFC ou référence DWG.
 
-{% include methode-archicad.html titre="ARCHICAD : outil grille" lien="outil-grille" %}
-
 ## Méthode de modélisation
 
-* En cas de doute, modéliser comme on construit.
-* Murs en un bloc.
+Points de vigilance :
 
-<div class="alert alert-danger" role="alert">
-  <i class="fa fa-exclamation-triangle"></i> <strong>A faire :</strong>
-  Indiquer les dépendances d'étages.
-</div>
+* Chaque objet est attribué à un étage
+* Les murs sont recoupés entre deux niveaux
+* En cas de doute, modéliser comme on construit.
 
 ![capture]({{ site.url }}/assets/img/bp_assemblages.png)
-
-## Sources

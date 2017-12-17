@@ -3,10 +3,10 @@ layout: default
 group: fiches-echanges
 title: Nouvelle fiche d'échange
 comments: false
-permalink: /nouvelle-fiche-echange/
+permalink: /echanger-en-bim/fiches-echanges/nouvelle/
 ---
 
-## Méthode d'ajout d'une nouvelle fiche (réservé aux éditeurs)
+## Ajouter une nouvelle fiche (réservé aux éditeurs)
 
 ### Etape 1 : Prérequis
 

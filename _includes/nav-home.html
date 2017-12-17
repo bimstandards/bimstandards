@@ -6,21 +6,33 @@
 
   <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item {% if page.group == "standards" %}active{% endif %}">
-        <a class="nav-link" href="{{ site.url }}#standards">Standards</a>
-      </li>
-      <li class="nav-item {% if page.group == "bonnes-pratiques" %}active{% endif %}">
-        <a class="nav-link" href="{{ site.url }}#bonnes-pratiques">Bonnes pratiques</a>
-      </li>
-      <!-- <li class="nav-item {% if page.group == "fiches-echanges" %}active{% endif %}">
-        <a class="nav-link" href="{{ site.url }}/fiches-echanges/">Fiches d'échanges</a>
-      </li> -->
-      <li class="nav-item {% if page.group == "documents" %}active{% endif %}">
-        <a class="nav-link" href="{{ site.url }}#documents">Documents utiles</a>
-      </li>
-      <li class="nav-item {% if page.group == "blog" %}active{% endif %}">
-        <a class="nav-link" href="/blog/">Blog</a>
-      </li>
+      {% assign links = site.data.navigation %}
+      {% for link in links %}
+        {% assign class = nil %}
+        {% if page.url contains link.url %}
+          {% assign class = 'active' %}
+        {% endif %}
+        {% if link.sublinks %}
+          <li class="nav-item dropdown {{ class }}">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for sublink in link.sublinks %}
+                {% if sublink.title == 'separator' %}
+                  <li role="separator" class="divider"></li>
+                {% else %}
+                  <a class="dropdown-item" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }} {% if sublink.external == true %}<i class="fa fa-external-link-square text-secondary" aria-hidden="true"></i>{% endif %}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li class="nav-item {{ class }}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }} </a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
   </div>
 </nav>
+
+<!-- https://mycyberuniverse.com/web/jekyll-bootstrap-dynamic-navigation-highlighting-active-element.html -->

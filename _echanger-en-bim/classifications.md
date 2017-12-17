@@ -1,15 +1,20 @@
 ---
 layout: default-toc
-group: standards
-lang: français
+group: echanger-en-bim
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
-ordre: 4
+icon: filter
+ordre: 2
 status: publish
 ---
 
 # Classifications
+
+<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau dans cette catégorie</h4>
+  <p>Le groupe de travail "Systèmes de classification" de Mediaconstruct prépare actuellement la publication d'un état des lieux détaillé sur les classifications. Dans ce cadre, cette section sera bientôt mise à jour pour devenir plus complète.</p>
+</div>
 
 ## Introduction
 

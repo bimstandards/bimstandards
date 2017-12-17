@@ -3,16 +3,21 @@
   <p class="lead">
     Connaître et comprendre les standards du BIM.
   </p>
-{% elsif page.group == "bonnes-pratiques" %}
-  <h1>Bonnes pratiques</h1>
+{% elsif page.group == "echanger-en-bim" %}
+  <h1>Echanger en BIM</h1>
   <p class="lead">
     Règles communes et bons réflexes pour une collaboration openBIM.
   </p>
-  {% elsif page.group == "fiches-echanges" %}
-    <h1>Fiches d'échanges</h1>
-    <p class="lead">
-      Méthodes d'échanges point à point entre logiciels BIM.
-    </p>
+{% elsif page.group == "fiches-echanges" %}
+  <h1>Fiches d'échanges</h1>
+  <p class="lead">
+    Méthodes d'échanges point à point entre logiciels BIM.
+  </p>
+{% elsif page.group == "travailler-avec-les-ifc" %}
+  <h1>Travailler avec les IFC</h1>
+  <p class="lead">
+    Comprendre et utiliser le format universel du BIM.
+  </p>
 {% elsif page.group == "autocontrole" %}
   <h1>Autocontrôle</h1>
   <p class="lead">
@@ -23,10 +28,15 @@
   <p class="lead">
     Pour aller plus loin.
   </p>
-{% elsif page.title == "A propos" %}
-  <h1>A propos</h1>
+{% elsif page.title == "Mentions légales" %}
+  <h1>Mentions légales</h1>
   <p class="lead">
     BIMstandards : Qui, Pourquoi et Comment.
+  </p>
+{% elsif page.title == "Contact" %}
+  <h1>Contact</h1>
+  <p class="lead">
+    Dites nous tout.
   </p>
 {% elsif page.group == "blog" %}
   <h1>Blog</h1>
