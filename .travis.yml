@@ -4,7 +4,7 @@ rvm:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --assume-extension --check-html --allow-hash-href
+  - bundle exec htmlproofer ./_site --only-4xx --assume-extension --check-html --allow-hash-href
 
 cache:
   directories:
