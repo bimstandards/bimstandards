@@ -7,6 +7,8 @@ comments: true
 icon: filter
 ordre: 2
 status: publish
+redirect_from:
+  - /standards/classifications/
 ---
 
 # Classifications
