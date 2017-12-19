@@ -8,6 +8,8 @@ icon: file-text-o
 ordre: 1
 status: publish
 permalink: /echanger-en-bim/fiches-echanges/
+redirect_from:
+  - /fiches-echanges/
 ---
 
 # Fiches d'échanges BIM point à point

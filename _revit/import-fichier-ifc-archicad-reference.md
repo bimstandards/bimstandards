@@ -3,6 +3,8 @@ layout: methode-revit
 group: bonnes-pratiques
 title: Importer un fichier IFC Archicad comme référence dans Revit
 comments: true
+redirect_from:
+  - /revit/import-fichier-ifc/
 ---
 
 > Pour un échange optimal, voir l'article correspondant au logiciel source :

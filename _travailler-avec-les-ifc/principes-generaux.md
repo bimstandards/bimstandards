@@ -7,6 +7,8 @@ comments: true
 icon: info-circle
 ordre: 2
 status: publish
+redirect_from:
+  - /bonnes-pratiques/regles-base/principes-generaux/
 ---
 
 # Principes généraux

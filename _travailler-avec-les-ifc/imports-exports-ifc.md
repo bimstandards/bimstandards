@@ -7,6 +7,8 @@ comments: true
 icon: exchange
 ordre: 5
 status: publish
+redirect_from:
+  - /bonnes-pratiques/regles-base/imports-exports-ifc/
 ---
 
 # Imports / Exports IFC

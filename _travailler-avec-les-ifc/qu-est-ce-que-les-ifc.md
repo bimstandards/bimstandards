@@ -8,6 +8,9 @@ comments: true
 icon: refresh
 ordre: 1
 status: publish
+redirect_from:
+  - /standards/ifc/
+  - /standards/openbim/
 ---
 
 # IFC (Industry Foundation Classes)

@@ -20,11 +20,9 @@ collections:
   pages: {output: true, permalink: '/:path/'}
   echanger-en-bim: {output: true, permalink: '/echanger-en-bim/:path/'}
   travailler-avec-les-ifc: {output: true, permalink: '/travailler-avec-les-ifc/:path/'}
-  standards: {output: true, permalink: '/standards/:path/'}
   autocontrole: {output: true, permalink: '/autocontrole/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
-  ressources: {output: true, permalink: '/ressources/:path/'}
   fiches: {output: true, permalink: '/echanger-en-bim/fiches-echanges/:path/'}
   
 # Assets

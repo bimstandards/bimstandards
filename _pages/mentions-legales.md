@@ -3,6 +3,8 @@ layout: default
 title: Mentions légales
 comments: false
 permalink: /mentions-legales/
+redirect_from:
+  - /apropos/
 ---
 
 # Parties prenantes
