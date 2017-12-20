@@ -20,7 +20,7 @@ Prérequis à prend en compte sans exception :
 
 **Vérifications de modèle**
 
-* **Important** - Valider au préalable les étapes de la page [Autocontrôle](/autocontrole/).
+* **Important** - Valider au préalable les étapes de la page "Autocontrôle".
 * Les utilisateurs Revit doivent vérifier que le **mapping** des éléments dans la table de correspondances est correct pour assurer la fiabilité de l'échange.
 * Les modèles envoyés doivent être exportés depuis Revit avec uniquement les niveaux architecturaux. Par exemple, les niveaux additionnels créés pour des besoins structurels doivent être désactivés en décochant la case "Etage de bâtiment" dans les coupes et élévations. (réglage disponible pour Revit 2013 et ultérieur).
 * Si une classification d'éléments à été choisie pour le projet, la méthode suivante doit être utilisée : [http://www.evolve-consultancy.com/resource/guides/ifc-classification-revit](http://www.evolve-consultancy.com/resource/guides/ifc-classification-revit).

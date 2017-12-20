@@ -12,19 +12,7 @@
       </div>
     </div>
     
-    <div class="d-print-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">http://www.bimstandards.fr</li>
-              <li class="breadcrumb-item">{{ page.group }}</li>
-              <li class="breadcrumb-item">{{ page.title }}</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% include fil-ariane.html %}
 
     <div class="bs-main">
       <div class="container">
@@ -33,11 +21,6 @@
             <div id="toc"></div>
           </div>
           <div class="col-lg-9 order-lg-1 bs-content">
-            <div class="row">
-              <div class="col-12 bs-content-header d-print-none">
-                {% include content-header.html %}
-              </div>
-            </div>
             {{ content }}
             <div class="row">
               <div class="col-12 bs-content-footer d-print-none">
