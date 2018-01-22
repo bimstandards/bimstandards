@@ -34,7 +34,7 @@ Si ce mappage est la plupart du temps préconfiguré, il est néanmoins nécessa
 ## Paramètres généraux
 
 * activer l'export des **quantités de base** (Base Quantities) (longueurs, surfaces, volumes des éléments)
-  * **Allplan** : ???
+  * **Allplan** : décocher la case conforme cv2.0
   * **Archicad** : Dans les réglages de traducteur IFC, cocher la case "Quantités de base IFC". Le détail des quantités exportées par type d'élément est expliqué [ici](http://bimblog.bondbryan.com/exporting-quantities-to-ifc-2x3-from-archicad-1819-models/).
   * **Cadworks** : Il n'est pas possible de calculer les quantités de base IFC au moment de l'export. En alternative, il est possible avec le logiciel simplebim de calculer les quantités et de les ajouter au fichier IFC.
   * **Revit** : Dans les réglages d'export IFC, cocher la case "Exporter les quantités de base".
