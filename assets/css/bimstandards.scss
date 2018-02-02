@@ -27,7 +27,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-pageheader {
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   margin-bottom: 3rem;
   background-color: $bs-primary-color;
   h1 {
@@ -35,6 +35,13 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
   .lead {
     color: $bs-primary-color-soft;
+    margin-bottom: 0;
+  }
+  .ref {
+    color: white;
+    a {
+      color: white;
+    }
   }
 }
 

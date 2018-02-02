@@ -27,7 +27,7 @@ Technologies web utilisées :
 * Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.7.0)
 * Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents), [pdf.js](https://mozilla.github.io/pdf.js/) (v1.8.188), [TableFilter](http://koalyptus.github.io/TableFilter/) (v0.6.2)
 
-# Propriété intellectuelle ?
+# Propriété intellectuelle
 
 * La documentation présente sur ce site est placée sous licence Creative Commons [Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/deed.fr). <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
