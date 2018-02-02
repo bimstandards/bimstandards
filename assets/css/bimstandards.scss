@@ -7,6 +7,9 @@ $link-color:            #de0323;
 $text-muted:            #818a91;
 $btn-primary-bg:        #de0323;
 $btn-primary-border:    #de0323;
+$breadcrumb-bg:         none !default;
+$breadcrumb-divider:    ">" !default;
+$code-color:            #01748b !default;
 
 // Bootstrap and its default variables
 @import "bootstrap";
@@ -24,7 +27,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 
 .bs-pageheader {
   padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
   margin-bottom: 3rem;
   background-color: $bs-primary-color;
   h1 {
@@ -182,9 +185,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
     height: 100%; width: 100%;
   }
   h4 {
-    a {
-      color: inherit;
-    }
+    color: $link-color;
   }
 }
 
@@ -201,9 +202,12 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   text-align: left;
 }
 
-pre {
+code, pre {
+  padding: .2rem .4rem;
+  font-size: 90%;
   color: $code-color;
-  background-color: $code-bg;
+  background-color: $gray-100;
+  border-radius: .25rem;
 }
 
 .post {
