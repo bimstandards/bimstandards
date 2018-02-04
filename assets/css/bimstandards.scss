@@ -37,11 +37,8 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
     color: $bs-primary-color-soft;
     margin-bottom: 0;
   }
-  .ref {
-    color: white;
-    a {
-      color: white;
-    }
+  .logo-bsfm {
+    border-right: 1px solid white;
   }
 }
 
