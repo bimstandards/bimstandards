@@ -13,10 +13,7 @@
     <div class="bs-main">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 order-lg-2 d-print-none">
-            <div id="toc"></div>
-          </div>
-          <div class="col-lg-9 order-lg-1 bs-content">
+          <div class="col-12 col-lg-9 bs-content">
             {{ content }}
             <div class="row">
               <div class="col-12 bs-content-footer d-print-none">
@@ -26,6 +23,11 @@
                 {% endif %}
               </div>
             </div>
+          </div>
+          <div class="d-none d-lg-block col-lg-3 d-print-none sticky-top">
+            {% include box-sommaire.html %}
+            {% include box-liens-utiles.html %}
+            {% include box-com.html %}
           </div>
         </div>
       </div>

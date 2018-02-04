@@ -24,7 +24,10 @@
 <!-- toc.js -->
 <script type="text/javascript">
   $(document).ready(function() {
-      $('#toc').toc({ headers: 'h1, h2' });
+      $('#toc').toc({
+        headers: 'h1, h2',
+        minimumHeaders: 1
+      });
   });
 </script>
 

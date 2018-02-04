@@ -34,58 +34,70 @@ permalink: /
     </div>
   </div>
   
-  <div class="row" id="echanger">
-    <div class="col-12">
-      <h2>
-        Echanger en BIM
-        <small class="text-muted"></small>
-      </h2>
-    </div>
-    {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
-    {% for page in pages_sorted %}
-      <div class="col-sm-6 col-md-4 col-xl-3">
-        <div class="card">
-          <a href="{{ page.url }}"></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
-              {{ page.title }}
-            </h4>
-            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
-            {% if page.status == 'draft' %}
-              <span class="badge badge-warning">bientôt disponible</span>
-            {% endif %}
-          </div>
+  <div class="row">
+    <div class="col-12 col-md-9">
+      <div class="row" id="echanger">
+        <div class="col-12">
+          <h2>
+            Echanger en BIM
+            <small class="text-muted"></small>
+          </h2>
         </div>
+        {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+      
+      <div class="row" id="travailler">
+        <div class="col-12">
+          <h2>
+            Travailler avec les IFC
+            <small class="text-muted"></small>
+          </h2>
+        </div>
+        {% assign pages_sorted = site.travailler-avec-les-ifc | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      {% include box-com.html %}
+    </div>
   </div>
   
-  <div class="row" id="travailler">
-    <div class="col-12">
-      <h2>
-        Travailler avec les IFC
-        <small class="text-muted"></small>
-      </h2>
-    </div>
-    {% assign pages_sorted = site.travailler-avec-les-ifc | sort: 'ordre' %}
-    {% for page in pages_sorted %}
-      <div class="col-sm-6 col-md-4 col-xl-3">
-        <div class="card">
-          <a href="{{ page.url }}"></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
-              {{ page.title }}
-            </h4>
-            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
-            {% if page.status == 'draft' %}
-              <span class="badge badge-warning">bientôt disponible</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 
 </div>
