@@ -9,5 +9,5 @@ destination_nom: Solibri
 destination_version: 9.8
 destination_editeur: Group Nemetschek
 usage_metier: Bim Management
-nom_pdf: Allplan-Solibri.pdf
+nom_pdf: allplan-solibri.pdf
 maj: Février 2018
