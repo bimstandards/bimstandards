@@ -1,3 +1,4 @@
+---
 layout: fiche
 group: fiches-echanges
 comments: true
@@ -11,3 +12,4 @@ destination_editeur: Group Nemetschek
 usage_metier: Bim Management
 nom_pdf: allplan-solibri.pdf
 maj: Février 2018
+---
