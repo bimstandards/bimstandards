@@ -58,7 +58,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
     tbody {
       font-size: 80%;
     }
-    a:not(.btn) {
+    a:not(.btn,.badge) {
       color: $gray-800;
     }
   }

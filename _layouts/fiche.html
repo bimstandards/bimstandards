@@ -23,10 +23,24 @@
             </div>
             <dl class="row">
               <dt class="col-sm-4">Source / Version</dt>
-              <dd class="col-sm-8"><strong>{{ page.source_nom }}</strong> ({{ page.source_editeur }}) / {{ page.source_version }}</dd>
+              <dd class="col-sm-8">
+                <strong>{{ page.source_nom }}</strong> ({{ page.source_editeur }}) / {{ page.source_version }} 
+                {% for cv in site.cv-openbim %}
+                  {% if cv.logiciel == page.source_nom %}
+                    <a href="{{ cv.url }}" class="badge badge-secondary">voir le CV openBIM</a>
+                  {% endif %}
+                {% endfor %}
+              </dd>
               
               <dt class="col-sm-4">Destination / Version</dt>
-              <dd class="col-sm-8"><strong>{{ page.destination_nom }}</strong> ({{ page.destination_editeur }}) / {{ page.destination_version }}</dd>
+              <dd class="col-sm-8">
+                <strong>{{ page.destination_nom }}</strong> ({{ page.destination_editeur }}) / {{ page.destination_version }} 
+                {% for cv in site.cv-openbim %}
+                  {% if cv.logiciel == page.destination_nom %}
+                    <a href="{{ cv.url }}" class="badge badge-secondary">voir le CV openBIM</a>
+                  {% endif %}
+                {% endfor %}
+              </dd>
               
               <dt class="col-sm-4">Usage-Métier</dt>
               <dd class="col-sm-8">{{ page.usage_metier }}</dd>
