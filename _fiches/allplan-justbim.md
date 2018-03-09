@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche point à point - Allplan 2018 > JustBIM
 source_nom: Allplan
 source_version: 2018
 source_editeur: Nemetschek

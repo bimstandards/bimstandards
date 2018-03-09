@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche d'échanges - Revit 2018 > JustBIM
 source_nom: Revit
 source_version: 2018
 source_editeur: Autodesk

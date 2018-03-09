@@ -18,7 +18,7 @@
             <div class="row">
               <div class="col-12">
                 <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/fiches-echanges" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
-                <h1>{{ page.titre }}</h1>
+                <h1>Echanger depuis <u>{{ page.source_nom }}</u> vers <u>{{ page.destination_nom }}</u></h1>
               </div>
             </div>
             <dl class="row">
@@ -27,7 +27,7 @@
                 <strong>{{ page.source_nom }}</strong> ({{ page.source_editeur }}) / {{ page.source_version }} 
                 {% for cv in site.cv-openbim %}
                   {% if cv.logiciel == page.source_nom %}
-                    <a href="{{ cv.url }}" class="badge badge-secondary">voir le CV openBIM</a>
+                    <a href="{{ cv.url }}" class="badge badge-secondary">CV openBIM</a>
                   {% endif %}
                 {% endfor %}
               </dd>
@@ -37,7 +37,7 @@
                 <strong>{{ page.destination_nom }}</strong> ({{ page.destination_editeur }}) / {{ page.destination_version }} 
                 {% for cv in site.cv-openbim %}
                   {% if cv.logiciel == page.destination_nom %}
-                    <a href="{{ cv.url }}" class="badge badge-secondary">voir le CV openBIM</a>
+                    <a href="{{ cv.url }}" class="badge badge-secondary">CV openBIM</a>
                   {% endif %}
                 {% endfor %}
               </dd>

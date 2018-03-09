@@ -180,7 +180,7 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
   }
 }
 
-.card {
+.card:not(.cv-openbim) {
   //background-color: #f7f7f7;
   margin-bottom: $card-spacer-y;
   a {

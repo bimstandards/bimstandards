@@ -2,7 +2,6 @@
 layout: fiche 
 group: fiches-echanges 
 comments: true 
-titre: Fiche d’échanges - Tekla Structures > Trimble Connect 
 source_nom: Tekla Structures 
 source_version: 2017i 
 source_editeur: Trimble 

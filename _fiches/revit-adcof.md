@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche d'échanges - Revit > ADCOF
 source_nom: Revit
 source_version: 2016 ou supérieure
 source_editeur: Autodesk

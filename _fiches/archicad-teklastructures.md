@@ -2,7 +2,6 @@
 layout: fiche 
 group: fiches-echanges 
 comments: true 
-titre: Fiche d’échanges - Archicad > Tekla Structures 
 source_nom: Archicad 
 source_version: 21 
 source_editeur: Graphisoft 
