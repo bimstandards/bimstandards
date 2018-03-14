@@ -6,39 +6,27 @@ comments: false
 permalink: /echanger-en-bim/fiches-echanges/nouvelle/
 ---
 
-## Ajouter une nouvelle fiche (réservé aux éditeurs)
+# Ajouter une nouvelle fiche d'échanges ou un CV openBIM
 
-### Etape 1 : Prérequis
+Vous êtes éditeur de logiciel et souhaitez faciliter les échanges BIM de vos utilisateurs ? Vous pouvez-vous publier sur BIMstandards une fiche d'échange normalisée décrivant la méthode de transfert des données d'un logiciel A vers un logiciel B.
 
-[Créer un compte Github (gratuit).](https://github.com/join)
+Afin de promouvoir la dimension openBIM de votre logiciel, vous pouvez également publier un "CV openBIM".
 
-### Etape 2 : Ajouter les métadonnées de la fiche
-
-* Copier le modèle ci-dessous :
-
-```
----  // RETIRER COMMENTAIRES DERRIERE CARACTERES « // » Y COMPRIS CE COMMENTAIRE
-layout: fiche // NE PAS MODIFIER
-group: fiches-echanges // NE PAS MODIFIER
-comments: true // NE PAS MODIFIER
-source_nom: Logiciel A // REMPLACER
-source_version: version // REMPLACER
-source_editeur: Editeur A // REMPLACER
-destination_nom: Logiciel B // REMPLACER
-destination_version: version // REMPLACER
-destination_editeur: Editeur B // REMPLACER
-usage_metier: usage // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL B « Métré », « Structure », « Fluides ». MAXI 3 MOTS.
-nom_pdf: logicielA-logicielB.pdf // REMPLACER « logicielA » et « LogicielB », tout en minuscule
-maj: janvier 2018 // DATE DE MISE A JOUR
----
-```
-
-* [Créer une nouvelle fiche](https://github.com/bimstandards/bimstandards/new/gh-pages/_fiches), coller le texte et compléter les métadonnées suivant commentaires  après caractères « // ». 
-
-* En haut de la page, nommer le fichier de la façon suivante : `logicielA-logicielB.md`, par exemple `allplan-sciaengineer.md` (tout en minuscule).
-
-* Puis cliquer en bas de page sur « Commit new file ».
-
-### Etape 3 : Ajouter la fiche au format .pdf
-
-Dans le répertoire `_fiches`, [ajouter le fichier pdf](https://github.com/bimstandards/bimstandards/upload/gh-pages/_fiches) nommé de la façon suivante (comme pour les métadonnées) : `logicielA-logicielB.pdf`, par exemple `allplan-sciaengineer.pdf` (tout en minuscule).
+<div class="row">
+  <div class="col-6">
+    <ul class="list-group">
+      <li class="list-group-item"><h2>Ajouter une fiche d'échanges</h2></li>
+      <li class="list-group-item"><b>Etape 1 : </b>Télécharger et compléter le <a href="#">Modèle Word <i class="fa fa-file-word-o" aria-hidden="true"></i></a>, puis l'exporter au format PDF.</li>
+      <li class="list-group-item"><b>Etape 2 : </b>Télécharger et compléter le <a href="#">fichier métadonnées (.md) <i class="fa fa-file-text-o" aria-hidden="true"></i></a> (ouvrir ce fichier avec "Bloc-notes sous Windows ou TextEdit sous Mac").</li>
+      <li class="list-group-item"><b>Etape 3 : </b>Envoyer les deux fichiers (.pdf + .md) à l'adresse bimstandards@mediaconstruct.fr</li>
+    </ul>
+  </div>
+  <div class="col-6">
+    <ul class="list-group">
+      <li class="list-group-item"><h2>Ajouter une fiche d'échanges</h2></li>
+      <li class="list-group-item"><b>Etape 1 : </b>Télécharger et compléter le <a href="#">Modèle Word <i class="fa fa-file-word-o" aria-hidden="true"></i></a>, puis l'exporter au format PDF.</li>
+      <li class="list-group-item"><b>Etape 2 : </b>Télécharger et compléter le <a href="#">fichier métadonnées (.md) <i class="fa fa-file-text-o" aria-hidden="true"></i></a> (ouvrir ce fichier avec "Bloc-notes sous Windows ou TextEdit sous Mac").</li>
+      <li class="list-group-item"><b>Etape 3 : </b>Envoyer les deux fichiers (.pdf + .md) à l'adresse bimstandards@mediaconstruct.fr</li>
+    </ul>
+  </div>
+</div>
