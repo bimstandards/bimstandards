@@ -23,7 +23,7 @@ Afin de promouvoir la dimension openBIM de votre logiciel, vous pouvez égalemen
   </div>
   <div class="col-6">
     <ul class="list-group">
-      <li class="list-group-item"><h2>Ajouter une fiche d'échanges</h2></li>
+      <li class="list-group-item"><h2>Ajouter un CV openBIM</h2></li>
       <li class="list-group-item"><b>Etape 1 : </b>Télécharger et compléter le <a href="#">Modèle Word <i class="fa fa-file-word-o" aria-hidden="true"></i></a>, puis l'exporter au format PDF.</li>
       <li class="list-group-item"><b>Etape 2 : </b>Télécharger et compléter le <a href="#">fichier métadonnées (.md) <i class="fa fa-file-text-o" aria-hidden="true"></i></a> (ouvrir ce fichier avec "Bloc-notes sous Windows ou TextEdit sous Mac").</li>
       <li class="list-group-item"><b>Etape 3 : </b>Envoyer les deux fichiers (.pdf + .md) à l'adresse bimstandards@mediaconstruct.fr</li>
