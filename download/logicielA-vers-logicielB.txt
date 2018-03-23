@@ -1,0 +1,14 @@
+---  // RETIRER COMMENTAIRES DERRIERE CARACTERES « // » Y COMPRIS CE COMMENTAIRE
+layout: fiche // NE PAS MODIFIER
+group: fiches-echanges // NE PAS MODIFIER
+comments: true // NE PAS MODIFIER
+source_nom: <logicielA> // Remplacer nom du <logicielA>
+source_version: <version_logicielA> // Remplacer <version_logicielA>
+source_editeur: <editeur_logicielA> // Remplacer <editeur_logicielA>
+destination_nom: <logicielB> // Remplacer nom du <logicielB>
+destination_version: <version_logicielB> // Remplacer <version_logicielB>
+destination_editeur: <editeur_logicielB> // Remplacer <editeur_logicielB>
+usage_metier: // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL « Economie », « Structure », « Fluides ».
+nom_pdf: <logicielA>-<logicielB>.pdf // REMPLACER <logicielA> et <logicielB>
+maj: jj/mm/aaaa // DATE DE MISE A JOUR au format jour/mois/année
+---

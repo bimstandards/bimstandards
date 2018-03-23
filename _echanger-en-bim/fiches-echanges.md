@@ -12,7 +12,9 @@ redirect_from:
   - /fiches-echanges/
 ---
 
-# Fiches d'échanges BIM point à point
+# Fiches méthodologiques d'échanges BIM entre logiciels
+
+Les fiches proposées ci-dessous sont des fiches présentant la méthodologie pressentie pour assurer un échange de maquette numérique d'un logiciel vers un autre, du point de vue des utilisateurs, ainsi que les fonctionnalités de ces logiciels. 
 
 <div class="row">
   <div class="col-12">

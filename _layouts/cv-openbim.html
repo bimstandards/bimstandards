@@ -18,15 +18,24 @@
             <div class="row">
               <div class="col-12">
                 <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/fiches-echanges" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
-                <h1><span class="badge badge-secondary">CV</span> {{ page.logiciel }}</h1>
+                <h1>Fiche de fonctionnalités <u>{{ page.logiciel }}</u></h1>
               </div>
             </div>
             <dl class="row">
+              <dt class="col-sm-4">Version</dt>
+              <dd class="col-sm-8">{{ page.version }}</dd>
+              
+              <dt class="col-sm-4">Editeur</dt>
+              <dd class="col-sm-8">{{ page.editeur }}</dd>
+              
+              <dt class="col-sm-4">Usage-Métier</dt>
+              <dd class="col-sm-8">{{ page.usage_metier }}</dd>
+              
               <dt class="col-sm-4">Mise à jour</dt>
               <dd class="col-sm-8"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.maj }}</dd>
               
               <dt class="col-sm-4">Téléchargement</dt>
-              <dd class="col-sm-8"><a class="btn btn-primary" href="../{{ page.nom_pdf }}" download="Fiche {{ page.source_nom }} - {{ page.destination_nom }}.pdf" role="button">Télécharger le CV openBIM</a></dd>
+              <dd class="col-sm-8"><a class="btn btn-primary" href="../{{ page.nom_pdf }}" download="Fiche de fonctionnalités {{ page.logiciel }}.pdf" role="button">Télécharger le CV openBIM</a></dd>
             </dl>
             <div class="row">
               <div class="col-12">
