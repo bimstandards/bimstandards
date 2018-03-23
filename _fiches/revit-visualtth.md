@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche d’échanges - Revit > Visual TTH
 source_nom: Revit
 source_version: 2018.2
 source_editeur: Autodesk

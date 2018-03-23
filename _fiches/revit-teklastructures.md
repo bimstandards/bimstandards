@@ -2,7 +2,6 @@
 layout: fiche 
 group: fiches-echanges 
 comments: true 
-titre: Fiche d’échanges - Revit > Tekla Structures 
 source_nom: Revit 
 source_version: 2017 
 source_editeur: Autodesk 

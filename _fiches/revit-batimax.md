@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche d’échanges - Revit > Batimax+
 source_nom: Revit
 source_version: 2016
 source_editeur: Autodesk

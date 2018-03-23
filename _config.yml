@@ -24,6 +24,7 @@ collections:
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
   fiches: {output: true, permalink: '/echanger-en-bim/fiches-echanges/:path/'}
+  cv-openbim: {output: true, permalink: '/echanger-en-bim/cv-openbim/:path/'}
   
 # Assets
 sass:
