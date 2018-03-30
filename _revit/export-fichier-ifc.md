@@ -67,3 +67,4 @@ Il est recommandé d'effectuer un contrôle systématique des fichiers IFC à r�
 * **[Guidance notes for Autodesk Revit users exchanging models with Graphisoft ARCHICAD](http://bimblog.bondbryan.com/guidance-notes-for-autodesk-revit-users-exchanging-models-with-graphisoft-archicad/)** [Article en ligne]. BIM Blog, Bond Bryan Digital.
 * **[Protocol IFC export met Revit](http://openbimmers.nl/protocol-ifc-export-met-revit/)** [Article en ligne]. Open Bimmers.
 * **[A tool to build Revit's IFC mapping tables - feedback and revision](http://ikleerbim.blogspot.fr/2017/02/a-tool-to-build-revits-ifc-mapping.html?m=1)** [Article en ligne]. Ik Leer BIM.
+* **[IFC from Revit - Part 1](https://www.bim42.com/2018/03/ifc-for-revit-1/)** [Article en ligne]. BIM 42.
