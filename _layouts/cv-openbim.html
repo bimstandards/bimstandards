@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include nav-home.html %}
+
+    {% include page-header.html %}
+    
+    {% include fil-ariane.html %}
+
+    <div class="bs-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1 bs-content">
+            
+            <div class="row">
+              <div class="col-12">
+                <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/fiches-echanges" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
+                <h1>Fiche de fonctionnalités <u>{{ page.logiciel }}</u></h1>
+              </div>
+            </div>
+            <dl class="row">
+              <dt class="col-sm-4">Version</dt>
+              <dd class="col-sm-8">{{ page.version }}</dd>
+              
+              <dt class="col-sm-4">Editeur</dt>
+              <dd class="col-sm-8">{{ page.editeur }}</dd>
+              
+              <dt class="col-sm-4">Usage-Métier</dt>
+              <dd class="col-sm-8">{{ page.usage_metier }}</dd>
+              
+              <dt class="col-sm-4">Mise à jour</dt>
+              <dd class="col-sm-8"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.maj }}</dd>
+              
+              <dt class="col-sm-4">Téléchargement</dt>
+              <dd class="col-sm-8"><a class="btn btn-primary" href="../{{ page.nom_pdf }}" download="Fiche de fonctionnalités {{ page.logiciel }}.pdf" role="button">Télécharger le CV openBIM</a></dd>
+            </dl>
+            <div class="row">
+              <div class="col-12">
+                <div class="card cv-openbim mb-3">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Voir les fiches d'échanges liées au logiciel {{ page.logiciel }}
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body p-0">
+                      <table class="table table-responsive-lg">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Source</th>
+                            <th>(version)</th>
+                            <th></th>
+                            <th>Destination</th>
+                            <th>(version)</th>
+                            <th>Usage-Métier</th>
+                            <th>Mise à jour</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for fiche in site.fiches %}
+                            {% if fiche.source_nom == page.logiciel or fiche.destination_nom == page.logiciel %}
+                              <tr>
+                                <td><a class="btn btn-primary btn-sm" href="{{ fiche.url }}" role="button"><i class="fa fa-file-text-o" aria-hidden="true"></i> voir la fiche</a></td>              
+                                <td><strong>{{ fiche.source_nom }}</strong></td>
+                                <td>{{ fiche.source_version }}</td>
+                                <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
+                                <td><strong>{{ fiche.destination_nom }}</strong></td>
+                                <td>{{ fiche.destination_version }}</td>
+                                <td>{{ fiche.usage_metier }}</td>
+                                <td><i class="fa fa-clock-o" aria-hidden="true"></i> {{ fiche.maj }}</td>
+                              </tr>
+                            {% endif %}
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-12">
+                <div class="embed-responsive embed-responsive-21by30">
+                  <iframe class="embed-responsive-item" src="{{ site.url }}/assets/js/pdfjs/web/viewer.html?file=../../../../echanger-en-bim/cv-openbim/{{ page.nom_pdf }}" id="fraViewDocumentsPDFViewer" runat="server"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 bs-content-footer d-print-none">
+                {% include content-footer.html %}
+                {% if page.comments %}
+                {% include disqus.html %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

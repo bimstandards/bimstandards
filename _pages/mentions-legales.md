@@ -3,13 +3,15 @@ layout: default
 title: Mentions légales
 comments: false
 permalink: /mentions-legales/
+redirect_from:
+  - /apropos/
 ---
 
 # Parties prenantes
 
-* **Directeur de publication** : Pierre MIT, président de buildingSMART France-Mediaconstruct
+* **Directeur de publication** : Pierre MIT, président de [buildingSMART France-Mediaconstruct](http://www.mediaconstruct.fr/)
 
-* **Coordinateur-Modérateur-Auteur original** : Alexandre Grignon, architecte et BIM manager à forma6, diplômé de la première promotion du Mastère Spécialisé BIM codirigé par l’Ecole des Ponts et l’ESTP et membre de buildingSMART France-Mediaconstruct.
+* **Coordinateur-Modérateur-Auteur original** : Alexandre Grignon, architecte et BIM manager à [forma6](http://forma6.net/), diplômé de la première promotion du Mastère Spécialisé BIM codirigé par l’Ecole des Ponts et l’ESTP et membre de buildingSMART France-Mediaconstruct.
 
 # Conception et Technologies
 
@@ -17,15 +19,15 @@ Alexandre Grignon conjointement avec buildingSMART France-Mediaconstruct.
 
 Technologies web utilisées :
 
-* Hébergement : [GitHub Pages](https://pages.github.com) (v166)
+* Hébergement : [GitHub Pages](https://pages.github.com)
 * Plateforme collaborative : [GitHub](https://github.com)
 * Générateur de site : [Jekyll](http://jekyllrb.com) (v3.6.2)
 * Validation de code : [html-proofer](https://github.com/gjtorikian/html-proofer) (v3.7.4)
-* Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0-beta.2)
+* Framework d'interface : [Bootstrap](http://getbootstrap.com) (v4.0.0)
 * Icônes : [Font Awesome](https://fortawesome.github.io/Font-Awesome/) (v4.7.0)
 * Javascript : [AnchorJS](https://github.com/bryanbraun/anchorjs) (v3.1.0), [List.js](http://www.listjs.com) (v1.2.0), [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents), [pdf.js](https://mozilla.github.io/pdf.js/) (v1.8.188), [TableFilter](http://koalyptus.github.io/TableFilter/) (v0.6.2)
 
-# Propriété intellectuelle ?
+# Propriété intellectuelle
 
 * La documentation présente sur ce site est placée sous licence Creative Commons [Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/deed.fr). <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 

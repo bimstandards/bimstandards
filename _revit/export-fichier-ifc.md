@@ -20,7 +20,7 @@ comments: true
 * **Important** - Valider au préalable les étapes de la page "Autocontrôle" (à venir).
 * Vérifier que le **mapping** des éléments dans le [fichier de correspondances](https://knowledge.autodesk.com/fr/support/revit-products/learn-explore/caas/CloudHelp/cloudhelp/2018/FRA/Revit-DocumentPresent/files/GUID-B85CE60D-2868-427E-A37C-37C4F09D6016-htm.html) est correct pour assurer la fiabilité de l'échange. Pour une aide sur les différentes classes d'objets IFC disponibles, rendez-vous sur [cette page]({{ site.url }}/travailler-avec-les-ifc/objets-ifc/).
 * L'export doit comporter **uniquement les niveaux architecturaux**. Par exemple, les niveaux additionnels créés pour des besoins structurels doivent être désactivés en décochant la case "Etage de bâtiment" dans les coupes et élévations. (réglage disponible pour Revit 2013 et ultérieur).
-* Si un **système de classification** a été choisi pour le projet, utiliser [cette méthode](http://www.evolve-consultancy.com/resource/guides/ifc-classification-revit).
+* Si un **système de classification** a été choisi pour le projet, utiliser [cette méthode](http://evolve-consultancy.com/product/ifc-classification-revit/).
 
 ## Méthode
 

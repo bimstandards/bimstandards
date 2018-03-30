@@ -9,6 +9,8 @@ comments: true
 icon: cube
 ordre: 4
 status: publish
+redirect_from:
+  - /standards/objets-ifc/
 ---
 
 # Objets IFC

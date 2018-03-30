@@ -116,7 +116,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: IfcBuildingElementProxyType
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Cheminée
   archicad: Objet
   revit: 
   domaine_architecture: true
@@ -418,7 +418,7 @@
   domaine_fluides: 
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Corbeau
   nom_en_gb: Corbels (as separate elements)
   ifcproduct_ifc2x3tc1: IfcDiscreteAccessory
   ifcproduct_ifc4add2: 
@@ -488,7 +488,7 @@
   domaine_fluides: 
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Boulon d'ancrage
   nom_en_gb: Anchor Bolt
   ifcproduct_ifc2x3tc1: IfcDiscreteAccessory
   ifcproduct_ifc4add2: 
@@ -1202,7 +1202,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chaudière
   nom_en_gb: Boiler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcBoiler
@@ -1230,7 +1230,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Convecteur
   nom_en_gb: Convector
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -1384,7 +1384,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Radiateur
   nom_en_gb: Radiator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -3350,7 +3350,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: n/a
   ifctypeproduct_ifc4add2: 
-  allplan: 
+  allplan: Semelle filante / isolée / Radier général
   archicad: 
   revit: Fondation Isolée / Fondation Filante / Fondation Radier
   domaine_architecture: true
@@ -3392,7 +3392,7 @@
   ifcproduct_ifc4add2: 
   ifctypeproduct_ifc2x3tc1: 
   ifctypeproduct_ifc4add2: 
-  allplan: Radier général
+  allplan: 
   archicad: 
   revit: 
   domaine_architecture: true

@@ -8,8 +8,8 @@ permalink: /
 <div class="bs-pageheader d-print-none">
   <div class="container">
     <div class="row">
-      <div class="col-6 col-md-3">
-        <img src="{{ site.url }}/assets/img/logo_buildingsmart-france.jpg" alt="" class="img-fluid">
+      <div class="col-12 col-md-auto logo-bsfm d-flex align-items-center">
+        <img src="{{ site.url }}/assets/img/logo_buildingsmart-france_blanc.png" alt="logo buildingSMART France-Mediaconstruct">
       </div>
       <div class="col-12 col-md-9">
         <h1>{{ site.title }}</h1>
@@ -24,68 +24,72 @@ permalink: /
 <div class="container container-index">
 
   <div class="row">
-    <div class="col-12">
-      <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> BIMstandards évolue pour 2018 !</h4>
-        <p>A partir du 18 décembre 2017, BIMstandards intègre le dispositif digital de buildingSMART France-Mediaconstruct.</p>
-        <hr>
-        <p class="mb-0">Retrouvez plus d'informations sur <a href="http://www.mediaconstruct.fr/travaux/echanges-entre-logiciels">cette page</a>.</p>
+    <div class="col-12 col-md-12">
+      <div class="row" id="echanger">
+        <div class="col-12">
+          <h2>
+            Echanger en BIM
+            <small class="text-muted"></small>
+          </h2>
+        </div>
+        {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
+      <div class="row" id="travailler">
+        <div class="col-12">
+          <h2>
+            Travailler avec les IFC
+            <small class="text-muted"></small>
+          </h2>
+        </div>
+        {% assign pages_sorted = site.travailler-avec-les-ifc | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
+    <!-- 
+    <div class="col-12 col-md-3">
+      {% include box-com.html %}
+      {% include box-sponsoring-vertical.html %}
+    </div>
+     -->
   </div>
   
-  <div class="row" id="echanger">
-    <div class="col-12">
-      <h2>
-        Echanger en BIM
-        <small class="text-muted"></small>
-      </h2>
-    </div>
-    {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
-    {% for page in pages_sorted %}
-      <div class="col-sm-6 col-md-4 col-xl-3">
-        <div class="card">
-          <a href="{{ page.url }}"></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
-              {{ page.title }}
-            </h4>
-            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
-            {% if page.status == 'draft' %}
-              <span class="badge badge-warning">bientôt disponible</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  
-  <div class="row" id="travailler">
-    <div class="col-12">
-      <h2>
-        Travailler avec les IFC
-        <small class="text-muted"></small>
-      </h2>
-    </div>
-    {% assign pages_sorted = site.travailler-avec-les-ifc | sort: 'ordre' %}
-    {% for page in pages_sorted %}
-      <div class="col-sm-6 col-md-4 col-xl-3">
-        <div class="card">
-          <a href="{{ page.url }}"></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <small class="text-muted"><i class="fa fa-{{ page.icon }}"></i></small>
-              {{ page.title }}
-            </h4>
-            <h6 class="card-subtitle text-muted">{{ page.description }}</h6>
-            {% if page.status == 'draft' %}
-              <span class="badge badge-warning">bientôt disponible</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 
 </div>

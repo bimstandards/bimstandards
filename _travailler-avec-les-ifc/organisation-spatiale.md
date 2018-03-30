@@ -7,6 +7,8 @@ comments: true
 icon: cubes
 ordre: 3
 status: publish
+redirect_from:
+  - /bonnes-pratiques/regles-base/organisation-spatiale/
 ---
 
 # Organisation spatiale

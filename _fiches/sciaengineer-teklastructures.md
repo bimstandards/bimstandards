@@ -2,7 +2,6 @@
 layout: fiche 
 group: fiches-echanges 
 comments: true 
-titre: Fiche d’échanges - SCIA Engineer > Tekla Structures 
 source_nom: SCIA Engineer 
 source_version: 17.01.2031 
 source_editeur: SCIA nv 

@@ -2,7 +2,6 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-titre: Fiche d’échanges - Allplan > SCIA Engineer
 source_nom: Allplan
 source_version: 2018
 source_editeur: Allplan GmbH
