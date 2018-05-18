@@ -6,6 +6,6 @@ logiciel: JustBIM
 version: 1.1
 editeur: SOC Informatique
 usage_metier: Economie
-nom_pdf: justbim.pdf
+nom_pdf: fiche-justbim.pdf
 maj: 16/03/2018
 ---
