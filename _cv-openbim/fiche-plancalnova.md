@@ -1,8 +1,8 @@
---- //
+---
 layout: cv-openbim
 group: cv-openbim
 comments: true
-logiciel: Plancal_nova
+logiciel: Plancal nova
 version: 12.1
 editeur: Trimble
 usage_metier: Fluides
