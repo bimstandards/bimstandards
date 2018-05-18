@@ -9,6 +9,6 @@ destination_nom: Tekla Structures
 destination_version: 2017i 
 destination_editeur: Trimble 
 usage_metier: Structure 
-nom_pdf: trimbleconnect-teklastructures.pdf 
+nom_pdf: trimbleconnect-vers-teklastructures.pdf 
 maj: Novembre 2017 
 ---

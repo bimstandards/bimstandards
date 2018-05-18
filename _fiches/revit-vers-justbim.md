@@ -9,6 +9,6 @@ destination_nom: JustBIM
 destination_version: 1.1
 destination_editeur: SOC Informatique
 usage_metier: Economie
-nom_pdf: revit-justbim.pdf
+nom_pdf: revit-vers-justbim.pdf
 maj: 24/01/2018
 ---

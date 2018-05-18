@@ -9,6 +9,6 @@ destination_nom: SCIA Engineer
 destination_version: 17.01.2031
 destination_editeur: SCIA nv
 usage_metier: Structure
-nom_pdf: revit-sciaengineer.pdf
+nom_pdf: revit-vers-sciaengineer.pdf
 maj: novembre 2017
 ---

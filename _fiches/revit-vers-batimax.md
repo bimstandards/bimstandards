@@ -9,6 +9,6 @@ destination_nom: Batimax+
 destination_version: 13.5
 destination_editeur: ARCHIC
 usage_metier: Métré
-nom_pdf: revit-batimax.pdf
+nom_pdf: revit-vers-batimax.pdf
 maj: novembre 2017
 ---

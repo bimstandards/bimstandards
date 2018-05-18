@@ -10,6 +10,6 @@ destination_nom: Pleiades
 destination_version: 4.17 et +
 destination_editeur: Izuba énergies
 usage_metier: Thermique
-nom_pdf: revit-pleiades.pdf
+nom_pdf: revit-vers-pleiades.pdf
 maj: février 2018
 ---

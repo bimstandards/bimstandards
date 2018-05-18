@@ -9,6 +9,6 @@ destination_nom: Trimble Connect
 destination_version: 2.63 
 destination_editeur: Trimble 
 usage_metier: Travail collaboratif
-nom_pdf: teklastructures-trimbleconnect.pdf 
+nom_pdf: teklastructures-vers-trimbleconnect.pdf 
 maj: Novembre 2017 
 ---
