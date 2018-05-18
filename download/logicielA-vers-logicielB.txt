@@ -1,4 +1,4 @@
----  // RETIRER COMMENTAIRES DERRIERE CARACTERES « // » Y COMPRIS CE COMMENTAIRE
+---  // RETIRER COMMENTAIRES DERRIERE CARACTERES "//" Y COMPRIS CE COMMENTAIRE
 layout: fiche // NE PAS MODIFIER
 group: fiches-echanges // NE PAS MODIFIER
 comments: true // NE PAS MODIFIER
@@ -8,7 +8,26 @@ source_editeur: <editeur_logicielA> // Remplacer <editeur_logicielA>
 destination_nom: <logicielB> // Remplacer nom du <logicielB>
 destination_version: <version_logicielB> // Remplacer <version_logicielB>
 destination_editeur: <editeur_logicielB> // Remplacer <editeur_logicielB>
-usage_metier: // INDIQUER DISCIPLINES DE DESTINATION DU LOGICIEL « Economie », « Structure », « Fluides ».
-nom_pdf: <logicielA>-<logicielB>.pdf // REMPLACER <logicielA> et <logicielB>
+usage_metier: // INDIQUER DISCIPLINE DE DESTINATION DU LOGICIEL DANS LE CHOIX DE LA LISTE DISCIPLINES CI DESSOUS
+nom_pdf: <logicielA>-vers-<logicielB>.pdf // REMPLACER <logicielA> et <logicielB>
 maj: jj/mm/aaaa // DATE DE MISE A JOUR au format jour/mois/année
 ---
+
+
+
+
+// LISTE DISCIPLINES (TOUT A SUPPRIMER EN VERSION FINALE)
+
+Acoustique
+Architecture
+BIM Management
+Collaboration
+Economie
+Energétique
+Exploitation
+Incendie
+Fluides
+Structure
+Urbanisme
+
+(AUTRES CHOIX NOUS CONSULTER bimstandards@mediaconstruct.fr) // 

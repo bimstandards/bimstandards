@@ -9,6 +9,6 @@ destination_nom: Active3D
 destination_version: 6.4
 destination_editeur: Sopra Steria - Agence Active3D
 usage_metier: Exploitation
-nom_pdf: revit-active3D.pdf
+nom_pdf: revit-vers-active3D.pdf
 maj: octobre 2017
 ---
