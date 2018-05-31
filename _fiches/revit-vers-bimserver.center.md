@@ -1,4 +1,4 @@
-﻿---
+---
 layout: fiche
 group: fiches-echanges
 comments: true
