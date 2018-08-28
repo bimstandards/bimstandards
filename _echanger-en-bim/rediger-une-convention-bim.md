@@ -5,7 +5,7 @@ title: Rédiger une convention BIM
 description: Guide méthodologique d'établissement de la convention entre acteurs d'un projet.
 comments: false
 icon: pencil-square-o
-ordre: 3
+ordre: 4
 status: publish
 ---
 
@@ -22,5 +22,3 @@ Encore faut-il écrire cette convention ! buildingSMART France-Mediaconstruct a
 Même si certains points restent à développer dans ce guide – et ce document a vocation à être évolutif -  l’intérêt du travail collectif déjà réalisé par buildingSMART France-Mediaconstruct va permettre de faciliter l’engagement d’opérations de construction en BIM.
 
 D’ailleurs une prochaine version – agrégée de retours d’acteurs différents et du travail qui s’est poursuivi au sein du groupe « Convention BIM » de l’association mené par J-P.Trehen - devrait être accessible deuxième semestre 2018.
-
-

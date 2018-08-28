@@ -5,7 +5,7 @@ title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
 icon: filter
-ordre: 2
+ordre: 3
 status: publish
 redirect_from:
   - /standards/classifications/
