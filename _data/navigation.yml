@@ -23,13 +23,13 @@
       url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
       external: true
     - title: IFC
-      url: /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
+      url: /standards/qu-est-ce-que-les-ifc/
       external: false
     - title: Normes Datas
-      url: 
+      url: /standards/normes-datas/
       external: false
     - title: Normes Process
-      url: 
+      url: /standards/normes-process/
       external: false
 - title: Travailler avec les IFC
   url: #
