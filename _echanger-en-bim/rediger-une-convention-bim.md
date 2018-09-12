@@ -5,7 +5,7 @@ title: Rédiger une convention BIM
 description: Guide méthodologique d'établissement de la convention entre acteurs d'un projet.
 comments: false
 icon: pencil-square-o
-ordre: 3
+ordre: 4
 status: publish
 ---
 

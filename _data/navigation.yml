@@ -52,6 +52,9 @@
     - title: Fiches d'échanges
       url: /echanger-en-bim/fiches-echanges/
       external: false
+    - title: Fiches CV openBIM
+      url: /echanger-en-bim/cv-openbim/
+      external: false
     - title: Systèmes de classification
       url: /echanger-en-bim/classifications/
       external: false

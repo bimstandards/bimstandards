@@ -70,13 +70,10 @@
 
 <!-- tablefilter.js -->
 <script>
-var tfConfig = {
+var configfiches = {
         col_widths: null,
-        
         clear_filter_text: 'Tout',
-        
         no_results_message: { content: 'Aucun résultat' },
-  
         col_0: 'none',
         col_1: 'none',
         col_2: 'select',
@@ -87,17 +84,14 @@ var tfConfig = {
         col_7: 'none',
         col_8: 'select',
         col_9: 'none',
-
         // filters and headers position
                 filters_row_index: 1,
-        
         // allows Bootstrap table styling
         themes: [{
             name: 'transparent'
         }]
     };
-
-var tf = new TableFilter(document.querySelector('#tablefilter'), tfConfig);
+var tf = new TableFilter(document.querySelector('#tablefiches'), configfiches);
 tf.init();
 </script>
 

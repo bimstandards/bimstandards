@@ -25,7 +25,7 @@ Les fiches proposées ci-dessous sont des fiches présentant la méthodologie pr
 <div class="row">
   <div class="col-12">
     <div class="table-responsive">
-      <table id="tablefilter" class="table table-sm">
+      <table id="tablefiches" class="table table-sm">
         <thead class="thead-light">
           <tr>
             <th></th>
@@ -72,4 +72,4 @@ Les fiches proposées ci-dessous sont des fiches présentant la méthodologie pr
       </table>
     </div>
   </div>
-</div>  
+</div>

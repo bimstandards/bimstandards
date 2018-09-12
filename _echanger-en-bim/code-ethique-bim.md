@@ -5,7 +5,7 @@ title: Code d'éthique BIM
 description: Principes déontologiques et bonnes pratiques
 comments: false
 icon: balance-scale
-ordre: 4
+ordre: 5
 status: publish
 ---
 
@@ -24,5 +24,3 @@ Ce n’est ni obligation, ni une norme, mais procède d’une démarche déclara
 C’est une première marche en attendant un consensus rassemblant l’ensemble des acteurs de la Construction pour formaliser les possibles systèmes de certification associés au BIM.
 
 A la suite lors des journées EDUBIM 2016, un groupe de travail porté par buildingSMART France-Mediaconstruct et animé par E. Natchitz (EIVP) a vu le jour pour monter un "Code éthique BIM" à partir de l’expérience de la charte 3DOK développée dans les SIG comme le rappelle H. Halbout l’un des fondateurs.
-
-
