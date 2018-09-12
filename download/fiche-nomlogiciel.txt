@@ -6,7 +6,7 @@ logiciel: <logiciel> // Remplacer
 version: <version_logiciel>  // Remplacer
 editeur: <editeur_logiciel>  // Remplacer
 usage_metier: // INDIQUER DISCIPLINE DE DESTINATION DU LOGICIEL DANS LE CHOIX DE LA LISTE DISCIPLINES CI DESSOUS
-nom_pdf: logiciel.pdf // REMPLACER « logiciel »
+nom_pdf: fiche-nomlogiciel.pdf // REMPLACER « nomlogiciel »
 maj: jj/mm/aaaa // DATE DE MISE A JOUR au format jour/mois/année
 ---
 

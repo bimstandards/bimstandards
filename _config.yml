@@ -3,7 +3,7 @@ title:            BIMstandards
 description:      Plateforme collaborative sur les standards d'échanges et l'interopérabilité BIM
 keywords:         standards, BIM, openBIM, interopérabilité, BuildingSMART, France, Mediaconstruct, IFC, IDM, MVD, COBie, BCF, bSDD, gbXML, BIMétré
 author:           Alexandre Grignon
-url:              "http://bimstandards.fr"
+url:              "https://bimstandards.fr"
 repository:       bimstandards/bimstandards
 
 # Versions
