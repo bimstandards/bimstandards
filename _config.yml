@@ -18,8 +18,9 @@ exclude:          [vendor]
 # Collections
 collections:
   pages: {output: true, permalink: '/:path/'}
-  echanger-en-bim: {output: true, permalink: '/echanger-en-bim/:path/'}
+  standards: {output: true, permalink: '/standards/:path/'}
   travailler-avec-les-ifc: {output: true, permalink: '/travailler-avec-les-ifc/:path/'}
+  echanger-en-bim: {output: true, permalink: '/echanger-en-bim/:path/'}
   autocontrole: {output: true, permalink: '/autocontrole/:path/'}
   archicad: {output: true, permalink: '/archicad/:path/'}
   revit: {output: true, permalink: '/revit/:path/'}
