@@ -5,7 +5,7 @@ title: Classifications
 description: Systèmes de classification des objets (ouvrages)
 comments: true
 icon: filter
-ordre: 2
+ordre: 3
 status: publish
 redirect_from:
   - /standards/classifications/
@@ -14,8 +14,8 @@ redirect_from:
 # Classifications
 
 <div class="alert alert-warning" role="alert">
-  <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau dans cette catégorie</h4>
-  <p>Le groupe de travail "Systèmes de classification" de Mediaconstruct prépare actuellement la publication d'un état des lieux détaillé sur les classifications. Dans ce cadre, cette section sera bientôt mise à jour pour devenir plus complète.</p>
+  <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau</h4>
+  <p>Le groupe de travail <a href="http://www.mediaconstruct.fr/nos-actions/groupes-de-travail/articleid/1061/titre/systemes-de-classification">« Systèmes de classification »</a> a soumis à la relecture des membres de bSFrance son rapport dont la publication est prévue pour novembre 2018. A suivre !</p>
 </div>
 
 ## Introduction

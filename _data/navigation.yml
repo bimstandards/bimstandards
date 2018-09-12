@@ -1,11 +1,14 @@
-- title: Mediaconstruct
+- title: bSFrance
   url: #
   sublinks:
     - title: Nos objectifs
       url: http://www.mediaconstruct.fr/lassociation/strategie
       external: true
     - title: Pré-normalisation
-      url: http://www.mediaconstruct.fr/travaux/pre-normalisation-bim
+      url: http://www.mediaconstruct.fr/nos-actions/pre-normalisation-bim
+      external: true
+    - title: Groupes de travail BIM
+      url: http://www.mediaconstruct.fr/nos-actions/groupes-de-travail
       external: true
     - title: Adhérez
       url: http://www.mediaconstruct.fr/adherer/avantages
@@ -13,27 +16,24 @@
     - title: Blog du BIM
       url: http://www.blog-du-bim.fr
       external: true
-- title: Echanger en BIM
+- title: Standards du BIM
   url: #
   sublinks:
-    - title: Fiches d'échanges
-      url: /echanger-en-bim/fiches-echanges/
+    - title: Décryptage
+      url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
+      external: true
+    - title: IFC
+      url: /standards/qu-est-ce-que-les-ifc/
       external: false
-    - title: Systèmes de classification
-      url: /echanger-en-bim/classifications/
+    - title: Normes Datas
+      url: /standards/normes-datas/
       external: false
-    - title: Rédiger une convention BIM
-      url: /echanger-en-bim/rediger-une-convention-bim/
-      external: false
-    - title: Code d'éthique BIM
-      url: /echanger-en-bim/code-ethique-bim/
+    - title: Normes Process
+      url: /standards/normes-process/
       external: false
 - title: Travailler avec les IFC
   url: #
   sublinks:
-    - title: Qu'est-ce que les IFC ?
-      url: /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
-      external: false
     - title: Principes généraux
       url: /travailler-avec-les-ifc/principes-generaux/
       external: false
@@ -46,15 +46,24 @@
     - title: Imports / Exports IFC
       url: /travailler-avec-les-ifc/imports-exports-ifc/
       external: false
-- title: Standards du BIM
+- title: Echanger en BIM
   url: #
   sublinks:
-    - title: Décryptage
-      url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
-      external: true
-    - title: Normes à suivre
-      url: http://www.mediaconstruct.fr/sinformer/blog-du-bim/term/15/bim-et-normalisation
-      external: true
+    - title: Fiches d'échanges
+      url: /echanger-en-bim/fiches-echanges/
+      external: false
+    - title: Fiches CV openBIM
+      url: /echanger-en-bim/cv-openbim/
+      external: false
+    - title: Systèmes de classification
+      url: /echanger-en-bim/classifications/
+      external: false
+    - title: Rédiger une convention BIM
+      url: /echanger-en-bim/rediger-une-convention-bim/
+      external: false
+    - title: Code d'éthique BIM
+      url: /echanger-en-bim/code-ethique-bim/
+      external: false
 - title: Contact
   url: /contact/
   external: false
