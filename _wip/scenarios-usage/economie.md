@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Economie (5D)
 description: Structuration et quantification des ouvrages, scénarios d'échanges avec l'économiste.

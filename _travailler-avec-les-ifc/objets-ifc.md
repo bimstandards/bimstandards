@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-topbar
 group: travailler-avec-les-ifc
 lang: français
 ref: objets-ifc

@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: autocontrole
 title: Classement au feu
 description: ...

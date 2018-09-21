@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include nav-home.html %}
+
+    {% include page-header.html %}
+    
+    {% include box-sponsoring-horizontal.html %}
+    
+    {% include fil-ariane.html %}
+
+    <div class="bs-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 bs-content">
+            {{ content }}
+            <div class="row">
+              <div class="col-12 bs-content-footer d-print-none">
+                {% include content-footer.html %}
+                {% if page.comments %}
+                {% include disqus.html %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

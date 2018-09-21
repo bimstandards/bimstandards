@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: standards
 lang: français
 title: Qu'est-ce que les IFC ?
