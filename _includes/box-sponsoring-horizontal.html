@@ -1,25 +1,17 @@
 <div class="container">
   <div class="row">
     <div class="col-12 mb-2 bg-light rounded">
-      <div class="row pt-3">
+      <div id="sponsoring" class="row pt-3">
         <div class="col-12 col-sm-3">
-          <p><small class="text-muted">Ils soutiennent bSFrance :</small></p>
+          <p><a href="{{ site.baseurl }}/sponsoring"><small class="text-muted">Ils soutiennent bSFrance :</small></a></p>
         </div>
-        <div class="col-4 col-sm-3">
+        {% for sponsor in site.data.sponsoring %}
+        <div id="sponsor" class="col-4 col-sm-3">
           <p>
-            <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Responsive image"></a>
+            <a href="{{ sponsor.href }}"><img src="{{ sponsor.src }}" class="img-fluid" alt="{{ sponsor.alt }}"></a>
           </p>
         </div>
-        <div class="col-4 col-sm-3">
-          <p>
-            <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Responsive image"></a>
-          </p>
-        </div>
-        <div class="col-4 col-sm-3">
-          <p>
-            <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Responsive image"></a>
-          </p>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
