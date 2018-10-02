@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Analyse du cycle de vie (ACV)
 description: Evaluation des impacts environnementaux en fonction des matériaux et usages.

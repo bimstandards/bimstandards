@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Demande de Permis de Construire
 description: Utilisation du modèle numérique pour faciliter le processus d'instruction du PC.

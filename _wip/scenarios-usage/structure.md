@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Structure
 description: Logiques de modélisation pour la conception structurelle, scénarios d'échanges entre architecte et ingénieur.

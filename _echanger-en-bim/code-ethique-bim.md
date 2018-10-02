@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: echanger-en-bim
 title: Code d'éthique BIM
 description: Principes déontologiques et bonnes pratiques

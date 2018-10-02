@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: travailler-avec-les-ifc
 title: Imports / Exports IFC
 description: Règles de base pour garantir la qualité des imports / export IFC.

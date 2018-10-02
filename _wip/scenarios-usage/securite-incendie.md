@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Securité incendie
 description: Prévention, respect de la réglementation, conception et maintenance des système de sécurité.

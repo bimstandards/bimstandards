@@ -1,8 +1,16 @@
 <div class="row">
   <div class="col-12 pt-3 mb-3 bg-light rounded">
-    <p><small class="text-muted">Sponsoring</small></p>
-    <p>
-      <a href=""><img src="{{ site.url }}/assets/img/banniere-sponsoring.jpg" class="img-fluid" alt="Responsive image"></a>
-    </p>
+    <div id="sponsoring" class="row">
+      <div class="col-12 col-sm-3 col-lg-12">
+        <p><a href="{{ site.baseurl }}/sponsoring"><small class="text-muted">Ils soutiennent BIMstandards :</small></a></p>
+      </div>
+      {% for sponsor in site.data.sponsoring %}
+      <div id="sponsor" class="col-4 col-sm-3 col-lg-12">
+        <p>
+          <a href="{{ sponsor.href }}" title="{{ sponsor.alt }}"><img src="{{ site.url }}/assets/img/sponsoring/{{ sponsor.src }}" class="img-fluid" alt="{{ sponsor.alt }}"></a>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

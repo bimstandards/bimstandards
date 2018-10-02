@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-topbar
 group: fiches-echanges
 title: Fiches d'échanges
 description: Méthodes d'échanges point à point entre logiciels BIM

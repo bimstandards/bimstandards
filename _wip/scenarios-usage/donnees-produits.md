@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Intégration des données produits
 description: Normalisation des propriétés produits.

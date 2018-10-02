@@ -10,6 +10,8 @@ $btn-primary-border:    #de0323;
 $breadcrumb-bg:         none !default;
 $breadcrumb-divider:    ">" !default;
 $code-color:            #e83e8c !default;
+$light:                 #e9ecef !default;
+
 
 // Bootstrap and its default variables
 @import "bootstrap";
@@ -26,16 +28,32 @@ $bs-primary-color-soft: adjust-color($bs-primary-color, $lightness: +45%);
 }
 
 .bs-pageheader {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
   background-color: $bs-primary-color;
   h1 {
+    font-size: 1.5rem;
     color: white;
   }
   .lead {
+    display: none;
+    font-size: 0.75rem;
     color: $bs-primary-color-soft;
     margin-bottom: 0;
+  }
+  @include media-breakpoint-up(md) {
+    h1 {
+      font-size: 2rem;
+    }
+    .lead {
+      font-size: 1rem;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .lead {
+      display: block;
+    }
   }
   .logo-bsfm {
     border-right: 1px solid white;
