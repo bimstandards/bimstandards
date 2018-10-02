@@ -5,10 +5,6 @@ comments: false
 permalink: /sponsoring/
 ---
 
-*Sponsoring*
+**Sponsoring**
 
-A fournir :
-
-* image de format 600x400 pixels
-* Lien associé
-* Texte à afficher au survol de la souris
+Pour faire apparaître votre bannière sur le site BIMstandards, contactez-nous à bimstandards(@)mediaconstruct.fr
