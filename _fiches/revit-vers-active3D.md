@@ -4,7 +4,7 @@ group: fiches-echanges
 comments: true
 source_nom: Revit
 source_version: 2018
-source_editeur: AutoDesk
+source_editeur: Autodesk
 destination_nom: Active3D
 destination_version: 6.9
 destination_editeur: Sopra Steria
