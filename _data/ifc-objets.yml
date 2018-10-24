@@ -10,6 +10,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
+  ifc_domaine: IfcStructuralElementsDomain
   requis_cobie: false
 
 - nom_fr_fr: Solive
@@ -24,6 +25,7 @@
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
+  ifc_domaine: IfcStructuralElementsDomain
   requis_cobie: false
 
 - nom_fr_fr: Linteau
@@ -180,7 +182,7 @@
   domaine_fluides: 
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Isolation de conduit
   nom_en_gb: Duct Insulation
   ifcproduct_ifc2x3tc1: IfcCovering
   ifcproduct_ifc4add2: 
@@ -194,7 +196,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Doublure de conduit
   nom_en_gb: Duct Lining
   ifcproduct_ifc2x3tc1: IfcCovering
   ifcproduct_ifc4add2: 
@@ -558,7 +560,7 @@
   domaine_fluides: 
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Elément de chambre de distribution
   nom_en_gb: Distribution Chamber Element
   ifcproduct_ifc2x3tc1: IfcDistributionChamberElement
   ifcproduct_ifc4add2: 
@@ -684,7 +686,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Actionneur
   nom_en_gb: Actuator
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcActuator
@@ -698,7 +700,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Ampéremètre
   nom_en_gb: Ammeter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -712,7 +714,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Cloche (sonnerie)
   nom_en_gb: Bell
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcAlarm
@@ -726,7 +728,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Contrôleur, régulateur
   nom_en_gb: Controller
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcController
@@ -740,7 +742,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Elément de contrôle de distribution
   nom_en_gb: Distribution Control Element
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: 
@@ -754,7 +756,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Dispositif d'alarme incendie
   nom_en_gb: Fire Alarm Device
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -768,7 +770,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur incendie
   nom_en_gb: Fire Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -782,7 +784,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Contrôleur de débit
   nom_en_gb: Flow Instrument
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -796,7 +798,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Capteur de débit
   nom_en_gb: Flow Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -810,7 +812,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Fréquence mètre
   nom_en_gb: Frequency Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -824,7 +826,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de chaleur
   nom_en_gb: Heat Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -838,7 +840,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur d'humidité
   nom_en_gb: Humidity Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -852,7 +854,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Multimètre
   nom_en_gb: Phase Angle Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -866,7 +868,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Pressiomètre
   nom_en_gb: Pressure Gauge
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -880,7 +882,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Capteur de pression
   nom_en_gb: Pressure Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -908,7 +910,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Capteur de température
   nom_en_gb: Temperature Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -922,7 +924,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Thermomètre
   nom_en_gb: Thermometer
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -936,7 +938,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Voltmètre
   nom_en_gb: Voltmeter (Peak)
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -950,7 +952,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Voltmètre
   nom_en_gb: Voltmeter (RMS)
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -964,7 +966,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Sifflet
   nom_en_gb: Whistle
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcAlarm
@@ -1006,7 +1008,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de CO2
   nom_en_gb: CO2 Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1020,7 +1022,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de gaz
   nom_en_gb: Gas Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1034,7 +1036,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de lumière
   nom_en_gb: Light Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1048,7 +1050,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur d'humidité
   nom_en_gb: Moisture Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1062,7 +1064,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de mouvement
   nom_en_gb: Movement Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1076,7 +1078,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Mesure du facteur de puissance
   nom_en_gb: Power Factor Meter
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcFlowInstrument
@@ -1090,7 +1092,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Capteur
   nom_en_gb: Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1104,7 +1106,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de fumée
   nom_en_gb: Smoke Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1118,7 +1120,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Détecteur de son
   nom_en_gb: Sound Sensor
   ifcproduct_ifc2x3tc1: IfcDistributionControlElement
   ifcproduct_ifc4add2: IfcSensor
@@ -1132,7 +1134,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Elément de distribution
   nom_en_gb: Distribution Element
   ifcproduct_ifc2x3tc1: IfcDistributionElement
   ifcproduct_ifc4add2: 
@@ -1146,7 +1148,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Elément de distribution fluides
   nom_en_gb: Distribution Flow Element
   ifcproduct_ifc2x3tc1: IfcDistributionElement
   ifcproduct_ifc4add2: 
@@ -1174,7 +1176,7 @@
   domaine_fluides: 
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: CTA
   nom_en_gb: Air Handler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcUnitaryEquipment
@@ -1188,7 +1190,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Récupérateur de chaleur air-air
   nom_en_gb: Air To Air Heat Recovery
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcAirToAirHeatRecovery
@@ -1216,7 +1218,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Condenseur
   nom_en_gb: Condenser
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcCondenser
@@ -1244,7 +1246,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Poutre/Plafond rafraîchissant
   nom_en_gb: Cooled Beam
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcCooledBeam
@@ -1258,7 +1260,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Tour de refroidissement
   nom_en_gb: Cooling Tower
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcCoolingTower
@@ -1272,7 +1274,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Générateur électrique
   nom_en_gb: Electric Generator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcElectricGenerator
@@ -1286,7 +1288,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Moteur électrique
   nom_en_gb: Electric Motor
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcElectricMotor
@@ -1300,7 +1302,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Dispositif de conversion d'énergie
   nom_en_gb: Energy Conversion Device
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: 
@@ -1314,7 +1316,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Climatiseur
   nom_en_gb: Evaporative Cooler
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcEvaporativeCooler
@@ -1328,7 +1330,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Evaporateur
   nom_en_gb: Evaporator
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcEvaporator
@@ -1342,7 +1344,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Echangeur de chaleur
   nom_en_gb: Heat Exchanger
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcHeatExchanger
@@ -1356,7 +1358,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Humidificateur
   nom_en_gb: Humidifier
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcHumidifier
@@ -1370,7 +1372,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Connexion de moteur
   nom_en_gb: Motor Connection
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcMotorConnection
@@ -1398,7 +1400,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Unité de toit
   nom_en_gb: Roof Top Unit
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcUnitaryEquipment
@@ -1412,7 +1414,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffage portable
   nom_en_gb: Space Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -1426,7 +1428,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Transformateur
   nom_en_gb: Transformer
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcTransformer
@@ -1440,7 +1442,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Faisceau de tube
   nom_en_gb: Tube Bundle
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcTubeBundle
@@ -1454,7 +1456,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Equipement unitaire
   nom_en_gb: Unitary Equipment
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcUnitaryEquipment
@@ -1468,7 +1470,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Unité d'air conditionné
   nom_en_gb: Air Conditioning Unit
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcUnitaryEquipment
@@ -1482,7 +1484,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffage en pied de mur
   nom_en_gb: Baseboard Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -1496,7 +1498,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Refroidisseur
   nom_en_gb: Chiller
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcChiller
@@ -1510,7 +1512,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Bobine
   nom_en_gb: Coil
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcCoil
@@ -1524,7 +1526,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Plinthe chauffante
   nom_en_gb: Skirting Board Heater
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -1538,7 +1540,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Système d'air
   nom_en_gb: Split System
   ifcproduct_ifc2x3tc1: IfcEnergyConversionDevice
   ifcproduct_ifc4add2: IfcUnitaryEquipment
@@ -1608,7 +1610,7 @@
   domaine_fluides: 
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil de soufflage
   nom_en_gb: Air Terminal Box
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcAirTerminalBox
@@ -1622,7 +1624,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Disjoncteur
   nom_en_gb: Circuit Breaker
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1636,7 +1638,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Amortisseur
   nom_en_gb: Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcDamper
@@ -1650,7 +1652,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Compteur électrique
   nom_en_gb: Electric Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1664,7 +1666,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Compteur énergétique
   nom_en_gb: Energy Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1678,7 +1680,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Disjoncteur de fuite à la terre
   nom_en_gb: Earth Failure Device
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1692,7 +1694,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Programmateur ménager
   nom_en_gb: Electric Time Control
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcElectricTimeControl
@@ -1706,7 +1708,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Clapet coupe-feu
   nom_en_gb: Fire Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcDamper
@@ -1720,7 +1722,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Amortisseur de fumée
   nom_en_gb: Fire and Smoke Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcDamper
@@ -1734,7 +1736,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Contrôleur de débit
   nom_en_gb: Flow Controller
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: 
@@ -1748,7 +1750,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Manomètre
   nom_en_gb: Flow Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1762,7 +1764,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Manomètre
   nom_en_gb: Flow Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1776,7 +1778,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Hotte
   nom_en_gb: Fume Hood Exhaust
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcDamper
@@ -1790,7 +1792,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Compteur d'huile / pétrole
   nom_en_gb: Oil Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1804,7 +1806,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Disjoncteur
   nom_en_gb: Protective Device
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1818,7 +1820,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Relais / Contacteur
   nom_en_gb: Relay
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcElectricTimeControl
@@ -1832,7 +1834,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Disjoncteur différentiel
   nom_en_gb: Residual Current Circuit Breaker
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1846,7 +1848,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Disjoncteur différentiel
   nom_en_gb: Residual Current Switch
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1860,7 +1862,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Amortisseur de fumée
   nom_en_gb: Smoke Damper
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcDamper
@@ -1874,7 +1876,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil de commutation
   nom_en_gb: Switching Device
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcSwitchingDevice
@@ -1888,7 +1890,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Temporisation
   nom_en_gb: Time Delay
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcElectricTimeControl
@@ -1902,7 +1904,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Horloge
   nom_en_gb: Time Clock
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcElectricTimeControl
@@ -1916,7 +1918,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Soupape
   nom_en_gb: Valve
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcValve
@@ -1930,7 +1932,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Thermistance
   nom_en_gb: Varistor
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcProtectiveDevice
@@ -1944,7 +1946,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Compteur d'eau
   nom_en_gb: Water Meter
   ifcproduct_ifc2x3tc1: IfcFlowController
   ifcproduct_ifc4add2: IfcFlowMeter
@@ -1972,7 +1974,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Support de câble
   nom_en_gb: Cable Carrier Fitting
   ifcproduct_ifc2x3tc1: IfcFlowFitting
   ifcproduct_ifc4add2: IfcCableCarrierFitting
@@ -2000,7 +2002,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Raccord de débit
   nom_en_gb: Flow Fitting
   ifcproduct_ifc2x3tc1: IfcFlowFitting
   ifcproduct_ifc4add2: 
@@ -2014,7 +2016,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Boîte de jonction
   nom_en_gb: Junction Box
   ifcproduct_ifc2x3tc1: IfcFlowFitting
   ifcproduct_ifc4add2: IfcJunctionBox
@@ -2042,7 +2044,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Ventilateur
   nom_en_gb: Fan
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
   ifcproduct_ifc4add2: IfcFan
@@ -2056,7 +2058,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Commutateur de flux
   nom_en_gb: Flow Moving Device
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
   ifcproduct_ifc4add2: 
@@ -2070,7 +2072,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Pompe
   nom_en_gb: Pump
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
   ifcproduct_ifc4add2: IfcPump
@@ -2084,7 +2086,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Compresseur
   nom_en_gb: Compressor
   ifcproduct_ifc2x3tc1: IfcFlowMovingDevice
   ifcproduct_ifc4add2: IfcCompressor
@@ -2098,7 +2100,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chemin de câble
   nom_en_gb: Cable Carrier Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableCarrierSegment
@@ -2112,7 +2114,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Canal de conduit
   nom_en_gb: Conduit Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableSegment
@@ -2140,7 +2142,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Tronçon de fluide
   nom_en_gb: Flow Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: 
@@ -2154,7 +2156,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Gouttière
   nom_en_gb: Gutter
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcPipeSegment
@@ -2182,7 +2184,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Bobine
   nom_en_gb: Spool
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcPipeSegment
@@ -2196,7 +2198,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Segment d'échelle de câble
   nom_en_gb: Cable Ladder Segment Type
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableSegment
@@ -2210,7 +2212,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Segment de câble
   nom_en_gb: Cable Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableSegment
@@ -2224,7 +2226,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Segment de chemin de câble
   nom_en_gb: Cable Tray Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableSegment
@@ -2238,7 +2240,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Goulotte de chemin de câble
   nom_en_gb: Cable Trunking Segment
   ifcproduct_ifc2x3tc1: IfcFlowSegment
   ifcproduct_ifc4add2: IfcCableSegment
@@ -2280,7 +2282,7 @@
   domaine_fluides: true
   requis_cobie: false
 
-- nom_fr_fr: 
+- nom_fr_fr: Batterie
   nom_en_gb: Battery
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
   ifcproduct_ifc4add2: IfcElectricFlowStorageDevice
@@ -2294,7 +2296,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Stockage de flux électrique
   nom_en_gb: Electric Flow Storage Device
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
   ifcproduct_ifc4add2: IfcElectricFlowStorageDevice
@@ -2308,7 +2310,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Stockage de flux
   nom_en_gb: Flow Storage Device
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
   ifcproduct_ifc4add2: 
@@ -2322,7 +2324,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Réservoir
   nom_en_gb: Tank
   ifcproduct_ifc2x3tc1: IfcFlowStorageDevice
   ifcproduct_ifc4add2: IfcTank
@@ -2336,7 +2338,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Dispositif terminaux d'air
   nom_en_gb: Air Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcAirTerminal
@@ -2350,7 +2352,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Prise réception audio
   nom_en_gb: Audio Visual Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcOutlet
@@ -2364,7 +2366,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Colonne sèche
   nom_en_gb: Breeching Inlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcFireSuppressionTerminal
@@ -2378,7 +2380,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Prise de communication
   nom_en_gb: Communications Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcOutlet
@@ -2392,7 +2394,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Capuchon
   nom_en_gb: Cowl
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcStackTerminal
@@ -2406,7 +2408,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffe-eau
   nom_en_gb: Direct Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2420,7 +2422,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Lave-vaisselle
   nom_en_gb: Dishwasher
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2434,7 +2436,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil électrique
   nom_en_gb: Electric Appliance
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: 
@@ -2448,7 +2450,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Appareil de cuisson électrique
   nom_en_gb: Electric Cooker
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2462,7 +2464,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffage électrique portable
   nom_en_gb: Electric Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcSpaceHeater
@@ -2476,7 +2478,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffage électrique portable
   nom_en_gb: Electric Heater (Appliance)
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2490,7 +2492,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Fax
   nom_en_gb: Facsimile
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2504,7 +2506,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Borne incendie
   nom_en_gb: Fire Hydrant
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcFireSuppressionTerminal
@@ -2518,7 +2520,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal d'extinction de feu
   nom_en_gb: Fire Suppression Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcFireSuppressionTerminal
@@ -2532,7 +2534,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal de fluide
   nom_en_gb: Flow Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcFlowTerminal
@@ -2546,7 +2548,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Trappe
   nom_en_gb: Floor Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -2560,7 +2562,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal de récupération d'eau au sol
   nom_en_gb: Floor Waste
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -2574,7 +2576,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Congélateur
   nom_en_gb: Freezer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2588,7 +2590,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Enrouleur de tuyau
   nom_en_gb: Hose Reel
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcFireSuppressionTerminal
@@ -2630,7 +2632,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Prise
   nom_en_gb: Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcOutlet
@@ -2644,7 +2646,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Prise électrique
   nom_en_gb: Power Outlet
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcOutlet
@@ -2658,7 +2660,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Descente d'eau pluviale
   nom_en_gb: Rainwater Downpipe
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcStackTerminal
@@ -2672,7 +2674,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Récupérateur d'eau
   nom_en_gb: Rainwater Hopper
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcStackTerminal
@@ -2728,7 +2730,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal aérien sur toit
   nom_en_gb: Stack Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcStackTerminal
@@ -2770,7 +2772,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Sèche linge
   nom_en_gb: Tumble Dryer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2784,7 +2786,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: TV
   nom_en_gb: TV
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2812,7 +2814,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Distributeur
   nom_en_gb: Vending Machine
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2840,7 +2842,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Machine à laver
   nom_en_gb: Washing Machine
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2854,7 +2856,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Unité de récupération des déchets
   nom_en_gb: Waste Disposal Unit
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -2868,7 +2870,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal à déchets
   nom_en_gb: Waste Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -2882,7 +2884,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal récupération évier
   nom_en_gb: Waste Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -2896,7 +2898,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Refroidisseur d'eau
   nom_en_gb: Water Cooler
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2910,7 +2912,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffeur d'eau
   nom_en_gb: Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2966,7 +2968,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Ordinateur
   nom_en_gb: Computer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2980,7 +2982,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Ventilateur
   nom_en_gb: Freestanding Fan
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -2994,7 +2996,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Réfrigérateur
   nom_en_gb: Fridge Freezer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3008,7 +3010,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Plaque chauffante gaz
   nom_en_gb: Gas Appliance
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: ???
@@ -3022,7 +3024,7 @@
   domaine_fluides: true
   requis_cobie: ???
 
-- nom_fr_fr: 
+- nom_fr_fr: Surpresseur gaz
   nom_en_gb: Gas Booster
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: ???
@@ -3036,7 +3038,7 @@
   domaine_fluides: true
   requis_cobie: ???
 
-- nom_fr_fr: 
+- nom_fr_fr: Brûleur de gaz
   nom_en_gb: Gas Burner
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcBurner
@@ -3050,7 +3052,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Terminal de gaz
   nom_en_gb: Gas Terminal
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: ???
@@ -3064,7 +3066,7 @@
   domaine_fluides: true
   requis_cobie: ???
 
-- nom_fr_fr: 
+- nom_fr_fr: Capteur de graisse
   nom_en_gb: Grease Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3078,7 +3080,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Goulot
   nom_en_gb: Gully Sump
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3092,7 +3094,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Piège à ravine
   nom_en_gb: Gully Trap
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3106,7 +3108,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Sèche mains
   nom_en_gb: Hand Dryer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3120,7 +3122,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Cumulus
   nom_en_gb: Indirect Water Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3134,7 +3136,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Micro ondes
   nom_en_gb: Microwave
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3148,7 +3150,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Récupérateur d'huile
   nom_en_gb: Oil Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3162,7 +3164,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Récupérateur de pétrole
   nom_en_gb: Petrol Interceptor
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3176,7 +3178,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Photocopieur
   nom_en_gb: Photocopier
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3190,7 +3192,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Imprimante
   nom_en_gb: Printer
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3204,7 +3206,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Chauffage radiant
   nom_en_gb: Radiant Heater
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3218,7 +3220,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Réfrigérateur
   nom_en_gb: Refrigerator
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3232,7 +3234,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Drain de toit
   nom_en_gb: Roof Drain
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcWasteTerminal
@@ -3246,7 +3248,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Fontaine sanitaire
   nom_en_gb: Sanitary Fountain
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcSanitaryTerminal
@@ -3260,7 +3262,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Scanner
   nom_en_gb: Scanner
   ifcproduct_ifc2x3tc1: IfcFlowTerminal
   ifcproduct_ifc4add2: IfcElectricAppliance
@@ -3288,7 +3290,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Réducteur de bruit
   nom_en_gb: Duct Silencer
   ifcproduct_ifc2x3tc1: IfcFlowTreatmentDevice
   ifcproduct_ifc4add2: IfcDuctSilencer
@@ -3302,7 +3304,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Filtre
   nom_en_gb: Filter
   ifcproduct_ifc2x3tc1: IfcFlowTreatmentDevice
   ifcproduct_ifc4add2: IfcFilter
@@ -3316,7 +3318,7 @@
   domaine_fluides: true
   requis_cobie: true
 
-- nom_fr_fr: 
+- nom_fr_fr: Traitement d'eau
   nom_en_gb: Flow Treatment Device
   ifcproduct_ifc2x3tc1: IfcFlowTreatmentDevice
   ifcproduct_ifc4add2: 
