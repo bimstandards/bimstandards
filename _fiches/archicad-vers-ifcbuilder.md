@@ -2,7 +2,7 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-source_nom: ArchiCAD
+source_nom: Archicad
 source_version: 21
 source_editeur: Graphisoft
 destination_nom: IFC Builder
