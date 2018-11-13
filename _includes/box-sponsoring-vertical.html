@@ -7,7 +7,7 @@
       {% for sponsor in site.data.sponsoring %}
       <div id="sponsor" class="col-4 col-sm-3 col-lg-12">
         <p>
-          <a href="{{ sponsor.href }}" title="{{ sponsor.alt }}"><img src="{{ site.url }}/assets/img/sponsoring/{{ sponsor.src }}" class="img-fluid" alt="{{ sponsor.alt }}"></a>
+          <a href="{{ sponsor.href }}" onclick="trackOutboundLink('{{ sponsor.href }}'); return false;" title="{{ sponsor.alt }}"><img src="{{ site.url }}/assets/img/sponsoring/{{ sponsor.src }}" class="img-fluid" alt="{{ sponsor.alt }}"></a>
         </p>
       </div>
       {% endfor %}
