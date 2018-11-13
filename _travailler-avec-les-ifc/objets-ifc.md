@@ -27,7 +27,7 @@ Les `PredefinedType` peuvent être attribués au niveau `IfcProduct` ou `IfcType
 
 Cette page est donc destinée à faire connaître la richesse de cette classification IFC, en traduisant tout d'abord les classes et leurs types en français, ainsi qu'en donnant les outils les plus appropriés à utiliser dans les principaux logiciels BIM de modélisation architecturale (Allplan, ARCHICAD et Revit).
 
-## Listes par spécialités
+## Listes par domaines de spécialisation
 
 Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_data/ifc-objets.yml) pour contribuer à la liste.
 
@@ -41,15 +41,20 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
   <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#domaine_fluides" role="tab" aria-controls="domaine_fluides" rel="nofollow">Fluides (IFC2x3-TC1)</a>
   </li>
+  {% include objets-ifc-domaine-tab.html domaine="IfcStructuralElementsDomain" %}
 </ul>
 
 <div class="tab-content">
   <div class="tab-pane active" id="domaine_architectural" role="tabpanel">
     <div id="table-domaine-architectural">
       <table class="table table-responsive table-sm table-hover">
-        <div class="form-group">
+        <div class="form-group mt-3">
           <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
             <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
@@ -206,10 +211,12 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
       </table>
     </div>
   </div>
+  {% include objets-ifc-domaine-table.html domaine="IfcStructuralElementsDomain" %}
 </div>
 
 ## Sources
 
 * **IFC2x Edition 3 - Technical Corrigendum 1** [Documentation en ligne]. buildingSMART IAI. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
+* **IFC4 - Addendum 2** [Documentation en ligne]. buildingSMART IAI. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/](http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/)
 * **IFC 2×3 element and type classification – The plain language A-Z list** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)
 * **COBie Responsibility Matrix** [XLS]. Bill East, NIBS. Disponible sur : [http://projects.buildingsmartalliance.org/files/?artifact_id=4093](http://projects.buildingsmartalliance.org/files/?artifact_id=4093)

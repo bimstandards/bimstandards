@@ -1,0 +1,58 @@
+<div class="tab-pane" id="domaine_{{ include.domaine }}" role="tabpanel">
+  <div id="table-domaine-{{ include.domaine }}">
+    <table class="table table-responsive table-sm table-hover">
+      <div class="form-group mt-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+          <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+        </div>
+      </div>
+      <thead>
+        <tr>
+          <th>Terme français</th>
+          <th>Terme anglais</th>
+          <th>IfcProduct + PredefinedType</th>
+          <th>IfcTypeProduct + PredefinedType</th>
+          <th>Outil Allplan</th>
+          <th>Outil ARCHICAD</th>
+          <th>Outil Revit</th>
+        </tr>
+      </thead>
+      <tbody class="list">
+        {% for object in site.data.ifc-objets %}
+          {% if object.ifc_domaine == include.domaine %}
+          <tr>
+            <td class="fr_fr"><b>{{ object.nom_fr_fr }}</b></td>
+            <td class="en_gb">
+              {% if object.nom_en_gb != null %}
+                <a href="https://www.google.fr/search?q={{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+                <a href="https://translate.google.com/#en/fr/{{ object.nom_en_gb | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-globe"></i></a>
+              {% endif %}
+              {{ object.nom_en_gb }}
+            </td>
+            <td class="ifcproduct">
+              {% if object.ifcproduct_ifc2x3tc1 != null %}
+                <a href="https://www.google.fr/search?q={{ object.ifcproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              {% endif %}
+              {{ object.ifcproduct_ifc2x3tc1 }}
+            </td>
+            <td class="ifctypeproduct">
+              {% if object.ifctypeproduct_ifc2x3tc1 != null %}
+                <a href="https://www.google.fr/search?q={{ object.ifctypeproduct_ifc2x3tc1 | downcase }}" target="_blank" data-proofer-ignore><i class="fa fa-search"></i></a>
+              {% endif %}
+              {{ object.ifctypeproduct_ifc2x3tc1 }}
+            </td>
+            <td class="outil_allplan">{{ object.allplan }}</td>
+            <td class="outil_archicad">{{ object.archicad }}</td>
+            <td class="outil_revit">{{ object.revit }}</td>
+          </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
