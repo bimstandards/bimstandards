@@ -1,0 +1,25 @@
+<div class="row d-none d-lg-block">
+  <div class="col-12 pt-3 pb-2 mb-3 bg-light rounded">
+    <p><small class="text-muted">Fiches d'échanges point à point :</small></p>
+    <p><small>Découvrez les dernières fiches méthodologiques ajoutées ou mises à jour sur BIMstandards :</small></p>
+    <p>
+      <small>
+        <ul class="list-unstyled">
+        {% assign fiches_sorted = site.fiches | sort: 'date_maj' | reverse %}
+        {% for fiche in fiches_sorted limit:10 %}
+        <li>
+          <a href="{{ fiche.url }}">
+            - {{ fiche.source_nom }} <i class="fa fa-arrow-right" aria-hidden="true"></i> {{ fiche.destination_nom }}
+          </a>
+        </li>
+        {% endfor %}
+        <li>
+          <a href="/echanger-en-bim/fiches-echanges/">
+            - voir plus...
+          </a>
+        </li>
+        </ul>
+      </small>
+    </p>
+  </div>
+</div>

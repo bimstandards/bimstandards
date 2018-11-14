@@ -46,7 +46,7 @@
               <dd class="col-sm-8">{{ page.usage_metier }}</dd>
               
               <dt class="col-sm-4">Mise à jour</dt>
-              <dd class="col-sm-8"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.maj }}</dd>
+              <dd class="col-sm-8"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.date_maj | date: "%d/%m/%Y" }}</dd>
               
               <dt class="col-sm-4">Téléchargement</dt>
               <dd class="col-sm-8"><a class="btn btn-primary" href="../{{ page.nom_pdf }}" download="Fiche d'échange {{ page.source_nom }} vers {{ page.destination_nom }}.pdf" role="button">Télécharger la fiche</a></dd>
@@ -71,6 +71,7 @@
           </div>
           <div class="d-none d-lg-block col-lg-3 d-print-none">
             {% include box-sponsoring-vertical.html %}
+            {% include box-dernieres-fiches.html %}
             <!-- 
             {% include box-liens-utiles.html %}
             {% include box-com.html %}
