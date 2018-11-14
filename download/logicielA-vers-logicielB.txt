@@ -10,7 +10,8 @@ destination_version: <version_logicielB> // Remplacer <version_logicielB>
 destination_editeur: <editeur_logicielB> // Remplacer <editeur_logicielB>
 usage_metier: // INDIQUER DISCIPLINE DE DESTINATION DU LOGICIEL DANS LE CHOIX DE LA LISTE DISCIPLINES CI DESSOUS
 nom_pdf: <logicielA>-vers-<logicielB>.pdf // REMPLACER <logicielA> et <logicielB>
-maj: jj/mm/aaaa // DATE DE MISE A JOUR au format jour/mois/année
+date_creation: 2018-03-16 // DATE DE CREATION de la fiche au format année-mois-jour
+date_maj: 2018-03-16 // DATE DE MISE A JOUR au format année-mois-jour (identique à la date de création si nouvelle fiche)
 ---
 
 

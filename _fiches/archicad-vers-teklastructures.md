@@ -10,5 +10,6 @@ destination_version: 2018
 destination_editeur: Trimble
 usage_metier: Structure
 nom_pdf: archicad-vers-teklastructures.pdf
-maj: 07/05/2018
+date_creation: 2018-05-09
+date_maj: 2018-05-09
 ---
