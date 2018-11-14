@@ -10,5 +10,6 @@ destination_version: 2018
 destination_editeur: Trimble
 usage_metier: Structure
 nom_pdf: revit-vers-teklastructures.pdf
-maj: 19/07/2018
+date_creation: 2018-05-07
+date_maj: 2018-07-19
 ---

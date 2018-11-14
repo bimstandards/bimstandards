@@ -10,5 +10,6 @@ destination_version: 1.1
 destination_editeur: SOC Informatique
 usage_metier: Métré
 nom_pdf: allplan-vers-justbim.pdf
-maj: 24/01/2018
+date_creation: 2018-01-22
+date_maj: 2018-01-22
 ---
