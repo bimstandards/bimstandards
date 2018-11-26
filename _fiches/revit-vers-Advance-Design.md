@@ -10,5 +10,6 @@ destination_version: 2019
 destination_editeur: GRAITEC
 usage_metier: Structure
 nom_pdf: revit-vers-Advance-Design.pdf
-maj: 14/11/2018
+date_creation: 2018-11-14
+date_maj: 2018-11-14
 ---
