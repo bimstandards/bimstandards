@@ -10,5 +10,6 @@ destination_version: 2.1
 destination_editeur: Trimble
 usage_metier: Fluides
 nom_pdf: archicad-vers-plancalnova.pdf
-maj: 03/05/2018
+date_creation: 2018-05-03
+date_maj: 2018-05-03
 ---

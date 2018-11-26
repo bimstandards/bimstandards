@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Gestion de patrimoine (6D)
 description: Structuration des données pour l'exploitation-maintenance du bâtiment, à partir d'un DOE.

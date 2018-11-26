@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: travailler-avec-les-ifc
 title: Principes généraux
 description: Informations de base sur la structuration d'un fichier IFC, la classification des objets, les niveaux de détail.
@@ -14,7 +14,7 @@ redirect_from:
 # Principes généraux
 
 ## Formats d'échanges
-Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC 4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
+Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
 
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
 ![capture]({{ site.url }}/assets/img/bp_ifc_version.png)

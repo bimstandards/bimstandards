@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: travailler-avec-les-ifc
 title: Organisation spatiale
 description: Méthode d'organisation hiérarchique des objets IFC (site, bâtiment, niveau, espace), géoréférencement.

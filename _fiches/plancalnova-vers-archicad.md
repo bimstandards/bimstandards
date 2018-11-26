@@ -10,5 +10,6 @@ destination_version: 21
 destination_editeur: Graphisoft
 usage_metier: Architecture
 nom_pdf: plancalnova-vers-archicad.pdf
-maj: 03/05/2018
+date_creation: 2018-05-03
+date_maj: 2018-05-03
 ---

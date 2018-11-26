@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Maîtrise d'ouvrage
 description: Comment valider l'évolution d'un projet à partir d'un fichier IFC.

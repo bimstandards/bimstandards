@@ -10,5 +10,6 @@ destination_version: SaaS
 destination_editeur: CYPE Software
 usage_metier: Travail collaboratif
 nom_pdf: archicad-vers-bimserver.center.pdf
-maj: 27/10/17
+date_creation: 2017-10-27
+date_maj: 2017-10-27
 ---

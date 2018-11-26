@@ -10,5 +10,6 @@ destination_version: 2014
 destination_editeur: Fauconnet Ingénierie SAS
 usage_metier: Thermique
 nom_pdf: revit-vers-visualtth.pdf
-maj: novembre 2017
+date_creation: 2017-11-01
+date_maj: 2017-11-01
 ---
