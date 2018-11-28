@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Thermique
 description: Logiques de modélisation pour l'analyse énergétique, échanges entre architecte et ingénieur.

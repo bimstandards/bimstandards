@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: bonnes-pratiques
 title: Synthèse technique
 description: Revue de projet. Coordination spatiale, réglementaire et technique.

@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: fiches-echanges
 title: Nouvelle fiche d'échange
 comments: false

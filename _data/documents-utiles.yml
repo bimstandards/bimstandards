@@ -17,7 +17,7 @@
   description: 
   couverture: ptnb-moa
   date: juillet 2016
-  url_doc: http://www.batiment-numerique.fr/uploads/DOC/PTNB%20-%20Guide%20Methodo%20MOA.pdf
+  url_doc: http://www.batiment-numerique.fr/uploads/DOC/Guides%20et%20Etudes/PTNB%20-%20Guide%20Methodo%20MOA.pdf
 
 - titre: Delivering Construction-Operations Building information exchange (COBie) in GRAPHISOFT ARCHICAD
   auteur: E William East, Robert Jackson
@@ -44,5 +44,5 @@
   auteur: PTNB
   description: Stratégie française pour les actions de pré-normalisation et normalisation BIM appliquées au bâtiment
   couverture: ptnb-normalisation
-  date: avril 2017
-  url_doc: http://www.batiment-numerique.fr/uploads/DOC/PTNB%20-%20FdR%20Normalisation%202017.pdf
+  date: juin 2018
+  url_doc: http://www.batiment-numerique.fr/uploads/DOC/Normalisation/PTNB%20-%20FdR%20NormalisationV3%20-%2005.2018.pdf

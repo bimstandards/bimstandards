@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: echanger-en-bim
 title: Rédiger une convention BIM
 description: Guide méthodologique d'établissement de la convention entre acteurs d'un projet.

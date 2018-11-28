@@ -10,5 +10,6 @@ destination_version: 17
 destination_editeur: SCIA nv
 usage_metier: Structure
 nom_pdf: teklastructures-vers-sciaengineer.pdf
-maj: novembre 2017
+date_creation: 2017-11-01
+date_maj: 2017-11-01
 ---

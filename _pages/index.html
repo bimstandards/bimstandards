@@ -8,10 +8,10 @@ permalink: /
 <div class="bs-pageheader d-print-none">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-auto logo-bsfm d-flex align-items-center">
+      <div class="col-auto logo-bsfm d-flex align-items-center">
         <img src="{{ site.url }}/assets/img/logo_buildingsmart-france_blanc.png" alt="logo buildingSMART France-Mediaconstruct">
       </div>
-      <div class="col-12 col-md-9">
+      <div class="col">
         <h1>{{ site.title }}</h1>
         <p class="lead">
           {{ site.description }}
@@ -24,7 +24,7 @@ permalink: /
 <div class="container container-index">
 
   <div class="row">
-    <div class="col-12 col-md-9">
+    <div class="col-12 col-lg-9 order-2 order-lg-1">
       <div class="row" id="standards">
         <div class="col-12">
           <h2>
@@ -112,11 +112,12 @@ permalink: /
         {% endfor %}
       </div>
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-lg-3 order-1 order-lg-2">
       <!-- 
       {% include box-com.html %}
        -->
       {% include box-sponsoring-vertical.html %}
+      {% include box-dernieres-fiches.html %}
     </div>
   </div>
   

@@ -10,5 +10,6 @@ destination_version: 2017-a
 destination_editeur: ATTIC+
 usage_metier: Métré
 nom_pdf: revit-vers-easykutch.pdf
-maj: mai 2017
+date_creation: 2017-05-01
+date_maj: 2017-05-01
 ---

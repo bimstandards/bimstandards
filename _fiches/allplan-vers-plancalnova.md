@@ -10,5 +10,6 @@ destination_version: 2.1
 destination_editeur: Trimble
 usage_metier: Fluides
 nom_pdf: allplan-vers-plancalnova.pdf
-maj: 24/05/2018
+date_creation: 2018-05-24
+date_maj: 2018-05-24
 ---

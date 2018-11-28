@@ -1,5 +1,5 @@
 ---
-layout: default-toc
+layout: default-sidebar
 group: echanger-en-bim
 title: Classifications
 description: Systèmes de classification des objets (ouvrages)

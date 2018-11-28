@@ -10,5 +10,6 @@ destination_version: 2019
 destination_editeur: CYPE Software
 usage_metier: Architecture
 nom_pdf: archicad-vers-ifcbuilder.pdf 
-maj: 24/10/2018 
+date_creation: 2018-10-24
+date_maj: 2018-10-24
 ---

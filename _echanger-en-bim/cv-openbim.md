@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-topbar
 group: cv-openbim
 title: Fiches CV openBIM
 description: Fonctionnalités d'échanges des logiciels BIM
