@@ -18,15 +18,15 @@ redirect_from:
 
 ## Contexte
 
-Les IFC sont **nés de la norme qui fait référence dans l'industrie, l'ISO 10303 dite STEP** signifie "STandard for Exchange of Product data" qui sert à décrire un produit tout au long de son cycle de vie, et indépendamment de tout système informatique, publié en 1994 (sachant que les 1ers travaux remontent à 1984). Elle est née en mode pré-normatif chez buildingSMART International qui continue de la maintenir et de l'enrichir, mais aussi à certifier les logiciels sur l'IFC.
+Les IFC sont de la volonté d'améliorer l'interopérabilité des logiciels utilisés dans le secteur de la construction. Elles ont été spécifiées par l'IAI (International Alliance for Interopérability) créée en 1996 et devenue BuildingSmart international depuis 2008. BuildingSMART International qui continue de la maintenir et de l'enrichir, mais aussi à certifier les logiciels sur l'IFC.
 
 ## Définition
 
-Les IFC constituent un **modèle " sémantique " basé sur la notion d'objet**. Les IFC permettent de décrire des objets (murs, fenêtres, espaces, poteaux…) ainsi que leurs relations (comme le percement d'un mur par une ouverture et l'association d'une porte à cette ouverture). A chaque "objet" peut être associé un certain nombre d'informations, elles aussi codifiées afin d'être lues de manière uniforme par l'ensemble des logiciels du marché. Ces "classes d'objets" traitent :
+Les IFC constituent un **modèle conceptuel de données orienté objet**. Les IFC permettent de décrire des objets (murs, fenêtres, espaces, poteaux…) ainsi que leurs relations (comme le percement d'un mur par une ouverture et l'association d'une porte à cette ouverture). A chaque "objet" peut être associé un certain nombre d'informations, elles aussi codifiées afin d'être lues de manière uniforme par l'ensemble des logiciels du marché. Ces "classes d'objets" traitent :
 - de la forme des objets ainsi que de leurs caractéristiques (comme la composition d'un mur),
 - du bâtiment tout au long du cycle de programmation, (conception, construction, gestion) et selon différents points de vue (architecture, structure, thermique, estimatif...).
 
-Le modèle IFC comporte 800 classes d'objets ce qui permet une grande précision dans la qualification de la donnée. Les IFC **définissent donc la façon dont l'information va être structurée pour pouvoir être lue et correctement interprétée par les "machines" logiciels**. Ce format d'échanges de données structurées garantit le partage d'informations entre les différents logiciels-métiers dans un projet BIM. L'IFC ou "Industry Foundation Classes" est un modèle de données ouvert et neutre, nécessaire au développement de l'openBIM.
+La version 4 du modèle IFC comporte 776 classes d'objets ce qui permet une grande précision dans la qualification de la donnée. Les IFC **définissent donc la façon dont l'information va être structurée pour pouvoir être lue et correctement interprétée par les "machines" logiciels**. Ce format d'échanges de données structurées garantit le partage d'informations entre les différents logiciels-métiers dans un projet BIM. L'IFC ou "Industry Foundation Classes" est un modèle de données ouvert et neutre, nécessaire au développement de l'openBIM.
 
 ## Explications
 
@@ -39,8 +39,7 @@ A noter : **les IFC ne remplacent pas le format natif du logiciel utilisé pour 
 
 ## Versions IFC
 
-Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. L'IFC4-Add1, dernière version officielle, n'est pas encore pleinement prise en charge par les différents logiciels-métiers ; c'est donc l'IFC2x3-TC1 qui demeure le standard de fait actuellement. On peut espérer que les échanges IFC4 deviendront pleinement opérationnels durant l'année 2018.
-
+Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. La version IFC4 est une norme ISO (16 739) depuis mars 2013. Elle va progressivement devenir la référence. La prochaine version (IFC5) traitera du domaine des infrastructures. Son développement en cours mobilise de nombreux pays et la direction technique de l'InfraRoom est actuellement assurée par Christophe Castaing.
 <table class="table table-responsive table-sm table-hover">
   <thead>
     <tr>
