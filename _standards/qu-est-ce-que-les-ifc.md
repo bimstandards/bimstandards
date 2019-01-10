@@ -18,7 +18,7 @@ redirect_from:
 
 ## Contexte
 
-Les IFC sont de la volonté d'améliorer l'interopérabilité des logiciels utilisés dans le secteur de la construction. Elles ont été spécifiées par l'IAI (International Alliance for Interopérability) créée en 1996 et devenue BuildingSmart international depuis 2008. BuildingSMART International qui continue de la maintenir et de l'enrichir, mais aussi à certifier les logiciels sur l'IFC.
+Les IFC sont nées de la volonté d'améliorer l'interopérabilité des logiciels utilisés dans le secteur de la construction. Elles ont été spécifiées par l'IAI (International Alliance for Interopérability) créée en 1996 et devenue BuildingSmart international depuis 2008. BuildingSMART International qui continue de la maintenir et de l'enrichir, mais aussi à certifier les logiciels sur l'IFC.
 
 ## Définition
 
@@ -39,7 +39,8 @@ A noter : **les IFC ne remplacent pas le format natif du logiciel utilisé pour 
 
 ## Versions IFC
 
-Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. La version IFC4 est une norme ISO (16 739) depuis mars 2013. Elle va progressivement devenir la référence. La prochaine version (IFC5) traitera du domaine des infrastructures. Son développement en cours mobilise de nombreux pays et la direction technique de l'InfraRoom est actuellement assurée par Christophe Castaing.
+Depuis la version IFC1.0 en 1997, buildingSMART développe et améliore continuellement ce standard majeur. La version IFC4 est une norme ISO (16 739) depuis mars 2013. Elle va progressivement devenir la référence. La version suivante (IFC5) traitera principalement du domaine des infrastructures.
+
 <table class="table table-responsive table-sm table-hover">
   <thead>
     <tr>
