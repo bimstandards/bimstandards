@@ -12,7 +12,7 @@ status: publish
 
 # Normes Datas
 
-## NF XP P07-150 devenue prEN ISO 23387
+## NF XP P07-150 devenue prEN ISO 23386
 
 -	**Socle** : La norme, qui définit la manière de décrire des propriétés d'objets dans un dictionnaire, appuyée sur la série ISO 12006, a été développée en France. 
 -	**Champ** : Méthodologie de description, d'écriture et de gestion des propriétés dans des dictionnaires interconnectés.
