@@ -42,7 +42,7 @@ permalink: /echanger-en-bim/cv-openbim/
             <td>{{ fiche.version }}</td>
             <td>{{ fiche.editeur }}</td>
             <td>{{ fiche.usage_metier }}</td>
-            <td><i class="fa fa-clock-o" aria-hidden="true"></i> {{ fiche.maj }}</td>
+            <td><i class="fa fa-clock-o" aria-hidden="true"></i> {{ fiche.date_maj }}</td>
           </tr>
         {% endfor %}
       </tbody>
