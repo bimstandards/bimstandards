@@ -1,39 +1,54 @@
 - nom_fr_fr: Poutre
   nom_en_gb: Beam
   ifcproduct_ifc2x3tc1: IfcBeam
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBeam BEAM
   ifctypeproduct_ifc2x3tc1: IfcBeamType BEAM
-  ifctypeproduct_ifc4add2: 
+  ifctypeproduct_ifc4add2: IfcBeamType BEAM
   allplan: Poutre
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  ifc_domaine: IfcStructuralElementsDomain
+  ifcdomain_ifc2x3tc1: IfcStructuralElementsDomain
   requis_cobie: false
 
 - nom_fr_fr: Solive
   nom_en_gb: Joist
   ifcproduct_ifc2x3tc1: IfcBeam
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBeam JOIST
   ifctypeproduct_ifc2x3tc1: IfcBeamType JOIST
-  ifctypeproduct_ifc4add2: 
+  ifctypeproduct_ifc4add2: IfcBeamType JOIST
   allplan: Solive
   archicad: Poutre
   revit: Structure / Poutre
   domaine_architecture: true
   domaine_structure: true
   domaine_fluides: 
-  ifc_domaine: IfcStructuralElementsDomain
+  ifcdomain_ifc2x3tc1: IfcStructuralElementsDomain
   requis_cobie: false
+
+- nom_fr_fr: Poutre alvéolaire
+  nom_en_gb: 
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcBeam HOLLOWCORE
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcBeamType HOLLOWCORE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+  ifcdomain_ifc2x3tc1: 
+  requis_cobie: 
 
 - nom_fr_fr: Linteau
   nom_en_gb: Lintel
   ifcproduct_ifc2x3tc1: IfcBeam
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBeam LINTEL
   ifctypeproduct_ifc2x3tc1: IfcBeamType LINTEL
-  ifctypeproduct_ifc4add2: 
+  ifctypeproduct_ifc4add2: IfcBeamType LINTEL
   allplan: Linteau / Poutre
   archicad: Poutre
   revit: Structure / Poutre
@@ -41,13 +56,28 @@
   domaine_structure: true
   domaine_fluides: 
   requis_cobie: false
+  
+- nom_fr_fr: 
+  nom_en_gb: Spandrel beam
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcBeam SPANDREL
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcBeamType SPANDREL
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+  ifcdomain_ifc2x3tc1: 
+  requis_cobie: 
 
 - nom_fr_fr: Poutre en T
   nom_en_gb: T-Beam
   ifcproduct_ifc2x3tc1: IfcBeam
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcBeam T_BEAM
   ifctypeproduct_ifc2x3tc1: IfcBeamType T_BEAM
-  ifctypeproduct_ifc4add2: 
+  ifctypeproduct_ifc4add2: IfcBeamType T_BEAM
   allplan: Poutre
   archicad: Poutre
   revit: Structure / Poutre
@@ -112,20 +142,6 @@
   domaine_fluides: 
   requis_cobie: true
 
-- nom_fr_fr: Cheminée
-  nom_en_gb: Chimney
-  ifcproduct_ifc2x3tc1: IfcBuildingElementProxy
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcBuildingElementProxyType
-  ifctypeproduct_ifc4add2: 
-  allplan: Cheminée
-  archicad: Objet
-  revit: 
-  domaine_architecture: true
-  domaine_structure: 
-  domaine_fluides: 
-  requis_cobie: true
-
 - nom_fr_fr: Plantation
   nom_en_gb: Planting
   ifcproduct_ifc2x3tc1: IfcBuildingElementProxy
@@ -167,13 +183,55 @@
   domaine_structure: 
   domaine_fluides: 
   requis_cobie: true
+  
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcBuildingElementProxy PROVISIONFORVOID
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcBuildingElementProxy PROVISIONFORVOID
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+  requis_cobie: 
+  
+- nom_fr_fr: 
+  nom_en_gb: 
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcBuildingElementProxy PROVISIONFORSPACE
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcBuildingElementProxy PROVISIONFORSPACE
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+  requis_cobie: 
+    
+- nom_fr_fr: Cheminée
+  nom_en_gb: Chimney
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcChimney
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcChimneyType
+  allplan: Cheminée
+  archicad: Objet
+  revit: 
+  domaine_architecture: true
+  domaine_structure: 
+  domaine_fluides: 
+  requis_cobie: true
 
 - nom_fr_fr: Poteau
   nom_en_gb: Column
   ifcproduct_ifc2x3tc1: IfcColumn
-  ifcproduct_ifc4add2: 
+  ifcproduct_ifc4add2: IfcColumn COLUMN
   ifctypeproduct_ifc2x3tc1: IfcColumnType COLUMN
-  ifctypeproduct_ifc4add2: 
+  ifctypeproduct_ifc4add2: IfcColumnType COLUMN
   allplan: Poteau
   archicad: Poteau
   revit: Poteau Porteur / Poteau Architectural
@@ -181,34 +239,20 @@
   domaine_structure: true
   domaine_fluides: 
   requis_cobie: false
-
-- nom_fr_fr: Isolation de conduit
-  nom_en_gb: Duct Insulation
-  ifcproduct_ifc2x3tc1: IfcCovering
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcCoveringType INSULATION
-  ifctypeproduct_ifc4add2: 
+  
+- nom_fr_fr: Pilastre
+  nom_en_gb: Pilaster
+  ifcproduct_ifc2x3tc1: 
+  ifcproduct_ifc4add2: IfcColumn PILASTER
+  ifctypeproduct_ifc2x3tc1: 
+  ifctypeproduct_ifc4add2: IfcColumnType PILASTER
   allplan: 
   archicad: 
   revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: true
-
-- nom_fr_fr: Doublure de conduit
-  nom_en_gb: Duct Lining
-  ifcproduct_ifc2x3tc1: IfcCovering
-  ifcproduct_ifc4add2: 
-  ifctypeproduct_ifc2x3tc1: IfcCoveringType INSULATION
-  ifctypeproduct_ifc4add2: 
-  allplan: 
-  archicad: 
-  revit: 
-  domaine_architecture: 
-  domaine_structure: 
-  domaine_fluides: true
-  requis_cobie: true
+  domaine_architecture: true
+  domaine_structure: true
+  domaine_fluides: 
+  requis_cobie: false
 
 - nom_fr_fr: Toiture
   nom_en_gb: Roofing
@@ -348,6 +392,34 @@
   domaine_architecture: true
   domaine_structure: 
   domaine_fluides: 
+  requis_cobie: true
+
+- nom_fr_fr: Isolation de conduit
+  nom_en_gb: Duct Insulation
+  ifcproduct_ifc2x3tc1: IfcCovering
+  ifcproduct_ifc4add2: 
+  ifctypeproduct_ifc2x3tc1: IfcCoveringType INSULATION
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
+  requis_cobie: true
+
+- nom_fr_fr: Doublure de conduit
+  nom_en_gb: Duct Lining
+  ifcproduct_ifc2x3tc1: IfcCovering
+  ifcproduct_ifc4add2: 
+  ifctypeproduct_ifc2x3tc1: IfcCoveringType INSULATION
+  ifctypeproduct_ifc4add2: 
+  allplan: 
+  archicad: 
+  revit: 
+  domaine_architecture: 
+  domaine_structure: 
+  domaine_fluides: true
   requis_cobie: true
 
 - nom_fr_fr: Membrane d'étanchéité / pare-pluie / écran de sous-toiture
