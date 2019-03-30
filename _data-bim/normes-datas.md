@@ -1,13 +1,15 @@
 ---
 layout: default-sidebar
-group: standards
+group: data-bim
 lang: français
 title: Normes Datas
 description: Structuration de la donnée
 comments: true
 icon: book
-ordre: 2
+ordre: 1
 status: publish
+redirect_from:
+  - /standards/normes-datas/
 ---
 
 # Normes Datas

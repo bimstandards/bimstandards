@@ -1,12 +1,14 @@
 ---
 layout: default-sidebar
-group: echanger-en-bim
+group: process-bim
 title: Rédiger une convention BIM
 description: Guide méthodologique d'établissement de la convention entre acteurs d'un projet.
 comments: false
 icon: pencil-square-o
-ordre: 4
+ordre: 2
 status: publish
+redirect_from:
+  - /echanger-en-bim/rediger-une-convention-bim/
 ---
 
 # Rédiger une convention BIM

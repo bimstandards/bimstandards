@@ -1,13 +1,15 @@
 ---
 layout: default-sidebar
-group: standards
+group: process-bim
 lang: français
 title: Normes Process
 description: Organisation des échanges BIM
 comments: true
 icon: book
-ordre: 3
+ordre: 1
 status: publish
+redirect_from:
+  - /standards/normes-process/
 ---
 
 # Normes Process : IDM, ISO 19650 et LOIN

@@ -1,6 +1,6 @@
 ---
 layout: default-sidebar
-group: standards
+group: travailler-avec-les-ifc
 lang: français
 title: Qu'est-ce que les IFC ?
 description: Industry Foundation Classes, le format d'échanges universel
@@ -11,7 +11,7 @@ status: publish
 redirect_from:
   - /standards/ifc/
   - /standards/openbim/
-  - /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
+  - /standards/qu-est-ce-que-les-ifc/
 ---
 
 # Qu'est-ce que les IFC ? (Industry Foundation Classes)

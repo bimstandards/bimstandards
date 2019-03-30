@@ -5,40 +5,30 @@
         <img src="{{ site.url }}/assets/img/logo_buildingsmart-france_blanc.png" alt="logo buildingSMART France-Mediaconstruct">
       </div>
       <div class="col">
-        {% if page.group == "standards" %}
-          <h1>Standards</h1>
+        {% if page.group == "data-bim" %}
+          <h1>Data BIM</h1>
           <p class="lead">
-            Connaître et comprendre les standards du BIM.
+            Qualifier et structurer la donnée BIM.
           </p>
-        {% elsif page.group == "echanger-en-bim" %}
-          <h1>Echanger en BIM</h1>
+        {% elsif page.group == "process-bim" %}
+          <h1>Process BIM</h1>
           <p class="lead">
-            Règles communes et bons réflexes pour une collaboration openBIM.
+            Organiser et piloter les échanges de données.
           </p>
-        {% elsif page.group == "fiches-echanges" %}
-          <h1>Fiches d'échanges</h1>
-          <p class="lead">
-            Fonctionnalités et méthodes d'échanges entre logiciels.
-          </p>
-          {% elsif page.group == "cv-openbim" %}
-            <h1>CV openBIM</h1>
-            <p class="lead">
-              Prise en charge des standards du BIM par les logiciels-métiers.
-            </p>
         {% elsif page.group == "travailler-avec-les-ifc" %}
           <h1>Travailler avec les IFC</h1>
           <p class="lead">
             Comprendre et utiliser le format universel du BIM.
           </p>
-        {% elsif page.group == "autocontrole" %}
-          <h1>Autocontrôle</h1>
+        {% elsif page.group == "fiches-echanges" or page.group == "cv-openbim" %}
+          <h1>Fiches pratiques</h1>
           <p class="lead">
-            La check-liste de l'openBIM pour des échanges réussis.
+            Fonctionnalités et méthodes d'échanges BIM entre logiciels.
           </p>
-        {% elsif page.group == "ressources" %}
-          <h1>Ressources</h1>
+        {% elsif page.group == "formation-rd" %}
+          <h1>Formation R&D</h1>
           <p class="lead">
-            Pour aller plus loin.
+            Accompagner et innover.
           </p>
         {% elsif page.title == "Mentions légales" %}
           <h1>Mentions légales</h1>

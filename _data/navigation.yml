@@ -1,66 +1,78 @@
-- title: bSFrance
+- title: buildingSMART France
   url: #
   sublinks:
-    - title: Nos objectifs
-      url: http://www.mediaconstruct.fr/lassociation/strategie
+    - title: Objectifs
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/association-open-bim-France
       external: true
-    - title: Pré-normalisation
-      url: http://www.mediaconstruct.fr/nos-actions/pre-normalisation-bim
+    - title: Travaux
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim
       external: true
-    - title: Groupes de travail BIM
-      url: http://www.mediaconstruct.fr/nos-actions/groupes-de-travail
+    - title: Actions openBIM
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/actions/open-bim-promotion
       external: true
-    - title: Adhérez
-      url: http://www.mediaconstruct.fr/adherer/avantages
+    - title: Adhérer
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/adhesion-association-open-bim-france/avantages
+      external: true
+- title: Vous informer
+  url: #
+  sublinks:
+    - title: Notions clés
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/definition-notions-bim
       external: true
     - title: Blog du BIM
-      url: http://www.blog-du-bim.fr
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/blog-du-bim
       external: true
-- title: Standards du BIM
+    - title: Mémos pratiques BIM
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/telecharger-memos-pratiques-bim-pdf
+      external: true
+- title: Data BIM
   url: #
   sublinks:
-    - title: Décryptage
-      url: http://www.mediaconstruct.fr/comprendre-le-bim/bim-et-standards
-      external: true
-    - title: IFC
-      url: /standards/qu-est-ce-que-les-ifc/
-      external: false
     - title: Normes Datas
-      url: /standards/normes-datas/
+      url: /data-bim/normes-datas/
       external: false
+    - title: Systèmes de classification
+      url: /data-bim/classifications/
+      external: false
+    - title: Objets IFC
+      url: /data-bim/objets-ifc/
+      external: false
+- title: Process BIM
+  url: #
+  sublinks:
     - title: Normes Process
-      url: /standards/normes-process/
+      url: /process-bim/normes-process/
+      external: false
+    - title: Guide de convention BIM
+      url: /process-bim/rediger-une-convention-bim/
       external: false
 - title: Travailler avec les IFC
   url: #
   sublinks:
+    - title: Qu'est-ce que les IFC
+      url: /travailler-avec-les-ifc/qu-est-ce-que-les-ifc/
+      external: false
     - title: Principes généraux
       url: /travailler-avec-les-ifc/principes-generaux/
       external: false
     - title: Organisation spatiale
       url: /travailler-avec-les-ifc/organisation-spatiale/
       external: false
-    - title: Objets IFC
-      url: /travailler-avec-les-ifc/objets-ifc/
-      external: false
     - title: Imports / Exports IFC
       url: /travailler-avec-les-ifc/imports-exports-ifc/
       external: false
-- title: Echanger en BIM
+- title: Fiches pratiques
   url: #
   sublinks:
-    - title: Fiches d'échanges
+    - title: Echanges BIM entre logiciels
       url: /echanger-en-bim/fiches-echanges/
       external: false
-    - title: Fiches CV openBIM
+    - title: CV openBIM
       url: /echanger-en-bim/cv-openbim/
       external: false
-    - title: Systèmes de classification
-      url: /echanger-en-bim/classifications/
-      external: false
-    - title: Rédiger une convention BIM
-      url: /echanger-en-bim/rediger-une-convention-bim/
-      external: false
+- title: Formation R&D
+  url: #
+  sublinks:
     - title: Code d'éthique BIM
       url: /echanger-en-bim/code-ethique-bim/
       external: false

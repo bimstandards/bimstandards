@@ -1,16 +1,17 @@
 ---
 layout: default-topbar
-group: travailler-avec-les-ifc
+group: data-bim
 lang: français
 ref: objets-ifc
 title: Objets IFC
 description: Décryptage des classes d'objets IFC
 comments: true
 icon: cube
-ordre: 4
+ordre: 3
 status: publish
 redirect_from:
   - /standards/objets-ifc/
+  - /travailler-avec-les-ifc/objets-ifc/
 ---
 
 # Objets IFC

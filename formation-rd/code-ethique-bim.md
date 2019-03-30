@@ -1,12 +1,14 @@
 ---
 layout: default-sidebar
-group: echanger-en-bim
+group: formation-rd
 title: Code d'éthique BIM
 description: Principes déontologiques et bonnes pratiques
 comments: false
 icon: balance-scale
 ordre: 5
 status: publish
+redirect_from:
+  - /echanger-en-bim/code-ethique-bim/
 ---
 
 # Code d'éthique BIM

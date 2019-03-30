@@ -25,14 +25,14 @@ permalink: /
 
   <div class="row">
     <div class="col-12 col-lg-9 order-2 order-lg-1">
-      <div class="row" id="standards">
+      <div class="row" id="data-bim">
         <div class="col-12">
           <h2>
-            Standards du BIM
+            Data BIM
             <small class="text-muted"></small>
           </h2>
         </div>
-        {% assign pages_sorted = site.standards | sort: 'ordre' %}
+        {% assign pages_sorted = site.data-bim | sort: 'ordre' %}
         {% for page in pages_sorted %}
           <div class="col-sm-6 col-md-4 col-xl-3">
             <div class="card">
@@ -54,7 +54,36 @@ permalink: /
         {% endfor %}
       </div>
       
-      <div class="row" id="travailler">
+      <div class="row" id="process-bim">
+        <div class="col-12">
+          <h2>
+            Process BIM
+            <small class="text-muted"></small>
+          </h2>
+        </div>
+        {% assign pages_sorted = site.process-bim | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
+      <div class="row" id="travailler-avec-les-ifc">
         <div class="col-12">
           <h2>
             Travailler avec les IFC
@@ -83,10 +112,10 @@ permalink: /
         {% endfor %}
       </div>
       
-      <div class="row" id="echanger">
+      <div class="row" id="echanger-en-bim">
         <div class="col-12">
           <h2>
-            Echanger en BIM
+            Fiches pratiques
             <small class="text-muted"></small>
           </h2>
         </div>
