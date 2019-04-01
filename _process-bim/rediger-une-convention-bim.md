@@ -11,11 +11,12 @@ redirect_from:
   - /echanger-en-bim/rediger-une-convention-bim/
 ---
 
-# Rédiger une convention BIM
+# Comment rédiger une convention BIM ?
 
-<div class="alert alert-warning" role="alert">
-  <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau</h4>
-  <p>Une version 2 du « Guide de rédaction d’une convention BIM » sera prochainement diffusée, agrégée de retours d’acteurs différents et des échanges qui se sont poursuivis au sein du <a href="http://www.mediaconstruct.fr/nos-actions/groupes-de-travail/articleid/1033/titre/redaction-du-guide-de-convention-v2">groupe de travail</a> de bSFrance mené par J-P. Trehen. Celle publication est d’ailleurs <a href="http://www.mediaconstruct.fr/sinformer/actus-bsfrance/articleid/1049/titre/beneficiez-d-un-espace-de-visibilite-bim">ouverte au sponsoring</a> (publicité ou prise de parole). Intéressé ? Vous avez jusqu’au 26/09 !
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading"><i class="fa fa-check-circle" aria-hidden="true"></i> Elle est parue !</h4>
+  <p>La version 2 du "<b>Guide de rédaction d'une convention BIM</b>" menée par J-P. Trehen au sein de bSFrance est sortie en avril 2019... pour BIM World ! <a href="http://www.buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM">Téléchargeable gratuitement ici</a>. Cette publication est ouverte au sponsoring : <a href="mailto:information@mediaconstruct.fr">contactez-nous</a> si vous êtes intéressé.
+
 </p>
 </div>
 
@@ -23,8 +24,8 @@ Des projets en BIM existent déjà mais si l’on veut qu’ils se généralisen
 
 Une convention BIM ne revêt aucun caractère obligatoire. Il appartient aux auteurs de la convention BIM, de rendre la contractuelle et de l’inscrire dans la liste ordonnée des documents contractuels ou de référence.
 
-Encore faut-il écrire cette convention ! buildingSMART France-Mediaconstruct a créé un guide pour vous y aider : ce n’est pas un modèle type de convention mais bien un outil d’aide à la mise en place de convention pour types de projet en BIM. Pour le recevoir gratuitement, il suffit de s’inscrire :
+Encore faut-il écrire cette convention ! buildingSMART France-Mediaconstruct a créé un guide pour vous y aider : ce n’est pas un modèle type de convention mais bien **un outil d'aide à la mise en place de convention pour types de projet en BIM**. Une version actualisée - relue par MINnD et tenant compte des dernières évolutions normatives (parution de l'ISO 19650, pr EN ISO 23386 notamment) est téléchargeable gratuitement sur le site de bSFrance dans la section "Mémos pratiques BIM".
 
-<a class="btn btn-info" href="http://www.mediaconstruct.fr/travaux/guide-de-convention-bim" role="button">Télécharger le Guide (site institutionnel)</a>
+<a class="btn btn-info" href="http://www.buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM" role="button">Télécharger le Guide de rédaction d'une convention BIM - v2 (site institutionnel)</a>
 
-Même si certains points restent à développer dans ce guide – et ce document a vocation à être évolutif -  l’intérêt du travail collectif déjà réalisé par buildingSMART France-Mediaconstruct va permettre de faciliter l’engagement d’opérations de construction en BIM.
+L’intérêt du travail collectif déjà réalisé par buildingSMART France-Mediaconstruct va permettre de faciliter l’engagement d’opérations de construction en BIM en donnant des bonnes pratiques à tous les acteurs.

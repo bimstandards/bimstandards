@@ -21,7 +21,7 @@ redirect_from:
 
 ## Série ISO 19650
 
-De l'IDM est née une norme décrivant l'interaction du BIM dans le management de projet et s'inscrivant au sein de l'ISO 9001 : c'est la série ISO 19650, qui est en fin d'instruction (cycle d'enquêtes et d'approbations), parallèlement dans l'ISO et le CEN. L'élaboration de cette norme est un exemple de prise en compte des TPE-PME sur demande française notamment.
+De l'IDM est née une norme décrivant l'interaction du BIM dans le management de projet et s'inscrivant au sein de l'ISO 9001 : c'est la série ISO 19650, publiée fin 2018, parallèlement dans l'ISO et le CEN. L'élaboration de cette norme est un exemple de prise en compte des TPE-PME sur demande française notamment.
 
 -	**Champ** : Gestion de l'information par le BIM (partie 1 : concepts et principes/partie 2 : phase de réalisation des actifs). Elle traite de la définition des exigences du client et de la façon d'organiser le management de l'information pour y répondre.
 -	**Contexte** : Initialement, c'était un projet anglais non-adapté au marché français, l'enjeu des travaux internationaux est donc d'adapter la norme à toutes les pratiques !
