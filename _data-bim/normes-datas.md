@@ -1,13 +1,14 @@
 ---
 layout: default-sidebar
-group: standards
-lang: français
+group: data-bim
 title: Normes Datas
 description: Structuration de la donnée
 comments: true
 icon: book
-ordre: 2
+ordre: 1
 status: publish
+redirect_from:
+  - /standards/normes-datas/
 ---
 
 # Normes Datas
@@ -35,7 +36,4 @@ status: publish
 
 ## A lire aussi
 
-- Les Travaux réalisés par bSFrance pour le PTNB sur [l'expérimentation PPBIM](http://www.mediaconstruct.fr/nos-actions/missions/articleid/1063/titre/experimentation-ppbim-2016)
-- la présentation du GT [Product Room bSFrance](http://www.mediaconstruct.fr/nos-actions/groupes-de-travail/articleid/1053/titre/gt-groupe-miroir-du-projet-ppbim-pobim-poursuite-des-travaux-de-la-product-room-sur-objets-et-proprietes)
-- la présentation du GT "[Echanges entre bibliothèques de contenus et logiciels métier BIM](http://www.mediaconstruct.fr/nos-actions/groupes-de-travail/articleid/1056/titre/gt-experimentation-des-formats-d-echanges-entre-catalogues-bibliotheques-et-logiciels)"
-- la présentation du GT "[Qualité des données](http://www.mediaconstruct.fr/nos-actions/groupes-de-travail/articleid/1060/titre/gt-qualite-des-donnees-dans-le-bim-datas)"
+[En savoir plus sur les travaux en cours sur les data et le BIM menés par bSFrance.](https://buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim)

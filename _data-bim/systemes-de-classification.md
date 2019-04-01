@@ -1,17 +1,18 @@
 ---
 layout: default-sidebar
-group: echanger-en-bim
-title: Classifications
+group: data-bim
+title: Systèmes de classification
 description: Systèmes de classification des objets (ouvrages)
 comments: true
 icon: filter
-ordre: 3
+ordre: 2
 status: publish
 redirect_from:
   - /standards/classifications/
+  - /echanger-en-bim/classifications/
 ---
 
-# Classifications
+# Systèmes de classification
 
 <div class="alert alert-warning" role="alert">
   <h4 class="alert-heading"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Bientôt du nouveau</h4>
