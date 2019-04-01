@@ -18,6 +18,7 @@ exclude:          [vendor]
 # Collections
 collections:
   pages: {output: true, permalink: '/:path/'}
+  vous-informer: {output: true, permalink: '/vous-informer/:path/'}
   data-bim: {output: true, permalink: '/data-bim/:path/'}
   process-bim: {output: true, permalink: '/process-bim/:path/'}
   travailler-avec-les-ifc: {output: true, permalink: '/travailler-avec-les-ifc/:path/'}

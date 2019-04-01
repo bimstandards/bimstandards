@@ -1,7 +1,6 @@
 ---
 layout: default-topbar
 group: data-bim
-lang: français
 ref: objets-ifc
 title: Objets IFC
 description: Décryptage des classes d'objets IFC

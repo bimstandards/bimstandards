@@ -25,6 +25,21 @@
     - title: Mémos pratiques BIM
       url: http://www.buildingsmartfrance-mediaconstruct.fr/telecharger-memos-pratiques-bim-pdf
       external: true
+    - title: BIM en vidéos
+      url: /vous-informer/bim-en-videos/
+      external: false
+    - title: Evènements BIM
+      url: http://www.buildingsmartfrance-mediaconstruct.fr/agenda-bim
+      external: true
+- title: Fiches pratiques
+  url: #
+  sublinks:
+    - title: Echanges BIM entre logiciels
+      url: /echanger-en-bim/fiches-echanges/
+      external: false
+    - title: CV openBIM
+      url: /echanger-en-bim/cv-openbim/
+      external: false
 - title: Data BIM
   url: #
   sublinks:
@@ -32,10 +47,13 @@
       url: /data-bim/normes-datas/
       external: false
     - title: Systèmes de classification
-      url: /data-bim/classifications/
+      url: /data-bim/systemes-de-classification/
       external: false
     - title: Objets IFC
       url: /data-bim/objets-ifc/
+      external: false
+    - title: Ressources bSI
+      url: /data-bim/ressources-bsi/
       external: false
 - title: Process BIM
   url: #
@@ -61,20 +79,11 @@
     - title: Imports / Exports IFC
       url: /travailler-avec-les-ifc/imports-exports-ifc/
       external: false
-- title: Fiches pratiques
-  url: #
-  sublinks:
-    - title: Echanges BIM entre logiciels
-      url: /echanger-en-bim/fiches-echanges/
-      external: false
-    - title: CV openBIM
-      url: /echanger-en-bim/cv-openbim/
-      external: false
 - title: Formation R&D
   url: #
   sublinks:
     - title: Code d'éthique BIM
-      url: /echanger-en-bim/code-ethique-bim/
+      url: /formation-rd/code-ethique-bim/
       external: false
 - title: Contact
   url: /contact/

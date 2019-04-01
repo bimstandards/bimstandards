@@ -25,11 +25,41 @@ permalink: /
 
   <div class="row">
     <div class="col-12 col-lg-9 order-2 order-lg-1">
+      
+      <div class="row" id="echanger-en-bim">
+        <div class="col-12">
+          <h2>
+            Fiches pratiques
+            <small class="text-muted">&gt; Fonctionnalités et méthodes d'échanges BIM entre logiciels</small>
+          </h2>
+        </div>
+        {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
+        {% for page in pages_sorted %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <a href="{{ page.url }}"></a>
+              <div class="card-body">
+                <p>
+                  <i class="fa fa-{{ page.icon }}"></i>
+                </p>
+                <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">
+                  {{ page.description }}
+                </p>
+                {% if page.status == 'draft' %}
+                  <span class="badge badge-warning">bientôt disponible</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
       <div class="row" id="data-bim">
         <div class="col-12">
           <h2>
-            Data BIM.
-            <small class="text-muted">Qualifier et structurer la donnée BIM.</small>
+            Data BIM
+            <small class="text-muted">&gt; Qualifier et structurer la donnée BIM</small>
           </h2>
         </div>
         {% assign pages_sorted = site.data-bim | sort: 'ordre' %}
@@ -57,8 +87,8 @@ permalink: /
       <div class="row" id="process-bim">
         <div class="col-12">
           <h2>
-            Process BIM.
-            <small class="text-muted">Organiser et piloter les échanges de données.</small>
+            Process BIM
+            <small class="text-muted">&gt; Organiser et piloter les échanges de données</small>
           </h2>
         </div>
         {% assign pages_sorted = site.process-bim | sort: 'ordre' %}
@@ -86,8 +116,8 @@ permalink: /
       <div class="row" id="travailler-avec-les-ifc">
         <div class="col-12">
           <h2>
-            Travailler avec les IFC.
-            <small class="text-muted">Comprendre et utiliser le format universel du BIM.</small>
+            Travailler avec les IFC
+            <small class="text-muted">&gt; Comprendre et utiliser le format universel du BIM</small>
           </h2>
         </div>
         {% assign pages_sorted = site.travailler-avec-les-ifc | sort: 'ordre' %}
@@ -112,14 +142,14 @@ permalink: /
         {% endfor %}
       </div>
       
-      <div class="row" id="echanger-en-bim">
+      <div class="row" id="formation-rd">
         <div class="col-12">
           <h2>
-            Fiches pratiques.
-            <small class="text-muted">Fonctionnalités et méthodes d'échanges BIM entre logiciels.</small>
+            Formation R&D
+            <small class="text-muted">&gt; A la pointe des connaissances du BIM</small>
           </h2>
         </div>
-        {% assign pages_sorted = site.echanger-en-bim | sort: 'ordre' %}
+        {% assign pages_sorted = site.formation-rd | sort: 'ordre' %}
         {% for page in pages_sorted %}
           <div class="col-sm-6 col-md-4 col-xl-3">
             <div class="card">
@@ -140,6 +170,7 @@ permalink: /
           </div>
         {% endfor %}
       </div>
+      
     </div>
     <div class="col-12 col-lg-3 order-1 order-lg-2">
       <!-- 
