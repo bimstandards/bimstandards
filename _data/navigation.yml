@@ -2,34 +2,34 @@
   url: #
   sublinks:
     - title: Objectifs
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/association-open-bim-France
+      url: https://buildingsmartfrance-mediaconstruct.fr/association-open-bim-France
       external: true
     - title: Travaux
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim
+      url: https://buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim
       external: true
     - title: Actions openBIM
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/actions/open-bim-promotion
+      url: https://buildingsmartfrance-mediaconstruct.fr/actions/open-bim-promotion
       external: true
     - title: Adhérer
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/adhesion-association-open-bim-france/avantages
+      url: https://buildingsmartfrance-mediaconstruct.fr/adhesion-association-open-bim-france/avantages
       external: true
 - title: Vous informer
   url: #
   sublinks:
     - title: Notions clés
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/definition-notions-bim
+      url: https://buildingsmartfrance-mediaconstruct.fr/definition-notions-bim
       external: true
     - title: Blog du BIM
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/blog-du-bim
+      url: https://buildingsmartfrance-mediaconstruct.fr/blog-du-bim
       external: true
     - title: Mémos pratiques BIM
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/telecharger-memos-pratiques-bim-pdf
+      url: https://buildingsmartfrance-mediaconstruct.fr/telecharger-memos-pratiques-bim-pdf
       external: true
     - title: BIM en vidéos
       url: /vous-informer/bim-en-videos/
       external: false
     - title: Evènements BIM
-      url: http://www.buildingsmartfrance-mediaconstruct.fr/agenda-bim
+      url: https://buildingsmartfrance-mediaconstruct.fr/agenda-bim
       external: true
 - title: Fiches pratiques
   url: #

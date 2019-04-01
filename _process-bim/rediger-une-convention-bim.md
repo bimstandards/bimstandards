@@ -15,7 +15,7 @@ redirect_from:
 
 <div class="alert alert-success" role="alert">
   <h4 class="alert-heading"><i class="fa fa-check-circle" aria-hidden="true"></i> Elle est parue !</h4>
-  <p>La version 2 du "<b>Guide de rédaction d'une convention BIM</b>" menée par J-P. Trehen au sein de bSFrance est sortie en avril 2019... pour BIM World ! <a href="http://www.buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM">Téléchargeable gratuitement ici</a>. Cette publication est ouverte au sponsoring : <a href="mailto:information@mediaconstruct.fr">contactez-nous</a> si vous êtes intéressé.
+  <p>La version 2 du "<b>Guide de rédaction d'une convention BIM</b>" menée par J-P. Trehen au sein de bSFrance est sortie en avril 2019... pour BIM World ! <a href="https://buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM">Téléchargeable gratuitement ici</a>. Cette publication est ouverte au sponsoring : <a href="mailto:information@mediaconstruct.fr">contactez-nous</a> si vous êtes intéressé.
 
 </p>
 </div>
@@ -26,6 +26,6 @@ Une convention BIM ne revêt aucun caractère obligatoire. Il appartient aux aut
 
 Encore faut-il écrire cette convention ! buildingSMART France-Mediaconstruct a créé un guide pour vous y aider : ce n’est pas un modèle type de convention mais bien **un outil d'aide à la mise en place de convention pour types de projet en BIM**. Une version actualisée - relue par MINnD et tenant compte des dernières évolutions normatives (parution de l'ISO 19650, pr EN ISO 23386 notamment) est téléchargeable gratuitement sur le site de bSFrance dans la section "Mémos pratiques BIM".
 
-<a class="btn btn-info" href="http://www.buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM" role="button">Télécharger le Guide de rédaction d'une convention BIM - v2 (site institutionnel)</a>
+<a class="btn btn-info" href="https://buildingsmartfrance-mediaconstruct.fr/memos-pratiques-BIM" role="button">Télécharger le Guide de rédaction d'une convention BIM - v2 (site institutionnel)</a>
 
 L’intérêt du travail collectif déjà réalisé par buildingSMART France-Mediaconstruct va permettre de faciliter l’engagement d’opérations de construction en BIM en donnant des bonnes pratiques à tous les acteurs.

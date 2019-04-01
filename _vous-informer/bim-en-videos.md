@@ -13,7 +13,7 @@ status: publish
 
 buildingSMART France accompagne tous les acteurs du monde de la construction, les smart territoires et l'immobilier, dans la transformation digitale de leurs pratiques professionnelles autour de la maquette numérique (on dit aussi BIM). Un des axes stratégiques de l'association : la conduite du changement. Un des moyens : des actions fortes **d'information-sensibilisation, d'acculturation des basiques et d'appropriation des bonnes pratiques.**
 
--	Le **[BtoB événementiel](http://www.buildingsmartfrance-mediaconstruct.fr/actions/bim-day)** : 
+-	Le **[BtoB événementiel](https://buildingsmartfrance-mediaconstruct.fr/actions/bim-day)** : 
 Cet objectif qui s'appuie, depuis 2009, sur l'organisation d'une journée de conférences (en juin puis depuis 2016 en décembre aussi) : le BIM's day ;
 
 -	**[Le BtoB format vidéos](https://www.youtube.com/channel/UCbQxK2pliDQLn5gXHL-eItw)** : 

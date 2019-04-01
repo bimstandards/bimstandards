@@ -36,4 +36,4 @@ redirect_from:
 
 ## A lire aussi
 
-[En savoir plus sur les travaux en cours sur les data et le BIM menés par bSFrance.](http://www.buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim)
+[En savoir plus sur les travaux en cours sur les data et le BIM menés par bSFrance.](https://buildingsmartfrance-mediaconstruct.fr/actions/travaux-open-bim)

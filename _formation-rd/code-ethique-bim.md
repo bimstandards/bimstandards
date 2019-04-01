@@ -19,7 +19,7 @@ Le code d’éthique BIM ce sont 9 principes formant un référentiel commun –
 
 Les 9 principes d’engagement du code d’éthique BIM porté par buildingSMART France-Mediaconstruct :
 
-<a class="btn btn-info" href="http://www.buildingsmartfrance-mediaconstruct.fr/code-ethique-travailler-bim" role="button">Lire et signer le code d'éthique (site institutionnel)</a>
+<a class="btn btn-info" href="https://buildingsmartfrance-mediaconstruct.fr/code-ethique-travailler-bim" role="button">Lire et signer le code d'éthique (site institutionnel)</a>
 
 Ce n’est ni obligation, ni une norme, mais procède d’une démarche déclarative et volontaire : ceux qui ne se retrouveraient pas dans ces principes d’éthique n’ont pas d’obligation à y adhérer. C’est une socle déontologie partagée, avec des principes de base que chacun, personnellement et professionnellement, s'engage à respecter dans le cadre des missions qui lui incombent.
 
