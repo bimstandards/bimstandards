@@ -1,11 +1,7 @@
-- alt: BIM - Estimations, Quantitatifs, CCTP
-  src: attic-plus.gif
-  href: http://www.attic-plus.fr/BIM-MAQUETTE-NUMERIQUE_521.html
+- alt: SOC Informatique - Suite logicielle BIM
+  src: soc-informatique.png
+  href: https://www.socinformatique.fr
 
-- alt: Logiciels BIM Tekla
-  src: trimble-tekla.png
-  href: https://www.tekla.com/fr
-  
-- alt: Prêt à vivre une expérience collaborative Open BIM ?
-  src: cype-bimserver.jpg
-  href: http://demoprojetbim.cype.fr/
+- alt: Fisa-BiM et Fisa-BiM CVC, des outils pour simplifier la gestion des maquettes numériques et un kit prêt à l'emploi pour le tracé CVC
+  src: fisa.png
+  href: https://www.fisa.fr
