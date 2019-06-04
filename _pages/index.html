@@ -1,6 +1,6 @@
 ---
 layout: home
-title: BIMstandards
+title: BIMstandards par buildingSMART France - Mediaconstruct
 comments: false
 permalink: /
 ---
@@ -25,6 +25,39 @@ permalink: /
 
   <div class="row">
     <div class="col-12 col-lg-9 order-2 order-lg-1">
+      
+      <div class="row">
+        <div class="col-12">
+          {% assign counter = 0 %}
+          {% for item in site.fiches %}{% assign counter=counter | plus:1 %}{% endfor %}
+          Nombre de fiches d'échanges : {{ counter }}
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          {% assign counter = 0 %}
+          {% for item in site.cv-openbim %}{% assign counter=counter | plus:1 %}{% endfor %}
+          Nombre de CV openBIM : {{ counter }}
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          Actualité du site : <a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          Vous êtes :
+          - Maîtrise d'Ouvrage ou ...
+          - Maîtrise d'Oeuvre...
+          - Entreprise de Construction...
+          - Industriel ou Fabricant...
+          - Editeur de solutions informatiques...
+        </div>
+      </div>
       
       <div class="row" id="echanger-en-bim">
         <div class="col-12">
@@ -145,7 +178,7 @@ permalink: /
       <div class="row" id="formation-rd">
         <div class="col-12">
           <h2>
-            Formation R&D
+            Formation R&amp;D
             <small class="text-muted">&gt; A la pointe des connaissances du BIM</small>
           </h2>
         </div>
