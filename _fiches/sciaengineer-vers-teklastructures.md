@@ -10,5 +10,6 @@ destination_version: 2017i
 destination_editeur: Trimble 
 usage_metier: Structure 
 nom_pdf: sciaengineer-vers-teklastructures.pdf 
-maj: Novembre 2017 
+date_creation: 2017-11-22
+date_maj: 2017-11-22
 ---

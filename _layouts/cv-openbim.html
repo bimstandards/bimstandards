@@ -4,13 +4,11 @@
     {% include header.html %}
   </head>
   <body>
-    {% include gtm-body.html %}
-    
     {% include nav-home.html %}
 
     {% include page-header.html %}
     
-    {% include fil-ariane.html %}
+    <!-- {% include fil-ariane.html %} -->
 
     <div class="bs-main">
       <div class="container">
@@ -19,7 +17,7 @@
             
             <div class="row">
               <div class="col-12">
-                <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/cv-openbim" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des fiches</a>
+                <a class="btn btn-light" href="{{ site.url }}/echanger-en-bim/cv-openbim" role="button"><i class="fa fa-caret-left" aria-hidden="true"></i> retour à la liste des CV openBIM</a>
                 <h1>Fiche de fonctionnalités <u>{{ page.logiciel }}</u></h1>
               </div>
             </div>
@@ -75,7 +73,7 @@
                                 <td><strong>{{ fiche.destination_nom }}</strong></td>
                                 <td>{{ fiche.destination_version }}</td>
                                 <td>{{ fiche.usage_metier }}</td>
-                                <td><i class="fa fa-clock-o" aria-hidden="true"></i> {{ fiche.maj }}</td>
+                                <td><i class="fa fa-clock-o" aria-hidden="true"></i> {{ fiche.date_maj }}</td>
                               </tr>
                             {% endif %}
                           {% endfor %}

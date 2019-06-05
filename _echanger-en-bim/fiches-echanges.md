@@ -10,6 +10,9 @@ status: publish
 permalink: /echanger-en-bim/fiches-echanges/
 redirect_from:
   - /fiches-echanges/
+  - /revit/export-fichier-ifc/
+  - /archicad/export-fichier-ifc/
+  - /revit/import-fichier-ifc-archicad-reference/
 ---
 
 # Fiches méthodologiques d'échanges BIM entre logiciels
@@ -30,6 +33,7 @@ Les fiches proposées ci-dessous sont des fiches présentant la méthodologie pr
           <tr>
             <th></th>
             <th></th>
+            <th></th>
             <th>Source</th>
             <th>(version)</th>
             <th></th>
@@ -43,7 +47,18 @@ Les fiches proposées ci-dessous sont des fiches présentant la méthodologie pr
         <tbody>
           {% assign fiches_sorted = site.fiches | sort: 'destination_nom' %}
           {% for fiche in fiches_sorted %}
+            {% assign timeframe = 7776000 %}
+            {% assign fiche_creation = fiche.date_creation | date: "%s" | plus: 0 %}
+            {% assign fiche_maj = fiche.date_maj | date: "%s" | plus: 0 %}
+            {% assign fiche_recente = "now" | date: "%s" | minus: timeframe  %}
             <tr>
+              <td>
+                {% if fiche_creation > fiche_recente %}
+                <span class="badge badge-pill badge-warning">nouveau</span>
+                {% elsif fiche_maj > fiche_recente %}
+                <span class="badge badge-pill badge-warning">mise à jour</span>
+                {% endif %}
+              </td>
               <td><a class="btn btn-primary btn-sm" href="{{ fiche.url }}" role="button"><i class="fa fa-file-text-o" aria-hidden="true"></i> voir la fiche</a></td>              
               <td>
                 {% for cv in site.cv-openbim %}

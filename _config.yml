@@ -18,14 +18,14 @@ exclude:          [vendor]
 # Collections
 collections:
   pages: {output: true, permalink: '/:path/'}
-  standards: {output: true, permalink: '/standards/:path/'}
+  vous-informer: {output: true, permalink: '/vous-informer/:path/'}
+  data-bim: {output: true, permalink: '/data-bim/:path/'}
+  process-bim: {output: true, permalink: '/process-bim/:path/'}
   travailler-avec-les-ifc: {output: true, permalink: '/travailler-avec-les-ifc/:path/'}
   echanger-en-bim: {output: true, permalink: '/echanger-en-bim/:path/'}
-  autocontrole: {output: true, permalink: '/autocontrole/:path/'}
-  archicad: {output: true, permalink: '/archicad/:path/'}
-  revit: {output: true, permalink: '/revit/:path/'}
   fiches: {output: true, permalink: '/echanger-en-bim/fiches-echanges/:path/'}
   cv-openbim: {output: true, permalink: '/echanger-en-bim/cv-openbim/:path/'}
+  formation-rd: {output: true, permalink: '/formation-rd/:path/'}
   
 # Assets
 sass:

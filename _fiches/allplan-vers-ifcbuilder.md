@@ -10,5 +10,6 @@ destination_version: 2018
 destination_editeur: CYPE Software
 usage_metier: Architecture
 nom_pdf: allplan-vers-ifcbuilder.pdf
-maj: 18/05/2018
+date_creation: 2018-05-18
+date_maj: 2018-05-18
 ---

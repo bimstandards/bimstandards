@@ -10,5 +10,6 @@ destination_version: 1.9.9
 destination_editeur: Trimble
 usage_metier: Collaboration
 nom_pdf: teklastructures-vers-teklabimsight.pdf
-maj: 16/07/2018
+date_creation: 2018-07-16
+date_maj: 2018-07-16
 ---
