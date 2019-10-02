@@ -10,5 +10,6 @@ destination_version: 2020
 destination_editeur: GRAITEC
 usage_metier: Structure
 nom_pdf: revit-vers-Graitec-Arche.pdf
-maj: 27/09/2019
+date_creation: 2019-09-27
+date_maj: 2019-09-27
 ---
