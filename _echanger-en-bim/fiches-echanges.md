@@ -10,6 +10,9 @@ status: publish
 permalink: /echanger-en-bim/fiches-echanges/
 redirect_from:
   - /fiches-echanges/
+  - /revit/export-fichier-ifc/
+  - /archicad/export-fichier-ifc/
+  - /revit/import-fichier-ifc-archicad-reference/
 ---
 
 # Fiches méthodologiques d'échanges BIM entre logiciels

@@ -5,7 +5,7 @@ title: Imports / Exports IFC
 description: Règles de base pour garantir la qualité des imports / export IFC.
 comments: true
 icon: exchange
-ordre: 5
+ordre: 4
 status: publish
 redirect_from:
   - /bonnes-pratiques/regles-base/imports-exports-ifc/
