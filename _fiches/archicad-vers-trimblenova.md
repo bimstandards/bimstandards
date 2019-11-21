@@ -2,10 +2,10 @@
 layout: fiche
 group: fiches-echanges
 comments: true
-source_nom: ArchiCAD
+source_nom: Archicad
 source_version: 21
 source_editeur: Graphisoft
-destination_nom: Trimble_Nova
+destination_nom: Trimble Nova
 destination_version: 15.1
 destination_editeur: Trimble
 usage_metier: Fluides
