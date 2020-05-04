@@ -1,52 +1,68 @@
-- version: IFC5
-  date: (en développement)
-  url_doc: 
+- version: IFC4.3 RC1
+  date: avril 2020
+  url_doc: https://standards.buildingsmart.org//IFC/DEV/IFC4_3/RC1/HTML
 
-- version: IFC4-Add2
-  date: juillet 2016
-  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/
+- version: IFC4.2
+  date: avril 2019
+  url_doc: https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/
+
+- version: IFC4.1
+  date: juin 2018
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/
   actuelle: oui
 
-- version: IFC4-Add1
-  date: juillet 2015
-  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/
+- version: IFC4 ADD2 TC1
+  date: octobre 2017
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/
+
+- version: IFC4 ADD2
+  date: juillet 2016
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/HTML/
+
+- version: IFC4 ADD1
+  date: juin 2015
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/
 
 - version: IFC4 (anciennement 2x4)
-  date: mars 2013
-  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm
+  date: février 2013
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/HTML/
 
-- version: IFC2x3-TC1
+- version: IFC2x3 TC1
   date: juillet 2007
-  url_doc: http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/
 
 - version: IFC2x3
-  date: février 2006
-  url_doc: 
+  date: décembre 2005
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/FINAL/HTML/
 
-- version: IFC2x2-Add1
+- version: IFC2x2 ADD1
   date: juillet 2004
-  url_doc: 
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x2/ADD1/HTML/
 
 - version: IFC2x2
   date: mai 2003
-  url_doc: 
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x2/FINAL/HTML/
     
-- version: IFC2x-Add1
+- version: IFC2x ADD1
   date: octobre 2001
-  url_doc: 
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x/ADD1/HTML/
     
 - version: IFC2x
   date: octobre 2000
-  url_doc: 
+  url_doc: https://standards.buildingsmart.org/IFC/RELEASE/IFC2x/FINAL/HTML/
     
 - version: IFC2.0
-  date: 1999
+  date: octobre 1999
   url_doc: 
-    
+
+- version: IFC1.5 ADD1
+  date: août 1998
+  url_doc: 
+
 - version: IFC1.5
-  date: 1998
+  date: janvier 1998
   url_doc: 
     
 - version: IFC1.0
-  date: 1997
+  date: décembre 1996
   url_doc: 

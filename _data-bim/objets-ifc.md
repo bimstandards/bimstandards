@@ -50,7 +50,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>
@@ -104,7 +104,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>
@@ -158,7 +158,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>

@@ -11,18 +11,17 @@ status: publish
 
 # Ressources bSI
 
-**[buildingSMART-tech.org](http://www.buildingsmart-tech.org)** is the home of the Industry Foundation Classes :
+**[buildingSMART Technical Resources](https://technical.buildingsmart.org/)** is the home of the Industry Foundation Classes :
 -	This site is the only official website maintained by buildingSMART to publish IFC and related buildingSMART data model standards.
 -	completed by : [https://github.com/BuildingSMART](https://github.com/BuildingSMART) repository provides for an easy engagement of interested parties in our technical standardization activities. It allows the sharing of ideas, reviews and code development for particular standards or standard implementations.
 
-**Standards, Library, Tools & Services** : [https://www.buildingsmart.org/standards/standards-tools-services/#tech](https://www.buildingsmart.org/standards/standards-tools-services/#tech)
+**Standards Library** : [https://www.buildingsmart.org/standards/bsi-standards/standards-library/](https://www.buildingsmart.org/standards/bsi-standards/standards-library/)
 -	buildingSMART International Standards
 -	buildingSMART Technical Reports
 -	buildingSMART Candidate Standards
 -	buildingSMART SPEC
 -	Published buildingSMART Related Standards Around the World
--	Data Dictionary Services
 
-**bSDD (bSI Data Dictionary)** : [https://www.buildingsmart.org/standards/standards-tools-services/data-dictionary/](https://www.buildingsmart.org/standards/standards-tools-services/data-dictionary/)
+**bSDD (buildingSMART Data Dictionary)** : [https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/](https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/)
 
-**Frequently Asked Questions (FAQs) to the International User Group** : [https://www.buildingsmart.org/users/international-user-group-faqs/](https://www.buildingsmart.org/users/international-user-group-faqs/) 
+**buildingSMART Forum** : [https://www.buildingsmart.org/users/forum/](https://www.buildingsmart.org/users/forum/) 
