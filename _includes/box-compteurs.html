@@ -1,0 +1,14 @@
+<div class="row d-none d-lg-block">
+  <div class="col-12 pt-3 pb-2 mb-3 bg-light rounded">
+    <p><small class="text-muted">BIMstandards en chiffres</small></p>
+    <p>
+      {% assign compteur = 0 %}{% for fiche in site.fiches %}{% assign compteur=compteur | plus:1 %}{% endfor %}{{ compteur }} fiches d'échanges
+    </p>
+    <p>
+      {% assign compteur = 0 %}{% for fiche in site.cv-openbim %}{% assign compteur=compteur | plus:1 %}{% endfor %}{{ compteur }} CV openBIM
+    </p>
+    <p>
+      {% assign compteur = 0 %}{% for objet in site.data.ifc-objets %}{% assign compteur=compteur | plus:1 %}{% endfor %}{{ compteur }} classes d'objets IFC
+    </p>
+  </div>
+</div>
