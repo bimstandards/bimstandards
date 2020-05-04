@@ -14,7 +14,7 @@ redirect_from:
 # Principes généraux
 
 ## Formats d'échanges
-Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](http://www.buildingsmart.org/compliance/certified-software/).
+Les modèles de données doivent pouvoir être échangés au travers du format **IFC 2x3 TC1**, conforme à la norme ISO 10303-21:2002, avec l'extension de fichier `.ifc`. La version IFC4, bien que publiée officiellement, n'est pas encore implémentée dans tous les logiciels-métiers. Une liste des logiciels compatibles en import/export est disponible sur le site [buildingSMART](https://www.buildingsmart.org/compliance/software-certification/certified-software/).
 
 En ouvrant un fichier .ifc avec un éditeur de texte, il est possible d'identifier la version du fichier dans les premières lignes, par exemple : `FILE_SCHEMA(('IFC2X3'));`.
 ![capture]({{ site.url }}/assets/img/bp_ifc_version.png)
@@ -102,7 +102,7 @@ Les niveaux de développement ont été développés afin de délimiter la quali
 
 Au niveau mondial, la plus reconnue à l'heure actuelle est la [spécification LOD](http://bimforum.org/lod/) (Level of Development), développée aux Etats-Unis par l'organisation [BIMFORUM](http://bimforum.org/). Elle s'attache à décrire différents niveaux de développements pour chaque type d'objet composant le bâti.
 
-En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
+En France, une spécification plus synthétique des niveaux de développement par phase de projet a été réalisée par [Syntec Ingénierie](http://www.syntec-ingenierie.fr/) et publiée dans un [Cahier Pratique Le Moniteur - BIM/Maquette Numérique](https://www.syntec-ingenierie.fr/wp-content/uploads/2019/06/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement.pdf). Son objectif est de définir des exigences sur le contenu général de la maquette numérique à chaque phase et pour les différents lots de le construction.
 
 Voici les différents Niveaux de Développement définis par Syntec Ingénierie :
 
@@ -145,16 +145,16 @@ Pour en savoir plus sur sur l'historique des niveaux de développement, voir l'a
 
 ## Sources
 
-* **documentation IFC2x3-TC1**. buildingSMART. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
-* **documentation IFC4-Add1**. buildingSMART. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/)
-* **Statsbygg BIM Manual 1.2.1** [PDF en ligne - mis à jour le 17/12/2013]. Statsbygg, 2013. Disponible sur : [http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf](http://www.statsbygg.no/Files/publikasjoner/manualer/StatsbyggBIM-manual-ver1-2-1eng-2013-12-17.pdf)
+* **documentation IFC2x3-TC1**. buildingSMART. Disponible sur : [https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/](https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/)
+* **documentation IFC4.1**. buildingSMART. Disponible sur : [https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/)
+* **Statsbygg BIM Manual 1.2.1** [PDF en ligne - mis à jour le 17/12/2013]. Statsbygg, 2013. Disponible sur : [https://www.statsbygg.no/globalassets/files/oppgaver/bygging/statsbyggs-bim-manual-1-2-1_en_20131217.pdf](https://www.statsbygg.no/globalassets/files/oppgaver/bygging/statsbyggs-bim-manual-1-2-1_en_20131217.pdf)
 * **Common BIM Requirements 2012**. buildingSMART Finland, 2012. Disponible sur : [http://www.en.buildingsmart.kotisivukone.com/3](http://www.en.buildingsmart.kotisivukone.com/3)
 * **AEC (UK) BIM Protocol v2.1.1**. AEC (UK), juin 2015. Disponible sur : [https://aecuk.wordpress.com/documents/](https://aecuk.wordpress.com/documents/)
-* **Allplan BIM Compendium Theory and Practice** [PDF en ligne]. Nemetschek Allplan. Disponible sur : [https://www.allplan.com/fileadmin/user_upload/countries/czech-republic/pdfs/bim/Allplan_BIM_Compendium_en.pdf](https://www.allplan.com/fileadmin/user_upload/countries/czech-republic/pdfs/bim/Allplan_BIM_Compendium_en.pdf)
+* **Allplan BIM Compendium Theory and Practice** [PDF en ligne]. Nemetschek Allplan. Disponible sur : [http://autoupdate.allplan.com/TLDs/downloads/downloads/Allp_komp_bim_en.pdf](http://autoupdate.allplan.com/TLDs/downloads/downloads/Allp_komp_bim_en.pdf)
 * **IFC Reference Guide for ARCHICAD**. Graphisoft. Disponible sur : [http://www.graphisoft.com/downloads/addons/ifc/index.html](http://www.graphisoft.com/downloads/addons/ifc/index.html)
 * **Echange de maquette IFC entre CYPECAD MEP et Allplan**. Cype. Disponible sur : [https://cypecommunity.zendesk.com/hc/fr/articles/204525969](https://cypecommunity.zendesk.com/hc/fr/articles/204525969)
 * **Protocole de modélisation et d'exportation d'une maquette IFC depuis ArchiCAD vers CYPECAD MEP**. Cype. [https://cypecommunity.zendesk.com/hc/fr/articles/204281509](https://cypecommunity.zendesk.com/hc/fr/articles/204281509)
 * **Protocole de modélisation et d'exportation d'une maquette IFC depuis REVIT vers CYPECAD MEP**. Cype. Disponible sur : [https://cypecommunity.zendesk.com/hc/fr/articles/201766699](https://cypecommunity.zendesk.com/hc/fr/articles/201766699)
 * **BIMFORUM LOD**. Disponible sur : [http://bimforum.org/lod/](http://bimforum.org/lod/)
-* **Cahier Pratique - BIM / Maquette Numérique**. Disponible sur : [http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/](http://www.syntec-ingenierie.fr/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement/)
+* **Cahier Pratique - BIM / Maquette Numérique**. Disponible sur : [https://www.syntec-ingenierie.fr/wp-content/uploads/2019/06/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement.pdf](https://www.syntec-ingenierie.fr/wp-content/uploads/2019/06/2014-05-09-cahier-moniteur-bim-maquette-contenu-niveau-developpement.pdf)
 * **Blog Areo**. Disponible sur : [http://blog.areo.io/](http://blog.areo.io/)

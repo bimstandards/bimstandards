@@ -70,5 +70,4 @@ L'association buildingSMART a tout naturellement donné au format IFC son logo d
 
 ## Sources
 
-* **Versions IFC sur le site buildingSMART**. Disponible sur :  [http://www.buildingsmart-tech.org/specifications/ifc-releases](http://www.buildingsmart-tech.org/specifications/ifc-releases)
-* **Histoire de buildingSMART**. Disponible sur : [http://www.buildingsmart.org/about/about-buildingsmart/history/](http://www.buildingsmart.org/about/about-buildingsmart/history/)
+* **Versions IFC sur le site buildingSMART**. Disponible sur :  [https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)

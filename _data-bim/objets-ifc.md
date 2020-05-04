@@ -50,7 +50,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>
@@ -104,7 +104,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>
@@ -158,7 +158,7 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-search"></i></div>
-            <input class="search fuzzy-search form-control" id="test" placeholder="Rechercher dans la liste..." />
+            <input class="search fuzzy-search form-control" placeholder="Rechercher dans la liste..." />
           </div>
         </div>
         <thead>
@@ -210,6 +210,6 @@ Suivre [ce lien](https://github.com/bimstandards/bimstandards/edit/gh-pages/_dat
 
 ## Sources
 
-* **IFC2x Edition 3 - Technical Corrigendum 1** [Documentation en ligne]. buildingSMART IAI. Disponible sur : [http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm](http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm)
+* **IFC2x Edition 3 - Technical Corrigendum 1** [Documentation en ligne]. buildingSMART IAI. Disponible sur : [https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/](https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/)
 * **IFC 2×3 element and type classification – The plain language A-Z list** [Article en ligne]. BIM Blog, Bond Bryan Digital. Disponible sur : [http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/](http://bimblog.bondbryan.com/ifc-2x3-element-and-type-classification-the-plain-language-a-z-list/)
 * **COBie Responsibility Matrix** [XLS]. Bill East, NIBS. Disponible sur : [http://projects.buildingsmartalliance.org/files/?artifact_id=4093](http://projects.buildingsmartalliance.org/files/?artifact_id=4093)
