@@ -56,6 +56,6 @@ Les fiches proposées seront ensuite modérées avant publication par le Groupe 
 
 ## Publication de vos fiches
 
-Envoyez les documents .pdf et .txt à [bimstandards@mediaconstruct.fr](mailto:bimstandards@mediaconstruct.fr?Subject=Ajout%20fiche). Un délai de relecture et de modération est nécessaire avant publication de vos fiches.
+Envoyez les documents .pdf et .txt à [contact@bsfrance.org](mailto:contact@bsfrance.org?Subject=Ajout%20fiche). Un délai de relecture et de modération est nécessaire avant publication de vos fiches.
 
 N'hésitez pas à nous relancer ou à poser toute question concernant le mode opératoire à cette même adresse !
