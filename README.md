@@ -26,7 +26,7 @@ Pour les plus aguerris à la technologie utilisée par le site ([GitHub Pages](h
 
 ## Développeur
 
-### Exécuter bimstandards en local sur un Mac
+### Exécuter bimstandards en local sur MacOS
 
 1. Cloner le dépôt dans le dossier "Sites" du Mac avec l'application GitHub Desktop.
 2. Dans le Terminal, naviguer vers le dossier "bimstandards" avec `cd Sites/bimstandards`
@@ -36,9 +36,21 @@ Pour les plus aguerris à la technologie utilisée par le site ([GitHub Pages](h
 4. Le site est accessible à l'adresse http://localhost:4000
 5. Pour arrêter Jekyll, appuyer sur `ctrl+c`
 
+### Exécuter bimstandards en local sur Windows
+
+1. Cloner le dépôt dans le dossier "Documents/GitHub" avec l'application GitHub Desktop.
+2. Installer WSL, puis Ubuntu [https://korben.info/installer-wsl2-windows-linux.html](https://korben.info/installer-wsl2-windows-linux.html)
+3. Installer Jekyll [https://jekyllrb.com/docs/installation/windows/](https://jekyllrb.com/docs/installation/windows/)
+4. Dans PowerShell, naviguer vers le dossier "bimstandards" avec `cd Documents/GitHub/bimstandards`
+5. Lancer Jekyll avec la commande :
+  - `sudo bundle exec jekyll serve --incremental`
+  - `sudo bundle exec jekyll build --config _config.yml,_config_beta.yml`
+6. Le site est accessible à l'adresse http://localhost:4000
+7. Pour arrêter Jekyll, appuyer sur `ctrl+c`
+
 ### Mise à jour environnement github-pages
 
-`sudo gem update github-pages`
+`bundle update github-pages`
 
 ## Licence
 
