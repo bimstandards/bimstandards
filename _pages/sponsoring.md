@@ -7,4 +7,4 @@ permalink: /sponsoring/
 
 **Sponsoring**
 
-Pour faire apparaître votre bannière sur le site BIMstandards, contactez-nous à contact(@)bsfrance.org
+Pour faire apparaître votre bannière sur le site BIMstandards, contactez-nous à contact@mediaconstruct.fr
